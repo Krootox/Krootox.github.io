@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="../sets/ASV-files/icon.png"/>
+	<link rel="stylesheet" href="../resources/header.css">
+	<title>ASV visual preview</title>
+	<script title="root">
+		const rootPath = "..";
+	</script>
+	<style>
+		@font-face {
+			font-family: Beleren;
+			src: url('../resources/beleren.ttf');
+		}
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			opacity: 0;
+			transform: rotateY(0deg) rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+			border-radius: 3.733% / 2.677%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+			border-radius: 3.733% / 2.677%;
+		}
+		.close-btn {
+			background: url('../img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('../img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+			border-radius: 3.733% / 2.677%;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 80px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+			border-radius: 3.733% / 2.677%;
+		}
+		.flip-btn {
+			background: url('../img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('../img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.dropdown {
+			background: rgba(23, 23, 23, 0.8);
+			border-radius: 8px;
+			position: absolute;
+			left: 5%;
+			width: fit-content;
+			max-width: 90%;
+			margin: 20px 0;
+			padding: 5px 0;
+			display: grid;
+			grid-template-columns: 1fr;
+			z-index: 3;
+		}
+		.dropdown .set-bar {
+			font-family: Beleren;
+			font-size: 20px;
+			text-decoration: none;
+			color: #e3e3e3;
+			display: flex;
+			gap: 10px;
+			align-items: center;
+			padding: 0 12px;
+			margin: 5px;
+		}
+		.dropdown .set-bar:hover {
+			background: rgba(163, 163, 163, 0.5);
+			color: #f3f3f3;
+		}
+		.dropdown .set-bar img {
+			width: 32px;
+		}
+		.dropdown .inactive {
+			height: 0px;
+			overflow: hidden;
+			margin: 0px 5px;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		.addenda-container {
+			text-align: center;
+			width: fit-content;
+			max-width: 1200px;
+			padding: 0 5%;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="../img/dot.png" />
+	<img class="preload-hidden" src="../sets/ASV-files/logo.png" />
+	<img class="preload-hidden" src="../sets/ASV-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a onclick="window.location.href = rootPath + '/'"><img class="sg-logo" id="header-banner"></a>
+			<img class="sg-icon" id="header-search" onclick="goToSearch()">
+			<div style="position: relative; width: 100%;">
+				<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+				<div id="tag-dropdown" style="display: none; position: absolute; top: 100%; left: 0; width: 100%; background: white; border: 1px solid #d5d9d9; z-index: 1000; max-height: 200px; overflow-y: auto; color: black; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></div>
+			</div>
+			<a onclick="window.location.href = rootPath + '/all-sets'"><img id="header-sets" class="sg-icon">Sets</a>
+			<a id="header-articles-link" onclick="window.location.href = rootPath + '/all-articles'" style="display: none;"><img id="header-articles" class="sg-icon">Articles</a>
+			<a id="header-decks-link" onclick="window.location.href = rootPath + '/decks'" style="display: none;"><img id="header-decks" class="sg-icon">Decks</a>
+			<a onclick="window.location.href = rootPath + '/deckbuilder'"><img id="header-deckbuilder" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img id="header-random" class="sg-icon">Random</a>
+		</div>
+	</div>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			document.getElementById("header-banner").src = rootPath + "/img/banner.png";
+			document.getElementById("header-search").src = rootPath + "/img/search.png";
+			document.getElementById("header-sets").src = rootPath + "/img/sets.png";
+			document.getElementById("header-articles").src = rootPath + "/img/articles.png";
+			document.getElementById("header-decks").src = rootPath + "/img/deck.png";
+			document.getElementById("header-deckbuilder").src = rootPath + "/img/deckbuilder.png";
+			document.getElementById("header-random").src = rootPath + "/img/random.png";
+
+			// Hide Articles if none exist
+			fetch(rootPath + '/all-articles.html', { method: 'HEAD' })
+				.then(response => {
+					if (response.ok) document.getElementById('header-articles-link').style.display = 'flex';
+				}).catch(() => {});
+
+			// Hide Decks if none exist
+			fetch(rootPath + '/decks.html', { method: 'HEAD' })
+				.then(response => {
+					if (response.ok) document.getElementById('header-decks-link').style.display = 'flex';
+				}).catch(() => {});
+		});
+
+		function goToSearch() {
+			window.location.href = rootPath + "/search";
+		}
+	</script>
+
+	<div class="dropdown" id="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+	
+		<a class="set-bar" href="../previews/ASV"><img src="../sets/ASV-files/icon.png">Arknights: Shatter of a Vision</a>
+	
+		</div>
+		<div class="banner">
+		<img class="logo" src="../sets/ASV-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+					<div class="container"><img loading="lazy" alt="sets\ASV-files\img\289.jpg" id="ASV_289" data-flag="@X" onclick="openSidebar('ASV_289',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\292.jpg" id="ASV_292" data-flag="@X" onclick="openSidebar('ASV_292',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\293.jpg" id="ASV_293" data-flag="@X" onclick="openSidebar('ASV_293',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\288.jpg" id="ASV_288" data-flag="@X" onclick="openSidebar('ASV_288',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\299.jpg" id="ASV_299" data-flag="@X" onclick="openSidebar('ASV_299',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\290.jpg" id="ASV_290" data-flag="@X" onclick="openSidebar('ASV_290',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\49.jpg" id="ASV_49" data-flag="@X" onclick="openSidebar('ASV_49',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\38.jpg" id="ASV_38" data-flag="@X" onclick="openSidebar('ASV_38',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\51.jpg" id="ASV_51" data-flag="@X" onclick="openSidebar('ASV_51',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\300.jpg" id="ASV_300" data-flag="@X" onclick="openSidebar('ASV_300',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\240.jpg" id="ASV_240" data-flag="@X" onclick="openSidebar('ASV_240',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\249.jpg" id="ASV_249" data-flag="@X" onclick="openSidebar('ASV_249',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\258.jpg" id="ASV_258" data-flag="@X" onclick="openSidebar('ASV_258',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\298.jpg" id="ASV_298" data-flag="@X" onclick="openSidebar('ASV_298',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\57.jpg" id="ASV_57" data-flag="@X" onclick="openSidebar('ASV_57',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\245.jpg" id="ASV_245" data-flag="@X" onclick="openSidebar('ASV_245',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\251.jpg" id="ASV_251" data-flag="@X" onclick="openSidebar('ASV_251',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\256.jpg" id="ASV_256" data-flag="@X" onclick="openSidebar('ASV_256',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\81.jpg" id="ASV_81" data-flag="@X" onclick="openSidebar('ASV_81',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\267.jpg" id="ASV_267" data-flag="@X" onclick="openSidebar('ASV_267',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\37.jpg" id="ASV_37" data-flag="@X" onclick="openSidebar('ASV_37',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\247.jpg" id="ASV_247" data-flag="@X" onclick="openSidebar('ASV_247',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\56.jpg" id="ASV_56" data-flag="@X" onclick="openSidebar('ASV_56',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\228.jpg" id="ASV_228" data-flag="@X" onclick="openSidebar('ASV_228',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\27.jpg" id="ASV_27" data-flag="@X" onclick="openSidebar('ASV_27',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\244.jpg" id="ASV_244" data-flag="@X" onclick="openSidebar('ASV_244',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\252.jpg" id="ASV_252" data-flag="@X" onclick="openSidebar('ASV_252',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\20.jpg" id="ASV_20" data-flag="@X" onclick="openSidebar('ASV_20',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\36.jpg" id="ASV_36" data-flag="@X" onclick="openSidebar('ASV_36',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\271.jpg" id="ASV_271" data-flag="@X" onclick="openSidebar('ASV_271',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\241.jpg" id="ASV_241" data-flag="@X" onclick="openSidebar('ASV_241',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\5.jpg" id="ASV_5" data-flag="@X" onclick="openSidebar('ASV_5',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\259.jpg" id="ASV_259" data-flag="@X" onclick="openSidebar('ASV_259',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\263.jpg" id="ASV_263" data-flag="@X" onclick="openSidebar('ASV_263',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\269.jpg" id="ASV_269" data-flag="@X" onclick="openSidebar('ASV_269',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\242.jpg" id="ASV_242" data-flag="@X" onclick="openSidebar('ASV_242',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\250.jpg" id="ASV_250" data-flag="@X" onclick="openSidebar('ASV_250',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\257.jpg" id="ASV_257" data-flag="@X" onclick="openSidebar('ASV_257',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\43.jpg" id="ASV_43" data-flag="@X" onclick="openSidebar('ASV_43',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\268.jpg" id="ASV_268" data-flag="@X" onclick="openSidebar('ASV_268',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\243.jpg" id="ASV_243" data-flag="@X" onclick="openSidebar('ASV_243',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\248.jpg" id="ASV_248" data-flag="@X" onclick="openSidebar('ASV_248',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\255.jpg" id="ASV_255" data-flag="@X" onclick="openSidebar('ASV_255',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\262.jpg" id="ASV_262" data-flag="@X" onclick="openSidebar('ASV_262',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\270.jpg" id="ASV_270" data-flag="@X" onclick="openSidebar('ASV_270',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\169.jpg" id="ASV_169" data-flag="@X" onclick="openSidebar('ASV_169',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\184.jpg" id="ASV_184" data-flag="@X" onclick="openSidebar('ASV_184',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\189.jpg" id="ASV_189" data-flag="@X" onclick="openSidebar('ASV_189',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\264.jpg" id="ASV_264" data-flag="@X" onclick="openSidebar('ASV_264',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\217.jpg" id="ASV_217" data-flag="@X" onclick="openSidebar('ASV_217',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\24.jpg" id="ASV_24" data-flag="@X" onclick="openSidebar('ASV_24',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\41.jpg" id="ASV_41" data-flag="@X" onclick="openSidebar('ASV_41',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\192.jpg" id="ASV_192" data-flag="@X" onclick="openSidebar('ASV_192',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\261.jpg" id="ASV_261" data-flag="@X" onclick="openSidebar('ASV_261',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\142.jpg" id="ASV_142" data-flag="@X" onclick="openSidebar('ASV_142',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\171.jpg" id="ASV_171" data-flag="@X" onclick="openSidebar('ASV_171',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\179.jpg" id="ASV_179" data-flag="@X" onclick="openSidebar('ASV_179',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\191.jpg" id="ASV_191" data-flag="@X" onclick="openSidebar('ASV_191',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\199.jpg" id="ASV_199" data-flag="@X" onclick="openSidebar('ASV_199',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\53.jpg" id="ASV_53" data-flag="@X" onclick="openSidebar('ASV_53',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\1.jpg" id="ASV_1" data-flag="@X" onclick="openSidebar('ASV_1',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\178.jpg" id="ASV_178" data-flag="@X" onclick="openSidebar('ASV_178',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\194.jpg" id="ASV_194" data-flag="@X" onclick="openSidebar('ASV_194',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\206.jpg" id="ASV_206" data-flag="@X" onclick="openSidebar('ASV_206',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\79.jpg" id="ASV_79" data-flag="@X" onclick="openSidebar('ASV_79',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\175.jpg" id="ASV_175" data-flag="@X" onclick="openSidebar('ASV_175',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\177.jpg" id="ASV_177" data-flag="@X" onclick="openSidebar('ASV_177',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\186.jpg" id="ASV_186" data-flag="@X" onclick="openSidebar('ASV_186',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\207.jpg" id="ASV_207" data-flag="@X" onclick="openSidebar('ASV_207',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\218.jpg" id="ASV_218" data-flag="@X" onclick="openSidebar('ASV_218',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\168.jpg" id="ASV_168" data-flag="@X" onclick="openSidebar('ASV_168',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\180.jpg" id="ASV_180" data-flag="@X" onclick="openSidebar('ASV_180',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\196.jpg" id="ASV_196" data-flag="@X" onclick="openSidebar('ASV_196',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\208.jpg" id="ASV_208" data-flag="@X" onclick="openSidebar('ASV_208',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\215.jpg" id="ASV_215" data-flag="@X" onclick="openSidebar('ASV_215',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\172.jpg" id="ASV_172" data-flag="@X" onclick="openSidebar('ASV_172',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\185.jpg" id="ASV_185" data-flag="@X" onclick="openSidebar('ASV_185',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\190.jpg" id="ASV_190" data-flag="@X" onclick="openSidebar('ASV_190',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\197.jpg" id="ASV_197" data-flag="@X" onclick="openSidebar('ASV_197',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\213.jpg" id="ASV_213" data-flag="@X" onclick="openSidebar('ASV_213',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\170.jpg" id="ASV_170" data-flag="@X" onclick="openSidebar('ASV_170',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\183.jpg" id="ASV_183" data-flag="@X" onclick="openSidebar('ASV_183',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\187.jpg" id="ASV_187" data-flag="@X" onclick="openSidebar('ASV_187',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\205.jpg" id="ASV_205" data-flag="@X" onclick="openSidebar('ASV_205',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\209.jpg" id="ASV_209" data-flag="@X" onclick="openSidebar('ASV_209',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\25.jpg" id="ASV_25" data-flag="@X" onclick="openSidebar('ASV_25',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\176.jpg" id="ASV_176" data-flag="@X" onclick="openSidebar('ASV_176',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\19.jpg" id="ASV_19" data-flag="@X" onclick="openSidebar('ASV_19',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\200.jpg" id="ASV_200" data-flag="@X" onclick="openSidebar('ASV_200',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\211.jpg" id="ASV_211" data-flag="@X" onclick="openSidebar('ASV_211',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\173.jpg" id="ASV_173" data-flag="@X" onclick="openSidebar('ASV_173',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\58.jpg" id="ASV_58" data-flag="@X" onclick="openSidebar('ASV_58',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\195.jpg" id="ASV_195" data-flag="@X" onclick="openSidebar('ASV_195',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\203.jpg" id="ASV_203" data-flag="@X" onclick="openSidebar('ASV_203',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\216.jpg" id="ASV_216" data-flag="@X" onclick="openSidebar('ASV_216',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\174.jpg" id="ASV_174" data-flag="@X" onclick="openSidebar('ASV_174',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\182.jpg" id="ASV_182" data-flag="@X" onclick="openSidebar('ASV_182',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\188.jpg" id="ASV_188" data-flag="@X" onclick="openSidebar('ASV_188',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\198.jpg" id="ASV_198" data-flag="@X" onclick="openSidebar('ASV_198',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\210.jpg" id="ASV_210" data-flag="@X" onclick="openSidebar('ASV_210',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\167.jpg" id="ASV_167" data-flag="@X" onclick="openSidebar('ASV_167',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\181.jpg" id="ASV_181" data-flag="@X" onclick="openSidebar('ASV_181',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\193.jpg" id="ASV_193" data-flag="@X" onclick="openSidebar('ASV_193',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\201.jpg" id="ASV_201" data-flag="@X" onclick="openSidebar('ASV_201',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\212.jpg" id="ASV_212" data-flag="@X" onclick="openSidebar('ASV_212',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\87.jpg" id="ASV_87" data-flag="@X" onclick="openSidebar('ASV_87',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\98.jpg" id="ASV_98" data-flag="@X" onclick="openSidebar('ASV_98',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\111.jpg" id="ASV_111" data-flag="@X" onclick="openSidebar('ASV_111',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\204.jpg" id="ASV_204" data-flag="@X" onclick="openSidebar('ASV_204',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\131.jpg" id="ASV_131" data-flag="@X" onclick="openSidebar('ASV_131',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\66.jpg" id="ASV_66" data-flag="@X" onclick="openSidebar('ASV_66',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\94.jpg" id="ASV_94" data-flag="@X" onclick="openSidebar('ASV_94',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\104.jpg" id="ASV_104" data-flag="@X" onclick="openSidebar('ASV_104',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\202.jpg" id="ASV_202" data-flag="@X" onclick="openSidebar('ASV_202',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\48.jpg" id="ASV_48" data-flag="@X" onclick="openSidebar('ASV_48',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\86.jpg" id="ASV_86" data-flag="@X" onclick="openSidebar('ASV_86',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\100.jpg" id="ASV_100" data-flag="@X" onclick="openSidebar('ASV_100',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\110.jpg" id="ASV_110" data-flag="@X" onclick="openSidebar('ASV_110',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\125.jpg" id="ASV_125" data-flag="@X" onclick="openSidebar('ASV_125',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\143.jpg" id="ASV_143" data-flag="@X" onclick="openSidebar('ASV_143',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\88.jpg" id="ASV_88" data-flag="@X" onclick="openSidebar('ASV_88',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\92.jpg" id="ASV_92" data-flag="@X" onclick="openSidebar('ASV_92',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\103.jpg" id="ASV_103" data-flag="@X" onclick="openSidebar('ASV_103',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\126.jpg" id="ASV_126" data-flag="@X" onclick="openSidebar('ASV_126',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\135.jpg" id="ASV_135" data-flag="@X" onclick="openSidebar('ASV_135',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\70.jpg" id="ASV_70" data-flag="@X" onclick="openSidebar('ASV_70',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\76.jpg" id="ASV_76" data-flag="@X" onclick="openSidebar('ASV_76',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\106.jpg" id="ASV_106" data-flag="@X" onclick="openSidebar('ASV_106',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\117.jpg" id="ASV_117" data-flag="@X" onclick="openSidebar('ASV_117',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\136.jpg" id="ASV_136" data-flag="@X" onclick="openSidebar('ASV_136',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\89.jpg" id="ASV_89" data-flag="@X" onclick="openSidebar('ASV_89',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\97.jpg" id="ASV_97" data-flag="@X" onclick="openSidebar('ASV_97',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\77.jpg" id="ASV_77" data-flag="@X" onclick="openSidebar('ASV_77',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\6.jpg" id="ASV_6" data-flag="@X" onclick="openSidebar('ASV_6',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\145.jpg" id="ASV_145" data-flag="@X" onclick="openSidebar('ASV_145',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\83.jpg" id="ASV_83" data-flag="@X" onclick="openSidebar('ASV_83',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\44.jpg" id="ASV_44" data-flag="@X" onclick="openSidebar('ASV_44',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\102.jpg" id="ASV_102" data-flag="@X" onclick="openSidebar('ASV_102',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\4.jpg" id="ASV_4" data-flag="@X" onclick="openSidebar('ASV_4',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\133.jpg" id="ASV_133" data-flag="@X" onclick="openSidebar('ASV_133',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\71.jpg" id="ASV_71" data-flag="@X" onclick="openSidebar('ASV_71',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\42.jpg" id="ASV_42" data-flag="@X" onclick="openSidebar('ASV_42',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\78.jpg" id="ASV_78" data-flag="@X" onclick="openSidebar('ASV_78',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\116.jpg" id="ASV_116" data-flag="@X" onclick="openSidebar('ASV_116',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\130.jpg" id="ASV_130" data-flag="@X" onclick="openSidebar('ASV_130',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\64.jpg" id="ASV_64" data-flag="@X" onclick="openSidebar('ASV_64',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\99.jpg" id="ASV_99" data-flag="@X" onclick="openSidebar('ASV_99',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\108.jpg" id="ASV_108" data-flag="@X" onclick="openSidebar('ASV_108',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\122.jpg" id="ASV_122" data-flag="@X" onclick="openSidebar('ASV_122',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\140.jpg" id="ASV_140" data-flag="@X" onclick="openSidebar('ASV_140',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\55.jpg" id="ASV_55" data-flag="@X" onclick="openSidebar('ASV_55',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\101.jpg" id="ASV_101" data-flag="@X" onclick="openSidebar('ASV_101',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\113.jpg" id="ASV_113" data-flag="@X" onclick="openSidebar('ASV_113',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\118.jpg" id="ASV_118" data-flag="@X" onclick="openSidebar('ASV_118',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\146.jpg" id="ASV_146" data-flag="@X" onclick="openSidebar('ASV_146',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\65.jpg" id="ASV_65" data-flag="@X" onclick="openSidebar('ASV_65',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\90.jpg" id="ASV_90" data-flag="@X" onclick="openSidebar('ASV_90',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\107.jpg" id="ASV_107" data-flag="@X" onclick="openSidebar('ASV_107',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\123.jpg" id="ASV_123" data-flag="@X" onclick="openSidebar('ASV_123',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\132.jpg" id="ASV_132" data-flag="@X" onclick="openSidebar('ASV_132',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\68.jpg" id="ASV_68" data-flag="@X" onclick="openSidebar('ASV_68',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\96.jpg" id="ASV_96" data-flag="@X" onclick="openSidebar('ASV_96',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\45.jpg" id="ASV_45" data-flag="@X" onclick="openSidebar('ASV_45',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\127.jpg" id="ASV_127" data-flag="@X" onclick="openSidebar('ASV_127',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\214.jpg" id="ASV_214" data-flag="@X" onclick="openSidebar('ASV_214',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\85.jpg" id="ASV_85" data-flag="@X" onclick="openSidebar('ASV_85',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\33.jpg" id="ASV_33" data-flag="@X" onclick="openSidebar('ASV_33',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\9.jpg" id="ASV_9" data-flag="@X" onclick="openSidebar('ASV_9',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\16.jpg" id="ASV_16" data-flag="@X" onclick="openSidebar('ASV_16',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\141.jpg" id="ASV_141" data-flag="@X" onclick="openSidebar('ASV_141',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\72.jpg" id="ASV_72" data-flag="@X" onclick="openSidebar('ASV_72',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\11.jpg" id="ASV_11" data-flag="@X" onclick="openSidebar('ASV_11',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\8.jpg" id="ASV_8" data-flag="@X" onclick="openSidebar('ASV_8',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\124.jpg" id="ASV_124" data-flag="@X" onclick="openSidebar('ASV_124',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\139.jpg" id="ASV_139" data-flag="@X" onclick="openSidebar('ASV_139',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\63.jpg" id="ASV_63" data-flag="@X" onclick="openSidebar('ASV_63',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\93.jpg" id="ASV_93" data-flag="@X" onclick="openSidebar('ASV_93',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\105.jpg" id="ASV_105" data-flag="@X" onclick="openSidebar('ASV_105',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\119.jpg" id="ASV_119" data-flag="@X" onclick="openSidebar('ASV_119',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\0.jpg" id="ASV_0" data-flag="@X" onclick="openSidebar('ASV_0',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\91.jpg" id="ASV_91" data-flag="@X" onclick="openSidebar('ASV_91',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\75.jpg" id="ASV_75" data-flag="@X" onclick="openSidebar('ASV_75',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\112.jpg" id="ASV_112" data-flag="@X" onclick="openSidebar('ASV_112',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\7.jpg" id="ASV_7" data-flag="@X" onclick="openSidebar('ASV_7',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\138.jpg" id="ASV_138" data-flag="@X" onclick="openSidebar('ASV_138',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\67.jpg" id="ASV_67" data-flag="@X" onclick="openSidebar('ASV_67',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\73.jpg" id="ASV_73" data-flag="@X" onclick="openSidebar('ASV_73',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\80.jpg" id="ASV_80" data-flag="@X" onclick="openSidebar('ASV_80',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\120.jpg" id="ASV_120" data-flag="@X" onclick="openSidebar('ASV_120',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\144.jpg" id="ASV_144" data-flag="@X" onclick="openSidebar('ASV_144',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\84.jpg" id="ASV_84" data-flag="@X" onclick="openSidebar('ASV_84',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\95.jpg" id="ASV_95" data-flag="@X" onclick="openSidebar('ASV_95',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\17.jpg" id="ASV_17" data-flag="@X" onclick="openSidebar('ASV_17',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\128.jpg" id="ASV_128" data-flag="@X" onclick="openSidebar('ASV_128',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\28.jpg" id="ASV_28" data-flag="@X" onclick="openSidebar('ASV_28',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\10.jpg" id="ASV_10" data-flag="@X" onclick="openSidebar('ASV_10',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\74.jpg" id="ASV_74" data-flag="@X" onclick="openSidebar('ASV_74',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\109.jpg" id="ASV_109" data-flag="@X" onclick="openSidebar('ASV_109',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\115.jpg" id="ASV_115" data-flag="@X" onclick="openSidebar('ASV_115',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\137.jpg" id="ASV_137" data-flag="@X" onclick="openSidebar('ASV_137',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\69.jpg" id="ASV_69" data-flag="@X" onclick="openSidebar('ASV_69',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\59.jpg" id="ASV_59" data-flag="@X" onclick="openSidebar('ASV_59',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\46.jpg" id="ASV_46" data-flag="@X" onclick="openSidebar('ASV_46',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\129.jpg" id="ASV_129" data-flag="@X" onclick="openSidebar('ASV_129',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\134.jpg" id="ASV_134" data-flag="@X" onclick="openSidebar('ASV_134',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\114.jpg" id="ASV_114" data-flag="@X" onclick="openSidebar('ASV_114',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\26.jpg" id="ASV_26" data-flag="@X" onclick="openSidebar('ASV_26',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\121.jpg" id="ASV_121" data-flag="@X" onclick="openSidebar('ASV_121',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASV_er" data-flag="@E" onclick="openSidebar('ASV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASV_er" data-flag="@E" onclick="openSidebar('ASV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASV_er" data-flag="@E" onclick="openSidebar('ASV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASV_er" data-flag="@E" onclick="openSidebar('ASV_er',false)"></div>
+				<div id="gold" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\82.jpg" id="ASV_82" data-flag="@X" onclick="openSidebar('ASV_82',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\32.jpg" id="ASV_32" data-flag="@X" onclick="openSidebar('ASV_32',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\14.jpg" id="ASV_14" data-flag="@X" onclick="openSidebar('ASV_14',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\272.jpg" id="ASV_272" data-flag="@X" onclick="openSidebar('ASV_272',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\302.jpg" id="ASV_302" data-flag="@X" onclick="openSidebar('ASV_302',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\47.jpg" id="ASV_47" data-flag="@X" onclick="openSidebar('ASV_47',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\285.jpg" id="ASV_285" data-flag="@X" onclick="openSidebar('ASV_285',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\295.jpg" id="ASV_295" data-flag="@X" onclick="openSidebar('ASV_295',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\2.jpg" id="ASV_2" data-flag="@X" onclick="openSidebar('ASV_2',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\276.jpg" id="ASV_276" data-flag="@X" onclick="openSidebar('ASV_276',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\274.jpg" id="ASV_274" data-flag="@X" onclick="openSidebar('ASV_274',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\275.jpg" id="ASV_275" data-flag="@X" onclick="openSidebar('ASV_275',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\40.jpg" id="ASV_40" data-flag="@X" onclick="openSidebar('ASV_40',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\61.jpg" id="ASV_61" data-flag="@X" onclick="openSidebar('ASV_61',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\30.jpg" id="ASV_30" data-flag="@X" onclick="openSidebar('ASV_30',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\273.jpg" id="ASV_273" data-flag="@X" onclick="openSidebar('ASV_273',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\220.jpg" id="ASV_220" data-flag="@X" onclick="openSidebar('ASV_220',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\221.jpg" id="ASV_221" data-flag="@X" onclick="openSidebar('ASV_221',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\219.jpg" id="ASV_219" data-flag="@X" onclick="openSidebar('ASV_219',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASV_er" data-flag="@E" onclick="openSidebar('ASV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASV_er" data-flag="@E" onclick="openSidebar('ASV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASV_er" data-flag="@E" onclick="openSidebar('ASV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASV_er" data-flag="@E" onclick="openSidebar('ASV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASV_er" data-flag="@E" onclick="openSidebar('ASV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\291.jpg" id="ASV_291" data-flag="@X" onclick="openSidebar('ASV_291',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\278.jpg" id="ASV_278" data-flag="@X" onclick="openSidebar('ASV_278',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\260.jpg" id="ASV_260" data-flag="@X" onclick="openSidebar('ASV_260',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\35.jpg" id="ASV_35" data-flag="@X" onclick="openSidebar('ASV_35',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\50.jpg" id="ASV_50" data-flag="@X" onclick="openSidebar('ASV_50',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\303.jpg" id="ASV_303" data-flag="@X" onclick="openSidebar('ASV_303',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\223.jpg" id="ASV_223" data-flag="@X" onclick="openSidebar('ASV_223',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\31.jpg" id="ASV_31" data-flag="@X" onclick="openSidebar('ASV_31',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\297.jpg" id="ASV_297" data-flag="@X" onclick="openSidebar('ASV_297',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\301.jpg" id="ASV_301" data-flag="@X" onclick="openSidebar('ASV_301',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\246.jpg" id="ASV_246" data-flag="@X" onclick="openSidebar('ASV_246',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\224.jpg" id="ASV_224" data-flag="@X" onclick="openSidebar('ASV_224',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\22.jpg" id="ASV_22" data-flag="@X" onclick="openSidebar('ASV_22',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\277.jpg" id="ASV_277" data-flag="@X" onclick="openSidebar('ASV_277',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\23.jpg" id="ASV_23" data-flag="@X" onclick="openSidebar('ASV_23',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\283.jpg" id="ASV_283" data-flag="@X" onclick="openSidebar('ASV_283',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\62.jpg" id="ASV_62" data-flag="@X" onclick="openSidebar('ASV_62',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\222.jpg" id="ASV_222" data-flag="@X" onclick="openSidebar('ASV_222',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\286.jpg" id="ASV_286" data-flag="@X" onclick="openSidebar('ASV_286',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\29.jpg" id="ASV_29" data-flag="@X" onclick="openSidebar('ASV_29',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASV_er" data-flag="@E" onclick="openSidebar('ASV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASV_er" data-flag="@E" onclick="openSidebar('ASV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASV_er" data-flag="@E" onclick="openSidebar('ASV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASV_er" data-flag="@E" onclick="openSidebar('ASV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASV_er" data-flag="@E" onclick="openSidebar('ASV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\34.jpg" id="ASV_34" data-flag="@X" onclick="openSidebar('ASV_34',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\39.jpg" id="ASV_39" data-flag="@X" onclick="openSidebar('ASV_39',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\279.jpg" id="ASV_279" data-flag="@X" onclick="openSidebar('ASV_279',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\280.jpg" id="ASV_280" data-flag="@X" onclick="openSidebar('ASV_280',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\13.jpg" id="ASV_13" data-flag="@X" onclick="openSidebar('ASV_13',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\60.jpg" id="ASV_60" data-flag="@X" onclick="openSidebar('ASV_60',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASV_er" data-flag="@E" onclick="openSidebar('ASV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASV_er" data-flag="@E" onclick="openSidebar('ASV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASV_er" data-flag="@E" onclick="openSidebar('ASV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASV_er" data-flag="@E" onclick="openSidebar('ASV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASV_er" data-flag="@E" onclick="openSidebar('ASV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\21.jpg" id="ASV_21" data-flag="@X" onclick="openSidebar('ASV_21',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\3.jpg" id="ASV_3" data-flag="@X" onclick="openSidebar('ASV_3',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\254.jpg" id="ASV_254" data-flag="@X" onclick="openSidebar('ASV_254',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\281.jpg" id="ASV_281" data-flag="@X" onclick="openSidebar('ASV_281',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\253.jpg" id="ASV_253" data-flag="@X" onclick="openSidebar('ASV_253',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\282.jpg" id="ASV_282" data-flag="@X" onclick="openSidebar('ASV_282',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\266.jpg" id="ASV_266" data-flag="@X" onclick="openSidebar('ASV_266',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASV_er" data-flag="@E" onclick="openSidebar('ASV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASV_er" data-flag="@E" onclick="openSidebar('ASV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASV_er" data-flag="@E" onclick="openSidebar('ASV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASV_er" data-flag="@E" onclick="openSidebar('ASV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASV_er" data-flag="@E" onclick="openSidebar('ASV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\294.jpg" id="ASV_294" data-flag="@X" onclick="openSidebar('ASV_294',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASV_er" data-flag="@E" onclick="openSidebar('ASV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASV_er" data-flag="@E" onclick="openSidebar('ASV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASV_er" data-flag="@E" onclick="openSidebar('ASV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASV_er" data-flag="@E" onclick="openSidebar('ASV_er',false)"></div>
+				<div id="colorless" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\12.jpg" id="ASV_12" data-flag="@X" onclick="openSidebar('ASV_12',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\230.jpg" id="ASV_230" data-flag="@X" onclick="openSidebar('ASV_230',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\296.jpg" id="ASV_296" data-flag="@X" onclick="openSidebar('ASV_296',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\287.jpg" id="ASV_287" data-flag="@X" onclick="openSidebar('ASV_287',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\227.jpg" id="ASV_227" data-flag="@X" onclick="openSidebar('ASV_227',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\234.jpg" id="ASV_234" data-flag="@X" onclick="openSidebar('ASV_234',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\265.jpg" id="ASV_265" data-flag="@X" onclick="openSidebar('ASV_265',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\232.jpg" id="ASV_232" data-flag="@X" onclick="openSidebar('ASV_232',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\231.jpg" id="ASV_231" data-flag="@X" onclick="openSidebar('ASV_231',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\233.jpg" id="ASV_233" data-flag="@X" onclick="openSidebar('ASV_233',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\229.jpg" id="ASV_229" data-flag="@X" onclick="openSidebar('ASV_229',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\225.jpg" id="ASV_225" data-flag="@X" onclick="openSidebar('ASV_225',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\226.jpg" id="ASV_226" data-flag="@X" onclick="openSidebar('ASV_226',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\284.jpg" id="ASV_284" data-flag="@X" onclick="openSidebar('ASV_284',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\15.jpg" id="ASV_15" data-flag="@X" onclick="openSidebar('ASV_15',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\152.jpg" id="ASV_152" data-flag="@X" onclick="openSidebar('ASV_152',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\149.jpg" id="ASV_149" data-flag="@X" onclick="openSidebar('ASV_149',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\304.jpg" id="ASV_304" data-flag="@X" onclick="openSidebar('ASV_304',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\306.jpg" id="ASV_306" data-flag="@X" onclick="openSidebar('ASV_306',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\148.jpg" id="ASV_148" data-flag="@X" onclick="openSidebar('ASV_148',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\147.jpg" id="ASV_147" data-flag="@X" onclick="openSidebar('ASV_147',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\18.jpg" id="ASV_18" data-flag="@X" onclick="openSidebar('ASV_18',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\54.jpg" id="ASV_54" data-flag="@X" onclick="openSidebar('ASV_54',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\154.jpg" id="ASV_154" data-flag="@X" onclick="openSidebar('ASV_154',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\153.jpg" id="ASV_153" data-flag="@X" onclick="openSidebar('ASV_153',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\155.jpg" id="ASV_155" data-flag="@X" onclick="openSidebar('ASV_155',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\150.jpg" id="ASV_150" data-flag="@X" onclick="openSidebar('ASV_150',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\151.jpg" id="ASV_151" data-flag="@X" onclick="openSidebar('ASV_151',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\305.jpg" id="ASV_305" data-flag="@X" onclick="openSidebar('ASV_305',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASV_er" data-flag="@E" onclick="openSidebar('ASV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASV_er" data-flag="@E" onclick="openSidebar('ASV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASV_er" data-flag="@E" onclick="openSidebar('ASV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASV_er" data-flag="@E" onclick="openSidebar('ASV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASV_er" data-flag="@E" onclick="openSidebar('ASV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\156.jpg" id="ASV_156" data-flag="@X" onclick="openSidebar('ASV_156',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\157.jpg" id="ASV_157" data-flag="@X" onclick="openSidebar('ASV_157',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\158.jpg" id="ASV_158" data-flag="@X" onclick="openSidebar('ASV_158',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\159.jpg" id="ASV_159" data-flag="@X" onclick="openSidebar('ASV_159',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\160.jpg" id="ASV_160" data-flag="@X" onclick="openSidebar('ASV_160',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASV_er" data-flag="@E" onclick="openSidebar('ASV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASV_er" data-flag="@E" onclick="openSidebar('ASV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASV_er" data-flag="@E" onclick="openSidebar('ASV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASV_er" data-flag="@E" onclick="openSidebar('ASV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASV_er" data-flag="@E" onclick="openSidebar('ASV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\161.jpg" id="ASV_161" data-flag="@X" onclick="openSidebar('ASV_161',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\164.jpg" id="ASV_164" data-flag="@X" onclick="openSidebar('ASV_164',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\162.jpg" id="ASV_162" data-flag="@X" onclick="openSidebar('ASV_162',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\165.jpg" id="ASV_165" data-flag="@X" onclick="openSidebar('ASV_165',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\163.jpg" id="ASV_163" data-flag="@X" onclick="openSidebar('ASV_163',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASV_er" data-flag="@E" onclick="openSidebar('ASV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASV_er" data-flag="@E" onclick="openSidebar('ASV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASV_er" data-flag="@E" onclick="openSidebar('ASV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASV_er" data-flag="@E" onclick="openSidebar('ASV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASV_er" data-flag="@E" onclick="openSidebar('ASV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\52.jpg" id="ASV_52" data-flag="@X" onclick="openSidebar('ASV_52',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\237.jpg" id="ASV_237" data-flag="@X" onclick="openSidebar('ASV_237',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\236.jpg" id="ASV_236" data-flag="@X" onclick="openSidebar('ASV_236',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\238.jpg" id="ASV_238" data-flag="@X" onclick="openSidebar('ASV_238',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\239.jpg" id="ASV_239" data-flag="@X" onclick="openSidebar('ASV_239',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\235.jpg" id="ASV_235" data-flag="@X" onclick="openSidebar('ASV_235',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASV-files\img\166.jpg" id="ASV_166" data-flag="@X" onclick="openSidebar('ASV_166',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASV_e" data-flag="@E" onclick="openSidebar('ASV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASV_er" data-flag="@E" onclick="openSidebar('ASV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASV_er" data-flag="@E" onclick="openSidebar('ASV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASV_er" data-flag="@E" onclick="openSidebar('ASV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASV_er" data-flag="@E" onclick="openSidebar('ASV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASV_er" data-flag="@E" onclick="openSidebar('ASV_er',false)"></div>
+	</div>
+	</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch(rootPath + '/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch(rootPath + '/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+				let all_tags = new Set();
+				card_list_arrayified.forEach(card => {
+					if (card.notes) {
+						const tagMatches = card.notes.matchAll(/!tag(?:<\w+>)?\s+([^\s\n\b]+)/g);
+						for (const match of tagMatches) {
+							all_tags.add(match[1].toLowerCase());
+						}
+					}
+				});
+
+				const searchInput = document.getElementById("search");
+				const tagDropdown = document.getElementById("tag-dropdown");
+
+				// Create a mirror element for position calculation
+				const mirror = document.createElement("div");
+				Object.assign(mirror.style, {
+					position: "absolute",
+					visibility: "hidden",
+					whiteSpace: "pre",
+					font: getComputedStyle(searchInput).font,
+					padding: "0", // No padding for pure text measurement
+					border: "none",
+					boxSizing: "content-box"
+				});
+				document.body.appendChild(mirror);
+
+				if (searchInput && tagDropdown) {
+					tagDropdown.style.width = "auto";
+					tagDropdown.style.minWidth = "75px";
+					tagDropdown.style.maxWidth = "300px";
+					tagDropdown.style.maxHeight = "200px";
+					tagDropdown.style.overflowY = "auto";
+
+					const updateDropdown = function() {
+						const value = searchInput.value;
+						const cursorPosition = searchInput.selectionStart;
+						
+						// Find the tag: prefix immediately preceding the cursor
+						const lastTagIndex = value.substring(0, cursorPosition).lastIndexOf("tag:");
+						
+						if (lastTagIndex !== -1) {
+							const queryStart = lastTagIndex + 4;
+							const query = value.substring(queryStart, cursorPosition);
+							
+							if (!query.includes(" ")) {
+								const filteredTags = Array.from(all_tags).filter(tag => tag.toLowerCase().startsWith(query.toLowerCase())).sort();
+								if (filteredTags.length > 0) {
+									tagDropdown.innerHTML = "";
+									filteredTags.forEach(tag => {
+										const div = document.createElement("div");
+										div.innerText = tag;
+										div.style.padding = "5px 10px";
+										div.style.cursor = "pointer";
+										div.style.whiteSpace = "nowrap";
+										div.onmouseover = () => div.style.background = "#f0f0f0";
+										div.onmouseout = () => div.style.background = "white";
+										div.onclick = () => {
+											const newValue = value.substring(0, queryStart) + tag + " " + value.substring(cursorPosition);
+											searchInput.value = newValue;
+											tagDropdown.style.display = "none";
+											searchInput.focus();
+											const newCursorPos = queryStart + tag.length + 1;
+											searchInput.setSelectionRange(newCursorPos, newCursorPos);
+										};
+										tagDropdown.appendChild(div);
+									});
+
+									// Calculate position
+									mirror.textContent = value.substring(0, lastTagIndex + 4);
+									const textWidth = mirror.getBoundingClientRect().width;
+									const inputPaddingLeft = parseFloat(getComputedStyle(searchInput).paddingLeft) || 0;
+									
+									tagDropdown.style.left = Math.min(textWidth + inputPaddingLeft, searchInput.offsetWidth - tagDropdown.offsetWidth) + "px";
+									tagDropdown.style.display = "block";
+									return;
+								}
+							}
+						}
+						tagDropdown.style.display = "none";
+					};
+
+					searchInput.addEventListener("input", updateDropdown);
+					searchInput.addEventListener("click", updateDropdown);
+					searchInput.addEventListener("keyup", updateDropdown);
+
+					document.addEventListener("click", function(e) {
+						if (e.target !== searchInput && e.target !== tagDropdown) {
+							tagDropdown.style.display = "none";
+						}
+					});
+				}
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = rootPath + '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = rootPath + '/' + img.alt;
+				if (img.dataset.alt_src) {
+					img.dataset.alt_src = rootPath + '/' + img.dataset.alt_src;
+				}
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		const img = document.getElementById(num);
+		const seconds = 0.2;
+		const rotated_img = document.getElementById('sidebar_h_img');
+
+        img.style.transition = seconds.toString() + "s";
+        img.style.transform = "rotateY(90deg)";
+
+        if (num == 'sidebar_img')
+		{
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(90deg) rotate(90deg)";
+
+           		if (rotated_img.style.opacity != "0") {
+		            setTimeout(() => {
+		                rotated_img.style.opacity = "0";
+		                img.style.filter = "none";
+		            }, (seconds / 2) * 1000);
+		        }
+		        else {
+		        	setTimeout(() => {
+		                rotated_img.style.opacity = "1";
+		                img.style.filter = "blur(2px) brightness(0.7)";
+		            }, (seconds / 2) * 1000);
+		        }
+            }
+		}
+
+         setTimeout(function() {
+            tmp = document.getElementById(num).src;
+			document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+			document.getElementById(num).dataset.alt_src = tmp;
+
+            img.style.transition = seconds.toString() + "s";
+            img.style.transform = "rotateY(0deg)";
+
+            if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(0deg) rotate(90deg)";
+            }
+        }, seconds * 1000);
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.style.transition = "none";
+		rotated_img.style.transition = "none";
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.opacity = "1";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.opacity = "0";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	function rolldown() {
+		dropdown.style.gridTemplateColumns = "repeat(3, 1fr)";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "auto";
+			set.style.margin = "5px";
+		}
+	}
+
+	function rollup() {
+		dropdown.style.gridTemplateColumns = "1fr";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "0px";
+			set.style.margin = "0px 5px";
+		}
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL(rootPath + '/search', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url.pathname + url.search;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL(rootPath + '/card', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url.pathname + url.search;
+			}
+	</script>
+</body>
+</html>
