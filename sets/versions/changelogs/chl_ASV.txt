@@ -1,4 +1,629 @@
-﻿VERSION 1 CHANGELOG
+﻿VERSION 2 CHANGELOG
+====================
+
+Infected Patrolman added.
+Caster Operator added.
+Expedited Delivery added.
+Fishmarket Barter added.
+
+Bomb removed.
+Rebel removed.
+Originium removed.
+Ursus Patrolman removed.
+Guard Operator removed.
+Ace's Last Stand removed.
+Street Economics removed.
+Drone removed.
+Wall removed.
+Golem removed.
+
+Tiacauh Healer
+
+Ceobe, Perplexed Traveller
+type: Legendary Creature — Dog Ally => Legendary Creature — Dog Shaman Ally
+
+Flint Tribe Fanatic
+
+Sarkaz Swordsman
+
+Sarkaz Bladeweaver
+
+Sarkaz Centurion
+
+Emperor, Logistics Kingpin
+
+Exusiai, Cheerful Courier
+
+Texas, Taciturn Messenger
+
+Defender Duo
+
+Penguin Logisitcs Idol
+
+Street Punk Rocker
+
+Gavial's Might
+
+Ursine Gourmand
+
+Blacksteel Duo
+
+Garden Perfumer
+
+Mudrock, Reunion Captain
+
+Frostnova, Winter's Scar
+
+Reclusive Bookworm
+
+Wei Yenwu
+
+Ch'en Hui-chieh
+
+Beatrix Schwire
+
+Serviceman Hoshiguma
+
+The Deathless Black Snake
+
+Patriot, The Last Wendigo
+
+Skullshatterer
+
+Ice Nova
+
+Operational Intelligence
+
+Crownslayer, Reunion Infiltrator
+
+Lungmen Firefighter
+
+Possess the Fallen
+
+Worthy Cost
+
+Mostima, Key of Chronology
+
+Blacksteel Slugkeeper
+
+Doctor, Strategic Mastermind
+
+Doctor Kal'tsit
+
+Elite Operator Blaze
+
+Rhodes Island Landship
+
+Communications Team
+
+Oripathy Suppressants
+
+Knight of the Followers
+rules_text: [i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, you gain 3 life. => Vigilance
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, you gain 3 life.
+
+Originium Catastrophe
+
+Big Bob
+
+Strict Instructor
+
+Yeti Squad Caster
+
+Sarkaz Grudgebearer
+
+Chernobog Delinquent
+
+Siestan Therapist
+
+Operator Reserve Team
+
+Karlan Guardians
+
+Leithanian Officer
+
+Agency Bodyguard
+rules_text: Flash
+When Agency Bodyguard enters, you may untap target creature you control and remove up to one counter from it. => Flash
+When Agency Bodyguard enters, return a creature you control to its owner's hand.
+
+Surly Finchef
+
+Lungmen Guardsmen
+
+Blacksteel Trainee
+
+Medical Field Team
+rules_text: Whenever an ally enters under your control, you gain 1 life. => Whenever an creature enters under your control, you gain 1 life. If that creature is an ally, then gain 2 life instead.
+
+Studied Martial Artist
+
+Unlucky Inventor
+
+Streetwise Trickster
+
+Junior Army Veteran
+
+Guardian Ninja
+
+Lungmen Pickpocket
+
+Guerilla Shieldguard
+
+S.W.E.E.P. Scavenger
+
+Surtr, Twilight Blade
+
+Elite Operator Rosmontis
+
+Grappling Hook
+rules_text: Equip {2}
+Equipped creature gains flying. => Equip {2}
+Equipped creature gains flying.
+Equipped creature gains “{3}{W}{W}, {T}: Tap target creature and put a stun counter on it.”
+
+Swift Response
+
+Material Recombination
+
+Bad Defiant Strike
+
+Binding Circle
+type: Enchantment — Aura => Instant
+rules_text: Enchant creature
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, tap enchanted creature and put a stun counter on it. => Tap up to two target creatures and put a stun counter on each.
+
+Command: Meltdown
+
+Preparedness Averts Peril
+
+Scout Operator
+
+Frost Drone
+
+Disdainful Stroke
+
+Turn to Originium
+
+Rat King's Guile
+
+Literature Storm
+
+Become Anew
+
+Partial Necrosis
+rules_text: Tap target creature and put a stun counter on it. 
+Create an Originium token. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i] => Tap target creature and put two stun counters on it.
+Create an Originium token. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i]
+
+Entwined
+
+Precious Money Bank
+
+Kazdelian Artilleryman
+
+Famiglia Mafioso
+
+Chernobog Survivor
+
+Reunion Mortar Gunner
+
+Grim Discovery
+
+Plunge
+
+Out of Options
+
+Whispers of the Night
+
+Dodge Death
+
+Acute Oripathy Infection
+
+Reunion Standard
+
+Phantom Crossbowman
+
+Rhine Labs Roboticist
+
+Reunion Rioter
+
+Gavial Tribe Ritualist
+
+Columbian Cutter
+
+Higashinese Defector
+
+Reunion Breaker
+
+Reunion Rally
+
+Talulah's Immolation
+
+Grind for Parts
+
+Instigate the Masses
+
+Reckless Plunder
+
+Arts of the Wilds
+
+Certainty in Cinders
+
+Laser Mining Assistance
+
+Reunion Recruitment
+
+Reunion Sword
+
+Originium Slug
+
+Acidic Originium Slug
+
+Reunion Lurker
+rules_text: Ward {1} [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)[/i]
+Whenever a permanent you control leaves the battlefield, Reunion Lurker gets +1/+1 until end of turn. This ability may only trigger once per turn. => Ward {1} [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)[/i]
+Whenever a permanent you control leaves the battlefield, Reunion Lurker gets +1/+1 until end of turn. This ability may only trigger once each turn.
+
+Guerrilla Herald
+
+Wayward Archausauria
+
+Catastrophe Messenger
+
+Deadeye Operator
+
+Ursus Mangler
+
+Tiacauh Shredder
+
+Shoot Down
+
+Return to the Wilds
+
+Shieldguard's Protection
+
+Committee Salvage
+
+Bone Fracture
+
+Unified Charge
+
+Display of Might
+
+Reunion Camp
+
+Monster Mk. 2
+
+Lancet Triage Platform
+
+Castle Combat Platform
+
+Surveyor Drone
+
+Tactical Armor
+
+Caster's Wand
+
+Rusty Hammer
+
+Orundum Reserves
+
+Support Riot Pile
+rules_text: When Support Riot Pile enters, create a colorless 0/3 wall artifact creature token.
+{3}, {T}, sacrifice this artifact: Create a colorless 0/3 wall artifact creature token. => When Support Riot Pile enters, create a colorless 0/3 wall artifact creature token with defender.
+{3}, {T}, sacrifice this artifact: Create a colorless 0/3 wall artifact creature token with defender.
+
+Central Plate Skyline
+
+Sublayer Slum
+
+Shattered Streets
+
+Jungle Scrapyard
+
+Gladed Village
+
+Hushed Settlement
+
+Mossy Outpost
+
+Alpine Stream
+
+Festive Shoreline
+
+Hulking Ruin
+
+Evolving Wilds
+
+Steel City Escort
+
+Hired Crossbow
+
+Caladon Mounted Police
+
+Martial Arts Star
+
+Downfall of the Mighty
+
+LGD Rally
+
+Rhodes Island Custody
+
+Stable Esthesia
+
+Handy Jetpack
+
+Scientific Investigator
+
+Lungmen Greytail
+
+Karlan Climber
+
+Inam Committee Chief
+
+An Offer You Should Refuse
+
+Training Room
+
+Tinker
+
+RIIC Factory Line
+
+Hide the Evidence
+
+Perfect Operation
+
+Medical Experimenter
+
+S.W.E.E.P. Assassin
+
+Vacationing Mercenary
+
+Abyssal Patient
+
+Reunion Senior Caster
+
+Fatal Push
+
+Dashed Plans
+
+Woven Shadow
+
+For the Cause
+
+Scrounge for Scraps
+
+Originium Altar
+
+Impatient Tianshi
+
+Rhodes Island Forgemaster
+
+Bombtail Drone
+
+Reunion Deserter
+
+Sarkaz Guerrilla Caster
+
+Stinging Shock
+
+Revealing Accusation
+
+Scrapyard Temple
+
+Pyrrhic Blast
+
+Diligent Tinkering
+
+For Each Who Falls
+
+Ignis Hammer
+
+Mudrock's Zealot
+
+Ursus Scion
+
+Tiacauh Champion
+
+Woodland Hunter
+
+Mossback Beast
+
+Rewinding Breeze
+
+Mahuizzotia Festival
+
+Unshakable Solidarity
+
+Abyssal Strike
+
+The Long March
+
+Bionics Engineer
+
+Yeti Icecleaver
+
+Hateful Avenger
+
+Rim Billiton Messengers
+
+Travelling Scholar
+
+Mudrock Matterllurgist
+
+Thermite Blade
+
+Water Cannon
+
+Beloved Whip
+
+Avenger's Katana
+
+Modified Motorbike
+
+Delivery Buggy
+
+Imperial Artillery Targeter
+cost: {8} => {4}
+rules_text: Flying
+{8}, {T}, Put a stun counter on Imperial Artillery Targeter: Deal 8 damage to target creature. => Flying
+{6}, {T}, Put a stun counter on Imperial Artillery Targeter: Deal 6 damage to target creature.
+
+Hot Water Kettle
+
+Infection Monitor Band
+
+Drone Launch Platform
+
+Sprouting Barrenland
+
+Crumbling Barrenland
+
+Burning Barrenland
+
+Outback Barrenland
+
+Primeval Barrenland
+
+Elite Operator Ace
+
+Shining, Confessor Exile
+
+Snowfield Rescue
+
+Warehouse Ambush
+
+Shadowless
+
+Hannya, Trusted Shield
+
+Necessary Solutions
+
+Elite Operator Squad
+
+Trust your Eyes
+
+Chernobog Sarcophagus
+
+Rapid Redeployment
+
+Convoluted Sight
+
+Expanded Cognition
+
+Alive Until Sunset
+
+Isidro, Eccentric Alchemist
+
+Warfarin, Hematologist
+
+Mephisto, Reunion Captain
+
+Spiritual Destruction
+
+Cover the Damages
+
+Separated Hearts
+
+Mudrock Colossus
+
+Pompeii, Heart of Surging Flame
+
+Explosive Entrance
+
+City on Fire
+
+The Obsidian Festival
+
+Flexible Camouflage
+
+Ceobe's Fungimist
+
+Faust, Phantom Sniper
+
+Spirited Messenger
+
+Search for Safety
+
+Trial of Strength
+
+Inspiring Call
+
+Combat-Ready Chainsaw
+
+Raging Iron Fists
+
+Enciodes Silverash
+
+Lin Grey, the Rat King
+
+Student of Kal'tsit
+
+Skadi, Abyssal Hunter
+
+Adele Naumann, Arts Prodigy
+
+Suzuran, Foxfire Child
+
+Mr. Lee, Lungmen Detective
+
+Lappland, Rogue Mafioso
+
+Angelina Ajimu
+
+Modified Starflail
+
+Water of Life
+
+Foiled Vengeance
+
+Sword of the Present
+
+Vanguard's Standard
+
+Chi Xiao, Dragon-Slayer
+
+Cheers of Celebration
+
+Rescue from Stasis
+
+Mephisto, the Singer
+
+Anterior Vigilo
+
+The Birth of Tragedy
+
+Amiya, Idealistic Leader
+
+Amiya, Cerulean Flame
+
+Roadblock
+
+Nian, Sui Fragment
+
+Roaring Flare
+
+Assembled Movement
+
+Memories of Better Days
+
+Tidal Elegy
+
+Nightingale of the Followers
+cost: {2}{G}{W} => {3}{G}{W}
+rules_text: Defender
+When Nightingale of the Followers enters, create two colorless 0/3 Wall artifact creature tokens.
+Whenever a creature enters under your control, you gain 1 life.
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, target creature you control gains hexproof until end of turn. => Defender
+When Nightingale of the Followers enters, create two colorless 0/3 Wall artifact creature tokens with defender.
+Whenever a creature enters under your control, you gain 1 life.
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, target creature you control gains hexproof until end of turn.
+
+Mr. Hellagur
+
+
+VERSION 1 CHANGELOG
 ====================
 
 First version published.

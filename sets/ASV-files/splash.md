@@ -1,2 +1,0 @@
-﻿A magic the gathering set focused on the video game Arknights, specifically on the first two major arcs of the game "Act initium: Hour of an Awakening" and "Act I: Shatter of a Vision" as well as a few side stories that released around the same time.
-All cards listed are not "final" and all are subject to change. Additionally, I plan on filling in all artist credits and will respect the requests of any artist who's art is featured in this set.
