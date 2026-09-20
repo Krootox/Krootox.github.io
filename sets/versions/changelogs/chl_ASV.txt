@@ -1,4 +1,118 @@
-﻿VERSION 3 CHANGELOG
+﻿VERSION 4 CHANGELOG
+====================
+
+Wandering the Tundra added.
+Mobile Tactical Hangar added.
+
+The Long March removed.
+Drone Launch Platform removed.
+
+Ch'en Hui-chieh
+
+Possess the Fallen
+rules_text: Return target creature card from the graveyard to the battlefield with a lifelink counter and it becomes a zombie in addition to its other types. => Return target creature card from your graveyard to the battlefield with a lifelink counter and it becomes a zombie in addition to its other types.
+
+Doctor Kal'tsit
+rules_text: Hexproof
+When Doctor Kal'tsit enters, create a colorless 1/1 Drone creature token and put X +1/+1 counters on it.
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, you gain 1 life, put a +1/+1 counter on target creature you control and draw a card. => Hexproof
+When Doctor Kal'tsit enters, create a colorless 1/1 Drone artifact creature token and put X +1/+1 counters on it.
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, you gain 1 life, put a +1/+1 counter on target creature you control and draw a card.
+
+Elite Operator Blaze
+
+Big Bob
+
+Agency Bodyguard
+type: Creature — Dog Warrior => Creature — Dog Mercenary Warrior
+
+Surly Finchef
+
+Command: Meltdown
+
+Entwined
+cost: {3}{U} => {2}{U}
+
+Precious Money Bank
+rules_text: {1}{U}, {T}, sacrifice this artifact: Create two originium tokens. [i](It's an artifact with “{T}, sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i] => {1}, {T}, sacrifice this artifact: Create two originium tokens. [i](It's an artifact with “{T}, sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i]
+
+Monster Mk. 2
+
+Surveyor Drone
+pt:  => 1/1
+
+Rusty Hammer
+rules_text: Equip {2}
+Equipped creature gets +2/+0 and has trample. => When Rusty Hammer enters, create an Originium token. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i]
+Equip {1}
+Equipped creature gets +2/+0 and has trample.
+
+Support Riot Pile
+
+Hired Crossbow
+
+Rhodes Island Custody
+
+Revealing Accusation
+rules_text: Exile the top two cards of your library. Until the end of your next turn, you may play those cards.
+Deal damage to target player equal to the total mana value of all cards exiled by Revealing Accusation. => Exile the top two cards of your library. Until the end of your next turn, you may play those cards.
+Deal damage to target player equal to the highest mana value among all cards exiled by Revealing Accusation.
+
+Water Cannon
+rules_text: Equip {1}
+Equipped creature gets +1/+1 and has “{2}, {T}: Tap target creature you don't control” => Equip {1}
+Equipped creature gets +1/+2 and has “{1}, {T}: Tap target creature you don't control”
+
+Modified Motorbike
+
+Sprouting Barrenland
+rules_text: {T}: Add {C}
+{2}, {T}, Sacrifice Sprouting Barrenland: Search your library for a Plains, Island, or Forest card, put it onto the battlefield tapped, then shuffle. => {T}: Add {C}
+{1}, {T}, Sacrifice Sprouting Barrenland: Search your library for a Plains, Island, or Forest card, put it onto the battlefield tapped, then shuffle.
+
+Crumbling Barrenland
+rules_text: {T}: Add {C}
+{2}, {T}, Sacrifice Crumbling Barrenland: Search your library for a Plains, Island, or Swamp card, put it onto the battlefield tapped, then shuffle. => {T}: Add {C}
+{1}, {T}, Sacrifice Crumbling Barrenland: Search your library for a Plains, Island, or Swamp card, put it onto the battlefield tapped, then shuffle.
+
+Burning Barrenland
+rules_text: {T}: Add {C}
+{2}, {T}, Sacrifice Burning Barrenland: Search your library for a Swamp, Mountain, or Forest card, put it onto the battlefield tapped, then shuffle. => {T}: Add {C}
+{1}, {T}, Sacrifice Burning Barrenland: Search your library for a Swamp, Mountain, or Forest card, put it onto the battlefield tapped, then shuffle.
+
+Outback Barrenland
+rules_text: {T}: Add {C}
+{2}, {T}, Sacrifice Outback Barrenland: Search your library for a Plains, Swamp, or Mountain card, put it onto the battlefield tapped, then shuffle. => {T}: Add {C}
+{1}, {T}, Sacrifice Outback Barrenland: Search your library for a Plains, Swamp, or Mountain card, put it onto the battlefield tapped, then shuffle.
+
+Primeval Barrenland
+rules_text: {T}: Add {C}
+{2}, {T}, Sacrifice Primeval Barrenland: Search your library for a Island, Mountain, or Forest card, put it onto the battlefield tapped, then shuffle. => {T}: Add {C}
+{1}, {T}, Sacrifice Primeval Barrenland: Search your library for a Island, Mountain, or Forest card, put it onto the battlefield tapped, then shuffle.
+
+Elite Operator Ace
+type: Legendary Creature — Snake Ally => Legendary Creature — Snake Soldier Ally
+
+Shining, Confessor Exile
+
+Alive Until Sunset
+
+Chi Xiao, Dragon-Slayer
+
+Mephisto, the Singer
+
+Tidal Elegy
+
+Nightingale of the Followers
+rules_text: Defender
+When Nightingale of the Followers enters, create two colorless 0/3 Wall artifact creature tokens with defender.
+Whenever a creature enters under your control, you gain 1 life.
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, target creature you control gains hexproof until end of turn. => When Nightingale of the Followers enters, create two colorless 0/3 Wall artifact creature tokens with defender.
+Whenever a creature enters under your control, you gain 1 life.
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, creatures you control gain hexproof until end of turn.
+
+
+VERSION 3 CHANGELOG
 ====================
 
 

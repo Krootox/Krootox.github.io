@@ -5,7 +5,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Crocodile Shaman Ally",
-			"collector_number": "198",
+			"collector_number": "197",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/0.jpg"
 			}
@@ -255,7 +255,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G}{G}",
 			"type": "Creature — Bear Warrior",
-			"collector_number": "203",
+			"collector_number": "202",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/25.jpg"
 			}
@@ -634,7 +634,7 @@
 			"name": "Agency Bodyguard",
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
-			"type": "Creature — Dog Warrior",
+			"type": "Creature — Dog Mercenary Warrior",
 			"collector_number": "1",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/63.jpg"
@@ -973,7 +973,7 @@
 		{
 			"name": "Entwined",
 			"rarity": "common",
-			"mana_cost": "{3}{U}",
+			"mana_cost": "{2}{U}",
 			"type": "Enchantment — Aura",
 			"collector_number": "49",
 			"image_uris": {
@@ -1275,7 +1275,7 @@
 			"rarity": "common",
 			"mana_cost": "{G}",
 			"type": "Creature — Slug",
-			"collector_number": "188",
+			"collector_number": "187",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/127.jpg"
 			}
@@ -1295,7 +1295,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Hyena Rebel Rogue",
-			"collector_number": "191",
+			"collector_number": "190",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/129.jpg"
 			}
@@ -1345,7 +1345,7 @@
 			"rarity": "common",
 			"mana_cost": "{4}{G}{G}",
 			"type": "Creature — Bear",
-			"collector_number": "204",
+			"collector_number": "203",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/134.jpg"
 			}
@@ -1355,7 +1355,7 @@
 			"rarity": "common",
 			"mana_cost": "{4}{G}",
 			"type": "Creature — Crocodile Warrior",
-			"collector_number": "199",
+			"collector_number": "198",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/135.jpg"
 			}
@@ -1365,7 +1365,7 @@
 			"rarity": "common",
 			"mana_cost": "{3}{G}",
 			"type": "Sorcery",
-			"collector_number": "195",
+			"collector_number": "194",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/136.jpg"
 			}
@@ -1375,7 +1375,7 @@
 			"rarity": "common",
 			"mana_cost": "{4}{G}",
 			"type": "Sorcery",
-			"collector_number": "189",
+			"collector_number": "188",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/137.jpg"
 			}
@@ -1385,7 +1385,7 @@
 			"rarity": "common",
 			"mana_cost": "{G}",
 			"type": "Instant",
-			"collector_number": "194",
+			"collector_number": "193",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/138.jpg"
 			}
@@ -1415,7 +1415,7 @@
 			"rarity": "common",
 			"mana_cost": "{4}{G}",
 			"type": "Sorcery",
-			"collector_number": "201",
+			"collector_number": "200",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/141.jpg"
 			}
@@ -1435,7 +1435,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
 			"type": "Enchantment — Aura",
-			"collector_number": "190",
+			"collector_number": "189",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/143.jpg"
 			}
@@ -1455,7 +1455,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}",
 			"type": "Artifact Creature — Drone",
-			"collector_number": "270",
+			"collector_number": "269",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/145.jpg"
 			}
@@ -2065,7 +2065,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{G}",
 			"type": "Creature — Demon Rebel Warrior",
-			"collector_number": "187",
+			"collector_number": "186",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/206.jpg"
 			}
@@ -2075,7 +2075,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}",
 			"type": "Creature — Bear Noble Archer",
-			"collector_number": "205",
+			"collector_number": "204",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/207.jpg"
 			}
@@ -2085,7 +2085,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{5}{G}",
 			"type": "Creature — Crocodile Warrior",
-			"collector_number": "197",
+			"collector_number": "196",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/208.jpg"
 			}
@@ -2105,7 +2105,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Beast",
-			"collector_number": "186",
+			"collector_number": "185",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/210.jpg"
 			}
@@ -2115,7 +2115,7 @@
 			"rarity": "common",
 			"mana_cost": "{3}{G}",
 			"type": "Sorcery",
-			"collector_number": "192",
+			"collector_number": "191",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/211.jpg"
 			}
@@ -2125,7 +2125,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{G}",
 			"type": "Enchantment",
-			"collector_number": "184",
+			"collector_number": "183",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/212.jpg"
 			}
@@ -2135,7 +2135,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}",
 			"type": "Instant",
-			"collector_number": "202",
+			"collector_number": "201",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/213.jpg"
 			}
@@ -2151,11 +2151,11 @@
 			}
 		},
 		{
-			"name": "The Long March",
+			"name": "Wandering the Tundra",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}",
 			"type": "Sorcery",
-			"collector_number": "183",
+			"collector_number": "205",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/215.jpg"
 			}
@@ -2285,7 +2285,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}",
 			"type": "Artifact Creature — Drone",
-			"collector_number": "268",
+			"collector_number": "267",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/228.jpg"
 			}
@@ -2295,7 +2295,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}",
 			"type": "Artifact",
-			"collector_number": "267",
+			"collector_number": "266",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/229.jpg"
 			}
@@ -2305,17 +2305,17 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}",
 			"type": "Artifact",
-			"collector_number": "269",
+			"collector_number": "268",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/230.jpg"
 			}
 		},
 		{
-			"name": "Drone Launch Platform",
+			"name": "Mobile Tactical Hangar",
 			"rarity": "uncommon",
 			"mana_cost": "{5}",
 			"type": "Artifact",
-			"collector_number": "265",
+			"collector_number": "270",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/231.jpg"
 			}
@@ -2374,7 +2374,7 @@
 			"name": "Elite Operator Ace",
 			"rarity": "rare",
 			"mana_cost": "{3}{W}",
-			"type": "Legendary Creature — Snake Ally",
+			"type": "Legendary Creature — Snake Soldier Ally",
 			"collector_number": "12",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/237.jpg"
@@ -2625,7 +2625,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}",
 			"type": "Artifact — Equipment",
-			"collector_number": "266",
+			"collector_number": "265",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/262.jpg"
 			}
@@ -2655,7 +2655,7 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{G}",
 			"type": "Creature — Elk Druid Ally",
-			"collector_number": "196",
+			"collector_number": "195",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/265.jpg"
 			}
@@ -2665,7 +2665,7 @@
 			"rarity": "rare",
 			"mana_cost": "{X}{G}",
 			"type": "Sorcery",
-			"collector_number": "193",
+			"collector_number": "192",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/266.jpg"
 			}
@@ -2675,7 +2675,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{G}",
 			"type": "Enchantment",
-			"collector_number": "200",
+			"collector_number": "199",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/267.jpg"
 			}
@@ -2975,7 +2975,7 @@
 			"rarity": "mythic",
 			"mana_cost": "{2}{G}{G}",
 			"type": "Enchantment",
-			"collector_number": "185",
+			"collector_number": "184",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/297.jpg"
 			}
@@ -3322,7 +3322,7 @@
 	5 Mahuizzotia Festival
 	5 Unshakable Solidarity
 	5 Abyssal Strike
-	5 The Long March
+	5 Wandering the Tundra
 	5 Bionics Engineer
 	5 Yeti Icecleaver
 	5 Hateful Avenger
@@ -3336,7 +3336,7 @@
 	5 Imperial Artillery Targeter
 	5 Hot Water Kettle
 	5 Infection Monitor Band
-	5 Drone Launch Platform
+	5 Mobile Tactical Hangar
 	5 Sprouting Barrenland
 	5 Crumbling Barrenland
 	5 Burning Barrenland

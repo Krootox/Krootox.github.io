@@ -73,7 +73,7 @@
     },
     {
         "card_name": "Memories of Better Days",
-        "number": 185,
+        "number": 184,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -273,7 +273,7 @@
     },
     {
         "card_name": "Search for Safety",
-        "number": 193,
+        "number": 192,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -313,7 +313,7 @@
     },
     {
         "card_name": "Spirited Messenger",
-        "number": 196,
+        "number": 195,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -353,7 +353,7 @@
     },
     {
         "card_name": "Trial of Strength",
-        "number": 200,
+        "number": 199,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -552,12 +552,12 @@
         "position": "204"
     },
     {
-        "card_name": "The Long March",
+        "card_name": "Mahuizzotia Festival",
         "number": 183,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
-        "position": "215"
+        "position": "212"
     },
     {
         "card_name": "Hired Crossbow",
@@ -592,12 +592,12 @@
         "position": "205"
     },
     {
-        "card_name": "Mahuizzotia Festival",
-        "number": 184,
+        "card_name": "Mossback Beast",
+        "number": 185,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
-        "position": "212"
+        "position": "210"
     },
     {
         "card_name": "LGD Rally",
@@ -632,12 +632,12 @@
         "position": "194"
     },
     {
-        "card_name": "Mossback Beast",
+        "card_name": "Mudrock's Zealot",
         "number": 186,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
-        "position": "210"
+        "position": "206"
     },
     {
         "card_name": "Martial Arts Star",
@@ -672,12 +672,12 @@
         "position": "202"
     },
     {
-        "card_name": "Mudrock's Zealot",
-        "number": 187,
+        "card_name": "Tiacauh Champion",
+        "number": 196,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
-        "position": "206"
+        "position": "208"
     },
     {
         "card_name": "Penguin Logisitcs Idol",
@@ -712,12 +712,12 @@
         "position": "197"
     },
     {
-        "card_name": "Tiacauh Champion",
-        "number": 197,
+        "card_name": "Unshakable Solidarity",
+        "number": 201,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
-        "position": "208"
+        "position": "213"
     },
     {
         "card_name": "Rhodes Island Custody",
@@ -752,12 +752,12 @@
         "position": "200"
     },
     {
-        "card_name": "Unshakable Solidarity",
-        "number": 202,
+        "card_name": "Ursus Scion",
+        "number": 204,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
-        "position": "213"
+        "position": "207"
     },
     {
         "card_name": "Stable Esthesia",
@@ -792,12 +792,12 @@
         "position": "195"
     },
     {
-        "card_name": "Ursus Scion",
+        "card_name": "Wandering the Tundra",
         "number": 205,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
-        "position": "207"
+        "position": "215"
     },
     {
         "card_name": "Steel City Escort",
@@ -1153,7 +1153,7 @@
     },
     {
         "card_name": "Originium Slug",
-        "number": 188,
+        "number": 187,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1193,7 +1193,7 @@
     },
     {
         "card_name": "Return to the Wilds",
-        "number": 189,
+        "number": 188,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1233,7 +1233,7 @@
     },
     {
         "card_name": "Reunion Camp",
-        "number": 190,
+        "number": 189,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1273,7 +1273,7 @@
     },
     {
         "card_name": "Reunion Lurker",
-        "number": 191,
+        "number": 190,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1313,7 +1313,7 @@
     },
     {
         "card_name": "Rewinding Breeze",
-        "number": 192,
+        "number": 191,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1353,7 +1353,7 @@
     },
     {
         "card_name": "Shieldguard's Protection",
-        "number": 194,
+        "number": 193,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1393,7 +1393,7 @@
     },
     {
         "card_name": "Shoot Down",
-        "number": 195,
+        "number": 194,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1433,7 +1433,7 @@
     },
     {
         "card_name": "Tiacauh Healer",
-        "number": 198,
+        "number": 197,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1473,7 +1473,7 @@
     },
     {
         "card_name": "Tiacauh Shredder",
-        "number": 199,
+        "number": 198,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1513,7 +1513,7 @@
     },
     {
         "card_name": "Unified Charge",
-        "number": 201,
+        "number": 200,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1553,7 +1553,7 @@
     },
     {
         "card_name": "Ursine Gourmand",
-        "number": 203,
+        "number": 202,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1593,7 +1593,7 @@
     },
     {
         "card_name": "Ursus Mangler",
-        "number": 204,
+        "number": 203,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2356,16 +2356,8 @@
         "position": "224"
     },
     {
-        "card_name": "Drone Launch Platform",
-        "number": 265,
-        "shape": "normal",
-        "set": "ASV",
-        "rotated": false,
-        "position": "231"
-    },
-    {
         "card_name": "Flexible Camouflage",
-        "number": 266,
+        "number": 265,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2373,7 +2365,7 @@
     },
     {
         "card_name": "Hot Water Kettle",
-        "number": 267,
+        "number": 266,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2381,7 +2373,7 @@
     },
     {
         "card_name": "Imperial Artillery Targeter",
-        "number": 268,
+        "number": 267,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2389,11 +2381,19 @@
     },
     {
         "card_name": "Infection Monitor Band",
-        "number": 269,
+        "number": 268,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
         "position": "230"
+    },
+    {
+        "card_name": "Mobile Tactical Hangar",
+        "number": 270,
+        "shape": "normal",
+        "set": "ASV",
+        "rotated": false,
+        "position": "231"
     },
     {
         "card_name": "Modified Motorbike",
@@ -2445,7 +2445,7 @@
     },
     {
         "card_name": "Lancet Triage Platform",
-        "number": 270,
+        "number": 269,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
