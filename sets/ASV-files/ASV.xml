@@ -5,7 +5,7 @@
 			<name>ASV</name>
 			<longname>Arknights: Shatter of a Vision</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-09-20</releasedate>
+			<releasedate>2026-09-24</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -28,8 +28,8 @@
 		</card>
 		<card>
 			<name>Durin Flagbearer</name>
-			<text>The first ally spell you cast each turn costs {W}{W} less to cast.</text>
-			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/1.jpg" num="11">ASV</set>
+			<text>The first creature spell you cast each turn costs {W} less to cast.</text>
+			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/1.jpg" num="10">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -212,8 +212,8 @@ Flying
 		</card>
 		<card>
 			<name>Reunion Wraith</name>
-			<text>Reunion Wraith can&apos;t be blocked</text>
-			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/11.jpg" num="71">ASV</set>
+			<text>Reunion Wraith can&apos;t be blocked.</text>
+			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/11.jpg" num="70">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -336,7 +336,8 @@ When Sarkaz Centurion enters, destroy target creature then create a number of Or
 		</card>
 		<card>
 			<name>Emperor, Logistics Kingpin</name>
-			<text>At the beginning of your end step, you may exile target creature you control then return that card to the battlefield under your control. It becomes a mercenary in addition to its other creature types.
+			<text>Indestructible
+At the beginning of your end step, you may exile target creature you control then return that card to the battlefield under your control. It becomes a mercenary in addition to its other creature types.
 Other mercenary creatures you control get +2/+0 and gain first strike and haste.
 Whenever another mercenary creature enters under your control, you may pay {3}{R}{R}, if you do then gain control of target creature you don&apos;t control until end of turn. Untap it and it gains haste until end of turn. You may only use this ability once per turn.</text>
 			<set rarity="mythic" picurl="https://krootox.github.io/sets/ASV-files/img/18.jpg" num="251">ASV</set>
@@ -357,7 +358,7 @@ Whenever another mercenary creature enters under your control, you may pay {3}{R
 			<name>Exusiai, Cheerful Courier</name>
 			<text>Flying, double strike
 Whenever Exusiai, Cheerful Courier enters or attacks, it deals damage equal to its power divided among any number of targets.</text>
-			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/19.jpg" num="238">ASV</set>
+			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/19.jpg" num="239">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -394,7 +395,7 @@ When Texas, Taciturn Messenger enters, tap up to two target creatures then put a
 			<text>Vigilance
 Defender Duo enters with a shield counter on it. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)
 Whenever another mercenary creature enters under your control, put a shield counter on Defender Duo.</text>
-			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/21.jpg" num="9">ASV</set>
+			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/21.jpg" num="8">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -412,7 +413,7 @@ Whenever another mercenary creature enters under your control, put a shield coun
 			<name>Penguin Logisitcs Idol</name>
 			<text>Whenever another creature enters under your control, you gain 1 life.
 Whenever you gain life, other creatures you control get +1/+1 until end of turn.</text>
-			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/22.jpg" num="28">ASV</set>
+			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/22.jpg" num="27">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -483,7 +484,7 @@ When Ursine Gourmand enters, you gain 3 life.</text>
 			<text>Vigilance, Prowess
 Equipment spells you cast cost {1} less to cast.
 Equip abilities you activate cost {1} less to activate.</text>
-			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/26.jpg" num="236">ASV</set>
+			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/26.jpg" num="237">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -520,7 +521,7 @@ Whenever you gain life you may pay {G}{W}, if you do then draw a card.</text>
 			<text>Mudrock, Reunion Captain enters with a shield counter.
 Revolt — Whenever a permanent leaves the battlefield under your control, you gain 2 life.
 Pay 4 life: Create a 4/4 colorless golem artifact creature token</text>
-			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/28.jpg" num="235">ASV</set>
+			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/28.jpg" num="236">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -539,7 +540,7 @@ Pay 4 life: Create a 4/4 colorless golem artifact creature token</text>
 			<text>Menace
 Whenever a creature you control deals combat damage to a player, you may tap target creature that player controls and put a stun counter on it.
 {U}{B}, Pay 3 life: Destroy target creature with a stun counter on it.</text>
-			<set rarity="mythic" picurl="https://krootox.github.io/sets/ASV-files/img/29.jpg" num="214">ASV</set>
+			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/29.jpg" num="213">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -556,7 +557,7 @@ Whenever a creature you control deals combat damage to a player, you may tap tar
 		<card>
 			<name>Reclusive Bookworm</name>
 			<text>Skill Activation — Whenever you cast a spell with mana value 4 or greater, you may draw a card, then discard a card.</text>
-			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/30.jpg" num="70">ASV</set>
+			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/30.jpg" num="69">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -591,9 +592,10 @@ Other creatures you control get +1/+1 for each tapped creature each opponent con
 		</card>
 		<card>
 			<name>Ch&apos;en Hui-chieh</name>
-			<text>First strike, prowess
-Ch&apos;en Hui-chieh has double strike so long as it&apos;s equipped.</text>
-			<set rarity="mythic" picurl="https://krootox.github.io/sets/ASV-files/img/32.jpg" num="237">ASV</set>
+			<text>Prowess
+Ch&apos;en Hui-chieh has double strike so long as it&apos;s equipped.
+Whenever Ch&apos;en Hui-chieh attacks, exile the top card of your library, until the end of your next turn you may play that card.</text>
+			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/32.jpg" num="238">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -631,7 +633,7 @@ Sacrifice an artifact: Discard a card, then draw a card.</text>
 			<text>Vigilance
 Whenever an equipment enters, you may attach it to a creature you control.
 Equipped creatures you control have vigilance.</text>
-			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/34.jpg" num="32">ASV</set>
+			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/34.jpg" num="31">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -674,7 +676,7 @@ Whenever another legendary creature you control dies, choose one that hasn&apos;
 • Destroy target creature.
 • Put a trample counter on Patriot, The Last Wendigo.
 • Put a deathtouch counter on Patriot, The Last Wendigo.</text>
-			<set rarity="mythic" picurl="https://krootox.github.io/sets/ASV-files/img/36.jpg" num="255">ASV</set>
+			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/36.jpg" num="255">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -709,7 +711,7 @@ When Skullshatterer dies, if it had no +1/+1 counters on it, return it to the ba
 		</card>
 		<card>
 			<name>Ice Nova</name>
-			<text>Tap and put three stun counters on target creature, then draw cards equal to that creature&apos;s power.</text>
+			<text>Tap and put two stun counters on target creature, then draw cards equal to the number of stun counters on that creature.</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/38.jpg" num="55">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -744,7 +746,7 @@ Draw 2 cards.</text>
 			<name>Crownslayer, Reunion Infiltrator</name>
 			<text>Crownslayer, Reunion Infiltrator cannot block.
 {2}: Target creature you control with power 2 or less cannot be blocked this turn.
-Whenever a nontoken Rebel creature you control deals combat damage to a player, create a 1/1 red Rebel creature token with &quot;When this creature dies, it deals 1 damage to any target.&quot;</text>
+Whenever Crownslayer, Reunion Infiltrator deals combat damage to a player, create a 1/1 red Rebel creature token with &quot;When this creature dies, it deals 1 damage to any target.&quot;</text>
 			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/40.jpg" num="132">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -867,7 +869,7 @@ At the beginning of your end step, goad target creature you don&apos;t control t
 			<text>Hexproof
 When Doctor Kal&apos;tsit enters, create a colorless 1/1 Drone artifact creature token and put X +1/+1 counters on it.
 Skill Activation — Whenever you cast a spell with mana value 4 or greater, you gain 1 life, put a +1/+1 counter on target creature you control and draw a card.</text>
-			<set rarity="mythic" picurl="https://krootox.github.io/sets/ASV-files/img/47.jpg" num="242">ASV</set>
+			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/47.jpg" num="242">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -885,7 +887,7 @@ Skill Activation — Whenever you cast a spell with mana value 4 or greater, you
 			<name>Elite Operator Blaze</name>
 			<text>First strike, prowess
 Skill Activation — Whenever you cast a spell with mana value 4 or greater and Elite Operator Blaze is untapped, you may tap and put a stun counter on Elite Operator Blaze. If you do then deal damage equal to its power to each creature you don&apos;t control.</text>
-			<set rarity="mythic" picurl="https://krootox.github.io/sets/ASV-files/img/48.jpg" num="134">ASV</set>
+			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/48.jpg" num="134">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -918,7 +920,7 @@ Skill Activation — Whenever you cast a spell with mana value 4 or greater and 
 		<card>
 			<name>Communications Team</name>
 			<text>{T}, Put a stun counter on this creature: Add five mana in any combination of colors.
-Tap an untapped ally you control: Remove a stun counter from Communications Team.</text>
+Tap two untapped creatures you control: Remove a stun counter from Communications Team.</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/50.jpg" num="175">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -952,7 +954,7 @@ Tap an untapped ally you control: Remove a stun counter from Communications Team
 			<name>Knight of the Followers</name>
 			<text>Vigilance
 Skill Activation — Whenever you cast a spell with mana value 4 or greater, you gain 3 life.</text>
-			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/52.jpg" num="20">ASV</set>
+			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/52.jpg" num="19">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -985,7 +987,7 @@ Skill Activation — Whenever you cast a spell with mana value 4 or greater, you
 		<card>
 			<name>Big Bob</name>
 			<text>Trample
-Other Rebel creatures you control get +1/+1 and trample.
+Other creatures you control get +1/+1 and trample.
 Whenever Big Bob attacks, create a red 1/1 Rebel creature token with &quot;When this creature dies, it deals 1 damage to any target.&quot; tapped and attacking.</text>
 			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/54.jpg" num="170">ASV</set>
 			<prop>
@@ -1003,7 +1005,7 @@ Whenever Big Bob attacks, create a red 1/1 Rebel creature token with &quot;When 
 		</card>
 		<card>
 			<name>Strict Instructor</name>
-			<text>Skill Activation — Whenever you cast a spell with mana value 4 or greater, draw a card if you control another ally, then ally creatures you control get +1/+1 and have vigilance until end of turn.</text>
+			<text>Skill Activation — Whenever you cast a spell with mana value 4 or greater, draw a card if you control another creature with lesser toughness or power, then creatures you control gain +1/+1 and vigilance until end of turn.</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/55.jpg" num="75">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -1095,7 +1097,7 @@ Whenever a creature with power 4 or greater enters, creatures you control get +1
 			<name>Operator Reserve Team</name>
 			<text>Reach
 Skill Activation — Whenever you cast a spell with mana value 4 or greater, put a +1/+1 counter on this creature and it gains lifelink until end of turn.</text>
-			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/60.jpg" num="27">ASV</set>
+			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/60.jpg" num="26">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1111,12 +1113,12 @@ Skill Activation — Whenever you cast a spell with mana value 4 or greater, put
 		</card>
 		<card>
 			<name>Karlan Guardians</name>
-			<text>When Karlan Guardians attacks, it gain flying until end of turn.</text>
-			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/61.jpg" num="19">ASV</set>
+			<text>Whenever another creature enters under your control, Karlan Guardians gains flying until end of turn.</text>
+			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/61.jpg" num="18">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Creature — Elk Ox Soldier</type>
+				<type>Creature — Elk Ox Mercenary</type>
 				<maintype>Creature</maintype>
 				<manacost>2W</manacost>
 				<cmc>3</cmc>
@@ -1129,7 +1131,7 @@ Skill Activation — Whenever you cast a spell with mana value 4 or greater, put
 		<card>
 			<name>Leithanian Officer</name>
 			<text>First strike</text>
-			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/62.jpg" num="21">ASV</set>
+			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/62.jpg" num="20">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1164,7 +1166,7 @@ When Agency Bodyguard enters, return a creature you control to its owner&apos;s 
 		<card>
 			<name>Surly Finchef</name>
 			<text>Lifelink</text>
-			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/64.jpg" num="38">ASV</set>
+			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/64.jpg" num="37">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1181,7 +1183,7 @@ When Agency Bodyguard enters, return a creature you control to its owner&apos;s 
 		<card>
 			<name>Lungmen Guardsmen</name>
 			<text>When Lungmen Guardsmen enters, creatures you control gain +1/+1 and first strike until end of turn.</text>
-			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/65.jpg" num="23">ASV</set>
+			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/65.jpg" num="22">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1198,7 +1200,7 @@ When Agency Bodyguard enters, return a creature you control to its owner&apos;s 
 		<card>
 			<name>Infected Patrolman</name>
 			<text>This creature has vigilance as long as it is equipped.</text>
-			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/66.jpg" num="18">ASV</set>
+			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/66.jpg" num="17">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1216,7 +1218,7 @@ When Agency Bodyguard enters, return a creature you control to its owner&apos;s 
 			<name>Blacksteel Trainee</name>
 			<text>Ward {2}
 Blacksteel Trainee gets +1/+1 and first strike so long as it&apos;s equipped.</text>
-			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/67.jpg" num="4">ASV</set>
+			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/67.jpg" num="3">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1233,7 +1235,7 @@ Blacksteel Trainee gets +1/+1 and first strike so long as it&apos;s equipped.</t
 		<card>
 			<name>Caster Operator</name>
 			<text>When Caster Operator enters, create an Originium token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.&quot;)</text>
-			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/68.jpg" num="6">ASV</set>
+			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/68.jpg" num="5">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1250,7 +1252,7 @@ Blacksteel Trainee gets +1/+1 and first strike so long as it&apos;s equipped.</t
 		<card>
 			<name>Medical Field Team</name>
 			<text>Whenever an creature enters under your control, you gain 1 life. If that creature is an ally, then gain 2 life instead.</text>
-			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/69.jpg" num="26">ASV</set>
+			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/69.jpg" num="25">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1374,7 +1376,7 @@ When Guardian Ninja deals combat damage to a player, you may tap and put a stun 
 		<card>
 			<name>Guerilla Shieldguard</name>
 			<text>Vigilance, Ward {3} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {3}.)
-Revolt — Whenever a permanent leaves the battlefield under your control, you gain 1 life.</text>
+Revolt — Whenever another permanent leaves the battlefield under your control, you gain 1 life.</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/76.jpg" num="180">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -1413,7 +1415,7 @@ When S.W.E.E.P. Scavenger leaves the battlefield, create an Originium Token. (It
 Surtr, Twilight Blade cannot block.
 Surtr, Twilight Blade enters with five shield counters.
 At the beginning of your upkeep, remove a counter from Surtr, Twilight Blade. If this creature has no counters then sacrifice it instead.</text>
-			<set rarity="mythic" picurl="https://krootox.github.io/sets/ASV-files/img/78.jpg" num="165">ASV</set>
+			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/78.jpg" num="165">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1431,7 +1433,7 @@ At the beginning of your upkeep, remove a counter from Surtr, Twilight Blade. If
 			<name>Elite Operator Rosmontis</name>
 			<text>Flying, First strike
 Skill Activation — Whenever you cast a spell with mana value 4 or greater, deal 3 damage to target tapped creature you don&apos;t control, then create a colorless 0/3 wall artifact creature token.</text>
-			<set rarity="mythic" picurl="https://krootox.github.io/sets/ASV-files/img/79.jpg" num="209">ASV</set>
+			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/79.jpg" num="209">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1450,7 +1452,7 @@ Skill Activation — Whenever you cast a spell with mana value 4 or greater, dea
 			<text>Equip {2}
 Equipped creature gains flying.
 Equipped creature gains &quot;{3}{W}{W}, {T}: Tap target creature and put a stun counter on it.&quot;</text>
-			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/80.jpg" num="14">ASV</set>
+			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/80.jpg" num="13">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1466,7 +1468,7 @@ Equipped creature gains &quot;{3}{W}{W}, {T}: Tap target creature and put a stun
 		<card>
 			<name>Swift Response</name>
 			<text>Destroy target tapped creature.</text>
-			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/81.jpg" num="39">ASV</set>
+			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/81.jpg" num="38">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1483,7 +1485,7 @@ Equipped creature gains &quot;{3}{W}{W}, {T}: Tap target creature and put a stun
 			<name>Material Recombination</name>
 			<text>Destroy target artifact or enchantment.
 Create an Originium token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.&quot;)</text>
-			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/82.jpg" num="25">ASV</set>
+			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/82.jpg" num="24">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1497,10 +1499,10 @@ Create an Originium token. (It&apos;s an artifact with &quot;{T}, Sacrifice this
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>Bad Defiant Strike</name>
+			<name>Swift Strike</name>
 			<text>Target creature gains +1/+1 and first strike until end of turn.
 Draw a card.</text>
-			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/83.jpg" num="2">ASV</set>
+			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/83.jpg" num="39">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1517,7 +1519,7 @@ Draw a card.</text>
 			<name>Expedited Delivery</name>
 			<text>Exile target creature you control, then return that card to the battlefield under your control at the beginning of the next end step.
 Skill Activation — If you cast a spell with mana value 4 or greater this turn, you may exile and return two target creatures instead.</text>
-			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/84.jpg" num="13">ASV</set>
+			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/84.jpg" num="12">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1533,7 +1535,7 @@ Skill Activation — If you cast a spell with mana value 4 or greater this turn,
 		<card>
 			<name>Binding Circle</name>
 			<text>Tap up to two target creatures and put a stun counter on each.</text>
-			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/85.jpg" num="3">ASV</set>
+			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/85.jpg" num="2">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1549,7 +1551,7 @@ Skill Activation — If you cast a spell with mana value 4 or greater this turn,
 		<card>
 			<name>Command: Meltdown</name>
 			<text>Exile target artifact or creature.</text>
-			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/86.jpg" num="8">ASV</set>
+			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/86.jpg" num="7">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1581,8 +1583,8 @@ Draw a card.</text>
 		</card>
 		<card>
 			<name>Scout Operator</name>
-			<text>When Scout Operator enters, untap and remove all stun counters from each ally creature you control.</text>
-			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/88.jpg" num="31">ASV</set>
+			<text>When Scout Operator enters, untap or remove a stun counter from each creature you control.</text>
+			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/88.jpg" num="30">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1667,7 +1669,7 @@ Create an Originium token. (It&apos;s an artifact with &quot;{T}, Sacrifice this
 		<card>
 			<name>Rat King&apos;s Guile</name>
 			<text>Target creature cannot be blocked until end of turn. Put a +1/+1 counter on that creature. If you control an artifact, you may put two +1/+1 counters on that creature instead.</text>
-			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/93.jpg" num="69">ASV</set>
+			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/93.jpg" num="68">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1768,7 +1770,7 @@ At the beginning of your upkeep put a stun counter on enchanted creature.</text>
 		</card>
 		<card>
 			<name>Kazdelian Artilleryman</name>
-			<text>Whenever a mercenary or an ally enters under your control, Kazdelian Artilleryman gains first strike and menace until end of turn.</text>
+			<text>Whenever a creature enters under your control, Kazdelian Artilleryman gains first strike and menace until end of turn.</text>
 			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/99.jpg" num="96">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -2301,7 +2303,7 @@ Whenever a permanent you control leaves the battlefield, Reunion Lurker gets +1/
 		</card>
 		<card>
 			<name>Guerrilla Herald</name>
-			<text>{2}{G}: Target creature gets +2/+2 and has trample until end of turn.</text>
+			<text>{2}{G}: Target creature gets +3/+0 and has trample until end of turn.</text>
 			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/130.jpg" num="181">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -2862,7 +2864,7 @@ When Hulking Ruin enters, you gain 1 life.
 		<card>
 			<name>Steel City Escort</name>
 			<text>Whenever you gain life, creatures you control gain your choice of vigilance, first strike, or flying until end of turn.</text>
-			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/164.jpg" num="37">ASV</set>
+			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/164.jpg" num="36">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2881,7 +2883,7 @@ When Hulking Ruin enters, you gain 1 life.
 			<text>Flying
 Whenever another mercenary you control enters, you may attach an equipment you control to Hired Crossbow.
 Whenever Hired Crossbow deals combat damage to a player, you may destroy a tapped creature that player controls.</text>
-			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/165.jpg" num="17">ASV</set>
+			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/165.jpg" num="16">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2899,7 +2901,7 @@ Whenever Hired Crossbow deals combat damage to a player, you may destroy a tappe
 			<name>Caladon Mounted Police</name>
 			<text>Flash
 Skill Activation — When Caladon Mounted Police enters and whenever you cast a spell with mana value 4 or greater, untap target creature and it gains indestructible until end of turn.</text>
-			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/166.jpg" num="5">ASV</set>
+			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/166.jpg" num="4">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2917,7 +2919,7 @@ Skill Activation — When Caladon Mounted Police enters and whenever you cast a 
 			<name>Martial Arts Star</name>
 			<text>Double strike
 Martial Arts Star gets +2/+0 for each Equipment attached to it.</text>
-			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/167.jpg" num="24">ASV</set>
+			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/167.jpg" num="23">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2934,7 +2936,7 @@ Martial Arts Star gets +2/+0 for each Equipment attached to it.</text>
 		<card>
 			<name>Downfall of the Mighty</name>
 			<text>Destroy target creature with power 4 or greater, you gain 2 life.</text>
-			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/168.jpg" num="10">ASV</set>
+			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/168.jpg" num="9">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2951,7 +2953,7 @@ Martial Arts Star gets +2/+0 for each Equipment attached to it.</text>
 			<name>LGD Rally</name>
 			<text>Tap up to two target creatures and put two stun counters on each.
 Creatures you control gain vigilance and get +1/+1 for each tapped creature your opponents control until end of turn.</text>
-			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/169.jpg" num="22">ASV</set>
+			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/169.jpg" num="21">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2968,7 +2970,7 @@ Creatures you control gain vigilance and get +1/+1 for each tapped creature your
 			<name>Rhodes Island Custody</name>
 			<text>This spells costs {1} less for each ally you control.
 When Rhodes Island Custody enters, exile target non-land permanent until Rhodes Island Custody leaves the battlefield.</text>
-			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/170.jpg" num="30">ASV</set>
+			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/170.jpg" num="29">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2986,7 +2988,7 @@ When Rhodes Island Custody enters, exile target non-land permanent until Rhodes 
 			<text>Skill Activation — Whenever you cast a spell with mana value 4 or greater, draw a card, then choose one — 
 • Put a +1/+1 counter on target creature, it gains lifelink until end of turn.
 • Tap and put a stun counter on target creature.</text>
-			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/171.jpg" num="36">ASV</set>
+			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/171.jpg" num="35">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3004,7 +3006,7 @@ When Rhodes Island Custody enters, exile target non-land permanent until Rhodes 
 			<text>When Handy Jetpack enters, target creature gains flying until end of turn.
 Equip {3}
 Equipped creature has flying and first strike.</text>
-			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/172.jpg" num="15">ASV</set>
+			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/172.jpg" num="14">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3021,8 +3023,8 @@ Equipped creature has flying and first strike.</text>
 			<name>Scientific Investigator</name>
 			<text>When Scientific Investigator enters, create a 1/1 colorless drone artifact creature token.
 Artifact creatures you control have flying.
-Whenever an artifact enters under your control, you may draw a card.</text>
-			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/173.jpg" num="73">ASV</set>
+Whenever a nontoken artifact enters under your control, you may draw a card.</text>
+			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/173.jpg" num="72">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3144,7 +3146,7 @@ Search your library for an artifact card, put that card onto the battlefield, th
 		<card>
 			<name>RIIC Factory Line</name>
 			<text>Skill Activation — Whenever you cast a spell with mana value 4 or greater, create an Originium token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.&quot;)</text>
-			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/180.jpg" num="72">ASV</set>
+			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/180.jpg" num="71">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3307,8 +3309,8 @@ Each player discards a card, then you make an Originium token for each land card
 				<side>front</side>
 				<type>Sorcery</type>
 				<maintype>Sorcery</maintype>
-				<manacost>1B</manacost>
-				<cmc>2</cmc>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
 			</prop>
@@ -3350,8 +3352,8 @@ Draw a card.</text>
 		</card>
 		<card>
 			<name>Scrounge for Scraps</name>
-			<text>Make an Originium token for each creature that died this turn. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.&quot;)
-Target Rebel creature you control gains deathtouch until end of turn.</text>
+			<text>Target creature you control gains deathtouch until end of turn.
+Whenever a creature dies this turn, create an Originium token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.&quot;)</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/192.jpg" num="116">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -3426,7 +3428,7 @@ When Bombtail Drone dies, it deals damage equal to its power to any target then 
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Artifact Creature — Drone</type>
+				<type>Artifact Creature — Rebel Drone</type>
 				<maintype>Creature</maintype>
 				<manacost>2R</manacost>
 				<cmc>3</cmc>
@@ -3458,7 +3460,7 @@ If this creature would die while equipped, instead remove all equipment from Reu
 		<card>
 			<name>Sarkaz Guerrilla Caster</name>
 			<text>Haste
-Rebels creatures you control have haste.
+Other creatures you control have haste.
 Sacrifice a creature: Deal 1 damage to any target.</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/198.jpg" num="161">ASV</set>
 			<prop>
@@ -3751,7 +3753,7 @@ The creature you control deals damage equal to its power to the creature an oppo
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>Wandering the Tundra</name>
+			<name>Wander the Tundra</name>
 			<text>Reveal the top card of your library. If it&apos;s a land card you may put it onto the battlefield tapped. Otherwise, put it into your hand.
 Revolt — If a permanent left the battlefield under your control this turn, create a 1/1 red Rebel creature token with &quot;When this creature dies, it deals 1 damage to any target.&quot;</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/215.jpg" num="205">ASV</set>
@@ -3790,7 +3792,7 @@ Drone creatures you control gain &quot;{W}{U}, {T}: Tap target creature you don&
 			<name>Yeti Icecleaver</name>
 			<text>This creature cannot be blocked if at least one creature you don&apos;t control has a stun counter on it.
 Whenever Yeti Icecleaver deals combat damage to a player, destroy target creature you don&apos;t control with a stun counter on it.</text>
-			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/217.jpg" num="216">ASV</set>
+			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/217.jpg" num="215">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3846,7 +3848,7 @@ Whenever a Mercenary creature you control deals combat damage to a player you ma
 Whenever an artifact enters under your control choose one — 
 • Deal 1 damage to target creature.
 • Scry 2</text>
-			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/220.jpg" num="232">ASV</set>
+			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/220.jpg" num="233">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3864,7 +3866,7 @@ Whenever an artifact enters under your control choose one —
 			<name>Mudrock Matterllurgist</name>
 			<text>Vigilance
 Revolt — Whenever another permanent leaves the battlefield under your control, put two +1/+1 counters on target creature you control.</text>
-			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/221.jpg" num="234">ASV</set>
+			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/221.jpg" num="235">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4113,7 +4115,7 @@ Drone creatures you control have flying.
 			<name>Elite Operator Ace</name>
 			<text>Elite Operator Ace enters with an indestructible counter.
 Remove an indestructible counter from Elite Operator Ace: Other creatures you control gain indestructible until end of turn.</text>
-			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/237.jpg" num="12">ASV</set>
+			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/237.jpg" num="11">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4132,7 +4134,7 @@ Remove an indestructible counter from Elite Operator Ace: Other creatures you co
 			<text>Lifelink
 Other ally creatures you control have lifelink.
 Skill Activation — Whenever you cast a spell with mana value 4 or greater, target creature you control gains indestructible until end of turn.</text>
-			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/238.jpg" num="34">ASV</set>
+			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/238.jpg" num="33">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4152,7 +4154,7 @@ Skill Activation — Whenever you cast a spell with mana value 4 or greater, tar
 • Destroy target attacking creature.
 • Return target creature you control to its owner&apos;s hand.
 • You gain 3 life.</text>
-			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/239.jpg" num="35">ASV</set>
+			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/239.jpg" num="34">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4184,7 +4186,7 @@ Skill Activation — Whenever you cast a spell with mana value 4 or greater, tar
 		<card>
 			<name>Shadowless</name>
 			<text>Tap and put two stun counters on each creature you don&apos;t control.</text>
-			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/241.jpg" num="33">ASV</set>
+			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/241.jpg" num="32">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4201,7 +4203,7 @@ Skill Activation — Whenever you cast a spell with mana value 4 or greater, tar
 			<name>Hannya, Trusted Shield</name>
 			<text>Equip {2}
 Equipped creature get +0/+3 and has &quot;Whenever the equipped creature becomes blocked, It deals 1 damage to each creature blocking it.&quot; and &quot;Whenever the equipped creature blocks, It deals 1 damage to each creature that attacked it this turn.&quot;</text>
-			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/242.jpg" num="16">ASV</set>
+			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/242.jpg" num="15">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4285,21 +4287,20 @@ Skill Activation — Whenever you cast a spell with mana value 4 or greater, put
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>Rapid Redeployment</name>
-			<text>Until the beginning of your next turn, creature spells and artifact spells you control have flash.
-Return any number of target creatures or artifacts you control to their owner&apos;s hands.</text>
-			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/247.jpg" num="68">ASV</set>
+			<name>Skill Aura</name>
+			<text>If a spell with mana value 4 or greater being cast causes a triggered ability of a creature you control to trigger, that ability triggers an additional time.</text>
+			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/247.jpg" num="73">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Instant</type>
-				<maintype>Instant</maintype>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
 				<manacost>3U</manacost>
 				<cmc>4</cmc>
 				<colors>U</colors>
 				<coloridentity>U</coloridentity>
 			</prop>
-			<tablerow>3</tablerow>
+			<tablerow>1</tablerow>
 		</card>
 		<card>
 			<name>Convoluted Sight</name>
@@ -4341,7 +4342,7 @@ Scry X, where X is the number of creatures with stun counters target player cont
 		<card>
 			<name>Alive Until Sunset</name>
 			<text>Spells you cast from exile cost {1} less to cast.
-Whenever you cast a spell with mana value 4 or greater, you may exile the top two cards of your library. Until the end of your next turn, you may play those cards.
+Whenever you cast a spell with mana value 4 or greater, you may exile the top card of your library. Until the end of your next turn, you may play that card.
 Whenever you cast a spell from exile, creatures you control get +X/+X and trample until end of turn, where X is the mana value of that spell.</text>
 			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/250.jpg" num="246">ASV</set>
 			<prop>
@@ -4360,8 +4361,8 @@ Whenever you cast a spell from exile, creatures you control get +X/+X and trampl
 		<card>
 			<name>Isidro, Eccentric Alchemist</name>
 			<text>Reach
-At the beginning of your upkeep, each opponent loses 1 life for each Neurotoxin counter on creatures they control and you gain life equal to the life lost this way. 
-Skill Activation — Whenever you cast a spell with mana value 4 or greater, put a Neurotoxin counter on target creature you don&apos;t control that doesn&apos;t already have a Neurotoxin counter.</text>
+Skill Activation — Whenever you cast a spell with mana value 4 or greater, put a Neurotoxin counter on target player.
+On each opponent&apos;s upkeep, that player loses life equal to the number of Neurotoxin counters they have. You gain life equal to the life lost. That player then removes a Neurotoxin counter.</text>
 			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/251.jpg" num="252">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -4467,7 +4468,7 @@ When Separated Hearts enters, choose a Rebel creature you control. When the chos
 			<text>Trample
 Mudrock Colossus enters tapped with a stun counter and a shield counter.
 Revolt — If another permanent left the battlefield under your control this turn, you may cast Mudrock Colossus from your graveyard until end of turn.</text>
-			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/257.jpg" num="233">ASV</set>
+			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/257.jpg" num="234">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4500,7 +4501,7 @@ Revolt — If another permanent left the battlefield under your control this tur
 		</card>
 		<card>
 			<name>Explosive Entrance</name>
-			<text>Exile the top six cards of your library. You may put up to one creature card or one equipment card from among them onto the battlefield.
+			<text>Exile the top four cards of your library. You may put up to one creature card or one equipment card from among them onto the battlefield.
 Until the end of your next turn, you may play the remaining exiled cards.</text>
 			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/259.jpg" num="135">ASV</set>
 			<prop>
@@ -4729,7 +4730,7 @@ When Enciodes Silverash enters, destroy all tapped creatures.</text>
 			<text>Ward {2}
 Sneak {2}{U}{B}
 Whenever Lin Grey, the Rat King deals combat damage to a player, tap and put a stun counter on target creature that player controls with the greatest power or tied for the greatest power. Then destroy target creature that player controls with the least power or tied for the least power.</text>
-			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/272.jpg" num="215">ASV</set>
+			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/272.jpg" num="214">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4771,8 +4772,8 @@ Whenever Skadi, Abyssal Hunter attacks, put a +1/+1 counter on it then prolifera
 				<side>front</side>
 				<type>Legendary Creature — Shark Mercenary Ally</type>
 				<maintype>Creature</maintype>
-				<manacost>4GU</manacost>
-				<cmc>6</cmc>
+				<manacost>5GU</manacost>
+				<cmc>7</cmc>
 				<colors>UG</colors>
 				<coloridentity>UG</coloridentity>
 				<pt>5/5</pt>
@@ -4781,7 +4782,7 @@ Whenever Skadi, Abyssal Hunter attacks, put a +1/+1 counter on it then prolifera
 		</card>
 		<card>
 			<name>Adele Naumann, Arts Prodigy</name>
-			<text>Skill Activation — Whenever you cast a spell with mana value 4 or greater, you may exile the top 2 cards of your library. You may play those cards for as long as you control Adele Naumann, Arts Prodigy.
+			<text>Skill Activation — Whenever you cast a spell with mana value 4 or greater, you may exile the top card of your library. You may play that card for as long as you control Adele Naumann, Arts Prodigy.
 Whenever you cast a noncreature spell, deal 1 damage to any target.</text>
 			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/275.jpg" num="231">ASV</set>
 			<prop>
@@ -4789,8 +4790,8 @@ Whenever you cast a noncreature spell, deal 1 damage to any target.</text>
 				<side>front</side>
 				<type>Legendary Creature — Goat Wizard Ally</type>
 				<maintype>Creature</maintype>
-				<manacost>1UR</manacost>
-				<cmc>3</cmc>
+				<manacost>2UR</manacost>
+				<cmc>4</cmc>
 				<colors>UR</colors>
 				<coloridentity>UR</coloridentity>
 				<pt>2/2</pt>
@@ -4873,19 +4874,19 @@ You may play an additional land on each of your turns.</text>
 		</card>
 		<card>
 			<name>Modified Starflail</name>
-			<text>Equip {R}{W}
-Equipped creature has trample.
-Whenever a creature or artifact enters under your control, put a +1/+1 counter on equipped creature.</text>
-			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/280.jpg" num="239">ASV</set>
+			<text>Equip {U}{R}
+Equipped creature has reach and trample.
+Whenever an artifact enters under your control, put a +1/+1 counter on equipped creature.</text>
+			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/280.jpg" num="232">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Artifact — Equipment</type>
 				<maintype>Artifact</maintype>
-				<manacost>2RW</manacost>
-				<cmc>4</cmc>
-				<colors>WR</colors>
-				<coloridentity>WR</coloridentity>
+				<manacost>1UR</manacost>
+				<cmc>3</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
 			</prop>
 			<tablerow>1</tablerow>
 		</card>
@@ -4905,18 +4906,19 @@ Whenever a creature or artifact enters under your control, put a +1/+1 counter o
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>Foiled Vengeance</name>
-			<text>Tap target creature and put a stun counter on it. Exile it instead if that creature has 4 or less power.</text>
-			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/282.jpg" num="213">ASV</set>
+			<name>Execution Mode</name>
+			<text>Destroy target creature.
+Revolt — If a permanent left the battlefield under your control this turn, target creature you control gains deathtouch and trample until end of turn.</text>
+			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/282.jpg" num="216">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Instant</type>
 				<maintype>Instant</maintype>
-				<manacost>UB</manacost>
-				<cmc>2</cmc>
-				<colors>UB</colors>
-				<coloridentity>UB</coloridentity>
+				<manacost>1BR</manacost>
+				<cmc>3</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
 			</prop>
 			<tablerow>3</tablerow>
 		</card>
@@ -4954,18 +4956,18 @@ Creature spells you cast of the chosen type cost {1} less to cast.</text>
 		</card>
 		<card>
 			<name>Chi Xiao, Dragon-Slayer</name>
-			<text>Equip {R}
+			<text>Equip {R}{R}
 You may only attach this equipment to creatures with power 4 or greater.
-Equipped creature has trample and protection from dragons.
-When equipped creature deals combat damage to a player, exile the top card of your library. You may play that card until the end of your next turn.</text>
+Equipped creature gets +4/+0 and has trample and protection from Dragons.
+When equipped creature deals combat damage to a player, it may deal 4 damage to target creature.</text>
 			<set rarity="mythic" picurl="https://krootox.github.io/sets/ASV-files/img/285.jpg" num="129">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Legendary Artifact — Equipment</type>
 				<maintype>Artifact</maintype>
-				<manacost>1RR</manacost>
-				<cmc>3</cmc>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
 			</prop>
@@ -4975,7 +4977,7 @@ When equipped creature deals combat damage to a player, exile the top card of yo
 			<name>Cheers of Celebration</name>
 			<text>Gain life equal to the number of creatures you control, then put that many +1/+1 counters on each creature you control.
 Creatures you control gain hexproof, vigilance and indestructible until end of turn.</text>
-			<set rarity="mythic" picurl="https://krootox.github.io/sets/ASV-files/img/286.jpg" num="7">ASV</set>
+			<set rarity="mythic" picurl="https://krootox.github.io/sets/ASV-files/img/286.jpg" num="6">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4991,7 +4993,7 @@ Creatures you control gain hexproof, vigilance and indestructible until end of t
 		<card>
 			<name>Rescue from Stasis</name>
 			<text>Return target creature card with power 2 or less from your graveyard or exile to the battlefield tapped.</text>
-			<set rarity="mythic" picurl="https://krootox.github.io/sets/ASV-files/img/287.jpg" num="29">ASV</set>
+			<set rarity="mythic" picurl="https://krootox.github.io/sets/ASV-files/img/287.jpg" num="28">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -5026,7 +5028,7 @@ Zombie creatures you control have lifelink.</text>
 		<card>
 			<name>Anterior Vigilo</name>
 			<text>Look at the top seven cards of your library, you may put three of those cards into your hand and the rest onto the bottom of your library in any order.
-Until end of turn, you may cast spells from your hand without paying their mana costs.</text>
+The next three spells you cast this turn may be cast without paying its mana cost.</text>
 			<set rarity="mythic" picurl="https://krootox.github.io/sets/ASV-files/img/289.jpg" num="42">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -5146,7 +5148,7 @@ Whenever you cast an artifact spell, you may reveal a number of cards from the t
 		</card>
 		<card>
 			<name>Assembled Movement</name>
-			<text>Choose a creature type. Reveal the top 10 cards of your library, you may put any number of permanent cards of the chosen type onto the battlefield. Put the rest on the bottom of your library in a random order.</text>
+			<text>Reveal the top seven cards of your library, you may put up to three revealed creature cards onto the battlefield. Put the rest on the bottom of your library in any order.</text>
 			<set rarity="mythic" picurl="https://krootox.github.io/sets/ASV-files/img/296.jpg" num="169">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -5162,8 +5164,8 @@ Whenever you cast an artifact spell, you may reveal a number of cards from the t
 		</card>
 		<card>
 			<name>Memories of Better Days</name>
-			<text>Creatures you control gain &quot;{T}: Add {G}&quot;
-Whenever a creature you control becomes tapped, you gain 1 life.</text>
+			<text>When a land enters under your control you gain 1 life.
+Skill Activation — Whenever you cast a spell with mana value 4 or greater, you may search your library for a basic land card and put it into your hand, then shuffle.</text>
 			<set rarity="mythic" picurl="https://krootox.github.io/sets/ASV-files/img/297.jpg" num="184">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -5179,27 +5181,28 @@ Whenever a creature you control becomes tapped, you gain 1 life.</text>
 		</card>
 		<card>
 			<name>Tidal Elegy</name>
-			<text>Untap and put a +1/+1 counter on each creature you control.
-Draw a card.</text>
-			<set rarity="mythic" picurl="https://krootox.github.io/sets/ASV-files/img/298.jpg" num="245">ASV</set>
+			<text>At the beginning of your upkeep, put a tide counter on Tidal Elegy. Then if there are four or more tide counters on Tidal Elegy, remove them.
+Creatures you control get +1/+1 for each tide counter on Tidal Elegy.
+At the beginning of each end step, if there are three or more tide counters on Tidal Elegy, untap all creatures you control.</text>
+			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/298.jpg" num="245">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Instant</type>
-				<maintype>Instant</maintype>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
 				<manacost>1GU</manacost>
 				<cmc>3</cmc>
 				<colors>UG</colors>
 				<coloridentity>UG</coloridentity>
 			</prop>
-			<tablerow>3</tablerow>
+			<tablerow>1</tablerow>
 		</card>
 		<card>
 			<name>Nightingale of the Followers</name>
 			<text>When Nightingale of the Followers enters, create two colorless 0/3 Wall artifact creature tokens with defender.
 Whenever a creature enters under your control, you gain 1 life.
 Skill Activation — Whenever you cast a spell with mana value 4 or greater, creatures you control gain hexproof until end of turn.</text>
-			<set rarity="mythic" picurl="https://krootox.github.io/sets/ASV-files/img/299.jpg" num="224">ASV</set>
+			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/299.jpg" num="224">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -5215,16 +5218,17 @@ Skill Activation — Whenever you cast a spell with mana value 4 or greater, cre
 		</card>
 		<card>
 			<name>Mr. Hellagur</name>
-			<text>Flash, first strike, lifelink
-When Mr. Hellagur enters, it gains indestructible until end of turn.</text>
-			<set rarity="mythic" picurl="https://krootox.github.io/sets/ASV-files/img/300.jpg" num="227">ASV</set>
+			<text>First strike, lifelink
+Whenever another creature enters or leaves under your control, you gain 1 life.
+At the beginning of your end step, if you gain 5 or more life this turn, put a +1/+1 counter on Mr. Hellagur.</text>
+			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/300.jpg" num="227">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Legendary Creature — Bird Soldier</type>
+				<type>Legendary Creature — Bird Mercenary</type>
 				<maintype>Creature</maintype>
-				<manacost>3WB</manacost>
-				<cmc>5</cmc>
+				<manacost>4WB</manacost>
+				<cmc>6</cmc>
 				<colors>WB</colors>
 				<coloridentity>WB</coloridentity>
 				<pt>4/4</pt>

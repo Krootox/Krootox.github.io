@@ -1,4 +1,212 @@
-﻿VERSION 5 CHANGELOG
+﻿VERSION 6 CHANGELOG
+====================
+
+Swift Strike added.
+Wander the Tundra added.
+Skill Aura added.
+Execution Mode added.
+
+Bad Defiant Strike removed.
+Wandering the Tundra removed.
+Rapid Redeployment removed.
+Foiled Vengeance removed.
+
+Durin Flagbearer
+rules_text: The first ally spell you cast each turn costs {W}{W} less to cast. => The first creature spell you cast each turn costs {W} less to cast.
+
+Reunion Wraith
+rules_text: Reunion Wraith can't be blocked => Reunion Wraith can't be blocked.
+
+Emperor, Logistics Kingpin
+rules_text: At the beginning of your end step, you may exile target creature you control then return that card to the battlefield under your control. It becomes a mercenary in addition to its other creature types.
+Other mercenary creatures you control get +2/+0 and gain first strike and haste.
+Whenever another mercenary creature enters under your control, you may pay {3}{R}{R}, if you do then gain control of target creature you don't control until end of turn. Untap it and it gains haste until end of turn. You may only use this ability once per turn. => Indestructible
+At the beginning of your end step, you may exile target creature you control then return that card to the battlefield under your control. It becomes a mercenary in addition to its other creature types.
+Other mercenary creatures you control get +2/+0 and gain first strike and haste.
+Whenever another mercenary creature enters under your control, you may pay {3}{R}{R}, if you do then gain control of target creature you don't control until end of turn. Untap it and it gains haste until end of turn. You may only use this ability once per turn.
+
+Frostnova, Winter's Scar
+
+Reclusive Bookworm
+
+Ch'en Hui-chieh
+rules_text: First strike, prowess
+Ch'en Hui-chieh has double strike so long as it's equipped. => Prowess
+Ch'en Hui-chieh has double strike so long as it's equipped.
+Whenever Ch'en Hui-chieh attacks, exile the top card of your library, until the end of your next turn you may play that card.
+
+Patriot, The Last Wendigo
+
+Ice Nova
+rules_text: Tap and put three stun counters on target creature, then draw cards equal to that creature's power. => Tap and put two stun counters on target creature, then draw cards equal to the number of stun counters on that creature.
+
+Operational Intelligence
+
+Crownslayer, Reunion Infiltrator
+rules_text: Crownslayer, Reunion Infiltrator cannot block.
+{2}: Target creature you control with power 2 or less cannot be blocked this turn.
+Whenever a nontoken Rebel creature you control deals combat damage to a player, create a 1/1 red Rebel creature token with “When this creature dies, it deals 1 damage to any target.” => Crownslayer, Reunion Infiltrator cannot block.
+{2}: Target creature you control with power 2 or less cannot be blocked this turn.
+Whenever Crownslayer, Reunion Infiltrator deals combat damage to a player, create a 1/1 red Rebel creature token with “When this creature dies, it deals 1 damage to any target.”
+
+Doctor Kal'tsit
+
+Elite Operator Blaze
+
+Communications Team
+rules_text: {T}, Put a stun counter on this creature: Add five mana in any combination of colors.
+Tap an untapped ally you control: Remove a stun counter from Communications Team. => {T}, Put a stun counter on this creature: Add five mana in any combination of colors.
+Tap two untapped creatures you control: Remove a stun counter from Communications Team.
+
+Big Bob
+rules_text: Trample
+Other Rebel creatures you control get +1/+1 and trample.
+Whenever Big Bob attacks, create a red 1/1 Rebel creature token with “When this creature dies, it deals 1 damage to any target.” tapped and attacking. => Trample
+Other creatures you control get +1/+1 and trample.
+Whenever Big Bob attacks, create a red 1/1 Rebel creature token with “When this creature dies, it deals 1 damage to any target.” tapped and attacking.
+
+Strict Instructor
+rules_text: [i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, draw a card if you control another ally, then ally creatures you control get +1/+1 and have vigilance until end of turn. => [i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, draw a card if you control another creature with lesser toughness or power, then creatures you control gain +1/+1 and vigilance until end of turn.
+
+Yeti Squad Caster
+
+Karlan Guardians
+type: Creature — Elk Ox Soldier => Creature — Elk Ox Mercenary
+rules_text: When Karlan Guardians attacks, it gain flying until end of turn. => Whenever another creature enters under your control, Karlan Guardians gains flying until end of turn.
+
+Guerilla Shieldguard
+rules_text: Vigilance, Ward {3} [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {3}.)[/i]
+[i]Revolt[/i] — Whenever a permanent leaves the battlefield under your control, you gain 1 life. => Vigilance, Ward {3} [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {3}.)[/i]
+[i]Revolt[/i] — Whenever another permanent leaves the battlefield under your control, you gain 1 life.
+
+Surtr, Twilight Blade
+
+Elite Operator Rosmontis
+
+Scout Operator
+rules_text: When Scout Operator enters, untap and remove all stun counters from each ally creature you control. => When Scout Operator enters, untap or remove a stun counter from each creature you control.
+
+Kazdelian Artilleryman
+rules_text: Whenever a mercenary or an ally enters under your control, Kazdelian Artilleryman gains first strike and menace until end of turn. => Whenever a creature enters under your control, Kazdelian Artilleryman gains first strike and menace until end of turn.
+
+Rhine Labs Roboticist
+
+Guerrilla Herald
+rules_text: {2}{G}: Target creature gets +2/+2 and has trample until end of turn. => {2}{G}: Target creature gets +3/+0 and has trample until end of turn.
+
+Rusty Hammer
+
+Scientific Investigator
+rules_text: When Scientific Investigator enters, create a 1/1 colorless drone artifact creature token.
+Artifact creatures you control have flying.
+Whenever an artifact enters under your control, you may draw a card. => When Scientific Investigator enters, create a 1/1 colorless drone artifact creature token.
+Artifact creatures you control have flying.
+Whenever a nontoken artifact enters under your control, you may draw a card.
+
+Lungmen Greytail
+
+Reunion Senior Caster
+
+Dashed Plans
+cost: {1}{B} => {B}
+
+Scrounge for Scraps
+rules_text: Make an Originium token for each creature that died this turn. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i]
+Target Rebel creature you control gains deathtouch until end of turn. => Target creature you control gains deathtouch until end of turn.
+Whenever a creature dies this turn, create an Originium token. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i]
+
+Bombtail Drone
+type: Artifact Creature — Drone => Artifact Creature — Rebel Drone
+
+Sarkaz Guerrilla Caster
+rules_text: Haste
+Rebels creatures you control have haste.
+Sacrifice a creature: Deal 1 damage to any target. => Haste
+Other creatures you control have haste.
+Sacrifice a creature: Deal 1 damage to any target.
+
+Bionics Engineer
+
+Delivery Buggy
+
+Alive Until Sunset
+rules_text: Spells you cast from exile cost {1} less to cast.
+Whenever you cast a spell with mana value 4 or greater, you may exile the top two cards of your library. Until the end of your next turn, you may play those cards.
+Whenever you cast a spell from exile, creatures you control get +X/+X and trample until end of turn, where X is the mana value of that spell. => Spells you cast from exile cost {1} less to cast.
+Whenever you cast a spell with mana value 4 or greater, you may exile the top card of your library. Until the end of your next turn, you may play that card.
+Whenever you cast a spell from exile, creatures you control get +X/+X and trample until end of turn, where X is the mana value of that spell.
+
+Isidro, Eccentric Alchemist
+rules_text: Reach
+At the beginning of your upkeep, each opponent loses 1 life for each Neurotoxin counter on creatures they control and you gain life equal to the life lost this way. 
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, put a Neurotoxin counter on target creature you don't control that doesn't already have a Neurotoxin counter. => Reach
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, put a Neurotoxin counter on target player.
+On each opponent's upkeep, that player loses life equal to the number of Neurotoxin counters they have. You gain life equal to the life lost. That player then removes a Neurotoxin counter.
+
+Explosive Entrance
+rules_text: Exile the top six cards of your library. You may put up to one creature card or one equipment card from among them onto the battlefield.
+Until the end of your next turn, you may play the remaining exiled cards. => Exile the top four cards of your library. You may put up to one creature card or one equipment card from among them onto the battlefield.
+Until the end of your next turn, you may play the remaining exiled cards.
+
+Skadi, Abyssal Hunter
+cost: {4}{G}{U} => {5}{G}{U}
+
+Adele Naumann, Arts Prodigy
+cost: {1}{U}{R} => {2}{U}{R}
+rules_text: [i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, you may exile the top 2 cards of your library. You may play those cards for as long as you control Adele Naumann, Arts Prodigy.
+Whenever you cast a noncreature spell, deal 1 damage to any target. => [i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, you may exile the top card of your library. You may play that card for as long as you control Adele Naumann, Arts Prodigy.
+Whenever you cast a noncreature spell, deal 1 damage to any target.
+
+Modified Starflail
+cost: {2}{R}{W} => {1}{U}{R}
+rules_text: Equip {R}{W}
+Equipped creature has trample.
+Whenever a creature or artifact enters under your control, put a +1/+1 counter on equipped creature. => Equip {U}{R}
+Equipped creature has reach and trample.
+Whenever an artifact enters under your control, put a +1/+1 counter on equipped creature.
+
+Chi Xiao, Dragon-Slayer
+cost: {1}{R}{R} => {2}{R}{R}
+rules_text: Equip {R}
+You may only attach this equipment to creatures with power 4 or greater.
+Equipped creature has trample and protection from dragons.
+When equipped creature deals combat damage to a player, exile the top card of your library. You may play that card until the end of your next turn. => Equip {R}{R}
+You may only attach this equipment to creatures with power 4 or greater.
+Equipped creature gets +4/+0 and has trample and protection from Dragons.
+When equipped creature deals combat damage to a player, it may deal 4 damage to target creature.
+
+Anterior Vigilo
+rules_text: Look at the top seven cards of your library, you may put three of those cards into your hand and the rest onto the bottom of your library in any order.
+Until end of turn, you may cast spells from your hand without paying their mana costs. => Look at the top seven cards of your library, you may put three of those cards into your hand and the rest onto the bottom of your library in any order.
+The next three spells you cast this turn may be cast without paying its mana cost.
+
+Assembled Movement
+rules_text: Choose a creature type. Reveal the top 10 cards of your library, you may put any number of permanent cards of the chosen type onto the battlefield. Put the rest on the bottom of your library in a random order. => Reveal the top seven cards of your library, you may put up to three revealed creature cards onto the battlefield. Put the rest on the bottom of your library in any order.
+
+Memories of Better Days
+rules_text: Creatures you control gain “{T}: Add {G}”
+Whenever a creature you control becomes tapped, you gain 1 life. => When a land enters under your control you gain 1 life.
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, you may search your library for a basic land card and put it into your hand, then shuffle.
+
+Tidal Elegy
+type: Instant => Enchantment
+rules_text: Untap and put a +1/+1 counter on each creature you control.
+Draw a card. => At the beginning of your upkeep, put a tide counter on Tidal Elegy. Then if there are four or more tide counters on Tidal Elegy, remove them.
+Creatures you control get +1/+1 for each tide counter on Tidal Elegy.
+At the beginning of each end step, if there are three or more tide counters on Tidal Elegy, untap all creatures you control.
+
+Nightingale of the Followers
+
+Mr. Hellagur
+type: Legendary Creature — Bird Soldier => Legendary Creature — Bird Mercenary
+cost: {3}{W}{B} => {4}{W}{B}
+rules_text: Flash, first strike, lifelink
+When Mr. Hellagur enters, it gains indestructible until end of turn. => First strike, lifelink
+Whenever another creature enters or leaves under your control, you gain 1 life.
+At the beginning of your end step, if you gain 5 or more life this turn, put a +1/+1 counter on Mr. Hellagur.
+
+
+VERSION 5 CHANGELOG
 ====================
 
 No changes.
