@@ -45,7 +45,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Bird Warrior",
-			"collector_number": "137",
+			"collector_number": "138",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/4.jpg"
 			}
@@ -65,7 +65,7 @@
 			"rarity": "common",
 			"mana_cost": "{R}",
 			"type": "Creature — Dog Rebel",
-			"collector_number": "136",
+			"collector_number": "137",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/6.jpg"
 			}
@@ -75,7 +75,7 @@
 			"rarity": "common",
 			"mana_cost": "{5}{R}",
 			"type": "Creature — Lizard Rebel Warrior",
-			"collector_number": "151",
+			"collector_number": "152",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/7.jpg"
 			}
@@ -335,7 +335,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{R}{R}",
 			"type": "Legendary Creature — Cat Soldier",
-			"collector_number": "126",
+			"collector_number": "127",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/33.jpg"
 			}
@@ -405,7 +405,7 @@
 			"rarity": "rare",
 			"mana_cost": "{R}",
 			"type": "Legendary Creature — Hyena Rebel",
-			"collector_number": "132",
+			"collector_number": "133",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/40.jpg"
 			}
@@ -485,7 +485,7 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{R}{R}",
 			"type": "Legendary Creature — Cat Soldier Ally",
-			"collector_number": "134",
+			"collector_number": "135",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/48.jpg"
 			}
@@ -1115,7 +1115,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Otter Artificer",
-			"collector_number": "158",
+			"collector_number": "159",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/111.jpg"
 			}
@@ -1125,7 +1125,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Cat Rebel Shaman",
-			"collector_number": "155",
+			"collector_number": "156",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/112.jpg"
 			}
@@ -1135,7 +1135,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Crocodile Shaman",
-			"collector_number": "139",
+			"collector_number": "140",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/113.jpg"
 			}
@@ -1145,17 +1145,17 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Fox Mercenary Ally",
-			"collector_number": "131",
+			"collector_number": "132",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/114.jpg"
 			}
 		},
 		{
-			"name": "Higashinese Defector",
+			"name": "Higashi Defector",
 			"rarity": "common",
 			"mana_cost": "{3}{R}{R}",
 			"type": "Creature — Cat Warrior Ally",
-			"collector_number": "141",
+			"collector_number": "142",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/115.jpg"
 			}
@@ -1165,7 +1165,7 @@
 			"rarity": "common",
 			"mana_cost": "{4}{R}",
 			"type": "Creature — Cat Rebel Soldier",
-			"collector_number": "150",
+			"collector_number": "151",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/116.jpg"
 			}
@@ -1175,7 +1175,7 @@
 			"rarity": "common",
 			"mana_cost": "{3}{R}",
 			"type": "Sorcery",
-			"collector_number": "153",
+			"collector_number": "154",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/117.jpg"
 			}
@@ -1195,7 +1195,7 @@
 			"rarity": "common",
 			"mana_cost": "{R}",
 			"type": "Instant",
-			"collector_number": "140",
+			"collector_number": "141",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/119.jpg"
 			}
@@ -1205,7 +1205,7 @@
 			"rarity": "common",
 			"mana_cost": "{3}{R}",
 			"type": "Sorcery",
-			"collector_number": "144",
+			"collector_number": "145",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/120.jpg"
 			}
@@ -1215,7 +1215,7 @@
 			"rarity": "common",
 			"mana_cost": "{3}{R}",
 			"type": "Instant",
-			"collector_number": "149",
+			"collector_number": "150",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/121.jpg"
 			}
@@ -1235,7 +1235,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Sorcery",
-			"collector_number": "128",
+			"collector_number": "129",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/123.jpg"
 			}
@@ -1245,7 +1245,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
 			"type": "Sorcery",
-			"collector_number": "145",
+			"collector_number": "146",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/124.jpg"
 			}
@@ -1255,7 +1255,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Enchantment — Aura",
-			"collector_number": "154",
+			"collector_number": "155",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/125.jpg"
 			}
@@ -1265,7 +1265,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}{R}",
 			"type": "Artifact — Equipment",
-			"collector_number": "156",
+			"collector_number": "157",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/126.jpg"
 			}
@@ -1393,7 +1393,7 @@
 		{
 			"name": "Committee Salvage",
 			"rarity": "uncommon",
-			"mana_cost": "{3}{G}",
+			"mana_cost": "{2}{G}",
 			"type": "Sorcery",
 			"collector_number": "174",
 			"image_uris": {
@@ -1945,7 +1945,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R}",
 			"type": "Creature — Kirin Wizard",
-			"collector_number": "143",
+			"collector_number": "144",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/194.jpg"
 			}
@@ -1955,7 +1955,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Ox Artificer Ally",
-			"collector_number": "159",
+			"collector_number": "160",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/195.jpg"
 			}
@@ -1965,7 +1965,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
 			"type": "Artifact Creature — Rebel Drone",
-			"collector_number": "127",
+			"collector_number": "128",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/196.jpg"
 			}
@@ -1975,17 +1975,17 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Devil Rebel Ally",
-			"collector_number": "152",
+			"collector_number": "153",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/197.jpg"
 			}
 		},
 		{
-			"name": "Sarkaz Guerrilla Caster",
+			"name": "Battlemage Agent",
 			"rarity": "uncommon",
 			"mana_cost": "{4}{R}",
-			"type": "Creature — Devil Rebel Shaman",
-			"collector_number": "161",
+			"type": "Creature — Lizard Mercenary Wizard",
+			"collector_number": "126",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/198.jpg"
 			}
@@ -2005,7 +2005,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
 			"type": "Sorcery",
-			"collector_number": "157",
+			"collector_number": "158",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/200.jpg"
 			}
@@ -2025,7 +2025,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{R}",
 			"type": "Instant",
-			"collector_number": "148",
+			"collector_number": "149",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/202.jpg"
 			}
@@ -2035,7 +2035,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{R}",
 			"type": "Sorcery",
-			"collector_number": "133",
+			"collector_number": "134",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/203.jpg"
 			}
@@ -2045,7 +2045,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
 			"type": "Enchantment",
-			"collector_number": "138",
+			"collector_number": "139",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/204.jpg"
 			}
@@ -2055,7 +2055,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
 			"type": "Artifact — Equipment",
-			"collector_number": "142",
+			"collector_number": "143",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/205.jpg"
 			}
@@ -2585,7 +2585,7 @@
 			"rarity": "rare",
 			"mana_cost": "{R}{R}{R}",
 			"type": "Legendary Creature — Slug",
-			"collector_number": "147",
+			"collector_number": "148",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/258.jpg"
 			}
@@ -2595,7 +2595,7 @@
 			"rarity": "rare",
 			"mana_cost": "{4}{R}{R}",
 			"type": "Instant",
-			"collector_number": "135",
+			"collector_number": "136",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/259.jpg"
 			}
@@ -2605,7 +2605,7 @@
 			"rarity": "rare",
 			"mana_cost": "{5}{R}{R}{R}",
 			"type": "Enchantment",
-			"collector_number": "130",
+			"collector_number": "131",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/260.jpg"
 			}
@@ -2615,7 +2615,7 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{R}",
 			"type": "Enchantment",
-			"collector_number": "146",
+			"collector_number": "147",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/261.jpg"
 			}
@@ -2751,7 +2751,7 @@
 			}
 		},
 		{
-			"name": "Adele Naumann, Arts Prodigy",
+			"name": "Adele Naumann, Volcanologist",
 			"rarity": "rare",
 			"mana_cost": "{2}{U}{R}",
 			"type": "Legendary Creature — Goat Wizard Ally",
@@ -2855,7 +2855,7 @@
 			"rarity": "mythic",
 			"mana_cost": "{2}{R}{R}",
 			"type": "Legendary Artifact — Equipment",
-			"collector_number": "129",
+			"collector_number": "130",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/285.jpg"
 			}
@@ -2955,7 +2955,7 @@
 			"rarity": "mythic",
 			"mana_cost": "{4}{R}{R}{R}",
 			"type": "Sorcery",
-			"collector_number": "160",
+			"collector_number": "161",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/295.jpg"
 			}
@@ -3233,7 +3233,7 @@
 	5 Lin Grey, the Rat King
 	5 Student of Kal'tsit
 	5 Skadi, Abyssal Hunter
-	5 Adele Naumann, Arts Prodigy
+	5 Adele Naumann, Volcanologist
 	5 Suzuran, Foxfire Child
 	5 Mr. Lee, Lungmen Detective
 	5 Lappland, Rogue Mafioso
@@ -3306,7 +3306,7 @@
 	5 Rhodes Island Forgemaster
 	5 Bombtail Drone
 	5 Reunion Deserter
-	5 Sarkaz Guerrilla Caster
+	5 Battlemage Agent
 	5 Stinging Shock
 	5 Revealing Accusation
 	5 Scrapyard Temple
@@ -3417,7 +3417,7 @@
 	5 Reunion Rioter
 	5 Gavial Tribe Ritualist
 	5 Columbian Cutter
-	5 Higashinese Defector
+	5 Higashi Defector
 	5 Reunion Breaker
 	5 Reunion Rally
 	5 Talulah's Immolation

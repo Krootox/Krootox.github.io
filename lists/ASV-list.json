@@ -25,7 +25,7 @@
     },
     {
         "card_name": "Chi Xiao, Dragon-Slayer",
-        "number": 129,
+        "number": 130,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -65,7 +65,7 @@
     },
     {
         "card_name": "Roaring Flare",
-        "number": 160,
+        "number": 161,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -145,7 +145,7 @@
     },
     {
         "card_name": "Beatrix Schwire",
-        "number": 126,
+        "number": 127,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -185,7 +185,7 @@
     },
     {
         "card_name": "City on Fire",
-        "number": 130,
+        "number": 131,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -225,7 +225,7 @@
     },
     {
         "card_name": "Crownslayer, Reunion Infiltrator",
-        "number": 132,
+        "number": 133,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -265,7 +265,7 @@
     },
     {
         "card_name": "Elite Operator Blaze",
-        "number": 134,
+        "number": 135,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -305,7 +305,7 @@
     },
     {
         "card_name": "Explosive Entrance",
-        "number": 135,
+        "number": 136,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -345,7 +345,7 @@
     },
     {
         "card_name": "The Obsidian Festival",
-        "number": 146,
+        "number": 147,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -385,7 +385,7 @@
     },
     {
         "card_name": "Pompeii, Heart of Surging Flame",
-        "number": 147,
+        "number": 148,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -464,12 +464,12 @@
         "position": "188"
     },
     {
-        "card_name": "Bombtail Drone",
-        "number": 127,
+        "card_name": "Battlemage Agent",
+        "number": 126,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
-        "position": "196"
+        "position": "198"
     },
     {
         "card_name": "Communications Team",
@@ -504,12 +504,12 @@
         "position": "191"
     },
     {
-        "card_name": "Diligent Tinkering",
-        "number": 133,
+        "card_name": "Bombtail Drone",
+        "number": 128,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
-        "position": "203"
+        "position": "196"
     },
     {
         "card_name": "Guerilla Shieldguard",
@@ -544,12 +544,12 @@
         "position": "183"
     },
     {
-        "card_name": "For Each Who Falls",
-        "number": 138,
+        "card_name": "Diligent Tinkering",
+        "number": 134,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
-        "position": "204"
+        "position": "203"
     },
     {
         "card_name": "Mahuizzotia Festival",
@@ -584,12 +584,12 @@
         "position": "193"
     },
     {
-        "card_name": "Ignis Hammer",
-        "number": 142,
+        "card_name": "For Each Who Falls",
+        "number": 139,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
-        "position": "205"
+        "position": "204"
     },
     {
         "card_name": "Mossback Beast",
@@ -624,12 +624,12 @@
         "position": "187"
     },
     {
-        "card_name": "Impatient Tianshi",
+        "card_name": "Ignis Hammer",
         "number": 143,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
-        "position": "194"
+        "position": "205"
     },
     {
         "card_name": "Mudrock's Zealot",
@@ -664,12 +664,12 @@
         "position": "184"
     },
     {
-        "card_name": "Pyrrhic Blast",
-        "number": 148,
+        "card_name": "Impatient Tianshi",
+        "number": 144,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
-        "position": "202"
+        "position": "194"
     },
     {
         "card_name": "Tiacauh Champion",
@@ -704,12 +704,12 @@
         "position": "16"
     },
     {
-        "card_name": "Reunion Deserter",
-        "number": 152,
+        "card_name": "Pyrrhic Blast",
+        "number": 149,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
-        "position": "197"
+        "position": "202"
     },
     {
         "card_name": "Unshakable Solidarity",
@@ -744,12 +744,12 @@
         "position": "192"
     },
     {
-        "card_name": "Revealing Accusation",
-        "number": 157,
+        "card_name": "Reunion Deserter",
+        "number": 153,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
-        "position": "200"
+        "position": "197"
     },
     {
         "card_name": "Ursus Scion",
@@ -784,12 +784,12 @@
         "position": "185"
     },
     {
-        "card_name": "Rhodes Island Forgemaster",
-        "number": 159,
+        "card_name": "Revealing Accusation",
+        "number": 158,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
-        "position": "195"
+        "position": "200"
     },
     {
         "card_name": "Wander the Tundra",
@@ -824,12 +824,12 @@
         "position": "190"
     },
     {
-        "card_name": "Sarkaz Guerrilla Caster",
-        "number": 161,
+        "card_name": "Rhodes Island Forgemaster",
+        "number": 160,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
-        "position": "198"
+        "position": "195"
     },
     {
         "card_name": "Woodland Hunter",
@@ -985,7 +985,7 @@
     },
     {
         "card_name": "Certainty in Cinders",
-        "number": 128,
+        "number": 129,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1025,7 +1025,7 @@
     },
     {
         "card_name": "Columbian Cutter",
-        "number": 131,
+        "number": 132,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1065,7 +1065,7 @@
     },
     {
         "card_name": "Feral Hound",
-        "number": 136,
+        "number": 137,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1105,7 +1105,7 @@
     },
     {
         "card_name": "Flint Tribe Fanatic",
-        "number": 137,
+        "number": 138,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1145,7 +1145,7 @@
     },
     {
         "card_name": "Gavial Tribe Ritualist",
-        "number": 139,
+        "number": 140,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1185,7 +1185,7 @@
     },
     {
         "card_name": "Grind for Parts",
-        "number": 140,
+        "number": 141,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1224,8 +1224,8 @@
         "position": "110"
     },
     {
-        "card_name": "Higashinese Defector",
-        "number": 141,
+        "card_name": "Higashi Defector",
+        "number": 142,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1265,7 +1265,7 @@
     },
     {
         "card_name": "Instigate the Masses",
-        "number": 144,
+        "number": 145,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1305,7 +1305,7 @@
     },
     {
         "card_name": "Laser Mining Assistance",
-        "number": 145,
+        "number": 146,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1345,7 +1345,7 @@
     },
     {
         "card_name": "Reckless Plunder",
-        "number": 149,
+        "number": 150,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1385,7 +1385,7 @@
     },
     {
         "card_name": "Reunion Breaker",
-        "number": 150,
+        "number": 151,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1425,7 +1425,7 @@
     },
     {
         "card_name": "Reunion Butcher",
-        "number": 151,
+        "number": 152,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1465,7 +1465,7 @@
     },
     {
         "card_name": "Reunion Rally",
-        "number": 153,
+        "number": 154,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1505,7 +1505,7 @@
     },
     {
         "card_name": "Reunion Recruitment",
-        "number": 154,
+        "number": 155,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1545,7 +1545,7 @@
     },
     {
         "card_name": "Reunion Rioter",
-        "number": 155,
+        "number": 156,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1585,7 +1585,7 @@
     },
     {
         "card_name": "Reunion Sword",
-        "number": 156,
+        "number": 157,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1625,7 +1625,7 @@
     },
     {
         "card_name": "Rhine Labs Roboticist",
-        "number": 158,
+        "number": 159,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1886,7 +1886,7 @@
         "position": "288"
     },
     {
-        "card_name": "Adele Naumann, Arts Prodigy",
+        "card_name": "Adele Naumann, Volcanologist",
         "number": 231,
         "shape": "normal",
         "set": "ASV",

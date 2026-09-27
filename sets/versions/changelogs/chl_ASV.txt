@@ -1,4 +1,53 @@
-﻿VERSION 6 CHANGELOG
+﻿VERSION 7 CHANGELOG
+====================
+
+Higashi Defector added.
+Battlemage Agent added.
+Adele Naumann, Volcanologist added.
+
+Higashinese Defector removed.
+Sarkaz Guerrilla Caster removed.
+Adele Naumann, Arts Prodigy removed.
+
+Communications Team
+rules_text: {T}, Put a stun counter on this creature: Add five mana in any combination of colors.
+Tap two untapped creatures you control: Remove a stun counter from Communications Team. => {T}, Put a stun counter on this creature: Add five mana in any combination of colors.
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, target creature you control gains reach until end of turn.
+
+Strict Instructor
+rules_text: [i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, draw a card if you control another creature with lesser toughness or power, then creatures you control gain +1/+1 and vigilance until end of turn. => Whenever a creature you control with power less than Strict Instructor's power deals combat damage to a player, put a +1/+1 counter on that creature and draw a card.
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, Strict Instructor gets +1/+1 and vigilance until end of turn.
+
+Committee Salvage
+cost: {3}{G} => {2}{G}
+rules_text: Return target card from your graveyard to your hand. Draw a card. => Return target card from your graveyard to your hand.
+[i]Skill Activation[/i] — You may return three cards from your graveyard to your hand instead if you've cast a spell with mana value 4 or greater this turn.
+
+Reunion Senior Caster
+rules_text: [i]Revolt[/i] — At the beginning of your end step, if a permanent left the battlefield under your control this turn, you may pay {2}{B}. If you do then create a 1/1 red Rebel creature token with “When this creature dies, it deals 1 damage to any target.” => At the beginning of your end step, if a creature you control dealt damage to a player then you may pay {2}{B}. If you do then create a 1/1 red Rebel creature token with “When this creature dies, it deals 1 damage to any target.”
+
+Originium Altar
+rules_text: {T}, Sacrifice a creature you control: Surveil 1. [i](Look at the top card of your library. You may put it into your graveyard.)[/i]
+{2}, {T}, Sacrifice a creature you control: Creatures you control gain lifelink and deathtouch until end of turn. => {T}, Sacrifice a creature you control: Surveil 1. [i](Look at the top card of your library. You may put it into your graveyard.)[/i]
+Whenever a creature you control deals combat damage to a player, create an Originium token. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i]
+
+Bombtail Drone
+rules_text: Flying
+When Bombtail Drone dies, it deals damage equal to its power to any target then create a 1/1 colorless drone artifact creature token. => Flying
+When Bombtail Drone dies, it deals damage equal to its power to any target then create an Originium token. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i]
+
+Scrapyard Temple
+rules_text: {R}, {T}: Target creature gets +1/+0 and trample until end of turn.
+{3}{R}, {T}, Sacrifice Scrapyard Temple: Deal 1 damage to each creature target player controls, those creatures cannot block this turn. => {3}{R}, {T}, Sacrifice Scrapyard Temple: Deal 1 damage to each creature target player controls, those creatures cannot block this turn.
+Whenever you cast a spell with mana value 4 or greater, target creature you control gets +1/+0 and gains trample until end of turn.
+
+Mahuizzotia Festival
+rules_text: Creatures you control get +1/+1
+Whenever you cast a spell with mana value 4 or greater, target creature you control fights target creature you don't control. => At the beginning of your upkeep, put a +1/+1 counter on a creature you control.
+Whenever you cast a spell with mana value 4 or greater, target creature you control with power 4 or greater fights target creature you don't control.
+
+
+VERSION 6 CHANGELOG
 ====================
 
 Swift Strike added.
