@@ -1,4 +1,320 @@
-﻿VERSION 7 CHANGELOG
+﻿VERSION 8 CHANGELOG
+====================
+
+Rabid Hound added.
+Final Vengeance added.
+Emergency Inhibitor added.
+Improvised Waraxe added.
+Orundum Supplies added.
+Patriot's End added.
+Generous Refusal added.
+Oripathy Outbreak added.
+Warcaster Agent added.
+Convolution added.
+Foiled Fury added.
+
+Feral Hound removed.
+Worthy Cost removed.
+Oripathy Suppressants removed.
+Reunion Sword removed.
+Orundum Reserves removed.
+Downfall of the Mighty removed.
+An Offer You Should Refuse removed.
+For the Cause removed.
+Battlemage Agent removed.
+Convoluted Sight removed.
+Execution Mode removed.
+Amiya, Cerulean Flame removed.
+
+Reunion Butcher
+rules_text: Trample
+When Reunion Butcher dies, create two 1/1 red Rebel creature tokens with “When this creature dies, it deals 1 damage to any target.” => Trample
+When Reunion Butcher dies, create two 1/1 red Rebel creature tokens with “When this creature dies, it deals 1 damage to any target.”
+Mountaincycling {2} [i]({2}, Discard this card: Search your library for a Mountain card, reveal it, put it into your hand, then shuffle.)[/i]
+
+Reunion Junkman
+rules_text: Menace
+Whenever Reunion Junkman attacks, you may sacrifice a creature, if you do then Reunion Junkman gains trample until end of turn. => Menace
+Whenever Reunion Junkman attacks, you may sacrifice a creature, if you do then Reunion Junkman gains trample until end of turn.
+Swampcycling {2} [i]({2}, Discard this card: Search your library for a Swamp card, reveal it, put it into your hand, then shuffle.)[/i]
+
+Reunion Airborne Soldier
+
+Transport Hovercraft
+type: Artifact — Vehicle Drone => Artifact Creature — Drone
+cost: {4}{W} => {5}{W}
+rules_text: Crew 3 [i](Tap any number of creatures you control with total power 3 or more: This Vehicle Drone becomes an artifact creature until end of turn.)[/i]
+Flying
+{4}{W}: Creatures you control gain +1/+1 and flying until end of turn. => Flying
+{4}{W}: Creatures you control gain +1/+1 and flying until end of turn.
+Plainscycling {2} [i]({2}, Discard this card: Search your library for a Plains card, reveal it, put it into your hand, then shuffle.)[/i]
+pt: 5/5 => 3/3
+
+Reunion Wraith
+type: Creature — Snake Scout Rebel => Creature — Snake Rebel Rogue
+
+Sarkaz Swordsman
+rules_text: When Sarkaz Swordsman enters, create an Originium token. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i] => When Sarkaz Swordsman enters, create an Originium token. [i](It's a colorless artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i]
+
+Sarkaz Centurion
+
+Penguin Logisitcs Idol
+
+Street Punk Rocker
+rules_text: First strike
+Whenever Street Punk Rocker creature attacks, create an Originium token. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i] => First strike
+Whenever Street Punk Rocker creature attacks, create an Originium token. [i](It's a colorless artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i]
+
+Ursine Gourmand
+
+Serviceman Hoshiguma
+
+Operational Intelligence
+
+Possess the Fallen
+
+Blacksteel Slugkeeper
+
+Doctor, Strategic Mastermind
+
+Rhodes Island Landship
+rules_text: Station [i](Tap another creature you control: Put charge counters equal to its power on this permanent. Station only as a sorcery.)[/i]
+[level 6+] Tap a creature you control: Remove a counter from a creature you control or put a +1/+1 counter on a creature you control. Then you gain 1 life.
+[level 12+] Vigilance [10/10] => Station [i](Tap another creature you control: Put charge counters equal to its power on this permanent. Station only as a sorcery.)[/i]
+[level 4+] Tap a creature you control: Remove a counter from a creature you control or put a +1/+1 counter on a creature you control. Then you gain 1 life.
+[level 8+] Vigilance [10/10]
+special_text: Station [i](Tap another creature you control: Put charge counters equal to its power on this permanent. Station only as a sorcery.)[/i]
+[level 6+] Tap a creature you control: Remove a counter from a creature you control or put a +1/+1 counter on a creature you control. Then you gain 1 life.
+[level 12+] Vigilance [10/10] => Station [i](Tap another creature you control: Put charge counters equal to its power on this permanent. Station only as a sorcery.)[/i]
+[level 4+] Tap a creature you control: Remove a counter from a creature you control or put a +1/+1 counter on a creature you control. Then you gain 1 life.
+[level 8+] Vigilance [10/10]
+
+Leithanian Officer
+
+Agency Bodyguard
+
+Lungmen Guardsmen
+
+Blacksteel Trainee
+rules_text: Ward {2}
+Blacksteel Trainee gets +1/+1 and first strike so long as it's equipped. => Ward {2}
+Blacksteel Trainee gets +1/+1 and gains first strike so long as it's equipped.
+
+Caster Operator
+rules_text: When Caster Operator enters, create an Originium token. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i] => When Caster Operator dies, create an Originium token. [i](It's a colorless artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i]
+
+Medical Field Team
+
+Studied Martial Artist
+
+Lungmen Pickpocket
+
+S.W.E.E.P. Scavenger
+rules_text: Deathtouch
+When S.W.E.E.P. Scavenger leaves the battlefield, create an Originium Token. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i] => Deathtouch
+When S.W.E.E.P. Scavenger leaves the battlefield, create an Originium Token. [i](It's a colorless artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i]
+
+Swift Response
+
+Material Recombination
+rules_text: Destroy target artifact or enchantment.
+Create an Originium token. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i] => Destroy target artifact or enchantment.
+Create an Originium token. [i](It's a colorless artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i]
+
+Preparedness Averts Peril
+
+Scout Operator
+
+Frost Drone
+rules_text: Flying
+When Frost Drone enters, tap up to three target creatures and put a stun counter on each.
+When Frost Drone dies, create an Originium token. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i] => Flying
+When Frost Drone enters, tap up to one target creature and put a stun counter on it.
+Islandcycling {2} [i]({2}, Discard this card: Search your library for an Island card, reveal it, put it into your hand, then shuffle.)[/i]
+pt: 5/4 => 4/4
+
+Fishmarket Barter
+
+Disdainful Stroke
+
+Turn to Originium
+rules_text: Counter target spell
+Create an Originium token. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i] => Counter target spell
+Create an Originium token. [i](It's a colorless artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i]
+
+Rat King's Guile
+
+Literature Storm
+
+Become Anew
+
+Partial Necrosis
+rules_text: Tap target creature and put two stun counters on it.
+Create an Originium token. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i] => Tap target creature and put two stun counters on it.
+Create an Originium token. [i](It's a colorless artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i]
+
+Entwined
+
+Kazdelian Artilleryman
+
+Famiglia Mafioso
+
+Chernobog Survivor
+
+Reunion Mortar Gunner
+
+Grim Discovery
+rules_text: Draw two cards, create two tapped Originium tokens, then you lose two life. [i](It's an artifact with “{T}, sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i] => Draw two cards, create a tapped Originium token, then you lose two life. [i](It's a colorless artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i]
+
+Out of Options
+
+Whispers of the Night
+
+Dodge Death
+
+Acute Oripathy Infection
+
+Phantom Crossbowman
+
+Reunion Rioter
+
+Gavial Tribe Ritualist
+
+Columbian Cutter
+
+Higashi Defector
+
+Reunion Breaker
+
+Grind for Parts
+rules_text: Destroy target artifact.
+Create an Originium token. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i] => Destroy target artifact.
+Create an Originium token. [i](It's a colorless artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i]
+
+Certainty in Cinders
+
+Originium Slug
+rules_text: When Originium Slug dies, create an Originium token. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i] => When Originium Slug dies, create an Originium token. [i](It's a colorless artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i]
+
+Acidic Originium Slug
+rules_text: Deathtouch.
+When Acidic Originium Slug dies, create an Originium token. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i] => Deathtouch.
+When Acidic Originium Slug dies, create an Originium token. [i](It's a colorless artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i]
+
+Catastrophe Messenger
+
+Deadeye Operator
+
+Ursus Mangler
+rules_text: Sacrifice another creature or an artifact: Ursus Mangler gains trample and vigilance until end of turn. => Sacrifice another creature or an artifact: Ursus Mangler gains trample until end of turn.
+Forestcycling {2} [i]({2}, Discard this card: Search your library for a Forest card, reveal it, put it into your hand, then shuffle.)[/i]
+
+Return to the Wilds
+
+Lancet Triage Platform
+
+Castle Combat Platform
+
+Surveyor Drone
+cost: {4} => {3}
+
+Rusty Hammer
+rules_text: When Rusty Hammer enters, create an Originium token. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i]
+Equip {1}
+Equipped creature gets +2/+0 and has trample. => When Rusty Hammer enters, create an Originium token. [i](It's a colorless artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i]
+Equip {1}
+Equipped creature gets +2/+0 and has trample.
+
+Steel City Escort
+
+Martial Arts Star
+
+LGD Rally
+cost: {2}{W}{W} => {3}{W}{W}
+rules_text: Tap up to two target creatures and put two stun counters on each.
+Creatures you control gain vigilance and get +1/+1 for each tapped creature your opponents control until end of turn. => Tap up to two target creatures and put a stun counter on each.
+Creatures you control gain vigilance and get +1/+1 until end of turn.
+
+Karlan Climber
+
+Inam Committee Chief
+
+Tinker
+
+RIIC Factory Line
+rules_text: [i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, create an Originium token. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i] => [i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, create an Originium token. [i](It's a colorless artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i]
+
+Hide the Evidence
+
+Perfect Operation
+
+Reunion Senior Caster
+
+Dashed Plans
+rules_text: Create an Originium token. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i]
+Each player discards a card, then you make an Originium token for each land card discarded this way. => Create an Originium token. [i](It's a colorless artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i]
+Each player discards a card, then you make an Originium token for each land card discarded this way.
+
+Scrounge for Scraps
+rules_text: Target creature you control gains deathtouch until end of turn.
+Whenever a creature dies this turn, create an Originium token. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i] => Target creature you control gains deathtouch until end of turn.
+Whenever a creature dies this turn, create an Originium token. [i](It's a colorless artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i]
+
+Originium Altar
+rules_text: {T}, Sacrifice a creature you control: Surveil 1. [i](Look at the top card of your library. You may put it into your graveyard.)[/i]
+Whenever a creature you control deals combat damage to a player, create an Originium token. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i] => {T}, Sacrifice a creature you control: Surveil 1. [i](Look at the top card of your library. You may put it into your graveyard.)[/i]
+Whenever a creature you control deals combat damage to a player, create an Originium token. [i](It's a colorless artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i]
+
+Bombtail Drone
+rules_text: Flying
+When Bombtail Drone dies, it deals damage equal to its power to any target then create an Originium token. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i] => Flying
+When Bombtail Drone dies, it deals damage equal to its power to any target then create an Originium token. [i](It's a colorless artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i]
+
+Mudrock's Zealot
+rules_text: Ward {3} [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {3}.)[/i]
+Whenever another creature dies, put a +1/+1 counter on Mudrock's Zealot. => Ward {3}
+Whenever another creature dies, put a +1/+1 counter on Mudrock's Zealot.
+
+Unshakable Solidarity
+rules_text: Choose a creature type and then choose one — 
+• Creatures you control of the chosen type gain hexproof and indestructible until end of turn.
+• Put a +1/+1 counter on each creature you control of the chosen type, they gain trample until end of turn. => Choose a creature type and then choose one — 
+• Creatures you control of the chosen type gain hexproof and indestructible until end of turn.
+• Creatures you control of the chosen type get +1/+1 and gain trample until end of turn.
+
+Bionics Engineer
+rules_text: When Bionics Engineer enters, create a 1/1 colorless drone artifact creature token.
+At the beginning of your upkeep, you may put a stun counter on target tapped creature you don't control.
+Drone creatures you control gain “{W}{U}, {T}: Tap target creature you don't control.” => When Bionics Engineer enters, create a 1/1 colorless drone artifact creature token.
+At the beginning of your upkeep, you may pay {W}{U}, if you do then put a stun counter on target tapped creature you don't control.
+Drone creatures you control gain “{W}{U}, {T}: Tap target creature you don't control.”
+
+Mudrock Matterllurgist
+
+Imperial Artillery Targeter
+
+Infection Monitor Band
+rules_text: Whenever you sacrifice an Originium token, you gain 1 life. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i] => Whenever you sacrifice an Originium token, you gain 1 life. [i](It's a colorless artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i]
+
+Shadowless
+
+Trust your Eyes
+
+Cover the Damages
+
+Lin Grey, the Rat King
+
+Water of Life
+
+Rescue from Stasis
+
+The Birth of Tragedy
+rules_text: Target player loses three life, discards a card and sacrifices a creature. Repeat this for each creature card in your graveyard. => Each opponent loses 3 life unless that player sacrifices a creature of their choice or discards a card. Repeat this for each creature card in your graveyard.
+
+Amiya, Idealistic Leader
+
+
+VERSION 7 CHANGELOG
 ====================
 
 Higashi Defector added.

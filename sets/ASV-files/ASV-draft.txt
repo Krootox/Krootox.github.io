@@ -15,7 +15,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{W}",
 			"type": "Creature — Dwarf Scout Ally",
-			"collector_number": "10",
+			"collector_number": "9",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/1.jpg"
 			}
@@ -45,7 +45,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Bird Warrior",
-			"collector_number": "138",
+			"collector_number": "136",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/4.jpg"
 			}
@@ -55,17 +55,17 @@
 			"rarity": "rare",
 			"mana_cost": "{U}",
 			"type": "Legendary Creature — Bird Artificer",
-			"collector_number": "54",
+			"collector_number": "55",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/5.jpg"
 			}
 		},
 		{
-			"name": "Feral Hound",
+			"name": "Rabid Hound",
 			"rarity": "common",
 			"mana_cost": "{R}",
-			"type": "Creature — Dog Rebel",
-			"collector_number": "137",
+			"type": "Creature — Dog Beast Rebel",
+			"collector_number": "149",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/6.jpg"
 			}
@@ -85,7 +85,7 @@
 			"rarity": "common",
 			"mana_cost": "{3}{B}{B}",
 			"type": "Creature — Bird Warrior Rebel",
-			"collector_number": "107",
+			"collector_number": "108",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/8.jpg"
 			}
@@ -95,7 +95,7 @@
 			"rarity": "common",
 			"mana_cost": "{3}{B}",
 			"type": "Creature — Bear Scout Rebel",
-			"collector_number": "106",
+			"collector_number": "107",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/9.jpg"
 			}
@@ -103,8 +103,8 @@
 		{
 			"name": "Transport Hovercraft",
 			"rarity": "common",
-			"mana_cost": "{4}{W}",
-			"type": "Artifact — Vehicle Drone",
+			"mana_cost": "{5}{W}",
+			"type": "Artifact Creature — Drone",
 			"collector_number": "40",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/10.jpg"
@@ -114,7 +114,7 @@
 			"name": "Reunion Wraith",
 			"rarity": "common",
 			"mana_cost": "{U}",
-			"type": "Creature — Snake Scout Rebel",
+			"type": "Creature — Snake Rebel Rogue",
 			"collector_number": "70",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/11.jpg"
@@ -155,7 +155,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{B}",
 			"type": "Creature — Demon Mercenary",
-			"collector_number": "115",
+			"collector_number": "116",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/15.jpg"
 			}
@@ -165,7 +165,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{B}{B}",
 			"type": "Creature — Demon Rebel Mercenary",
-			"collector_number": "113",
+			"collector_number": "114",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/16.jpg"
 			}
@@ -175,7 +175,7 @@
 			"rarity": "rare",
 			"mana_cost": "{4}{B}{B}{B}",
 			"type": "Creature — Demon Mercenary",
-			"collector_number": "114",
+			"collector_number": "115",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/17.jpg"
 			}
@@ -235,7 +235,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Devil Bard Ally",
-			"collector_number": "164",
+			"collector_number": "163",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/23.jpg"
 			}
@@ -335,7 +335,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{R}{R}",
 			"type": "Legendary Creature — Cat Soldier",
-			"collector_number": "127",
+			"collector_number": "126",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/33.jpg"
 			}
@@ -385,7 +385,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{U}{U}",
 			"type": "Sorcery",
-			"collector_number": "55",
+			"collector_number": "56",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/38.jpg"
 			}
@@ -405,7 +405,7 @@
 			"rarity": "rare",
 			"mana_cost": "{R}",
 			"type": "Legendary Creature — Hyena Rebel",
-			"collector_number": "133",
+			"collector_number": "132",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/40.jpg"
 			}
@@ -415,7 +415,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{U}",
 			"type": "Creature — Squirrel Citizen Ally",
-			"collector_number": "60",
+			"collector_number": "61",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/41.jpg"
 			}
@@ -425,17 +425,17 @@
 			"rarity": "common",
 			"mana_cost": "{4}{B}",
 			"type": "Sorcery",
-			"collector_number": "105",
+			"collector_number": "106",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/42.jpg"
 			}
 		},
 		{
-			"name": "Worthy Cost",
+			"name": "Final Vengeance",
 			"rarity": "common",
 			"mana_cost": "{B}",
 			"type": "Sorcery",
-			"collector_number": "122",
+			"collector_number": "93",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/43.jpg"
 			}
@@ -485,7 +485,7 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{R}{R}",
 			"type": "Legendary Creature — Cat Soldier Ally",
-			"collector_number": "135",
+			"collector_number": "134",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/48.jpg"
 			}
@@ -511,11 +511,11 @@
 			}
 		},
 		{
-			"name": "Oripathy Suppressants",
+			"name": "Emergency Inhibitor",
 			"rarity": "common",
 			"mana_cost": "{1}",
 			"type": "Artifact",
-			"collector_number": "273",
+			"collector_number": "265",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/51.jpg"
 			}
@@ -525,7 +525,7 @@
 			"rarity": "common",
 			"mana_cost": "{3}{W}{W}",
 			"type": "Creature — Horse Knight Ally",
-			"collector_number": "19",
+			"collector_number": "18",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/52.jpg"
 			}
@@ -605,7 +605,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{W}",
 			"type": "Creature — Warrior Wizard Ally",
-			"collector_number": "26",
+			"collector_number": "25",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/60.jpg"
 			}
@@ -615,7 +615,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{W}",
 			"type": "Creature — Elk Ox Mercenary",
-			"collector_number": "18",
+			"collector_number": "17",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/61.jpg"
 			}
@@ -625,7 +625,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"type": "Creature — Elk Soldier",
-			"collector_number": "20",
+			"collector_number": "19",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/62.jpg"
 			}
@@ -655,7 +655,7 @@
 			"rarity": "common",
 			"mana_cost": "{3}{W}",
 			"type": "Creature — Dragon Soldier",
-			"collector_number": "22",
+			"collector_number": "21",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/65.jpg"
 			}
@@ -665,7 +665,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{W}",
 			"type": "Creature — Bear Soldier",
-			"collector_number": "17",
+			"collector_number": "16",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/66.jpg"
 			}
@@ -695,7 +695,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{W}",
 			"type": "Creature — Fox Cleric Ally",
-			"collector_number": "25",
+			"collector_number": "24",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/69.jpg"
 			}
@@ -735,7 +735,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
 			"type": "Creature — Fox Soldier Ally",
-			"collector_number": "57",
+			"collector_number": "58",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/73.jpg"
 			}
@@ -775,7 +775,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Creature — Rat Assassin Ally",
-			"collector_number": "112",
+			"collector_number": "113",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/77.jpg"
 			}
@@ -785,7 +785,7 @@
 			"rarity": "rare",
 			"mana_cost": "{R}{R}{R}{R}",
 			"type": "Legendary Creature — Devil Warrior",
-			"collector_number": "165",
+			"collector_number": "164",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/78.jpg"
 			}
@@ -805,7 +805,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"type": "Artifact — Equipment",
-			"collector_number": "13",
+			"collector_number": "12",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/80.jpg"
 			}
@@ -825,7 +825,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"type": "Sorcery",
-			"collector_number": "24",
+			"collector_number": "23",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/82.jpg"
 			}
@@ -845,7 +845,7 @@
 			"rarity": "common",
 			"mana_cost": "{W}",
 			"type": "Instant",
-			"collector_number": "12",
+			"collector_number": "11",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/84.jpg"
 			}
@@ -945,7 +945,7 @@
 			"rarity": "common",
 			"mana_cost": "{U}",
 			"type": "Enchantment — Aura",
-			"collector_number": "59",
+			"collector_number": "60",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/94.jpg"
 			}
@@ -1025,7 +1025,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{B}",
 			"type": "Creature — Dog Rebel Soldier",
-			"collector_number": "108",
+			"collector_number": "109",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/102.jpg"
 			}
@@ -1045,7 +1045,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{B}{B}",
 			"type": "Instant",
-			"collector_number": "104",
+			"collector_number": "105",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/104.jpg"
 			}
@@ -1055,7 +1055,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Sorcery",
-			"collector_number": "102",
+			"collector_number": "103",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/105.jpg"
 			}
@@ -1065,7 +1065,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Instant",
-			"collector_number": "121",
+			"collector_number": "122",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/106.jpg"
 			}
@@ -1095,7 +1095,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Artifact",
-			"collector_number": "110",
+			"collector_number": "111",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/109.jpg"
 			}
@@ -1105,7 +1105,7 @@
 			"rarity": "common",
 			"mana_cost": "{3}{B}",
 			"type": "Creature — Cat Rebel Archer",
-			"collector_number": "103",
+			"collector_number": "104",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/110.jpg"
 			}
@@ -1115,7 +1115,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Otter Artificer",
-			"collector_number": "159",
+			"collector_number": "158",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/111.jpg"
 			}
@@ -1135,7 +1135,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Crocodile Shaman",
-			"collector_number": "140",
+			"collector_number": "138",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/113.jpg"
 			}
@@ -1145,7 +1145,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Fox Mercenary Ally",
-			"collector_number": "132",
+			"collector_number": "131",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/114.jpg"
 			}
@@ -1155,7 +1155,7 @@
 			"rarity": "common",
 			"mana_cost": "{3}{R}{R}",
 			"type": "Creature — Cat Warrior Ally",
-			"collector_number": "142",
+			"collector_number": "140",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/115.jpg"
 			}
@@ -1185,7 +1185,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}{R}",
 			"type": "Instant",
-			"collector_number": "166",
+			"collector_number": "165",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/118.jpg"
 			}
@@ -1195,7 +1195,7 @@
 			"rarity": "common",
 			"mana_cost": "{R}",
 			"type": "Instant",
-			"collector_number": "141",
+			"collector_number": "139",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/119.jpg"
 			}
@@ -1205,7 +1205,7 @@
 			"rarity": "common",
 			"mana_cost": "{3}{R}",
 			"type": "Sorcery",
-			"collector_number": "145",
+			"collector_number": "144",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/120.jpg"
 			}
@@ -1235,7 +1235,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Sorcery",
-			"collector_number": "129",
+			"collector_number": "128",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/123.jpg"
 			}
@@ -1245,7 +1245,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
 			"type": "Sorcery",
-			"collector_number": "146",
+			"collector_number": "145",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/124.jpg"
 			}
@@ -1261,11 +1261,11 @@
 			}
 		},
 		{
-			"name": "Reunion Sword",
+			"name": "Improvised Waraxe",
 			"rarity": "common",
 			"mana_cost": "{2}{R}{R}",
 			"type": "Artifact — Equipment",
-			"collector_number": "157",
+			"collector_number": "143",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/126.jpg"
 			}
@@ -1445,7 +1445,7 @@
 			"rarity": "common",
 			"mana_cost": "{3}",
 			"type": "Artifact Creature — Drone",
-			"collector_number": "272",
+			"collector_number": "273",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/144.jpg"
 			}
@@ -1455,7 +1455,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}",
 			"type": "Artifact Creature — Drone",
-			"collector_number": "269",
+			"collector_number": "270",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/145.jpg"
 			}
@@ -1473,7 +1473,7 @@
 		{
 			"name": "Surveyor Drone",
 			"rarity": "common",
-			"mana_cost": "{4}",
+			"mana_cost": "{3}",
 			"type": "Artifact Creature — Drone",
 			"collector_number": "279",
 			"image_uris": {
@@ -1511,7 +1511,7 @@
 			}
 		},
 		{
-			"name": "Orundum Reserves",
+			"name": "Orundum Supplies",
 			"rarity": "common",
 			"mana_cost": "{2}",
 			"type": "Artifact",
@@ -1655,7 +1655,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{W}{W}",
 			"type": "Creature — Bird Mercenary Archer",
-			"collector_number": "16",
+			"collector_number": "15",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/165.jpg"
 			}
@@ -1675,17 +1675,17 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}",
 			"type": "Creature — Bear Monk",
-			"collector_number": "23",
+			"collector_number": "22",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/167.jpg"
 			}
 		},
 		{
-			"name": "Downfall of the Mighty",
+			"name": "Patriot's End",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}",
 			"type": "Instant",
-			"collector_number": "9",
+			"collector_number": "26",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/168.jpg"
 			}
@@ -1693,9 +1693,9 @@
 		{
 			"name": "LGD Rally",
 			"rarity": "uncommon",
-			"mana_cost": "{2}{W}{W}",
+			"mana_cost": "{3}{W}{W}",
 			"type": "Sorcery",
-			"collector_number": "21",
+			"collector_number": "20",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/169.jpg"
 			}
@@ -1725,7 +1725,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{W}",
 			"type": "Artifact — Equipment",
-			"collector_number": "14",
+			"collector_number": "13",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/172.jpg"
 			}
@@ -1745,7 +1745,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}",
 			"type": "Creature — Rat Rogue",
-			"collector_number": "61",
+			"collector_number": "62",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/174.jpg"
 			}
@@ -1755,7 +1755,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}",
 			"type": "Creature — Cat Ranger Ally",
-			"collector_number": "58",
+			"collector_number": "59",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/175.jpg"
 			}
@@ -1765,17 +1765,17 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}",
 			"type": "Creature — Bird Artificer",
-			"collector_number": "56",
+			"collector_number": "57",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/176.jpg"
 			}
 		},
 		{
-			"name": "An Offer You Should Refuse",
+			"name": "Generous Refusal",
 			"rarity": "uncommon",
 			"mana_cost": "{U}",
 			"type": "Instant",
-			"collector_number": "62",
+			"collector_number": "53",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/177.jpg"
 			}
@@ -1815,7 +1815,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{U}",
 			"type": "Sorcery",
-			"collector_number": "53",
+			"collector_number": "54",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/181.jpg"
 			}
@@ -1845,7 +1845,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B}{B}",
 			"type": "Creature — Wolf Assassin Ally",
-			"collector_number": "111",
+			"collector_number": "112",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/184.jpg"
 			}
@@ -1855,7 +1855,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}",
 			"type": "Creature — Cat Mercenary",
-			"collector_number": "119",
+			"collector_number": "120",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/185.jpg"
 			}
@@ -1875,7 +1875,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{B}",
 			"type": "Creature — Cat Rebel Shaman",
-			"collector_number": "109",
+			"collector_number": "110",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/187.jpg"
 			}
@@ -1911,11 +1911,11 @@
 			}
 		},
 		{
-			"name": "For the Cause",
+			"name": "Oripathy Outbreak",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B}",
 			"type": "Sorcery",
-			"collector_number": "93",
+			"collector_number": "102",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/191.jpg"
 			}
@@ -1925,7 +1925,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B}",
 			"type": "Instant",
-			"collector_number": "116",
+			"collector_number": "117",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/192.jpg"
 			}
@@ -1945,7 +1945,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R}",
 			"type": "Creature — Kirin Wizard",
-			"collector_number": "144",
+			"collector_number": "142",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/194.jpg"
 			}
@@ -1955,7 +1955,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Ox Artificer Ally",
-			"collector_number": "160",
+			"collector_number": "159",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/195.jpg"
 			}
@@ -1965,7 +1965,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
 			"type": "Artifact Creature — Rebel Drone",
-			"collector_number": "128",
+			"collector_number": "127",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/196.jpg"
 			}
@@ -1981,11 +1981,11 @@
 			}
 		},
 		{
-			"name": "Battlemage Agent",
+			"name": "Warcaster Agent",
 			"rarity": "uncommon",
 			"mana_cost": "{4}{R}",
 			"type": "Creature — Lizard Mercenary Wizard",
-			"collector_number": "126",
+			"collector_number": "166",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/198.jpg"
 			}
@@ -1995,7 +1995,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R}",
 			"type": "Instant",
-			"collector_number": "163",
+			"collector_number": "162",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/199.jpg"
 			}
@@ -2005,7 +2005,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
 			"type": "Sorcery",
-			"collector_number": "158",
+			"collector_number": "157",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/200.jpg"
 			}
@@ -2015,7 +2015,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
 			"type": "Artifact",
-			"collector_number": "162",
+			"collector_number": "161",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/201.jpg"
 			}
@@ -2025,7 +2025,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{R}",
 			"type": "Instant",
-			"collector_number": "149",
+			"collector_number": "148",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/202.jpg"
 			}
@@ -2035,7 +2035,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{R}",
 			"type": "Sorcery",
-			"collector_number": "134",
+			"collector_number": "133",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/203.jpg"
 			}
@@ -2045,7 +2045,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
 			"type": "Enchantment",
-			"collector_number": "139",
+			"collector_number": "137",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/204.jpg"
 			}
@@ -2055,7 +2055,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
 			"type": "Artifact — Equipment",
-			"collector_number": "143",
+			"collector_number": "141",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/205.jpg"
 			}
@@ -2265,7 +2265,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}",
 			"type": "Artifact — Vehicle",
-			"collector_number": "271",
+			"collector_number": "272",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/226.jpg"
 			}
@@ -2285,7 +2285,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}",
 			"type": "Artifact Creature — Drone",
-			"collector_number": "267",
+			"collector_number": "268",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/228.jpg"
 			}
@@ -2295,7 +2295,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}",
 			"type": "Artifact",
-			"collector_number": "266",
+			"collector_number": "267",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/229.jpg"
 			}
@@ -2305,7 +2305,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}",
 			"type": "Artifact",
-			"collector_number": "268",
+			"collector_number": "269",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/230.jpg"
 			}
@@ -2315,7 +2315,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{5}",
 			"type": "Artifact",
-			"collector_number": "270",
+			"collector_number": "271",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/231.jpg"
 			}
@@ -2375,7 +2375,7 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{W}",
 			"type": "Legendary Creature — Snake Soldier Ally",
-			"collector_number": "11",
+			"collector_number": "10",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/237.jpg"
 			}
@@ -2425,7 +2425,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{W}{W}",
 			"type": "Legendary Artifact — Equipment",
-			"collector_number": "15",
+			"collector_number": "14",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/242.jpg"
 			}
@@ -2481,10 +2481,10 @@
 			}
 		},
 		{
-			"name": "Convoluted Sight",
+			"name": "Convolution",
 			"rarity": "rare",
-			"mana_cost": "{1}{U}",
-			"type": "Sorcery",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Instant",
 			"collector_number": "45",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/248.jpg"
@@ -2525,7 +2525,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{B}",
 			"type": "Legendary Creature — Vampire Scientist Ally",
-			"collector_number": "120",
+			"collector_number": "121",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/252.jpg"
 			}
@@ -2545,7 +2545,7 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{B}",
 			"type": "Enchantment",
-			"collector_number": "118",
+			"collector_number": "119",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/254.jpg"
 			}
@@ -2565,7 +2565,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{B}",
 			"type": "Enchantment — Aura",
-			"collector_number": "117",
+			"collector_number": "118",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/256.jpg"
 			}
@@ -2585,7 +2585,7 @@
 			"rarity": "rare",
 			"mana_cost": "{R}{R}{R}",
 			"type": "Legendary Creature — Slug",
-			"collector_number": "148",
+			"collector_number": "147",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/258.jpg"
 			}
@@ -2595,7 +2595,7 @@
 			"rarity": "rare",
 			"mana_cost": "{4}{R}{R}",
 			"type": "Instant",
-			"collector_number": "136",
+			"collector_number": "135",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/259.jpg"
 			}
@@ -2605,7 +2605,7 @@
 			"rarity": "rare",
 			"mana_cost": "{5}{R}{R}{R}",
 			"type": "Enchantment",
-			"collector_number": "131",
+			"collector_number": "130",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/260.jpg"
 			}
@@ -2615,7 +2615,7 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{R}",
 			"type": "Enchantment",
-			"collector_number": "147",
+			"collector_number": "146",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/261.jpg"
 			}
@@ -2625,7 +2625,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}",
 			"type": "Artifact — Equipment",
-			"collector_number": "265",
+			"collector_number": "266",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/262.jpg"
 			}
@@ -2821,7 +2821,7 @@
 			}
 		},
 		{
-			"name": "Execution Mode",
+			"name": "Foiled Fury",
 			"rarity": "rare",
 			"mana_cost": "{1}{B}{R}",
 			"type": "Instant",
@@ -2855,7 +2855,7 @@
 			"rarity": "mythic",
 			"mana_cost": "{2}{R}{R}",
 			"type": "Legendary Artifact — Equipment",
-			"collector_number": "130",
+			"collector_number": "129",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/285.jpg"
 			}
@@ -2916,18 +2916,15 @@
 			"mana_cost": "{3}{G}{W}{U}",
 			"type": "Legendary Creature — Rabbit Wizard Ally",
 			"collector_number": "247",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://krootox.github.io/sets/ASV-files/img/291_back.jpg"
+				}
+			},
 			"image_uris": {
-				"en": "https://krootox.github.io/sets/ASV-files/img/291.jpg"
-			}
-		},
-		{
-			"name": "Amiya, Cerulean Flame",
-			"rarity": "mythic",
-			"mana_cost": "",
-			"type": "Legendary Creature — Rabbit Warrior Ally",
-			"collector_number": "247",
-			"image_uris": {
-				"en": "https://krootox.github.io/sets/ASV-files/img/292.jpg"
+				"en": "https://krootox.github.io/sets/ASV-files/img/291_front.jpg"
 			}
 		},
 		{
@@ -2955,7 +2952,7 @@
 			"rarity": "mythic",
 			"mana_cost": "{4}{R}{R}{R}",
 			"type": "Sorcery",
-			"collector_number": "161",
+			"collector_number": "160",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/295.jpg"
 			}
@@ -3163,306 +3160,1029 @@
 	]
 
 [rare(1)]
-	5 Zumama, Chief of the Eunectes
-	5 Ceobe, Perplexed Traveller
-	5 The High Priest of Achualla
-	5 The Big Ugly Thing
-	5 Talulah, Tyrant of Reunion
-	5 W, the Renegade
-	5 Sarkaz Centurion
-	5 Emperor, Logistics Kingpin
-	5 Exusiai, Cheerful Courier
-	5 Texas, Taciturn Messenger
-	5 Gavial's Might
-	5 Mudrock, Reunion Captain
-	5 Frostnova, Winter's Scar
-	5 Wei Yenwu
-	5 Ch'en Hui-chieh
-	5 Beatrix Schwire
-	5 Serviceman Hoshiguma
-	5 The Deathless Black Snake
-	5 Patriot, The Last Wendigo
-	5 Skullshatterer
-	5 Crownslayer, Reunion Infiltrator
-	5 Mostima, Key of Chronology
-	5 Doctor, Strategic Mastermind
-	5 Doctor Kal'tsit
-	5 Elite Operator Blaze
-	5 Rhodes Island Landship
-	5 Originium Catastrophe
-	5 Big Bob
-	5 Sarkaz Grudgebearer
-	5 Surtr, Twilight Blade
-	5 Elite Operator Rosmontis
-	5 Avenger's Katana
-	5 Delivery Buggy
-	5 Elite Operator Ace
-	5 Shining, Confessor Exile
-	5 Snowfield Rescue
-	5 Warehouse Ambush
-	5 Shadowless
-	5 Hannya, Trusted Shield
-	5 Necessary Solutions
-	5 Elite Operator Squad
-	5 Trust your Eyes
-	5 Chernobog Sarcophagus
-	5 Skill Aura
-	5 Convoluted Sight
-	5 Expanded Cognition
-	5 Alive Until Sunset
-	5 Isidro, Eccentric Alchemist
-	5 Warfarin, Hematologist
-	5 Mephisto, Reunion Captain
-	5 Spiritual Destruction
-	5 Cover the Damages
-	5 Separated Hearts
-	5 Mudrock Colossus
-	5 Pompeii, Heart of Surging Flame
-	5 Explosive Entrance
-	5 City on Fire
-	5 The Obsidian Festival
-	5 Ceobe's Fungimist
-	5 Faust, Phantom Sniper
-	5 Spirited Messenger
-	5 Search for Safety
-	5 Trial of Strength
-	5 Inspiring Call
-	5 Combat-Ready Chainsaw
-	5 Raging Iron Fists
-	5 Enciodes Silverash
-	5 Lin Grey, the Rat King
-	5 Student of Kal'tsit
-	5 Skadi, Abyssal Hunter
-	5 Adele Naumann, Volcanologist
-	5 Suzuran, Foxfire Child
-	5 Mr. Lee, Lungmen Detective
-	5 Lappland, Rogue Mafioso
-	5 Angelina Ajimu
-	5 Modified Starflail
-	5 Execution Mode
-	5 Sword of the Present
-	5 Vanguard's Standard
-	5 Chi Xiao, Dragon-Slayer
-	5 Cheers of Celebration
-	5 Rescue from Stasis
-	5 Mephisto, the Singer
-	5 Anterior Vigilo
-	5 The Birth of Tragedy
-	5 Amiya, Idealistic Leader
-	5 Amiya, Cerulean Flame
-	5 Roadblock
-	5 Nian, Sui Fragment
-	5 Roaring Flare
-	5 Assembled Movement
-	5 Memories of Better Days
-	5 Tidal Elegy
-	5 Nightingale of the Followers
-	5 Mr. Hellagur
+	2 Zumama, Chief of the Eunectes
+	1 Ceobe, Perplexed Traveller
+	2 The High Priest of Achualla
+	1 The Big Ugly Thing
+	1 Talulah, Tyrant of Reunion
+	1 W, the Renegade
+	2 Sarkaz Centurion
+	1 Emperor, Logistics Kingpin
+	2 Exusiai, Cheerful Courier
+	2 Texas, Taciturn Messenger
+	2 Gavial's Might
+	2 Mudrock, Reunion Captain
+	2 Frostnova, Winter's Scar
+	1 Wei Yenwu
+	2 Ch'en Hui-chieh
+	2 Beatrix Schwire
+	2 Serviceman Hoshiguma
+	1 The Deathless Black Snake
+	2 Patriot, The Last Wendigo
+	2 Skullshatterer
+	2 Crownslayer, Reunion Infiltrator
+	1 Mostima, Key of Chronology
+	1 Doctor, Strategic Mastermind
+	2 Doctor Kal'tsit
+	2 Elite Operator Blaze
+	1 Rhodes Island Landship
+	2 Originium Catastrophe
+	2 Big Bob
+	2 Sarkaz Grudgebearer
+	2 Surtr, Twilight Blade
+	2 Elite Operator Rosmontis
+	2 Avenger's Katana
+	1 Delivery Buggy
+	2 Elite Operator Ace
+	2 Shining, Confessor Exile
+	2 Snowfield Rescue
+	2 Warehouse Ambush
+	2 Shadowless
+	2 Hannya, Trusted Shield
+	2 Necessary Solutions
+	2 Elite Operator Squad
+	2 Trust your Eyes
+	2 Chernobog Sarcophagus
+	2 Skill Aura
+	2 Convolution
+	2 Expanded Cognition
+	2 Alive Until Sunset
+	2 Isidro, Eccentric Alchemist
+	2 Warfarin, Hematologist
+	2 Mephisto, Reunion Captain
+	2 Spiritual Destruction
+	2 Cover the Damages
+	2 Separated Hearts
+	2 Mudrock Colossus
+	2 Pompeii, Heart of Surging Flame
+	2 Explosive Entrance
+	2 City on Fire
+	2 The Obsidian Festival
+	2 Ceobe's Fungimist
+	2 Faust, Phantom Sniper
+	2 Spirited Messenger
+	2 Search for Safety
+	2 Trial of Strength
+	2 Inspiring Call
+	2 Combat-Ready Chainsaw
+	2 Raging Iron Fists
+	2 Enciodes Silverash
+	2 Lin Grey, the Rat King
+	2 Student of Kal'tsit
+	2 Skadi, Abyssal Hunter
+	2 Adele Naumann, Volcanologist
+	2 Suzuran, Foxfire Child
+	2 Mr. Lee, Lungmen Detective
+	2 Lappland, Rogue Mafioso
+	2 Angelina Ajimu
+	2 Modified Starflail
+	2 Foiled Fury
+	2 Sword of the Present
+	2 Vanguard's Standard
+	1 Chi Xiao, Dragon-Slayer
+	1 Cheers of Celebration
+	1 Rescue from Stasis
+	1 Mephisto, the Singer
+	1 Anterior Vigilo
+	1 The Birth of Tragedy
+	1 Amiya, Idealistic Leader
+	1 Roadblock
+	1 Nian, Sui Fragment
+	1 Roaring Flare
+	1 Assembled Movement
+	1 Memories of Better Days
+	2 Tidal Elegy
+	2 Nightingale of the Followers
+	2 Mr. Hellagur
 [uncommon(3)]
-	5 Durin Flagbearer
-	5 Sarkaz Bladeweaver
-	5 Defender Duo
-	5 Penguin Logisitcs Idol
-	5 Blacksteel Duo
-	5 Garden Perfumer
-	5 Ice Nova
-	5 Communications Team
-	5 Strict Instructor
-	5 Chernobog Delinquent
-	5 Siestan Therapist
-	5 Guerilla Shieldguard
-	5 Committee Salvage
-	5 Steel City Escort
-	5 Hired Crossbow
-	5 Caladon Mounted Police
-	5 Martial Arts Star
-	5 Downfall of the Mighty
-	5 LGD Rally
-	5 Rhodes Island Custody
-	5 Stable Esthesia
-	5 Handy Jetpack
-	5 Scientific Investigator
-	5 Lungmen Greytail
-	5 Karlan Climber
-	5 Inam Committee Chief
-	5 An Offer You Should Refuse
-	5 Training Room
-	5 Tinker
-	5 RIIC Factory Line
-	5 Hide the Evidence
-	5 Perfect Operation
-	5 Medical Experimenter
-	5 S.W.E.E.P. Assassin
-	5 Vacationing Mercenary
-	5 Abyssal Patient
-	5 Reunion Senior Caster
-	5 Fatal Push
-	5 Dashed Plans
-	5 Woven Shadow
-	5 For the Cause
-	5 Scrounge for Scraps
-	5 Originium Altar
-	5 Impatient Tianshi
-	5 Rhodes Island Forgemaster
-	5 Bombtail Drone
-	5 Reunion Deserter
-	5 Battlemage Agent
-	5 Stinging Shock
-	5 Revealing Accusation
-	5 Scrapyard Temple
-	5 Pyrrhic Blast
-	5 Diligent Tinkering
-	5 For Each Who Falls
-	5 Ignis Hammer
-	5 Mudrock's Zealot
-	5 Ursus Scion
-	5 Tiacauh Champion
-	5 Woodland Hunter
-	5 Mossback Beast
-	5 Mahuizzotia Festival
-	5 Unshakable Solidarity
-	5 Abyssal Strike
-	5 Wander the Tundra
-	5 Bionics Engineer
-	5 Yeti Icecleaver
-	5 Hateful Avenger
-	5 Rim Billiton Messengers
-	5 Travelling Scholar
-	5 Mudrock Matterllurgist
-	5 Thermite Blade
-	5 Water Cannon
-	5 Beloved Whip
-	5 Modified Motorbike
-	5 Imperial Artillery Targeter
-	5 Hot Water Kettle
-	5 Infection Monitor Band
-	5 Mobile Tactical Hangar
-	5 Sprouting Barrenland
-	5 Crumbling Barrenland
-	5 Burning Barrenland
-	5 Outback Barrenland
-	5 Primeval Barrenland
-	5 Flexible Camouflage
-	5 Water of Life
-[common(10)]
-	5 Tiacauh Healer
-	5 Flint Tribe Fanatic
-	5 Feral Hound
-	5 Reunion Butcher
-	5 Reunion Junkman
-	5 Reunion Airborne Soldier
-	5 Transport Hovercraft
-	5 Reunion Wraith
-	5 Sarkaz Swordsman
-	5 Street Punk Rocker
-	5 Ursine Gourmand
-	5 Reclusive Bookworm
-	5 Operational Intelligence
-	5 Lungmen Firefighter
-	5 Possess the Fallen
-	5 Worthy Cost
-	5 Blacksteel Slugkeeper
-	5 Oripathy Suppressants
-	5 Knight of the Followers
-	5 Yeti Squad Caster
-	5 Operator Reserve Team
-	5 Karlan Guardians
-	5 Leithanian Officer
-	5 Agency Bodyguard
-	5 Surly Finchef
-	5 Lungmen Guardsmen
-	5 Infected Patrolman
-	5 Blacksteel Trainee
-	5 Caster Operator
-	5 Medical Field Team
-	5 Studied Martial Artist
-	5 Unlucky Inventor
-	5 Streetwise Trickster
-	5 Junior Army Veteran
-	5 Guardian Ninja
-	5 Lungmen Pickpocket
-	5 S.W.E.E.P. Scavenger
-	5 Grappling Hook
-	5 Swift Response
-	5 Material Recombination
-	5 Swift Strike
-	5 Expedited Delivery
-	5 Binding Circle
-	5 Command: Meltdown
-	5 Preparedness Averts Peril
-	5 Scout Operator
-	5 Frost Drone
-	5 Fishmarket Barter
-	5 Disdainful Stroke
-	5 Turn to Originium
-	5 Rat King's Guile
-	5 Literature Storm
-	5 Become Anew
-	5 Partial Necrosis
-	5 Entwined
-	5 Precious Money Bank
-	5 Kazdelian Artilleryman
-	5 Famiglia Mafioso
-	5 Chernobog Survivor
-	5 Reunion Mortar Gunner
-	5 Grim Discovery
-	5 Plunge
-	5 Out of Options
-	5 Whispers of the Night
-	5 Dodge Death
-	5 Acute Oripathy Infection
-	5 Reunion Standard
-	5 Phantom Crossbowman
-	5 Rhine Labs Roboticist
-	5 Reunion Rioter
-	5 Gavial Tribe Ritualist
-	5 Columbian Cutter
-	5 Higashi Defector
-	5 Reunion Breaker
-	5 Reunion Rally
-	5 Talulah's Immolation
-	5 Grind for Parts
-	5 Instigate the Masses
-	5 Reckless Plunder
-	5 Arts of the Wilds
-	5 Certainty in Cinders
-	5 Laser Mining Assistance
-	5 Reunion Recruitment
-	5 Reunion Sword
-	5 Originium Slug
-	5 Acidic Originium Slug
-	5 Reunion Lurker
-	5 Guerrilla Herald
-	5 Wayward Archausauria
-	5 Catastrophe Messenger
-	5 Deadeye Operator
-	5 Ursus Mangler
-	5 Tiacauh Shredder
-	5 Shoot Down
-	5 Return to the Wilds
-	5 Shieldguard's Protection
-	5 Bone Fracture
-	5 Unified Charge
-	5 Display of Might
-	5 Reunion Camp
-	5 Monster Mk. 2
-	5 Lancet Triage Platform
-	5 Castle Combat Platform
-	5 Surveyor Drone
-	5 Tactical Armor
-	5 Caster's Wand
-	5 Rusty Hammer
-	5 Orundum Reserves
-	5 Support Riot Pile
-	5 Central Plate Skyline
-	5 Sublayer Slum
-	5 Shattered Streets
-	5 Jungle Scrapyard
-	5 Gladed Village
-	5 Hushed Settlement
-	5 Mossy Outpost
-	5 Alpine Stream
-	5 Festive Shoreline
-	5 Hulking Ruin
-	5 Evolving Wilds
-	5 Rewinding Breeze
+	4 Durin Flagbearer
+	4 Sarkaz Bladeweaver
+	4 Defender Duo
+	4 Penguin Logisitcs Idol
+	4 Blacksteel Duo
+	4 Garden Perfumer
+	4 Ice Nova
+	4 Communications Team
+	4 Strict Instructor
+	4 Chernobog Delinquent
+	4 Siestan Therapist
+	4 Guerilla Shieldguard
+	4 Committee Salvage
+	4 Steel City Escort
+	4 Hired Crossbow
+	4 Caladon Mounted Police
+	4 Martial Arts Star
+	4 Patriot's End
+	4 LGD Rally
+	4 Rhodes Island Custody
+	4 Stable Esthesia
+	4 Handy Jetpack
+	4 Scientific Investigator
+	4 Lungmen Greytail
+	4 Karlan Climber
+	4 Inam Committee Chief
+	4 Generous Refusal
+	4 Training Room
+	4 Tinker
+	4 RIIC Factory Line
+	4 Hide the Evidence
+	4 Perfect Operation
+	4 Medical Experimenter
+	4 S.W.E.E.P. Assassin
+	4 Vacationing Mercenary
+	4 Abyssal Patient
+	4 Reunion Senior Caster
+	4 Fatal Push
+	4 Dashed Plans
+	4 Woven Shadow
+	4 Oripathy Outbreak
+	4 Scrounge for Scraps
+	4 Originium Altar
+	4 Impatient Tianshi
+	4 Rhodes Island Forgemaster
+	4 Bombtail Drone
+	4 Reunion Deserter
+	4 Warcaster Agent
+	4 Stinging Shock
+	4 Revealing Accusation
+	4 Scrapyard Temple
+	4 Pyrrhic Blast
+	4 Diligent Tinkering
+	4 For Each Who Falls
+	4 Ignis Hammer
+	4 Mudrock's Zealot
+	4 Ursus Scion
+	4 Tiacauh Champion
+	4 Woodland Hunter
+	4 Mossback Beast
+	4 Mahuizzotia Festival
+	4 Unshakable Solidarity
+	4 Abyssal Strike
+	4 Wander the Tundra
+	4 Bionics Engineer
+	4 Yeti Icecleaver
+	4 Hateful Avenger
+	4 Rim Billiton Messengers
+	4 Travelling Scholar
+	4 Mudrock Matterllurgist
+	4 Thermite Blade
+	4 Water Cannon
+	4 Beloved Whip
+	4 Modified Motorbike
+	4 Imperial Artillery Targeter
+	4 Hot Water Kettle
+	4 Infection Monitor Band
+	4 Mobile Tactical Hangar
+	4 Sprouting Barrenland
+	4 Crumbling Barrenland
+	4 Burning Barrenland
+	4 Outback Barrenland
+	4 Primeval Barrenland
+	4 Flexible Camouflage
+	4 Water of Life
+[common(6)]
+	8 Tiacauh Healer
+	8 Flint Tribe Fanatic
+	8 Rabid Hound
+	8 Reunion Butcher
+	8 Reunion Junkman
+	8 Reunion Airborne Soldier
+	8 Transport Hovercraft
+	8 Reunion Wraith
+	8 Sarkaz Swordsman
+	8 Street Punk Rocker
+	8 Ursine Gourmand
+	8 Reclusive Bookworm
+	8 Operational Intelligence
+	8 Lungmen Firefighter
+	8 Possess the Fallen
+	8 Final Vengeance
+	8 Blacksteel Slugkeeper
+	8 Emergency Inhibitor
+	8 Knight of the Followers
+	8 Yeti Squad Caster
+	8 Operator Reserve Team
+	8 Karlan Guardians
+	8 Leithanian Officer
+	8 Agency Bodyguard
+	8 Surly Finchef
+	8 Lungmen Guardsmen
+	8 Infected Patrolman
+	8 Blacksteel Trainee
+	8 Caster Operator
+	8 Medical Field Team
+	8 Studied Martial Artist
+	8 Unlucky Inventor
+	8 Streetwise Trickster
+	8 Junior Army Veteran
+	8 Guardian Ninja
+	8 Lungmen Pickpocket
+	8 S.W.E.E.P. Scavenger
+	8 Grappling Hook
+	8 Swift Response
+	8 Material Recombination
+	8 Swift Strike
+	8 Expedited Delivery
+	8 Binding Circle
+	8 Command: Meltdown
+	8 Preparedness Averts Peril
+	8 Scout Operator
+	8 Frost Drone
+	8 Fishmarket Barter
+	8 Disdainful Stroke
+	8 Turn to Originium
+	8 Rat King's Guile
+	8 Literature Storm
+	8 Become Anew
+	8 Partial Necrosis
+	8 Entwined
+	8 Precious Money Bank
+	8 Kazdelian Artilleryman
+	8 Famiglia Mafioso
+	8 Chernobog Survivor
+	8 Reunion Mortar Gunner
+	8 Grim Discovery
+	8 Plunge
+	8 Out of Options
+	8 Whispers of the Night
+	8 Dodge Death
+	8 Acute Oripathy Infection
+	8 Reunion Standard
+	8 Phantom Crossbowman
+	8 Rhine Labs Roboticist
+	8 Reunion Rioter
+	8 Gavial Tribe Ritualist
+	8 Columbian Cutter
+	8 Higashi Defector
+	8 Reunion Breaker
+	8 Reunion Rally
+	8 Talulah's Immolation
+	8 Grind for Parts
+	8 Instigate the Masses
+	8 Reckless Plunder
+	8 Arts of the Wilds
+	8 Certainty in Cinders
+	8 Laser Mining Assistance
+	8 Reunion Recruitment
+	8 Improvised Waraxe
+	8 Originium Slug
+	8 Acidic Originium Slug
+	8 Reunion Lurker
+	8 Guerrilla Herald
+	8 Wayward Archausauria
+	8 Catastrophe Messenger
+	8 Deadeye Operator
+	8 Ursus Mangler
+	8 Tiacauh Shredder
+	8 Shoot Down
+	8 Return to the Wilds
+	8 Shieldguard's Protection
+	8 Bone Fracture
+	8 Unified Charge
+	8 Display of Might
+	8 Reunion Camp
+	8 Monster Mk. 2
+	8 Lancet Triage Platform
+	8 Castle Combat Platform
+	8 Surveyor Drone
+	8 Tactical Armor
+	8 Caster's Wand
+	8 Rusty Hammer
+	8 Orundum Supplies
+	8 Support Riot Pile
+	8 Central Plate Skyline
+	8 Sublayer Slum
+	8 Shattered Streets
+	8 Jungle Scrapyard
+	8 Gladed Village
+	8 Hushed Settlement
+	8 Mossy Outpost
+	8 Alpine Stream
+	8 Festive Shoreline
+	8 Hulking Ruin
+	8 Evolving Wilds
+	8 Rewinding Breeze
+[common | masterpiece(1)]
+	8 Tiacauh Healer
+	8 Flint Tribe Fanatic
+	8 Rabid Hound
+	8 Reunion Butcher
+	8 Reunion Junkman
+	8 Reunion Airborne Soldier
+	8 Transport Hovercraft
+	8 Reunion Wraith
+	8 Sarkaz Swordsman
+	8 Street Punk Rocker
+	8 Ursine Gourmand
+	8 Reclusive Bookworm
+	8 Operational Intelligence
+	8 Lungmen Firefighter
+	8 Possess the Fallen
+	8 Final Vengeance
+	8 Blacksteel Slugkeeper
+	8 Emergency Inhibitor
+	8 Knight of the Followers
+	8 Yeti Squad Caster
+	8 Operator Reserve Team
+	8 Karlan Guardians
+	8 Leithanian Officer
+	8 Agency Bodyguard
+	8 Surly Finchef
+	8 Lungmen Guardsmen
+	8 Infected Patrolman
+	8 Blacksteel Trainee
+	8 Caster Operator
+	8 Medical Field Team
+	8 Studied Martial Artist
+	8 Unlucky Inventor
+	8 Streetwise Trickster
+	8 Junior Army Veteran
+	8 Guardian Ninja
+	8 Lungmen Pickpocket
+	8 S.W.E.E.P. Scavenger
+	8 Grappling Hook
+	8 Swift Response
+	8 Material Recombination
+	8 Swift Strike
+	8 Expedited Delivery
+	8 Binding Circle
+	8 Command: Meltdown
+	8 Preparedness Averts Peril
+	8 Scout Operator
+	8 Frost Drone
+	8 Fishmarket Barter
+	8 Disdainful Stroke
+	8 Turn to Originium
+	8 Rat King's Guile
+	8 Literature Storm
+	8 Become Anew
+	8 Partial Necrosis
+	8 Entwined
+	8 Precious Money Bank
+	8 Kazdelian Artilleryman
+	8 Famiglia Mafioso
+	8 Chernobog Survivor
+	8 Reunion Mortar Gunner
+	8 Grim Discovery
+	8 Plunge
+	8 Out of Options
+	8 Whispers of the Night
+	8 Dodge Death
+	8 Acute Oripathy Infection
+	8 Reunion Standard
+	8 Phantom Crossbowman
+	8 Rhine Labs Roboticist
+	8 Reunion Rioter
+	8 Gavial Tribe Ritualist
+	8 Columbian Cutter
+	8 Higashi Defector
+	8 Reunion Breaker
+	8 Reunion Rally
+	8 Talulah's Immolation
+	8 Grind for Parts
+	8 Instigate the Masses
+	8 Reckless Plunder
+	8 Arts of the Wilds
+	8 Certainty in Cinders
+	8 Laser Mining Assistance
+	8 Reunion Recruitment
+	8 Improvised Waraxe
+	8 Originium Slug
+	8 Acidic Originium Slug
+	8 Reunion Lurker
+	8 Guerrilla Herald
+	8 Wayward Archausauria
+	8 Catastrophe Messenger
+	8 Deadeye Operator
+	8 Ursus Mangler
+	8 Tiacauh Shredder
+	8 Shoot Down
+	8 Return to the Wilds
+	8 Shieldguard's Protection
+	8 Bone Fracture
+	8 Unified Charge
+	8 Display of Might
+	8 Reunion Camp
+	8 Monster Mk. 2
+	8 Lancet Triage Platform
+	8 Castle Combat Platform
+	8 Surveyor Drone
+	8 Tactical Armor
+	8 Caster's Wand
+	8 Rusty Hammer
+	8 Orundum Supplies
+	8 Support Riot Pile
+	8 Central Plate Skyline
+	8 Sublayer Slum
+	8 Shattered Streets
+	8 Jungle Scrapyard
+	8 Gladed Village
+	8 Hushed Settlement
+	8 Mossy Outpost
+	8 Alpine Stream
+	8 Festive Shoreline
+	8 Hulking Ruin
+	8 Evolving Wilds
+	8 Rewinding Breeze
+[foil(1)]
+	12 Tiacauh Healer
+	6 Durin Flagbearer
+	2 Zumama, Chief of the Eunectes
+	1 Ceobe, Perplexed Traveller
+	12 Flint Tribe Fanatic
+	2 The High Priest of Achualla
+	12 Rabid Hound
+	12 Reunion Butcher
+	12 Reunion Junkman
+	12 Reunion Airborne Soldier
+	12 Transport Hovercraft
+	12 Reunion Wraith
+	1 The Big Ugly Thing
+	1 Talulah, Tyrant of Reunion
+	1 W, the Renegade
+	12 Sarkaz Swordsman
+	6 Sarkaz Bladeweaver
+	2 Sarkaz Centurion
+	1 Emperor, Logistics Kingpin
+	2 Exusiai, Cheerful Courier
+	2 Texas, Taciturn Messenger
+	6 Defender Duo
+	6 Penguin Logisitcs Idol
+	12 Street Punk Rocker
+	2 Gavial's Might
+	12 Ursine Gourmand
+	6 Blacksteel Duo
+	6 Garden Perfumer
+	2 Mudrock, Reunion Captain
+	2 Frostnova, Winter's Scar
+	12 Reclusive Bookworm
+	1 Wei Yenwu
+	2 Ch'en Hui-chieh
+	2 Beatrix Schwire
+	2 Serviceman Hoshiguma
+	1 The Deathless Black Snake
+	2 Patriot, The Last Wendigo
+	2 Skullshatterer
+	6 Ice Nova
+	12 Operational Intelligence
+	2 Crownslayer, Reunion Infiltrator
+	12 Lungmen Firefighter
+	12 Possess the Fallen
+	12 Final Vengeance
+	1 Mostima, Key of Chronology
+	12 Blacksteel Slugkeeper
+	1 Doctor, Strategic Mastermind
+	2 Doctor Kal'tsit
+	2 Elite Operator Blaze
+	1 Rhodes Island Landship
+	6 Communications Team
+	12 Emergency Inhibitor
+	12 Knight of the Followers
+	2 Originium Catastrophe
+	2 Big Bob
+	6 Strict Instructor
+	12 Yeti Squad Caster
+	2 Sarkaz Grudgebearer
+	6 Chernobog Delinquent
+	6 Siestan Therapist
+	12 Operator Reserve Team
+	12 Karlan Guardians
+	12 Leithanian Officer
+	12 Agency Bodyguard
+	12 Surly Finchef
+	12 Lungmen Guardsmen
+	12 Infected Patrolman
+	12 Blacksteel Trainee
+	12 Caster Operator
+	12 Medical Field Team
+	12 Studied Martial Artist
+	12 Unlucky Inventor
+	12 Streetwise Trickster
+	12 Junior Army Veteran
+	12 Guardian Ninja
+	12 Lungmen Pickpocket
+	6 Guerilla Shieldguard
+	12 S.W.E.E.P. Scavenger
+	2 Surtr, Twilight Blade
+	2 Elite Operator Rosmontis
+	12 Grappling Hook
+	12 Swift Response
+	12 Material Recombination
+	12 Swift Strike
+	12 Expedited Delivery
+	12 Binding Circle
+	12 Command: Meltdown
+	12 Preparedness Averts Peril
+	12 Scout Operator
+	12 Frost Drone
+	12 Fishmarket Barter
+	12 Disdainful Stroke
+	12 Turn to Originium
+	12 Rat King's Guile
+	12 Literature Storm
+	12 Become Anew
+	12 Partial Necrosis
+	12 Entwined
+	12 Precious Money Bank
+	12 Kazdelian Artilleryman
+	12 Famiglia Mafioso
+	12 Chernobog Survivor
+	12 Reunion Mortar Gunner
+	12 Grim Discovery
+	12 Plunge
+	12 Out of Options
+	12 Whispers of the Night
+	12 Dodge Death
+	12 Acute Oripathy Infection
+	12 Reunion Standard
+	12 Phantom Crossbowman
+	12 Rhine Labs Roboticist
+	12 Reunion Rioter
+	12 Gavial Tribe Ritualist
+	12 Columbian Cutter
+	12 Higashi Defector
+	12 Reunion Breaker
+	12 Reunion Rally
+	12 Talulah's Immolation
+	12 Grind for Parts
+	12 Instigate the Masses
+	12 Reckless Plunder
+	12 Arts of the Wilds
+	12 Certainty in Cinders
+	12 Laser Mining Assistance
+	12 Reunion Recruitment
+	12 Improvised Waraxe
+	12 Originium Slug
+	12 Acidic Originium Slug
+	12 Reunion Lurker
+	12 Guerrilla Herald
+	12 Wayward Archausauria
+	12 Catastrophe Messenger
+	12 Deadeye Operator
+	12 Ursus Mangler
+	12 Tiacauh Shredder
+	12 Shoot Down
+	12 Return to the Wilds
+	12 Shieldguard's Protection
+	6 Committee Salvage
+	12 Bone Fracture
+	12 Unified Charge
+	12 Display of Might
+	12 Reunion Camp
+	12 Monster Mk. 2
+	12 Lancet Triage Platform
+	12 Castle Combat Platform
+	12 Surveyor Drone
+	12 Tactical Armor
+	12 Caster's Wand
+	12 Rusty Hammer
+	12 Orundum Supplies
+	12 Support Riot Pile
+	12 Central Plate Skyline
+	12 Sublayer Slum
+	12 Shattered Streets
+	12 Jungle Scrapyard
+	12 Gladed Village
+	12 Hushed Settlement
+	12 Mossy Outpost
+	12 Alpine Stream
+	12 Festive Shoreline
+	12 Hulking Ruin
+	12 Evolving Wilds
+	6 Steel City Escort
+	6 Hired Crossbow
+	6 Caladon Mounted Police
+	6 Martial Arts Star
+	6 Patriot's End
+	6 LGD Rally
+	6 Rhodes Island Custody
+	6 Stable Esthesia
+	6 Handy Jetpack
+	6 Scientific Investigator
+	6 Lungmen Greytail
+	6 Karlan Climber
+	6 Inam Committee Chief
+	6 Generous Refusal
+	6 Training Room
+	6 Tinker
+	6 RIIC Factory Line
+	6 Hide the Evidence
+	6 Perfect Operation
+	6 Medical Experimenter
+	6 S.W.E.E.P. Assassin
+	6 Vacationing Mercenary
+	6 Abyssal Patient
+	6 Reunion Senior Caster
+	6 Fatal Push
+	6 Dashed Plans
+	6 Woven Shadow
+	6 Oripathy Outbreak
+	6 Scrounge for Scraps
+	6 Originium Altar
+	6 Impatient Tianshi
+	6 Rhodes Island Forgemaster
+	6 Bombtail Drone
+	6 Reunion Deserter
+	6 Warcaster Agent
+	6 Stinging Shock
+	6 Revealing Accusation
+	6 Scrapyard Temple
+	6 Pyrrhic Blast
+	6 Diligent Tinkering
+	6 For Each Who Falls
+	6 Ignis Hammer
+	6 Mudrock's Zealot
+	6 Ursus Scion
+	6 Tiacauh Champion
+	6 Woodland Hunter
+	6 Mossback Beast
+	12 Rewinding Breeze
+	6 Mahuizzotia Festival
+	6 Unshakable Solidarity
+	6 Abyssal Strike
+	6 Wander the Tundra
+	6 Bionics Engineer
+	6 Yeti Icecleaver
+	6 Hateful Avenger
+	6 Rim Billiton Messengers
+	6 Travelling Scholar
+	6 Mudrock Matterllurgist
+	6 Thermite Blade
+	6 Water Cannon
+	6 Beloved Whip
+	2 Avenger's Katana
+	6 Modified Motorbike
+	1 Delivery Buggy
+	6 Imperial Artillery Targeter
+	6 Hot Water Kettle
+	6 Infection Monitor Band
+	6 Mobile Tactical Hangar
+	6 Sprouting Barrenland
+	6 Crumbling Barrenland
+	6 Burning Barrenland
+	6 Outback Barrenland
+	6 Primeval Barrenland
+	2 Elite Operator Ace
+	2 Shining, Confessor Exile
+	2 Snowfield Rescue
+	2 Warehouse Ambush
+	2 Shadowless
+	2 Hannya, Trusted Shield
+	2 Necessary Solutions
+	2 Elite Operator Squad
+	2 Trust your Eyes
+	2 Chernobog Sarcophagus
+	2 Skill Aura
+	2 Convolution
+	2 Expanded Cognition
+	2 Alive Until Sunset
+	2 Isidro, Eccentric Alchemist
+	2 Warfarin, Hematologist
+	2 Mephisto, Reunion Captain
+	2 Spiritual Destruction
+	2 Cover the Damages
+	2 Separated Hearts
+	2 Mudrock Colossus
+	2 Pompeii, Heart of Surging Flame
+	2 Explosive Entrance
+	2 City on Fire
+	2 The Obsidian Festival
+	6 Flexible Camouflage
+	2 Ceobe's Fungimist
+	2 Faust, Phantom Sniper
+	2 Spirited Messenger
+	2 Search for Safety
+	2 Trial of Strength
+	2 Inspiring Call
+	2 Combat-Ready Chainsaw
+	2 Raging Iron Fists
+	2 Enciodes Silverash
+	2 Lin Grey, the Rat King
+	2 Student of Kal'tsit
+	2 Skadi, Abyssal Hunter
+	2 Adele Naumann, Volcanologist
+	2 Suzuran, Foxfire Child
+	2 Mr. Lee, Lungmen Detective
+	2 Lappland, Rogue Mafioso
+	2 Angelina Ajimu
+	2 Modified Starflail
+	6 Water of Life
+	2 Foiled Fury
+	2 Sword of the Present
+	2 Vanguard's Standard
+	1 Chi Xiao, Dragon-Slayer
+	1 Cheers of Celebration
+	1 Rescue from Stasis
+	1 Mephisto, the Singer
+	1 Anterior Vigilo
+	1 The Birth of Tragedy
+	1 Amiya, Idealistic Leader
+	1 Roadblock
+	1 Nian, Sui Fragment
+	1 Roaring Flare
+	1 Assembled Movement
+	1 Memories of Better Days
+	2 Tidal Elegy
+	2 Nightingale of the Followers
+	2 Mr. Hellagur
+[wildcard(1)]
+	6 Tiacauh Healer
+	15 Durin Flagbearer
+	7 Zumama, Chief of the Eunectes
+	4 Ceobe, Perplexed Traveller
+	6 Flint Tribe Fanatic
+	7 The High Priest of Achualla
+	6 Rabid Hound
+	6 Reunion Butcher
+	6 Reunion Junkman
+	6 Reunion Airborne Soldier
+	6 Transport Hovercraft
+	6 Reunion Wraith
+	4 The Big Ugly Thing
+	4 Talulah, Tyrant of Reunion
+	4 W, the Renegade
+	6 Sarkaz Swordsman
+	15 Sarkaz Bladeweaver
+	7 Sarkaz Centurion
+	4 Emperor, Logistics Kingpin
+	7 Exusiai, Cheerful Courier
+	7 Texas, Taciturn Messenger
+	15 Defender Duo
+	15 Penguin Logisitcs Idol
+	6 Street Punk Rocker
+	7 Gavial's Might
+	6 Ursine Gourmand
+	15 Blacksteel Duo
+	15 Garden Perfumer
+	7 Mudrock, Reunion Captain
+	7 Frostnova, Winter's Scar
+	6 Reclusive Bookworm
+	4 Wei Yenwu
+	7 Ch'en Hui-chieh
+	7 Beatrix Schwire
+	7 Serviceman Hoshiguma
+	4 The Deathless Black Snake
+	7 Patriot, The Last Wendigo
+	7 Skullshatterer
+	15 Ice Nova
+	6 Operational Intelligence
+	7 Crownslayer, Reunion Infiltrator
+	6 Lungmen Firefighter
+	6 Possess the Fallen
+	6 Final Vengeance
+	4 Mostima, Key of Chronology
+	6 Blacksteel Slugkeeper
+	4 Doctor, Strategic Mastermind
+	7 Doctor Kal'tsit
+	7 Elite Operator Blaze
+	4 Rhodes Island Landship
+	15 Communications Team
+	6 Emergency Inhibitor
+	6 Knight of the Followers
+	7 Originium Catastrophe
+	7 Big Bob
+	15 Strict Instructor
+	6 Yeti Squad Caster
+	7 Sarkaz Grudgebearer
+	15 Chernobog Delinquent
+	15 Siestan Therapist
+	6 Operator Reserve Team
+	6 Karlan Guardians
+	6 Leithanian Officer
+	6 Agency Bodyguard
+	6 Surly Finchef
+	6 Lungmen Guardsmen
+	6 Infected Patrolman
+	6 Blacksteel Trainee
+	6 Caster Operator
+	6 Medical Field Team
+	6 Studied Martial Artist
+	6 Unlucky Inventor
+	6 Streetwise Trickster
+	6 Junior Army Veteran
+	6 Guardian Ninja
+	6 Lungmen Pickpocket
+	15 Guerilla Shieldguard
+	6 S.W.E.E.P. Scavenger
+	7 Surtr, Twilight Blade
+	7 Elite Operator Rosmontis
+	6 Grappling Hook
+	6 Swift Response
+	6 Material Recombination
+	6 Swift Strike
+	6 Expedited Delivery
+	6 Binding Circle
+	6 Command: Meltdown
+	6 Preparedness Averts Peril
+	6 Scout Operator
+	6 Frost Drone
+	6 Fishmarket Barter
+	6 Disdainful Stroke
+	6 Turn to Originium
+	6 Rat King's Guile
+	6 Literature Storm
+	6 Become Anew
+	6 Partial Necrosis
+	6 Entwined
+	6 Precious Money Bank
+	6 Kazdelian Artilleryman
+	6 Famiglia Mafioso
+	6 Chernobog Survivor
+	6 Reunion Mortar Gunner
+	6 Grim Discovery
+	6 Plunge
+	6 Out of Options
+	6 Whispers of the Night
+	6 Dodge Death
+	6 Acute Oripathy Infection
+	6 Reunion Standard
+	6 Phantom Crossbowman
+	6 Rhine Labs Roboticist
+	6 Reunion Rioter
+	6 Gavial Tribe Ritualist
+	6 Columbian Cutter
+	6 Higashi Defector
+	6 Reunion Breaker
+	6 Reunion Rally
+	6 Talulah's Immolation
+	6 Grind for Parts
+	6 Instigate the Masses
+	6 Reckless Plunder
+	6 Arts of the Wilds
+	6 Certainty in Cinders
+	6 Laser Mining Assistance
+	6 Reunion Recruitment
+	6 Improvised Waraxe
+	6 Originium Slug
+	6 Acidic Originium Slug
+	6 Reunion Lurker
+	6 Guerrilla Herald
+	6 Wayward Archausauria
+	6 Catastrophe Messenger
+	6 Deadeye Operator
+	6 Ursus Mangler
+	6 Tiacauh Shredder
+	6 Shoot Down
+	6 Return to the Wilds
+	6 Shieldguard's Protection
+	15 Committee Salvage
+	6 Bone Fracture
+	6 Unified Charge
+	6 Display of Might
+	6 Reunion Camp
+	6 Monster Mk. 2
+	6 Lancet Triage Platform
+	6 Castle Combat Platform
+	6 Surveyor Drone
+	6 Tactical Armor
+	6 Caster's Wand
+	6 Rusty Hammer
+	6 Orundum Supplies
+	6 Support Riot Pile
+	6 Central Plate Skyline
+	6 Sublayer Slum
+	6 Shattered Streets
+	6 Jungle Scrapyard
+	6 Gladed Village
+	6 Hushed Settlement
+	6 Mossy Outpost
+	6 Alpine Stream
+	6 Festive Shoreline
+	6 Hulking Ruin
+	6 Evolving Wilds
+	15 Steel City Escort
+	15 Hired Crossbow
+	15 Caladon Mounted Police
+	15 Martial Arts Star
+	15 Patriot's End
+	15 LGD Rally
+	15 Rhodes Island Custody
+	15 Stable Esthesia
+	15 Handy Jetpack
+	15 Scientific Investigator
+	15 Lungmen Greytail
+	15 Karlan Climber
+	15 Inam Committee Chief
+	15 Generous Refusal
+	15 Training Room
+	15 Tinker
+	15 RIIC Factory Line
+	15 Hide the Evidence
+	15 Perfect Operation
+	15 Medical Experimenter
+	15 S.W.E.E.P. Assassin
+	15 Vacationing Mercenary
+	15 Abyssal Patient
+	15 Reunion Senior Caster
+	15 Fatal Push
+	15 Dashed Plans
+	15 Woven Shadow
+	15 Oripathy Outbreak
+	15 Scrounge for Scraps
+	15 Originium Altar
+	15 Impatient Tianshi
+	15 Rhodes Island Forgemaster
+	15 Bombtail Drone
+	15 Reunion Deserter
+	15 Warcaster Agent
+	15 Stinging Shock
+	15 Revealing Accusation
+	15 Scrapyard Temple
+	15 Pyrrhic Blast
+	15 Diligent Tinkering
+	15 For Each Who Falls
+	15 Ignis Hammer
+	15 Mudrock's Zealot
+	15 Ursus Scion
+	15 Tiacauh Champion
+	15 Woodland Hunter
+	15 Mossback Beast
+	6 Rewinding Breeze
+	15 Mahuizzotia Festival
+	15 Unshakable Solidarity
+	15 Abyssal Strike
+	15 Wander the Tundra
+	15 Bionics Engineer
+	15 Yeti Icecleaver
+	15 Hateful Avenger
+	15 Rim Billiton Messengers
+	15 Travelling Scholar
+	15 Mudrock Matterllurgist
+	15 Thermite Blade
+	15 Water Cannon
+	15 Beloved Whip
+	7 Avenger's Katana
+	15 Modified Motorbike
+	4 Delivery Buggy
+	15 Imperial Artillery Targeter
+	15 Hot Water Kettle
+	15 Infection Monitor Band
+	15 Mobile Tactical Hangar
+	15 Sprouting Barrenland
+	15 Crumbling Barrenland
+	15 Burning Barrenland
+	15 Outback Barrenland
+	15 Primeval Barrenland
+	7 Elite Operator Ace
+	7 Shining, Confessor Exile
+	7 Snowfield Rescue
+	7 Warehouse Ambush
+	7 Shadowless
+	7 Hannya, Trusted Shield
+	7 Necessary Solutions
+	7 Elite Operator Squad
+	7 Trust your Eyes
+	7 Chernobog Sarcophagus
+	7 Skill Aura
+	7 Convolution
+	7 Expanded Cognition
+	7 Alive Until Sunset
+	7 Isidro, Eccentric Alchemist
+	7 Warfarin, Hematologist
+	7 Mephisto, Reunion Captain
+	7 Spiritual Destruction
+	7 Cover the Damages
+	7 Separated Hearts
+	7 Mudrock Colossus
+	7 Pompeii, Heart of Surging Flame
+	7 Explosive Entrance
+	7 City on Fire
+	7 The Obsidian Festival
+	15 Flexible Camouflage
+	7 Ceobe's Fungimist
+	7 Faust, Phantom Sniper
+	7 Spirited Messenger
+	7 Search for Safety
+	7 Trial of Strength
+	7 Inspiring Call
+	7 Combat-Ready Chainsaw
+	7 Raging Iron Fists
+	7 Enciodes Silverash
+	7 Lin Grey, the Rat King
+	7 Student of Kal'tsit
+	7 Skadi, Abyssal Hunter
+	7 Adele Naumann, Volcanologist
+	7 Suzuran, Foxfire Child
+	7 Mr. Lee, Lungmen Detective
+	7 Lappland, Rogue Mafioso
+	7 Angelina Ajimu
+	7 Modified Starflail
+	15 Water of Life
+	7 Foiled Fury
+	7 Sword of the Present
+	7 Vanguard's Standard
+	4 Chi Xiao, Dragon-Slayer
+	4 Cheers of Celebration
+	4 Rescue from Stasis
+	4 Mephisto, the Singer
+	4 Anterior Vigilo
+	4 The Birth of Tragedy
+	4 Amiya, Idealistic Leader
+	4 Roadblock
+	4 Nian, Sui Fragment
+	4 Roaring Flare
+	4 Assembled Movement
+	4 Memories of Better Days
+	7 Tidal Elegy
+	7 Nightingale of the Followers
+	7 Mr. Hellagur
