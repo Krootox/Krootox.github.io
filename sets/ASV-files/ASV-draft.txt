@@ -225,7 +225,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{W}{W}",
 			"type": "Creature — Cat Bard Mercenary",
-			"collector_number": "27",
+			"collector_number": "26",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/22.jpg"
 			}
@@ -601,11 +601,11 @@
 			}
 		},
 		{
-			"name": "Operator Reserve Team",
+			"name": "Reserve Operator Squad",
 			"rarity": "common",
 			"mana_cost": "{2}{W}",
 			"type": "Creature — Warrior Wizard Ally",
-			"collector_number": "25",
+			"collector_number": "28",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/60.jpg"
 			}
@@ -1685,7 +1685,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}",
 			"type": "Instant",
-			"collector_number": "26",
+			"collector_number": "25",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/168.jpg"
 			}
@@ -2303,8 +2303,8 @@
 		{
 			"name": "Infection Monitor Band",
 			"rarity": "uncommon",
-			"mana_cost": "{3}",
-			"type": "Artifact",
+			"mana_cost": "{4}",
+			"type": "Artifact — Equipment",
 			"collector_number": "269",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/230.jpg"
@@ -2833,7 +2833,7 @@
 		{
 			"name": "Sword of the Present",
 			"rarity": "rare",
-			"mana_cost": "{2}{R}{W}",
+			"mana_cost": "{R}{W}",
 			"type": "Instant",
 			"collector_number": "241",
 			"image_uris": {
@@ -2875,7 +2875,7 @@
 			"rarity": "mythic",
 			"mana_cost": "{2}{W}",
 			"type": "Instant",
-			"collector_number": "28",
+			"collector_number": "27",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/287.jpg"
 			}
@@ -3361,7 +3361,7 @@
 	8 Emergency Inhibitor
 	8 Knight of the Followers
 	8 Yeti Squad Caster
-	8 Operator Reserve Team
+	8 Reserve Operator Squad
 	8 Karlan Guardians
 	8 Leithanian Officer
 	8 Agency Bodyguard
@@ -3483,7 +3483,7 @@
 	8 Emergency Inhibitor
 	8 Knight of the Followers
 	8 Yeti Squad Caster
-	8 Operator Reserve Team
+	8 Reserve Operator Squad
 	8 Karlan Guardians
 	8 Leithanian Officer
 	8 Agency Bodyguard
@@ -3645,7 +3645,7 @@
 	2 Sarkaz Grudgebearer
 	6 Chernobog Delinquent
 	6 Siestan Therapist
-	12 Operator Reserve Team
+	12 Reserve Operator Squad
 	12 Karlan Guardians
 	12 Leithanian Officer
 	12 Agency Bodyguard
@@ -3946,7 +3946,7 @@
 	7 Sarkaz Grudgebearer
 	15 Chernobog Delinquent
 	15 Siestan Therapist
-	6 Operator Reserve Team
+	6 Reserve Operator Squad
 	6 Karlan Guardians
 	6 Leithanian Officer
 	6 Agency Bodyguard

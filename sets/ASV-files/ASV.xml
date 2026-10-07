@@ -5,7 +5,7 @@
 			<name>ASV</name>
 			<longname>Arknights: Shatter of a Vision</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-10-03</releasedate>
+			<releasedate>2026-10-06</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -415,7 +415,7 @@ Whenever another mercenary creature enters under your control, put a shield coun
 			<name>Penguin Logisitcs Idol</name>
 			<text>Whenever another creature enters under your control, you gain 1 life.
 Whenever you gain life, other creatures you control get +1/+1 until end of turn.</text>
-			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/22.jpg" num="27">ASV</set>
+			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/22.jpg" num="26">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -431,8 +431,7 @@ Whenever you gain life, other creatures you control get +1/+1 until end of turn.
 		</card>
 		<card>
 			<name>Street Punk Rocker</name>
-			<text>First strike
-Whenever Street Punk Rocker creature attacks, create an Originium token. (It&apos;s a colorless artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.&quot;)</text>
+			<text>When Street Punk Rocker enters, create an Originium token. (It&apos;s a colorless artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.&quot;)</text>
 			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/23.jpg" num="163">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -765,7 +764,7 @@ Whenever Crownslayer, Reunion Infiltrator deals combat damage to a player, creat
 		</card>
 		<card>
 			<name>Lungmen Firefighter</name>
-			<text>{T}: Untap target creature and remove it from combat.</text>
+			<text>{T}: Untap another target permanent you control.</text>
 			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/41.jpg" num="61">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -776,7 +775,7 @@ Whenever Crownslayer, Reunion Infiltrator deals combat damage to a player, creat
 				<cmc>3</cmc>
 				<colors>U</colors>
 				<coloridentity>U</coloridentity>
-				<pt>2/4</pt>
+				<pt>1/4</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -921,7 +920,8 @@ Skill Activation — Whenever you cast a spell with mana value 4 or greater and 
 		</card>
 		<card>
 			<name>Communications Team</name>
-			<text>{T}, Put a stun counter on this creature: Add five mana in any combination of colors.
+			<text>{T}, Add one mana of any color.
+{T}, put a stun counter on Communications Team: Add two mana in any combination of colors.
 Skill Activation — Whenever you cast a spell with mana value 4 or greater, target creature you control gains reach until end of turn.</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/50.jpg" num="175">ASV</set>
 			<prop>
@@ -939,8 +939,7 @@ Skill Activation — Whenever you cast a spell with mana value 4 or greater, tar
 		</card>
 		<card>
 			<name>Emergency Inhibitor</name>
-			<text>Emergency Inhibitor enters tapped.
-{1}, {T}, Sacrifice this artifact: You gain 3 life.</text>
+			<text>{1}, {T}, Sacrifice this artifact: You gain 3 life and draw a card.</text>
 			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/51.jpg" num="265">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -1097,10 +1096,10 @@ Whenever a creature with power 4 or greater enters, creatures you control get +1
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>Operator Reserve Team</name>
+			<name>Reserve Operator Squad</name>
 			<text>Reach
 Skill Activation — Whenever you cast a spell with mana value 4 or greater, put a +1/+1 counter on this creature and it gains lifelink until end of turn.</text>
-			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/60.jpg" num="25">ASV</set>
+			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/60.jpg" num="28">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1790,7 +1789,7 @@ At the beginning of your upkeep put a stun counter on enchanted creature.</text>
 		</card>
 		<card>
 			<name>Famiglia Mafioso</name>
-			<text>Whenever a mercenary or a rogue enters under your control, Famiglia Mafioso gains menace until end of turn.</text>
+			<text>Whenever a Mercenary or Rebel enters under your control, Famiglia Mafioso gains menace until end of turn.</text>
 			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/100.jpg" num="91">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -2607,7 +2606,8 @@ When Surveyor Drone enters, search your library for a basic land card, put that 
 		</card>
 		<card>
 			<name>Tactical Armor</name>
-			<text>Equip {1}
+			<text>When Tactical Armor enters, create a 1/1 black Mercenary creature token and attach this equipment to it.
+Equip {1}
 Equipped creature gets +0/+1 and has vigilance.</text>
 			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/148.jpg" num="280">ASV</set>
 			<prop>
@@ -2941,7 +2941,7 @@ Martial Arts Star gets +2/+0 for each Equipment attached to it.</text>
 		<card>
 			<name>Patriot&apos;s End</name>
 			<text>Destroy target creature with power 4 or greater, you gain 2 life.</text>
-			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/168.jpg" num="26">ASV</set>
+			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/168.jpg" num="25">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2990,7 +2990,7 @@ When Rhodes Island Custody enters, exile target non-land permanent until Rhodes 
 		</card>
 		<card>
 			<name>Stable Esthesia</name>
-			<text>Skill Activation — Whenever you cast a spell with mana value 4 or greater, draw a card, then choose one — 
+			<text>Skill Activation — Whenever you cast a spell with mana value 4 or greater, choose one — 
 • Put a +1/+1 counter on target creature, it gains lifelink until end of turn.
 • Tap and put a stun counter on target creature.</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/171.jpg" num="35">ASV</set>
@@ -3008,7 +3008,7 @@ When Rhodes Island Custody enters, exile target non-land permanent until Rhodes 
 		</card>
 		<card>
 			<name>Handy Jetpack</name>
-			<text>When Handy Jetpack enters, target creature gains flying until end of turn.
+			<text>When Handy Jetpack enters, create a 2/2 white Ally creature token and attach this equipment to it.
 Equip {3}
 Equipped creature has flying and first strike.</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/172.jpg" num="13">ASV</set>
@@ -3655,7 +3655,7 @@ Whenever Tiacauh Champion attacks, if you control creatures with 10 or greater t
 		<card>
 			<name>Woodland Hunter</name>
 			<text>Reach
-When Woodland Hunter enters or dies, destroy target artifact or enchantment.</text>
+When Woodland Hunter enters, destroy target artifact or enchantment.</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/209.jpg" num="207">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -3672,7 +3672,7 @@ When Woodland Hunter enters or dies, destroy target artifact or enchantment.</te
 		</card>
 		<card>
 			<name>Mossback Beast</name>
-			<text>Whenever you gain life, put a +1/+1 counter on target creature you control.</text>
+			<text>Whenever you gain life, put a +1/+1 counter on Mossback Beast.</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/210.jpg" num="185">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -3830,7 +3830,7 @@ Whenever you attack with Hateful Avenger, if it has three or more +1/+1 counters
 		</card>
 		<card>
 			<name>Rim Billiton Messengers</name>
-			<text>Whenever another creature enters under your control, target Mercenary creature you control gets +1/+1 and has deathtouch until end of turn.
+			<text>Whenever another creature enters under your control, target Mercenary creature you control gets +1/+1 and gains deathtouch until end of turn.
 Whenever a Mercenary creature you control deals combat damage to a player you may pay {2}{W}{B}, if you do then exile target nonland permanent with mana value 4 or less.</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/219.jpg" num="229">ASV</set>
 			<prop>
@@ -3869,7 +3869,7 @@ Whenever an artifact enters under your control choose one —
 		<card>
 			<name>Mudrock Matterllurgist</name>
 			<text>Vigilance
-Revolt — Whenever another permanent leaves the battlefield under your control, put two +1/+1 counters on target creature you control.</text>
+Revolt — Whenever another permanent leaves the battlefield under your control, put a +1/+1 counter on target creature you control. This ability may only trigger once each turn.</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/221.jpg" num="235">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -3917,7 +3917,7 @@ Equipped creature gets +1/+2 and has &quot;{1}, {T}: Tap target creature you don
 		<card>
 			<name>Beloved Whip</name>
 			<text>Equip {2}
-Equipped creature has &quot;Whenever this creature attacks, creatures you control with lesser power get +1/+1 until end of turn&quot;</text>
+Equipped creature gets +1/+1 and gains &quot;Whenever this creature attacks, creatures you control with lesser power get +1/+1 until end of turn&quot;</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/224.jpg" num="260">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -3931,8 +3931,9 @@ Equipped creature has &quot;Whenever this creature attacks, creatures you contro
 		</card>
 		<card>
 			<name>Avenger&apos;s Katana</name>
-			<text>Equip {1}
-Equipped creature has first strike and &quot;Whenever another creature you control dies, this creature gets +1/+0 until end of turn&quot;.</text>
+			<text>Equip {2}
+Equipped creature has first strike.
+If you have less than half your starting life total, equipped creature gets +3/+0 and double strike.</text>
 			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/225.jpg" num="125">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -4012,15 +4013,17 @@ Whenever Delivery Buggy becomes blocked you may reveal a mercenary creature card
 		</card>
 		<card>
 			<name>Infection Monitor Band</name>
-			<text>Whenever you sacrifice an Originium token, you gain 1 life. (It&apos;s a colorless artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.&quot;)</text>
+			<text>When Infection Monitor Band enters, create a 2/2 white Ally creature token and attach this equipment to it.
+Equip {2}
+Equipped creature gets +1/+1 gains &quot;at the beginning of your upkeep, gain 1 life.&quot;</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/230.jpg" num="269">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Artifact</type>
+				<type>Artifact — Equipment</type>
 				<maintype>Artifact</maintype>
-				<manacost>3</manacost>
-				<cmc>3</cmc>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
 			</prop>
 			<tablerow>1</tablerow>
 		</card>
@@ -4559,7 +4562,8 @@ If a source you control would deal damage to a permanent or player, it deals tri
 		</card>
 		<card>
 			<name>Flexible Camouflage</name>
-			<text>Equip {3}
+			<text>When Flexible Camouflage enters, create a 1/1 black Mercenary creature token and attach this equipment to it.
+Equip {1}
 Sacrifice an Artifact: Equipped creature gets +1/+1 and cannot be blocked until end of turn.</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/262.jpg" num="266">ASV</set>
 			<prop>
@@ -4695,8 +4699,9 @@ Equipped creature has trample and &quot;whenever this creature attacks, double i
 		</card>
 		<card>
 			<name>Raging Iron Fists</name>
-			<text>Equip {W}{U}
-Equipped creature gets +2/+2 and gains first strike.
+			<text>When Raging Iron Fists enters, create a 2/2 white Ally creature token and attach this equipment to it.
+Equip {1}{W}{U}
+Equipped creature gets +2/+2.
 Whenever equipped creature attacks, tap target creature you don&apos;t control and put a stun counter on it.</text>
 			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/270.jpg" num="212">ASV</set>
 			<prop>
@@ -4841,7 +4846,7 @@ At the beginning of your end step, if a creature you control dealt damage to a p
 		</card>
 		<card>
 			<name>Lappland, Rogue Mafioso</name>
-			<text>Whenever a mercenary creature enters or leaves under your control, put a +1/+1 counter on Lappland, Rogue Mafioso.
+			<text>Whenever another Mercenary creature enters or leaves under your control, put a +1/+1 counter on Lappland, Rogue Mafioso.
 Sacrifice a creature: Lappland, Rogue Mafioso gains lifelink, deathtouch, and trample until end of turn.</text>
 			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/278.jpg" num="253">ASV</set>
 			<prop>
@@ -4878,7 +4883,8 @@ You may play an additional land on each of your turns.</text>
 		</card>
 		<card>
 			<name>Modified Starflail</name>
-			<text>Equip {U}{R}
+			<text>When Modified Starflail enters, create a 1/1 black Mercenary creature token and attach this equipment to it.
+Equip {U}{R}
 Equipped creature has reach and trample.
 Whenever an artifact enters under your control, put a +1/+1 counter on equipped creature.</text>
 			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/280.jpg" num="232">ASV</set>
@@ -4929,15 +4935,15 @@ Whenever an artifact enters under your control, put a +1/+1 counter on equipped 
 		</card>
 		<card>
 			<name>Sword of the Present</name>
-			<text>Attach target equipment you control to a creature you control. Create a non-legendary token copy of that equipment and attach it to a different creature you control. Exile the token copy at the beginning of your next end step.</text>
+			<text>Attach target equipment you control to a creature you control. Create a non-legendary token copy of that equipment and attach it to a different creature you control.</text>
 			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/283.jpg" num="241">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Instant</type>
 				<maintype>Instant</maintype>
-				<manacost>2RW</manacost>
-				<cmc>4</cmc>
+				<manacost>RW</manacost>
+				<cmc>2</cmc>
 				<colors>WR</colors>
 				<coloridentity>WR</coloridentity>
 			</prop>
@@ -4998,7 +5004,7 @@ Creatures you control gain hexproof, vigilance and indestructible until end of t
 		<card>
 			<name>Rescue from Stasis</name>
 			<text>Return target creature card with power 2 or less from your graveyard or exile to the battlefield tapped.</text>
-			<set rarity="mythic" picurl="https://krootox.github.io/sets/ASV-files/img/287.jpg" num="28">ASV</set>
+			<set rarity="mythic" picurl="https://krootox.github.io/sets/ASV-files/img/287.jpg" num="27">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>

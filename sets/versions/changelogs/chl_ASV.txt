@@ -1,4 +1,122 @@
-﻿VERSION 8 CHANGELOG
+﻿VERSION 9 CHANGELOG
+====================
+
+Reserve Operator Squad added.
+
+Operator Reserve Team removed.
+
+Street Punk Rocker
+rules_text: First strike
+Whenever Street Punk Rocker creature attacks, create an Originium token. [i](It's a colorless artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i] => When Street Punk Rocker enters, create an Originium token. [i](It's a colorless artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i]
+
+Lungmen Firefighter
+rules_text: {T}: Untap target creature and remove it from combat. => {T}: Untap another target permanent you control.
+pt: 2/4 => 1/4
+
+Communications Team
+rules_text: {T}, Put a stun counter on this creature: Add five mana in any combination of colors.
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, target creature you control gains reach until end of turn. => {T}, Add one mana of any color.
+{T}, put a stun counter on Communications Team: Add two mana in any combination of colors.
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, target creature you control gains reach until end of turn.
+
+Emergency Inhibitor
+rules_text: Emergency Inhibitor enters tapped.
+{1}, {T}, Sacrifice this artifact: You gain 3 life. => {1}, {T}, Sacrifice this artifact: You gain 3 life and draw a card.
+
+Grappling Hook
+
+Famiglia Mafioso
+rules_text: Whenever a mercenary or a rogue enters under your control, Famiglia Mafioso gains menace until end of turn. => Whenever a Mercenary or Rebel enters under your control, Famiglia Mafioso gains menace until end of turn.
+
+Tactical Armor
+rules_text: Equip {1}
+Equipped creature gets +0/+1 and has vigilance. => When Tactical Armor enters, create a 1/1 black Mercenary creature token and attach this equipment to it.
+Equip {1}
+Equipped creature gets +0/+1 and has vigilance.
+
+Stable Esthesia
+rules_text: [i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, draw a card, then choose one — 
+• Put a +1/+1 counter on target creature, it gains lifelink until end of turn.
+• Tap and put a stun counter on target creature. => [i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, choose one — 
+• Put a +1/+1 counter on target creature, it gains lifelink until end of turn.
+• Tap and put a stun counter on target creature.
+
+Handy Jetpack
+rules_text: When Handy Jetpack enters, target creature gains flying until end of turn.
+Equip {3}
+Equipped creature has flying and first strike. => When Handy Jetpack enters, create a 2/2 white Ally creature token and attach this equipment to it.
+Equip {3}
+Equipped creature has flying and first strike.
+
+Woodland Hunter
+rules_text: Reach
+When Woodland Hunter enters or dies, destroy target artifact or enchantment. => Reach
+When Woodland Hunter enters, destroy target artifact or enchantment.
+
+Mossback Beast
+rules_text: Whenever you gain life, put a +1/+1 counter on target creature you control. => Whenever you gain life, put a +1/+1 counter on Mossback Beast.
+
+Rim Billiton Messengers
+rules_text: Whenever another creature enters under your control, target Mercenary creature you control gets +1/+1 and has deathtouch until end of turn.
+Whenever a Mercenary creature you control deals combat damage to a player you may pay {2}{W}{B}, if you do then exile target nonland permanent with mana value 4 or less. => Whenever another creature enters under your control, target Mercenary creature you control gets +1/+1 and gains deathtouch until end of turn.
+Whenever a Mercenary creature you control deals combat damage to a player you may pay {2}{W}{B}, if you do then exile target nonland permanent with mana value 4 or less.
+
+Mudrock Matterllurgist
+rules_text: Vigilance
+[i]Revolt[/i] — Whenever another permanent leaves the battlefield under your control, put two +1/+1 counters on target creature you control. => Vigilance
+[i]Revolt[/i] — Whenever another permanent leaves the battlefield under your control, put a +1/+1 counter on target creature you control. This ability may only trigger once each turn.
+
+Beloved Whip
+rules_text: Equip {2}
+Equipped creature has “Whenever this creature attacks, creatures you control with lesser power get +1/+1 until end of turn” => Equip {2}
+Equipped creature gets +1/+1 and gains “Whenever this creature attacks, creatures you control with lesser power get +1/+1 until end of turn”
+
+Avenger's Katana
+rules_text: Equip {1}
+Equipped creature has first strike and “Whenever another creature you control dies, this creature gets +1/+0 until end of turn”. => Equip {2}
+Equipped creature has first strike.
+If you have less than half your starting life total, equipped creature gets +3/+0 and double strike.
+
+Infection Monitor Band
+type: Artifact => Artifact — Equipment
+cost: {3} => {4}
+rules_text: Whenever you sacrifice an Originium token, you gain 1 life. [i](It's a colorless artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i] => When Infection Monitor Band enters, create a 2/2 white Ally creature token and attach this equipment to it.
+Equip {2}
+Equipped creature gets +1/+1 gains “at the beginning of your upkeep, gain 1 life.”
+
+Flexible Camouflage
+rules_text: Equip {3}
+Sacrifice an Artifact: Equipped creature gets +1/+1 and cannot be blocked until end of turn. => When Flexible Camouflage enters, create a 1/1 black Mercenary creature token and attach this equipment to it.
+Equip {1}
+Sacrifice an Artifact: Equipped creature gets +1/+1 and cannot be blocked until end of turn.
+
+Raging Iron Fists
+rules_text: Equip {W}{U}
+Equipped creature gets +2/+2 and gains first strike.
+Whenever equipped creature attacks, tap target creature you don't control and put a stun counter on it. => When Raging Iron Fists enters, create a 2/2 white Ally creature token and attach this equipment to it.
+Equip {1}{W}{U}
+Equipped creature gets +2/+2.
+Whenever equipped creature attacks, tap target creature you don't control and put a stun counter on it.
+
+Lappland, Rogue Mafioso
+rules_text: Whenever a mercenary creature enters or leaves under your control, put a +1/+1 counter on Lappland, Rogue Mafioso.
+Sacrifice a creature: Lappland, Rogue Mafioso gains lifelink, deathtouch, and trample until end of turn. => Whenever another Mercenary creature enters or leaves under your control, put a +1/+1 counter on Lappland, Rogue Mafioso.
+Sacrifice a creature: Lappland, Rogue Mafioso gains lifelink, deathtouch, and trample until end of turn.
+
+Modified Starflail
+rules_text: Equip {U}{R}
+Equipped creature has reach and trample.
+Whenever an artifact enters under your control, put a +1/+1 counter on equipped creature. => When Modified Starflail enters, create a 1/1 black Mercenary creature token and attach this equipment to it.
+Equip {U}{R}
+Equipped creature has reach and trample.
+Whenever an artifact enters under your control, put a +1/+1 counter on equipped creature.
+
+Sword of the Present
+cost: {2}{R}{W} => {R}{W}
+rules_text: Attach target equipment you control to a creature you control. Create a non-legendary token copy of that equipment and attach it to a different creature you control. Exile the token copy at the beginning of your next end step. => Attach target equipment you control to a creature you control. Create a non-legendary token copy of that equipment and attach it to a different creature you control.
+
+
+VERSION 8 CHANGELOG
 ====================
 
 Rabid Hound added.

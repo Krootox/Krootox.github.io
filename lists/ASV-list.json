@@ -41,7 +41,7 @@
     },
     {
         "card_name": "Rescue from Stasis",
-        "number": 28,
+        "number": 27,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -641,7 +641,7 @@
     },
     {
         "card_name": "Patriot's End",
-        "number": 26,
+        "number": 25,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -681,7 +681,7 @@
     },
     {
         "card_name": "Penguin Logisitcs Idol",
-        "number": 27,
+        "number": 26,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1400,8 +1400,8 @@
         "position": "136"
     },
     {
-        "card_name": "Operator Reserve Team",
-        "number": 25,
+        "card_name": "Reserve Operator Squad",
+        "number": 28,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
