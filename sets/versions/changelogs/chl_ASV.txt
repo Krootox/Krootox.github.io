@@ -1,4 +1,207 @@
-﻿VERSION 9 CHANGELOG
+﻿VERSION 10 CHANGELOG
+====================
+
+Duke Kashchey added.
+Counter EMP added.
+Rebellious Awakening added.
+Butcher's Waraxe added.
+Protector's Armor added.
+Skyranger's Jetpack added.
+Devastating Loss added.
+Sarkaz Battlechaser added.
+Instructor's Whip added.
+
+The Deathless Black Snake removed.
+Turn to Originium removed.
+Reunion Recruitment removed.
+Improvised Waraxe removed.
+Tactical Armor removed.
+Handy Jetpack removed.
+Dashed Plans removed.
+Reunion Deserter removed.
+Beloved Whip removed.
+
+Zumama, Chief of the Eunectes
+
+Transport Hovercraft
+
+The Big Ugly Thing
+
+W, the Renegade
+rules_text: At the beginning of your upkeep, create a Bomb artifact token with “{B}{R}, {T}, [i]Sacrifice this artifact[/i]: Deal 2 damage to target creature, if that creature is tapped then remove it from combat and put a stun counter on it.”
+If W, the Renegade would die, instead sacrifice all artifacts you control. W deals damage to you equal to the number of artifacts sacrificed this way, then target opponent gains control of W, the Renegade. => At the beginning of your upkeep, create a Bomb artifact token with “{B}{R}, {T}, [i]Sacrifice this artifact[/i]: Deal 2 damage to target creature, if that creature is tapped then remove it from combat and put a stun counter on it.”
+If W, the Renegade would die, instead sacrifice all artifacts you control. W deals damage to you equal to the number of artifacts sacrificed this way, then target opponent gains control of W, the Renegade
+
+Garden Perfumer
+
+Mudrock, Reunion Captain
+
+Beatrix Schwire
+cost: {1}{R}{R} => {1}{U}{R}
+rules_text: Whenever you would make an Originium token, you may create a Treasure token instead.
+Beatrix Schwire gets +1/+1 for each Treasure you control.
+Sacrifice an artifact: Discard a card, then draw a card. => Whenever an Originium token enters under your control, you may destroy it then create a Treasure token.
+Whenever an artifact enters under your control, you may Scry 1.
+pt: 1/1 => 2/2
+
+Doctor Kal'tsit
+rules_text: Hexproof
+When Doctor Kal'tsit enters, create a colorless 1/1 Drone artifact creature token and put X +1/+1 counters on it.
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, you gain 1 life, put a +1/+1 counter on target creature you control and draw a card. => Hexproof
+When Doctor Kal'tsit enters, create a colorless 1/1 Drone artifact creature token and put X +1/+1 counters on it.
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, you gain 1 life and draw a card.
+
+Originium Catastrophe
+
+Chernobog Delinquent
+
+Leithanian Officer
+
+Surtr, Twilight Blade
+rules_text: Haste, Trample
+Surtr, Twilight Blade cannot block.
+Surtr, Twilight Blade enters with five shield counters.
+At the beginning of your upkeep, remove a counter from Surtr, Twilight Blade. If this creature has no counters then sacrifice it instead. => Haste, Trample
+Surtr, Twilight Blade cannot block.
+Surtr, Twilight Blade enters with five shield counters on it.
+At the beginning of your upkeep, remove a counter from Surtr, Twilight Blade. If this creature has no counters then sacrifice it instead.
+
+Grappling Hook
+
+Material Recombination
+
+Binding Circle
+
+Preparedness Averts Peril
+rules_text: You may move a counter from target creature to another target creature.
+Draw a card. => You may move any number of counters from target creature to another target creature.
+Draw a card.
+
+Rat King's Guile
+cost: {1}{U} => {U}
+rules_text: Target creature cannot be blocked until end of turn. Put a +1/+1 counter on that creature. If you control an artifact, you may put two +1/+1 counters on that creature instead. => Target creature cannot be blocked until end of turn. Put a +1/+1 counter on that creature if you control an artifact.
+
+Talulah's Immolation
+
+Arts of the Wilds
+
+Bone Fracture
+
+Surveyor Drone
+
+Steel City Escort
+rules_text: Whenever you gain life, creatures you control gain your choice of vigilance, first strike, or flying until end of turn. => Whenever you gain life, target creature you control gains your choice of vigilance, first strike, or flying until end of turn.
+
+Vacationing Mercenary
+
+Fatal Push
+
+Woven Shadow
+
+Impatient Tianshi
+
+Stinging Shock
+
+Revealing Accusation
+
+Pyrrhic Blast
+
+Diligent Tinkering
+
+Ignis Hammer
+
+Mossback Beast
+
+Travelling Scholar
+
+Infection Monitor Band
+rules_text: When Infection Monitor Band enters, create a 2/2 white Ally creature token and attach this equipment to it.
+Equip {2}
+Equipped creature gets +1/+1 gains “at the beginning of your upkeep, gain 1 life.” => [i]Recruitment[/i] — When Infection Monitor Band enters, create a 2/2 white Ally creature token and attach this equipment to it.
+Equip {2}
+Equipped creature gets +1/+1 gains “at the beginning of your upkeep, gain 1 life.”
+
+Hannya, Trusted Shield
+
+Necessary Solutions
+
+Skill Aura
+
+Convolution
+
+Alive Until Sunset
+rules_text: Spells you cast from exile cost {1} less to cast.
+Whenever you cast a spell with mana value 4 or greater, you may exile the top card of your library. Until the end of your next turn, you may play that card.
+Whenever you cast a spell from exile, creatures you control get +X/+X and trample until end of turn, where X is the mana value of that spell. => Spells you cast from exile cost {1} less to cast.
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, you may exile the top card of your library. Until the end of your next turn, you may play that card.
+Whenever you cast a spell from exile, target creature you control gets +X/+X and trample until end of turn, where X is the mana value of that spell.
+
+Isidro, Eccentric Alchemist
+rules_text: Reach
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, put a Neurotoxin counter on target player.
+On each opponent's upkeep, that player loses life equal to the number of Neurotoxin counters they have. You gain life equal to the life lost. That player then removes a Neurotoxin counter. => Reach
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, put a Neurotoxin counter on target player.
+On each opponent's upkeep, that player loses life equal to the number of Neurotoxin counters they have. You gain life equal to the life lost then remove a Neurotoxin counter from that player.
+
+Spiritual Destruction
+
+Pompeii, Heart of Surging Flame
+
+The Obsidian Festival
+cost: {2}{R} => {1}{R}{G}
+rules_text: At the beginning of your upkeep, choose one that hasn't been chosen — 
+• Create two Originium tokens.
+• Exile the top two cards of your library. Until the end of your next turn, you may play those cards.
+• Target creature you control gains haste and trample until end of turn.
+• Sacrifice The Obsidian Festival => At the beginning of your upkeep, choose one that hasn't been chosen — 
+• Create two Originium tokens.
+• Create a black 1/1 mercenary creature token and put three +1/+1 counters on it.
+• Exile cards from the top of your deck equal to the number of creatures you control with power 4 or greater. You may play these cards until the end of your next turn.
+• Sacrifice The Obsidian Festival
+
+Flexible Camouflage
+rules_text: When Flexible Camouflage enters, create a 1/1 black Mercenary creature token and attach this equipment to it.
+Equip {1}
+Sacrifice an Artifact: Equipped creature gets +1/+1 and cannot be blocked until end of turn. => [i]Recruitment[/i] — When Flexible Camouflage enters, create a 1/1 black Mercenary creature token and attach this equipment to it.
+Equip {1}
+Sacrifice an Artifact: Equipped creature gets +1/+1 and cannot be blocked until end of turn.
+
+Faust, Phantom Sniper
+
+Trial of Strength
+
+Inspiring Call
+
+Combat-Ready Chainsaw
+
+Raging Iron Fists
+rules_text: When Raging Iron Fists enters, create a 2/2 white Ally creature token and attach this equipment to it.
+Equip {1}{W}{U}
+Equipped creature gets +2/+2.
+Whenever equipped creature attacks, tap target creature you don't control and put a stun counter on it. => [i]Recruitment[/i] — When Raging Iron Fists enters, create a 2/2 white Ally creature token and attach this equipment to it.
+Equip {1}{W}{U}
+Equipped creature gets +2/+2.
+Whenever equipped creature attacks, tap target creature you don't control and put a stun counter on it.
+
+Enciodes Silverash
+
+Suzuran, Foxfire Child
+
+Modified Starflail
+rules_text: When Modified Starflail enters, create a 1/1 black Mercenary creature token and attach this equipment to it.
+Equip {U}{R}
+Equipped creature has reach and trample.
+Whenever an artifact enters under your control, put a +1/+1 counter on equipped creature. => [i]Recruitment[/i] — When Modified Starflail enters, create a 1/1 black Mercenary creature token and attach this equipment to it.
+Equip {U}{R}
+Equipped creature has reach and trample.
+Whenever an artifact enters under your control, put a +1/+1 counter on equipped creature.
+
+Mephisto, the Singer
+
+Roadblock
+
+
+VERSION 9 CHANGELOG
 ====================
 
 Reserve Operator Squad added.
