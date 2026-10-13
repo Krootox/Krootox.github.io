@@ -1,4 +1,176 @@
-﻿VERSION 10 CHANGELOG
+﻿VERSION 11 CHANGELOG
+====================
+
+Chernobog Catastrophe added.
+Shmyr City added.
+Generic Colorless Uncommon added.
+Wolumonde City added.
+Rogue City-Plate added.
+Lungmen City-Plate added.
+Chernobog City-Plate added.
+Cruel Arts added.
+
+Originium Catastrophe removed.
+Monster Mk. 2 removed.
+Castle Combat Platform removed.
+Protector's Armor removed.
+Orundum Supplies removed.
+Support Riot Pile removed.
+Modified Motorbike removed.
+Spiritual Destruction removed.
+
+Transport Hovercraft
+rules_text: Flying
+{4}{W}: Creatures you control gain +1/+1 and flying until end of turn.
+Plainscycling {2} [i]({2}, Discard this card: Search your library for a Plains card, reveal it, put it into your hand, then shuffle.)[/i] => Flying
+Whenever Transport Hovercraft attacks, target creature you control gains flying until end of turn.
+Plainscycling {2} [i]({2}, Discard this card: Search your library for a Plains card, reveal it, put it into your hand, then shuffle.)[/i]
+
+Ursine Gourmand
+rules_text: Vigilance
+When Ursine Gourmand enters, you gain 3 life. => Vigilance
+When Ursine Gourmand enters, create a Food token.
+
+Mudrock, Reunion Captain
+rules_text: Mudrock, Reunion Captain enters with a shield counter.
+[i]Revolt[/i] — Whenever a permanent leaves the battlefield under your control, you gain 2 life.
+Pay 4 life: Create a 4/4 colorless golem artifact creature token => Mudrock, Reunion Captain enters with a shield counter.
+[i]Revolt[/i] — Whenever a permanent leaves the battlefield under your control, you gain 2 life.
+Pay 4 life: Create a 4/4 colorless golem artifact creature token. You may use this ability as a sorcery and only once each turn.
+
+Doctor Kal'tsit
+rules_text: Hexproof
+When Doctor Kal'tsit enters, create a colorless 1/1 Drone artifact creature token and put X +1/+1 counters on it.
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, you gain 1 life and draw a card. => When Doctor Kal'tsit enters, create a colorless 1/1 Drone artifact creature token and put X +1/+1 counters on it.
+Sacrifice an artifact: Doctor Kal'tsit gains hexproof until end of turn.
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, you gain 1 life and draw a card.
+
+Unlucky Inventor
+pt: 2/1 => 1/3
+
+Guerilla Shieldguard
+cost: {4}{G} => {3}{B}{G}
+
+Acute Oripathy Infection
+rules_text: Enchant creature
+Enchanted creature gets +3/-3
+When enchanted creature dies, create two Originium tokens. [i](It's an artifact with “{T}, sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i] => Enchant creature
+Enchanted creature gets +3/-3
+When enchanted creature dies, create an Originium token. [i](It's a colorless artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i]
+
+Hired Crossbow
+rules_text: Flying
+Whenever another mercenary you control enters, you may attach an equipment you control to Hired Crossbow.
+Whenever Hired Crossbow deals combat damage to a player, you may destroy a tapped creature that player controls. => Flying
+Whenever another mercenary you control enters, you may attach an equipment you control to Hired Crossbow.
+Whenever Hired Crossbow deals combat damage to a player, you may destroy target creature with two more stun counters on it.
+
+Martial Arts Star
+cost: {2}{W} => {1}{R}{W}
+
+Stable Esthesia
+cost: {2}{W} => {1}{W}{U}
+rules_text: [i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, choose one — 
+• Put a +1/+1 counter on target creature, it gains lifelink until end of turn.
+• Tap and put a stun counter on target creature. => [i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, choose one — 
+• Untap target creature, it gains lifelink and vigilance until end of turn.
+• Tap and put a stun counter on target creature.
+
+Karlan Climber
+rules_text: {U}, {T}: Choose one — 
+• You may remove a counter from target permanent, then untap it.
+• Tap and put a stun counter on target permanent. => {U}, {T}: Choose one — 
+• You may remove a counter from target permanent, then untap it.
+• Tap target creature.
+• Put a stun counter on target tapped creature.
+
+Training Room
+cost: {3}{U} => {2}{G}{U}
+rules_text: When Training Room enters, put a +1/+1 counter on target ally creature you control.
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, double the number of counters on target creature. => When Training Room enters, put a +1/+1 counter on target creature you control.
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, double the number of counters on target creature.
+
+RIIC Factory Line
+cost: {1}{U} => {U}{R}
+rules_text: [i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, create an Originium token. [i](It's a colorless artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i] => [i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, create an Originium token. [i](It's a colorless artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i]
+{3}{U}{R}, {T}, Sacrifice an artifact: Search your library for an artifact card, reveal it, then put it into your hand.
+
+Vacationing Mercenary
+cost: {1}{B} => {W}{B}
+rules_text: First strike
+{1}{B}: Target mercenary creature you control gains menace until end of turn. => First strike
+Whenever a creature enters under your control, target Mercenary creature you control gains menace until end of turn.
+{1}{W}: Return target creature you control to its owner's hand. Use this ability only as a sorcery.
+pt: 3/1 => 3/2
+
+Scrounge for Scraps
+type: Instant => Enchantment
+cost: {2}{B} => {1}{U}{B}
+rules_text: Target creature you control gains deathtouch until end of turn.
+Whenever a creature dies this turn, create an Originium token. [i](It's a colorless artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i] => At the beginning of your end step, if a creature you control dealt damage to a player then create an Originium token. [i](It's a colorless artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i]
+Sacrifice an artifact: Target creature you control gets +1/-1 and deathtouch until end of turn.
+
+Scrapyard Temple
+cost: {1}{R} => {R}{G}
+rules_text: {3}{R}, {T}, Sacrifice Scrapyard Temple: Deal 1 damage to each creature target player controls, those creatures cannot block this turn.
+Whenever you cast a spell with mana value 4 or greater, target creature you control gets +1/+0 and gains trample until end of turn. => Creatures you control with power 4 or greater have reach and trample.
+{2}{R}{G}, {T}: Draw a card if you control a creature with 4 or grater power.
+
+For Each Who Falls
+cost: {2}{R} => {2}{B}{R}
+rules_text: Whenever a nontoken creature you control dies, create a 1/1 red Rebel creature token with “When this creature dies, it deals 1 damage to any target.” => Whenever a nontoken creature you control dies, create a 1/1 red Rebel creature token with “When this creature dies, it deals 1 damage to any target”. This ability only triggers once each turn.
+{B}{R}, Sacrifice a creature: Deal 1 damage to any target. You may only use this ability once each turn.
+
+Ursus Scion
+rules_text: Reach
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, put a +1/+1 counter on Ursus Scion and you gain 1 life. => Reach
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, put a +1/+1 counter on Ursus Scion then create a Food token.
+
+Mossback Beast
+cost: {1}{G} => {G}{W}
+rules_text: Whenever you gain life, put a +1/+1 counter on Mossback Beast. => Whenever you gain life, put a +1/+1 counter on target creature you control.
+
+Rewinding Breeze
+rules_text: Choose target card in your graveyard. You gain life equal to that card's mana value then put that card into your hand. => Return target card from your graveyard to your hand, then create a Food token.
+
+Bionics Engineer
+rules_text: When Bionics Engineer enters, create a 1/1 colorless drone artifact creature token.
+At the beginning of your upkeep, you may pay {W}{U}, if you do then put a stun counter on target tapped creature you don't control.
+Drone creatures you control gain “{W}{U}, {T}: Tap target creature you don't control.” => When Bionics Engineer enters, create a 1/1 colorless drone artifact creature token.
+{2}{W}{U}, {T}, Tap an artifact you control: Tap and put a stun counter on target creature.
+pt: 2/4 => 1/3
+
+Water Cannon
+rules_text: Equip {1}
+Equipped creature gets +1/+2 and has “{1}, {T}: Tap target creature you don't control” => Equip {2}
+Equipped creature gets +1/+2 and has “{1}, {T}: Tap target creature you don't control”
+
+Imperial Artillery Targeter
+cost: {4} => {3}{R}
+rules_text: Flying
+{6}, {T}, Put a stun counter on Imperial Artillery Targeter: Deal 6 damage to target creature. => Flying
+{2}{R}{R}, {T}, Put a stun counter on Imperial Artillery Targeter: Deal 6 damage to target creature.
+pt: 0/4 => 2/4
+
+Infection Monitor Band
+cost: {4} => {2}{W}
+
+Mobile Tactical Hangar
+cost: {5} => {3}{U}
+rules_text: When Mobile Tactical Hangar enters, create two 1/1 colorless drone artifact creature tokens.
+Drone creatures you control have flying.
+{3}, {T}, Sacrifice an artifact: Create a 1/1 colorless drone artifact creature token. => When Mobile Tactical Hangar enters, create two 1/1 colorless drone artifact creature tokens.
+Drone creatures you control have flying.
+{1}{U}, {T}, Sacrifice an artifact: Create a 1/1 colorless drone artifact creature token.
+
+Flexible Camouflage
+cost: {2} => {1}{B}
+
+Water of Life
+cost: {2} => {G}
+
+
+VERSION 10 CHANGELOG
 ====================
 
 Duke Kashchey added.
