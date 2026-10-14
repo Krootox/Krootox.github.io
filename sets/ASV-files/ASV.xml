@@ -5,7 +5,7 @@
 			<name>ASV</name>
 			<longname>Arknights: Shatter of a Vision</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-10-12</releasedate>
+			<releasedate>2026-10-13</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -45,8 +45,8 @@
 		</card>
 		<card>
 			<name>Zumama, Chief of the Eunectes</name>
-			<text>{T}: Add {R}{R}. Spend this only to cast an Artifact spell or activate the ability of an artifact.
-When Zumama, Chief of the Eunectes becomes tapped, target creature or vehicle gains +3/+3 and menace until end of turn.</text>
+			<text>{T}: Add {R}{G}. Spend this mana only to cast an artifact or creature spell or activate the ability of an artifact or creature.
+Skill Activation — Whenever you cast a spell with mana value 4 or greater, target creature or vehicle you control gets +2/+2 and gains menace until end of turn.</text>
 			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/2.jpg" num="220">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -248,8 +248,8 @@ Crew 3</text>
 		</card>
 		<card>
 			<name>Talulah, Tyrant of Reunion</name>
-			<text>First strike
-{B}{R}{G}: Creatures you control gain +1/+1, Menace, and Trample until end of turn
+			<text>Ward—Discard a card
+{B}{R}{G}: Creatures you control gain +1/+1, First strike, Menace, and Trample until end of turn
 When Talulah, Tyrant of Reunion attacks you may sacrifice a nontoken creature you control, if you do then create number of red 1/1 Rebel creature tokens with &quot;When this creature dies, it deals 1 damage to any target.&quot; equal to the sacrificed creature&apos;s power.</text>
 			<set rarity="mythic" picurl="https://krootox.github.io/sets/ASV-files/img/13.jpg" num="263">ASV</set>
 			<prop>
@@ -261,14 +261,14 @@ When Talulah, Tyrant of Reunion attacks you may sacrifice a nontoken creature yo
 				<cmc>6</cmc>
 				<colors>BRG</colors>
 				<coloridentity>BRG</coloridentity>
-				<pt>6/6</pt>
+				<pt>5/5</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
 			<name>W, the Renegade</name>
-			<text>At the beginning of your upkeep, create a Bomb artifact token with &quot;{B}{R}, {T}, Sacrifice this artifact: Deal 2 damage to target creature, if that creature is tapped then remove it from combat and put a stun counter on it.&quot;
-If W, the Renegade would die, instead sacrifice all artifacts you control. W deals damage to you equal to the number of artifacts sacrificed this way, then target opponent gains control of W, the Renegade</text>
+			<text>At the beginning of your upkeep, create a Bomb artifact token with &quot;{2B}{2R}, {T}, Sacrifice this artifact: Deal 2 damage to target creature, if that creature is tapped then remove it from combat and put a stun counter on it.&quot;
+If W, the Renegade would die, instead sacrifice all artifact tokens you control. W deals damage to you equal to the number of artifacts sacrificed this way, then target opponent gains control of W, the Renegade</text>
 			<set rarity="mythic" picurl="https://krootox.github.io/sets/ASV-files/img/14.jpg" num="215">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -502,7 +502,7 @@ Equip abilities you activate cost {1} less to activate.</text>
 		<card>
 			<name>Garden Perfumer</name>
 			<text>At the beginning of your upkeep, you gain 1 life.
-Whenever you gain life you may pay {G}{W}, if you do then draw a card.</text>
+{1}{G}{W}, {T}: Create a white 2/2 Ally creature token. You may only use this ability if you have gained life this turn.</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/27.jpg" num="221">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -867,8 +867,8 @@ At the beginning of your end step, goad target creature you don&apos;t control t
 		<card>
 			<name>Doctor Kal&apos;tsit</name>
 			<text>When Doctor Kal&apos;tsit enters, create a colorless 1/1 Drone artifact creature token and put X +1/+1 counters on it.
-Sacrifice an artifact: Doctor Kal&apos;tsit gains hexproof until end of turn.
-Skill Activation — Whenever you cast a spell with mana value 4 or greater, you gain 1 life and draw a card.</text>
+Skill Activation — Whenever you cast a spell with mana value 4 or greater, gain 1 life and put a +1/+1 counter on a creature you control.
+At the beginning of your end step, you may tap and remove a counter from a creature you control, if you do then draw a card.</text>
 			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/47.jpg" num="246">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -906,7 +906,7 @@ Skill Activation — Whenever you cast a spell with mana value 4 or greater and 
 			<text>Station (Tap another creature you control: Put charge counters equal to its power on this permanent. Station only as a sorcery.)
 [level 4+] Tap a creature you control: Remove a counter from a creature you control or put a +1/+1 counter on a creature you control. Then you gain 1 life.
 [level 8+] Vigilance [10/10]</text>
-			<set rarity="mythic" picurl="https://krootox.github.io/sets/ASV-files/img/49.jpg" num="273">ASV</set>
+			<set rarity="mythic" picurl="https://krootox.github.io/sets/ASV-files/img/49.jpg" num="272">ASV</set>
 			<prop>
 				<layout>leveler</layout>
 				<side>front</side>
@@ -953,7 +953,7 @@ Skill Activation — Whenever you cast a spell with mana value 4 or greater, tar
 		<card>
 			<name>Knight of the Followers</name>
 			<text>Vigilance
-Skill Activation — Whenever you cast a spell with mana value 4 or greater, you gain 3 life.</text>
+Whenever Knight of the Followers attacks, you gain 1 life.</text>
 			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/52.jpg" num="18">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -980,8 +980,8 @@ III — Destroy all creatures. If six or more creatures were destroyed this way 
 				<side>front</side>
 				<type>Enchantment — Saga</type>
 				<maintype>Enchantment</maintype>
-				<manacost>4BB</manacost>
-				<cmc>6</cmc>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
 			</prop>
@@ -1008,7 +1008,7 @@ Whenever Big Bob attacks, create a red 1/1 Rebel creature token with &quot;When 
 		</card>
 		<card>
 			<name>Strict Instructor</name>
-			<text>Whenever a creature you control with power less than Strict Instructor&apos;s power deals combat damage to a player, put a +1/+1 counter on that creature and draw a card.
+			<text>Whenever one or more creatures you control with power less than Strict Instructor&apos;s power deals combat damage to a player, put a +1/+1 counter on one of those creatures and draw a card.
 Skill Activation — Whenever you cast a spell with mana value 4 or greater, Strict Instructor gets +1/+1 and vigilance until end of turn.</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/55.jpg" num="75">ASV</set>
 			<prop>
@@ -1044,15 +1044,16 @@ When Yeti Squad Caster enters, tap up to one target creature you don&apos;t cont
 		</card>
 		<card>
 			<name>Sarkaz Grudgebearer</name>
-			<text>Whenever Sarkaz Grudgebearer takes damage it deals damage to target creature equal to its power.</text>
+			<text>Trample.
+Whenever Sarkaz Grudgebearer takes damage it deals 3 damage on up to two target creatures you don&apos;t control.</text>
 			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/57.jpg" num="261">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Creature — Demon Rebel Shaman</type>
 				<maintype>Creature</maintype>
-				<manacost>3BRG</manacost>
-				<cmc>6</cmc>
+				<manacost>2BRG</manacost>
+				<cmc>5</cmc>
 				<colors>BRG</colors>
 				<coloridentity>BRG</coloridentity>
 				<pt>6/4</pt>
@@ -1079,8 +1080,8 @@ Whenever a creature with power 4 or greater enters, creatures you control get +1
 		</card>
 		<card>
 			<name>Siestan Therapist</name>
-			<text>Skill Activation — Whenever you cast a spell with mana value 4 or greater, choose 1 — 
-• You gain 2 life
+			<text>Skill Activation — Whenever you cast a spell with mana value 4 or greater, choose one — 
+• Create a Food token.
 • Proliferate (To proliferate, choose any number of permanents and/or players, then give each another counter of each kind already there.)
 • Remove all counters from a creature you control.</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/59.jpg" num="247">ASV</set>
@@ -1100,7 +1101,7 @@ Whenever a creature with power 4 or greater enters, creatures you control get +1
 		<card>
 			<name>Reserve Operator Squad</name>
 			<text>Reach
-Skill Activation — Whenever you cast a spell with mana value 4 or greater, put a +1/+1 counter on this creature and it gains lifelink until end of turn.</text>
+Skill Activation — Whenever you cast a spell with mana value 4 or greater, put a +1/+1 counter on this creature.</text>
 			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/60.jpg" num="27">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -1690,7 +1691,7 @@ Create an Originium token. (It&apos;s a colorless artifact with &quot;{T}, Sacri
 			<name>Literature Storm</name>
 			<text>Enchant creature
 When Literature Storm enters, draw a card and then discard a card.
-Skill Activation — Whenever you cast a spell with mana value 4 or greater, enchanted creature gains +1/+1 and flying until end of turn.</text>
+Enchanted creature gets +1/+0 and has flying.</text>
 			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/94.jpg" num="60">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -2030,7 +2031,7 @@ When Phantom Crossbowman enters, if a permanent you controlled left the battlefi
 		</card>
 		<card>
 			<name>Columbian Cutter</name>
-			<text>Skill Activation — Whenever you cast a spell with mana value 4 or greater while Columbian Cutter is equipped, it may deal damage to target creature equal to its power.</text>
+			<text>Skill Activation — Whenever you cast a spell with mana value 4 or greater, deal 1 damage to each opponent. If Columbian Cutter is equipped, then deal 2 damage instead.</text>
 			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/114.jpg" num="128">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -2185,7 +2186,7 @@ Draw two cards and make two Originium tokens. (It&apos;s an artifact with &quot;
 		</card>
 		<card>
 			<name>Certainty in Cinders</name>
-			<text>Deal 1 damage to each creature without flying and each player.
+			<text>Deal 3 damage to target creature.
 Revolt — If a permanent you controlled left the battlefield this turn, you may discard a card then draw a card.</text>
 			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/123.jpg" num="125">ASV</set>
 			<prop>
@@ -2326,7 +2327,7 @@ Whenever a permanent you control leaves the battlefield, Reunion Lurker gets +1/
 			<name>Wayward Archausauria</name>
 			<text>Trample
 Revolt — Wayward Archausauria enters with two +1/+1 counters on it if a permanent left the battlefield under your control this turn.
-Skill Activation — Whenever you cast a spell with mana value 4 or greater, you gain 1 life.</text>
+Skill Activation — Whenever you cast a spell with mana value 4 or greater, create a Food token.</text>
 			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/131.jpg" num="199">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -2430,15 +2431,15 @@ Forestcycling {2} ({2}, Discard this card: Search your library for a Forest card
 		</card>
 		<card>
 			<name>Return to the Wilds</name>
-			<text>Search your library for two basic land cards, put those card onto the battlefield tapped then shuffle. If a permanent left the battlefield under your control this turn, search for three basic land cards instead.</text>
+			<text>Search your library for a basic land card, put that card onto the battlefield tapped then shuffle. If a permanent left the battlefield under your control this turn, search for two basic land cards instead.</text>
 			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/137.jpg" num="180">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Sorcery</type>
 				<maintype>Sorcery</maintype>
-				<manacost>4G</manacost>
-				<cmc>5</cmc>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
 				<colors>G</colors>
 				<coloridentity>G</coloridentity>
 			</prop>
@@ -2463,7 +2464,7 @@ Forestcycling {2} ({2}, Discard this card: Search your library for a Forest card
 		<card>
 			<name>Committee Salvage</name>
 			<text>Return target card from your graveyard to your hand.
-Skill Activation — You may return three cards from your graveyard to your hand instead if you&apos;ve cast a spell with mana value 4 or greater this turn.</text>
+If you control a creature with 4 or more power, instead return three cards from your graveyard to your hand.</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/139.jpg" num="168">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -2546,11 +2547,11 @@ Whenever enchanted land is tapped for mana, its controller adds an additional on
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>Shmyr City</name>
-			<text>Shmyr City enters tapped.
+			<name>Overgrown City-Plate</name>
+			<text>Overgrown City-Plate enters tapped.
 {T}: Add {G}
-As long as you control six or more lands, Wolumonde City has Crew 2.</text>
-			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/144.jpg" num="297">ASV</set>
+As long as you control six or more lands, Wolumonde City has Crew 5.</text>
+			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/144.jpg" num="294">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2559,36 +2560,39 @@ As long as you control six or more lands, Wolumonde City has Crew 2.</text>
 				<manacost></manacost>
 				<cmc>0</cmc>
 				<coloridentity>G</coloridentity>
-				<pt>5/5</pt>
+				<pt>10/10</pt>
 			</prop>
 			<tablerow>0</tablerow>
 		</card>
 		<card>
-			<name>Lancet Triage Platform</name>
-			<text>When Lancet Triage Platform enters, you gain 3 life.</text>
-			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/145.jpg" num="272">ASV</set>
+			<name>Medic&apos;s Staff</name>
+			<text>Recruitment — When Medic&apos;s Staff enters, create a 2/2 white Ally creature token and attach this equipment to it. Then you gain 3 life.
+Equip {1}
+Whenever equipped creature attacks, you gain 1 life.</text>
+			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/145.jpg" num="271">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Artifact Creature — Drone</type>
-				<maintype>Creature</maintype>
-				<manacost>1</manacost>
-				<cmc>1</cmc>
-				<pt>0/2</pt>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
 			</prop>
-			<tablerow>2</tablerow>
+			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>Generic Colorless Uncommon</name>
-			<text></text>
-			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/146.jpg" num="269">ASV</set>
+			<name>Spear of Ruination</name>
+			<text>When this artifact enters, destroy target nonland permanent an opponent controls.
+Equip {3}
+Equipped creature has +2/+0 and first strike.</text>
+			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/146.jpg" num="275">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Artifact</type>
+				<type>Artifact — Equipment</type>
 				<maintype>Artifact</maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
+				<manacost>7</manacost>
+				<cmc>7</cmc>
 			</prop>
 			<tablerow>1</tablerow>
 		</card>
@@ -2612,7 +2616,7 @@ When Surveyor Drone enters, search your library for a basic land card, put that 
 			<name>Wolumonde City</name>
 			<text>Wolumonde City enters tapped.
 {T}: Add {W}
-As long as you control six or more lands, Wolumonde City has Crew 2 and vigilance.</text>
+As long as you control six or more lands, Wolumonde City has Crew 5 and first strike.</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/148.jpg" num="300">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -2622,7 +2626,7 @@ As long as you control six or more lands, Wolumonde City has Crew 2 and vigilanc
 				<manacost></manacost>
 				<cmc>0</cmc>
 				<coloridentity>W</coloridentity>
-				<pt>3/4</pt>
+				<pt>8/8</pt>
 			</prop>
 			<tablerow>0</tablerow>
 		</card>
@@ -2647,7 +2651,7 @@ Skill Activation — Whenever you cast a spell with mana value 4 or greater, you
 			<text>When Rusty Hammer enters, create an Originium token. (It&apos;s a colorless artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.&quot;)
 Equip {1}
 Equipped creature gets +2/+0 and has trample.</text>
-			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/150.jpg" num="275">ASV</set>
+			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/150.jpg" num="274">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2662,8 +2666,8 @@ Equipped creature gets +2/+0 and has trample.</text>
 			<name>Rogue City-Plate</name>
 			<text>Rogue City-Plate enters tapped.
 {T}: Add {R}
-As long as you control six or more lands, Rogue City-Plate has Crew 2 and trample.</text>
-			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/151.jpg" num="295">ASV</set>
+As long as you control six or more lands, Rogue City-Plate has Crew 5 and trample.</text>
+			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/151.jpg" num="296">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2672,7 +2676,7 @@ As long as you control six or more lands, Rogue City-Plate has Crew 2 and trampl
 				<manacost></manacost>
 				<cmc>0</cmc>
 				<coloridentity>R</coloridentity>
-				<pt>4/2</pt>
+				<pt>10/6</pt>
 			</prop>
 			<tablerow>0</tablerow>
 		</card>
@@ -2680,7 +2684,7 @@ As long as you control six or more lands, Rogue City-Plate has Crew 2 and trampl
 			<name>Lungmen City-Plate</name>
 			<text>Lungmen City-Plate enters tapped.
 {T}: Add {U}
-As long as you control six or more lands, Lungmen City-Plate has Crew 2 and whenever it attacks, Scry 1.</text>
+As long as you control six or more lands, Lungmen City-Plate has Crew 5 and vigilance.</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/152.jpg" num="291">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -2690,7 +2694,7 @@ As long as you control six or more lands, Lungmen City-Plate has Crew 2 and when
 				<manacost></manacost>
 				<cmc>0</cmc>
 				<coloridentity>U</coloridentity>
-				<pt>2/4</pt>
+				<pt>6/10</pt>
 			</prop>
 			<tablerow>0</tablerow>
 		</card>
@@ -2733,7 +2737,7 @@ When Sublayer Slum enters, you gain 1 life.
 			<text>Shattered Streets enters tapped.
 When Shattered Streets enters, you gain 1 life.
 {T}: Add {B} or {R}</text>
-			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/155.jpg" num="296">ASV</set>
+			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/155.jpg" num="297">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2917,7 +2921,7 @@ Whenever Hired Crossbow deals combat damage to a player, you may destroy target 
 		<card>
 			<name>Caladon Mounted Police</name>
 			<text>Flash
-Skill Activation — When Caladon Mounted Police enters and whenever you cast a spell with mana value 4 or greater, untap target creature and it gains indestructible until end of turn.</text>
+Skill Activation — When Caladon Mounted Police enters and whenever you cast a spell with mana value 4 or greater, you may return target creature you control to its owner&apos;s hand.</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/166.jpg" num="4">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -2928,7 +2932,7 @@ Skill Activation — When Caladon Mounted Police enters and whenever you cast a 
 				<cmc>2</cmc>
 				<colors>W</colors>
 				<coloridentity>W</coloridentity>
-				<pt>1/1</pt>
+				<pt>1/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -3003,7 +3007,7 @@ When Rhodes Island Custody enters, exile target non-land permanent until Rhodes 
 		<card>
 			<name>Stable Esthesia</name>
 			<text>Skill Activation — Whenever you cast a spell with mana value 4 or greater, choose one — 
-• Untap target creature, it gains lifelink and vigilance until end of turn.
+• Untap target creature, it gains vigilance until end of turn.
 • Tap and put a stun counter on target creature.</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/171.jpg" num="206">ASV</set>
 			<prop>
@@ -3021,8 +3025,8 @@ When Rhodes Island Custody enters, exile target non-land permanent until Rhodes 
 		<card>
 			<name>Skyranger&apos;s Jetpack</name>
 			<text>Recruitment — When Skyranger&apos;s Jetpack enters, create a 2/2 white Ally creature token and attach this equipment to it.
-Equip {3}
-Equipped creature has flying and first strike.</text>
+Equip {2}
+Whenever equipped creature attacks it gains first strike and flying until end of turn.</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/172.jpg" num="33">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -3137,8 +3141,8 @@ Skill Activation — Whenever you cast a spell with mana value 4 or greater, dou
 				<side>front</side>
 				<type>Enchantment</type>
 				<maintype>Enchantment</maintype>
-				<manacost>2GU</manacost>
-				<cmc>4</cmc>
+				<manacost>GU</manacost>
+				<cmc>2</cmc>
 				<colors>UG</colors>
 				<coloridentity>UG</coloridentity>
 			</prop>
@@ -3164,7 +3168,7 @@ Search your library for an artifact card, put that card onto the battlefield, th
 		<card>
 			<name>RIIC Factory Line</name>
 			<text>Skill Activation — Whenever you cast a spell with mana value 4 or greater, create an Originium token. (It&apos;s a colorless artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.&quot;)
-{3}{U}{R}, {T}, Sacrifice an artifact: Search your library for an artifact card, reveal it, then put it into your hand.</text>
+{T}, Sacrifice an artifact: Draw a card.</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/180.jpg" num="234">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -3390,15 +3394,15 @@ Sacrifice an artifact: Target creature you control gets +1/-1 and deathtouch unt
 		<card>
 			<name>Originium Altar</name>
 			<text>{T}, Sacrifice a creature you control: Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
-Whenever a creature you control deals combat damage to a player, create an Originium token. (It&apos;s a colorless artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.&quot;)</text>
+Whenever one or more creatures you control deals combat damage to a player, create an Originium token. (It&apos;s a colorless artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.&quot;)</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/193.jpg" num="101">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Artifact</type>
 				<maintype>Artifact</maintype>
-				<manacost>3B</manacost>
-				<cmc>4</cmc>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
 			</prop>
@@ -3531,7 +3535,7 @@ Deal damage to target player equal to the highest mana value among all cards exi
 		</card>
 		<card>
 			<name>Scrapyard Temple</name>
-			<text>Creatures you control with power 4 or greater have reach and trample.
+			<text>Skill Activation — Whenever you cast a spell with mana value 4 or greater, target creature you control gets +1/+1 and gains trample until end of turn.
 {2}{R}{G}, {T}: Draw a card if you control a creature with 4 or grater power.</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/201.jpg" num="219">ASV</set>
 			<prop>
@@ -3722,7 +3726,7 @@ When Woodland Hunter enters, destroy target artifact or enchantment.</text>
 		<card>
 			<name>Mahuizzotia Festival</name>
 			<text>At the beginning of your upkeep, put a +1/+1 counter on a creature you control.
-Whenever you cast a spell with mana value 4 or greater, target creature you control with power 4 or greater fights target creature you don&apos;t control.</text>
+{3}{G}{G}: Target creature you control fights target creature you don&apos;t control. You may only activate this ability once each turn.</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/212.jpg" num="176">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -3774,8 +3778,8 @@ The creature you control deals damage equal to its power to the creature an oppo
 		</card>
 		<card>
 			<name>Wander the Tundra</name>
-			<text>Reveal the top card of your library. If it&apos;s a land card you may put it onto the battlefield tapped. Otherwise, put it into your hand.
-Revolt — If a permanent left the battlefield under your control this turn, create a 1/1 red Rebel creature token with &quot;When this creature dies, it deals 1 damage to any target.&quot;</text>
+			<text>Look at the top four cards of your library, you may reveal a creature or land card and put that card into your hand.
+Revolt — If a permanent left the battlefield under your control this turn, you may look at the top eight cards instead.</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/215.jpg" num="197">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -3933,7 +3937,7 @@ Equipped creature gets +1/+2 and has &quot;{1}, {T}: Tap target creature you don
 			<name>Instructor&apos;s Whip</name>
 			<text>Equip {2}
 Equipped creature gets +1/+1 and gains &quot;Whenever this creature attacks, creatures you control with lesser power get +1/+1 until end of turn&quot;</text>
-			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/224.jpg" num="271">ASV</set>
+			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/224.jpg" num="270">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3966,7 +3970,7 @@ If you have less than half your starting life total, equipped creature gets +3/+
 			<name>Chernobog City-Plate</name>
 			<text>Chernobog City-Plate enters tapped
 {T}: Add {B}
-As long as you control six or more lands, Wolumonde City has Crew 2 and lifelink.</text>
+As long as you control six or more lands, Wolumonde City has Crew 5 and menace.</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/226.jpg" num="283">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -3976,7 +3980,7 @@ As long as you control six or more lands, Wolumonde City has Crew 2 and lifelink
 				<manacost></manacost>
 				<cmc>0</cmc>
 				<coloridentity>B</coloridentity>
-				<pt>3/4</pt>
+				<pt>8/8</pt>
 			</prop>
 			<tablerow>0</tablerow>
 		</card>
@@ -4018,7 +4022,7 @@ Whenever Delivery Buggy becomes blocked you may reveal a mercenary creature card
 		<card>
 			<name>Hot Water Kettle</name>
 			<text>{T}: Add one mana of any color. You gain 1 life.</text>
-			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/229.jpg" num="270">ASV</set>
+			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/229.jpg" num="269">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4129,7 +4133,7 @@ Drone creatures you control have flying.
 			<name>Primeval Barrenland</name>
 			<text>{T}: Add {C}
 {1}, {T}, Sacrifice Primeval Barrenland: Search your library for a Island, Mountain, or Forest card, put it onto the battlefield tapped, then shuffle.</text>
-			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/236.jpg" num="294">ASV</set>
+			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/236.jpg" num="295">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4265,9 +4269,9 @@ Equipped creature get +0/+3 and has &quot;Whenever the equipped creature becomes
 		</card>
 		<card>
 			<name>Elite Operator Squad</name>
-			<text>Vigilance
+			<text>Flash
 You may cast ally spells as though they had flash.
-Skill Activation — Whenever you cast a spell with mana value 4 or greater, put two +1/+1 counters on Elite Operator Squad.</text>
+Skill Activation — Whenever you cast a spell with mana value 4 or greater, put a +1/+1 counter on Elite Operator Squad.</text>
 			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/244.jpg" num="48">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -4514,18 +4518,18 @@ Revolt — If another permanent left the battlefield under your control this tur
 		</card>
 		<card>
 			<name>Pompeii, Heart of Surging Flame</name>
-			<text>At the beginning of your upkeep, put a lava counter on Pompeii, Heart of Surging Flame, then deal 1 damage to each creature for each lava counter on this creature.</text>
+			<text>Skill Activation — Whenever you cast a spell with mana value 4 or greater, deal 1 damage to up to four creatures you don&apos;t control.</text>
 			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/258.jpg" num="142">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Legendary Creature — Slug</type>
 				<maintype>Creature</maintype>
-				<manacost>RRR</manacost>
-				<cmc>3</cmc>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
-				<pt>4/3</pt>
+				<pt>3/3</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -4641,7 +4645,7 @@ At the beginning of each player&apos;s end step and whenever they play a card fr
 			<name>Spirited Messenger</name>
 			<text>Vigilance
 Other ally creatures you control have vigilance.
-Skill Activation — Whenever you cast a spell with mana value 4 or greater, you gain life equal to the number of ally creatures you control.</text>
+Skill Activation — Whenever you cast a spell with mana value 4 or greater, create a Food token.</text>
 			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/265.jpg" num="187">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -4727,7 +4731,7 @@ Equipped creature has trample and &quot;whenever this creature attacks, double i
 			<text>Recruitment — When Raging Iron Fists enters, create a 2/2 white Ally creature token and attach this equipment to it.
 Equip {1}{W}{U}
 Equipped creature gets +2/+2.
-Whenever equipped creature attacks, tap target creature you don&apos;t control and put a stun counter on it.</text>
+Whenever equipped creature attacks, put a stun counter on target tapped creature you don&apos;t control.</text>
 			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/270.jpg" num="205">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -4781,7 +4785,7 @@ Whenever Lin Grey, the Rat King deals combat damage to a player, tap and put a s
 		<card>
 			<name>Student of Kal&apos;tsit</name>
 			<text>Lifelink
-At the beginning of your end step, if you gained life this turn, draw a card. If you gained 5 or more life this turn, put a +1/+1 counter on each creature you control.</text>
+At the beginning of your end step, if you gained life this turn, put a +1/+1 counter on target creature you control. If you gained 5 or more life this turn, draw a card.</text>
 			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/273.jpg" num="224">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -4792,7 +4796,7 @@ At the beginning of your end step, if you gained life this turn, draw a card. If
 				<cmc>4</cmc>
 				<colors>WG</colors>
 				<coloridentity>WG</coloridentity>
-				<pt>2/3</pt>
+				<pt>2/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -5144,7 +5148,7 @@ Skill Activation — Whenever you cast a spell with mana value 4 or greater, thi
 			<name>Roadblock</name>
 			<text>Flash
 At the beginning of each opponent&apos;s attack step, that player may only attack you with half the total number of creatures they control, rounded up.</text>
-			<set rarity="mythic" picurl="https://krootox.github.io/sets/ASV-files/img/293.jpg" num="274">ASV</set>
+			<set rarity="mythic" picurl="https://krootox.github.io/sets/ASV-files/img/293.jpg" num="273">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>

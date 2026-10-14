@@ -495,7 +495,7 @@
 			"rarity": "mythic",
 			"mana_cost": "{4}",
 			"type": "Legendary Artifact — Landship",
-			"collector_number": "273",
+			"collector_number": "272",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/49.jpg"
 			}
@@ -533,7 +533,7 @@
 		{
 			"name": "Chernobog Catastrophe",
 			"rarity": "rare",
-			"mana_cost": "{4}{B}{B}",
+			"mana_cost": "{2}{B}{B}",
 			"type": "Enchantment — Saga",
 			"collector_number": "84",
 			"image_uris": {
@@ -573,7 +573,7 @@
 		{
 			"name": "Sarkaz Grudgebearer",
 			"rarity": "rare",
-			"mana_cost": "{3}{B}{R}{G}",
+			"mana_cost": "{2}{B}{R}{G}",
 			"type": "Creature — Demon Rebel Shaman",
 			"collector_number": "261",
 			"image_uris": {
@@ -1373,7 +1373,7 @@
 		{
 			"name": "Return to the Wilds",
 			"rarity": "common",
-			"mana_cost": "{4}{G}",
+			"mana_cost": "{2}{G}",
 			"type": "Sorcery",
 			"collector_number": "180",
 			"image_uris": {
@@ -1441,31 +1441,31 @@
 			}
 		},
 		{
-			"name": "Shmyr City",
+			"name": "Overgrown City-Plate",
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Artifact Land — Vehicle",
-			"collector_number": "297",
+			"collector_number": "294",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/144.jpg"
 			}
 		},
 		{
-			"name": "Lancet Triage Platform",
+			"name": "Medic's Staff",
 			"rarity": "common",
-			"mana_cost": "{1}",
-			"type": "Artifact Creature — Drone",
-			"collector_number": "272",
+			"mana_cost": "{3}",
+			"type": "Artifact — Equipment",
+			"collector_number": "271",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/145.jpg"
 			}
 		},
 		{
-			"name": "Generic Colorless Uncommon",
+			"name": "Spear of Ruination",
 			"rarity": "uncommon",
-			"mana_cost": "",
-			"type": "Artifact",
-			"collector_number": "269",
+			"mana_cost": "{7}",
+			"type": "Artifact — Equipment",
+			"collector_number": "275",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/146.jpg"
 			}
@@ -1505,7 +1505,7 @@
 			"rarity": "common",
 			"mana_cost": "{4}",
 			"type": "Artifact — Equipment",
-			"collector_number": "275",
+			"collector_number": "274",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/150.jpg"
 			}
@@ -1515,7 +1515,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Artifact Land — Vehicle",
-			"collector_number": "295",
+			"collector_number": "296",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/151.jpg"
 			}
@@ -1555,7 +1555,7 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land — Swamp Mountain",
-			"collector_number": "296",
+			"collector_number": "297",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/155.jpg"
 			}
@@ -1783,7 +1783,7 @@
 		{
 			"name": "Training Room",
 			"rarity": "uncommon",
-			"mana_cost": "{2}{G}{U}",
+			"mana_cost": "{G}{U}",
 			"type": "Enchantment",
 			"collector_number": "250",
 			"image_uris": {
@@ -1933,7 +1933,7 @@
 		{
 			"name": "Originium Altar",
 			"rarity": "uncommon",
-			"mana_cost": "{3}{B}",
+			"mana_cost": "{1}{B}",
 			"type": "Artifact",
 			"collector_number": "101",
 			"image_uris": {
@@ -2245,7 +2245,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}",
 			"type": "Artifact — Equipment",
-			"collector_number": "271",
+			"collector_number": "270",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/224.jpg"
 			}
@@ -2295,7 +2295,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}",
 			"type": "Artifact",
-			"collector_number": "270",
+			"collector_number": "269",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/229.jpg"
 			}
@@ -2365,7 +2365,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "294",
+			"collector_number": "295",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/236.jpg"
 			}
@@ -2583,7 +2583,7 @@
 		{
 			"name": "Pompeii, Heart of Surging Flame",
 			"rarity": "rare",
-			"mana_cost": "{R}{R}{R}",
+			"mana_cost": "{2}{R}{R}",
 			"type": "Legendary Creature — Slug",
 			"collector_number": "142",
 			"image_uris": {
@@ -2932,7 +2932,7 @@
 			"rarity": "mythic",
 			"mana_cost": "{5}",
 			"type": "Artifact",
-			"collector_number": "274",
+			"collector_number": "273",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/293.jpg"
 			}
@@ -3268,8 +3268,8 @@
 	4 Siestan Therapist
 	4 Guerilla Shieldguard
 	4 Committee Salvage
-	4 Shmyr City
-	4 Generic Colorless Uncommon
+	4 Overgrown City-Plate
+	4 Spear of Ruination
 	4 Wolumonde City
 	4 Rogue City-Plate
 	4 Lungmen City-Plate
@@ -3446,7 +3446,7 @@
 	8 Unified Charge
 	8 Display of Might
 	8 Reunion Camp
-	8 Lancet Triage Platform
+	8 Medic's Staff
 	8 Surveyor Drone
 	8 Caster's Wand
 	8 Rusty Hammer
@@ -3563,7 +3563,7 @@
 	8 Unified Charge
 	8 Display of Might
 	8 Reunion Camp
-	8 Lancet Triage Platform
+	8 Medic's Staff
 	8 Surveyor Drone
 	8 Caster's Wand
 	8 Rusty Hammer
@@ -3724,9 +3724,9 @@
 	12 Unified Charge
 	12 Display of Might
 	12 Reunion Camp
-	6 Shmyr City
-	12 Lancet Triage Platform
-	6 Generic Colorless Uncommon
+	6 Overgrown City-Plate
+	12 Medic's Staff
+	6 Spear of Ruination
 	12 Surveyor Drone
 	6 Wolumonde City
 	12 Caster's Wand
@@ -4025,9 +4025,9 @@
 	6 Unified Charge
 	6 Display of Might
 	6 Reunion Camp
-	15 Shmyr City
-	6 Lancet Triage Platform
-	15 Generic Colorless Uncommon
+	15 Overgrown City-Plate
+	6 Medic's Staff
+	15 Spear of Ruination
 	6 Surveyor Drone
 	15 Wolumonde City
 	6 Caster's Wand

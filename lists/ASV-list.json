@@ -2323,7 +2323,7 @@
     },
     {
         "card_name": "Roadblock",
-        "number": 274,
+        "number": 273,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2338,16 +2338,8 @@
         "position": "284"
     },
     {
-        "card_name": "Generic Colorless Uncommon",
-        "number": 269,
-        "shape": "normal",
-        "set": "ASV",
-        "rotated": false,
-        "position": "146"
-    },
-    {
         "card_name": "Hot Water Kettle",
-        "number": 270,
+        "number": 269,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2355,11 +2347,19 @@
     },
     {
         "card_name": "Instructor's Whip",
-        "number": 271,
+        "number": 270,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
         "position": "224"
+    },
+    {
+        "card_name": "Spear of Ruination",
+        "number": 275,
+        "shape": "normal",
+        "set": "ASV",
+        "rotated": false,
+        "position": "146"
     },
     {
         "card_name": "Thermite Blade",
@@ -2394,8 +2394,8 @@
         "position": "51"
     },
     {
-        "card_name": "Lancet Triage Platform",
-        "number": 272,
+        "card_name": "Medic's Staff",
+        "number": 271,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2403,7 +2403,7 @@
     },
     {
         "card_name": "Rusty Hammer",
-        "number": 275,
+        "number": 274,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2459,15 +2459,15 @@
     },
     {
         "card_name": "Rogue City-Plate",
-        "number": 295,
+        "number": 296,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
         "position": "151"
     },
     {
-        "card_name": "Shmyr City",
-        "number": 297,
+        "card_name": "Overgrown City-Plate",
+        "number": 294,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2506,7 +2506,7 @@
     },
     {
         "card_name": "Shattered Streets",
-        "number": 296,
+        "number": 297,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2600,7 +2600,7 @@
     },
     {
         "card_name": "Rhodes Island Landship",
-        "number": 273,
+        "number": 272,
         "shape": "leveler",
         "set": "ASV",
         "rotated": false,
@@ -2632,7 +2632,7 @@
     },
     {
         "card_name": "Primeval Barrenland",
-        "number": 294,
+        "number": 295,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,

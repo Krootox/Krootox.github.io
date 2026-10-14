@@ -1,4 +1,226 @@
-﻿VERSION 11 CHANGELOG
+﻿VERSION 12 CHANGELOG
+====================
+
+Overgrown City-Plate added.
+Medic's Staff added.
+Spear of Ruination added.
+
+Shmyr City removed.
+Lancet Triage Platform removed.
+Generic Colorless Uncommon removed.
+
+Zumama, Chief of the Eunectes
+rules_text: {T}: Add {R}{R}. Spend this only to cast an Artifact spell or activate the ability of an artifact.
+When Zumama, Chief of the Eunectes becomes tapped, target creature or vehicle gains +3/+3 and menace until end of turn. => {T}: Add {R}{G}. Spend this mana only to cast an artifact or creature spell or activate the ability of an artifact or creature.
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, target creature or vehicle you control gets +2/+2 and gains menace until end of turn.
+
+Talulah, Tyrant of Reunion
+rules_text: First strike
+{B}{R}{G}: Creatures you control gain +1/+1, Menace, and Trample until end of turn
+When Talulah, Tyrant of Reunion attacks you may sacrifice a nontoken creature you control, if you do then create number of red 1/1 Rebel creature tokens with “When this creature dies, it deals 1 damage to any target.” equal to the sacrificed creature's power. => Ward—Discard a card
+{B}{R}{G}: Creatures you control gain +1/+1, First strike, Menace, and Trample until end of turn
+When Talulah, Tyrant of Reunion attacks you may sacrifice a nontoken creature you control, if you do then create number of red 1/1 Rebel creature tokens with “When this creature dies, it deals 1 damage to any target.” equal to the sacrificed creature's power.
+pt: 6/6 => 5/5
+
+W, the Renegade
+rules_text: At the beginning of your upkeep, create a Bomb artifact token with “{B}{R}, {T}, [i]Sacrifice this artifact[/i]: Deal 2 damage to target creature, if that creature is tapped then remove it from combat and put a stun counter on it.”
+If W, the Renegade would die, instead sacrifice all artifacts you control. W deals damage to you equal to the number of artifacts sacrificed this way, then target opponent gains control of W, the Renegade => At the beginning of your upkeep, create a Bomb artifact token with “{2B}{2R}, {T}, [i]Sacrifice this artifact[/i]: Deal 2 damage to target creature, if that creature is tapped then remove it from combat and put a stun counter on it.”
+If W, the Renegade would die, instead sacrifice all artifact tokens you control. W deals damage to you equal to the number of artifacts sacrificed this way, then target opponent gains control of W, the Renegade
+
+Garden Perfumer
+rules_text: At the beginning of your upkeep, you gain 1 life.
+Whenever you gain life you may pay {G}{W}, if you do then draw a card. => At the beginning of your upkeep, you gain 1 life.
+{1}{G}{W}, {T}: Create a white 2/2 Ally creature token. You may only use this ability if you have gained life this turn.
+
+Doctor Kal'tsit
+rules_text: When Doctor Kal'tsit enters, create a colorless 1/1 Drone artifact creature token and put X +1/+1 counters on it.
+Sacrifice an artifact: Doctor Kal'tsit gains hexproof until end of turn.
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, you gain 1 life and draw a card. => When Doctor Kal'tsit enters, create a colorless 1/1 Drone artifact creature token and put X +1/+1 counters on it.
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, gain 1 life and put a +1/+1 counter on a creature you control.
+At the beginning of your end step, you may tap and remove a counter from a creature you control, if you do then draw a card.
+
+Knight of the Followers
+rules_text: Vigilance
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, you gain 3 life. => Vigilance
+Whenever Knight of the Followers attacks, you gain 1 life.
+
+Chernobog Catastrophe
+cost: {4}{B}{B} => {2}{B}{B}
+
+Strict Instructor
+rules_text: Whenever a creature you control with power less than Strict Instructor's power deals combat damage to a player, put a +1/+1 counter on that creature and draw a card.
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, Strict Instructor gets +1/+1 and vigilance until end of turn. => Whenever one or more creatures you control with power less than Strict Instructor's power deals combat damage to a player, put a +1/+1 counter on one of those creatures and draw a card.
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, Strict Instructor gets +1/+1 and vigilance until end of turn.
+
+Sarkaz Grudgebearer
+cost: {3}{B}{R}{G} => {2}{B}{R}{G}
+rules_text: Whenever Sarkaz Grudgebearer takes damage it deals damage to target creature equal to its power. => Trample.
+Whenever Sarkaz Grudgebearer takes damage it deals 3 damage on up to two target creatures you don't control.
+
+Siestan Therapist
+rules_text: [i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, choose 1 — 
+• You gain 2 life
+• Proliferate [i](To proliferate, choose any number of permanents and/or players, then give each another counter of each kind already there.)[/i]
+• Remove all counters from a creature you control. => [i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, choose one — 
+• Create a Food token.
+• Proliferate [i](To proliferate, choose any number of permanents and/or players, then give each another counter of each kind already there.)[/i]
+• Remove all counters from a creature you control.
+
+Reserve Operator Squad
+rules_text: Reach
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, put a +1/+1 counter on this creature and it gains lifelink until end of turn. => Reach
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, put a +1/+1 counter on this creature.
+
+Literature Storm
+rules_text: Enchant creature
+When Literature Storm enters, draw a card and then discard a card.
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, enchanted creature gains +1/+1 and flying until end of turn. => Enchant creature
+When Literature Storm enters, draw a card and then discard a card.
+Enchanted creature gets +1/+0 and has flying.
+
+Columbian Cutter
+rules_text: [i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater while Columbian Cutter is equipped, it may deal damage to target creature equal to its power. => [i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, deal 1 damage to each opponent. If Columbian Cutter is equipped, then deal 2 damage instead.
+
+Certainty in Cinders
+rules_text: Deal 1 damage to each creature without flying and each player.
+[i]Revolt[/i] — If a permanent you controlled left the battlefield this turn, you may discard a card then draw a card. => Deal 3 damage to target creature.
+[i]Revolt[/i] — If a permanent you controlled left the battlefield this turn, you may discard a card then draw a card.
+
+Wayward Archausauria
+rules_text: Trample
+[i]Revolt[/i] — Wayward Archausauria enters with two +1/+1 counters on it if a permanent left the battlefield under your control this turn.
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, you gain 1 life. => Trample
+[i]Revolt[/i] — Wayward Archausauria enters with two +1/+1 counters on it if a permanent left the battlefield under your control this turn.
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, create a Food token.
+
+Return to the Wilds
+cost: {4}{G} => {2}{G}
+rules_text: Search your library for two basic land cards, put those card onto the battlefield tapped then shuffle. If a permanent left the battlefield under your control this turn, search for three basic land cards instead. => Search your library for a basic land card, put that card onto the battlefield tapped then shuffle. If a permanent left the battlefield under your control this turn, search for two basic land cards instead.
+
+Committee Salvage
+rules_text: Return target card from your graveyard to your hand.
+[i]Skill Activation[/i] — You may return three cards from your graveyard to your hand instead if you've cast a spell with mana value 4 or greater this turn. => Return target card from your graveyard to your hand.
+If you control a creature with 4 or more power, instead return three cards from your graveyard to your hand.
+
+Wolumonde City
+rules_text: Wolumonde City enters tapped.
+{T}: Add {W}
+As long as you control six or more lands, Wolumonde City has Crew 2 and vigilance. => Wolumonde City enters tapped.
+{T}: Add {W}
+As long as you control six or more lands, Wolumonde City has Crew 5 and first strike.
+pt: 3/4 => 8/8
+
+Rogue City-Plate
+rules_text: Rogue City-Plate enters tapped.
+{T}: Add {R}
+As long as you control six or more lands, Rogue City-Plate has Crew 2 and trample. => Rogue City-Plate enters tapped.
+{T}: Add {R}
+As long as you control six or more lands, Rogue City-Plate has Crew 5 and trample.
+pt: 4/2 => 10/6
+
+Lungmen City-Plate
+rules_text: Lungmen City-Plate enters tapped.
+{T}: Add {U}
+As long as you control six or more lands, Lungmen City-Plate has Crew 2 and whenever it attacks, Scry 1. => Lungmen City-Plate enters tapped.
+{T}: Add {U}
+As long as you control six or more lands, Lungmen City-Plate has Crew 5 and vigilance.
+pt: 2/4 => 6/10
+
+Caladon Mounted Police
+rules_text: Flash
+[i]Skill Activation[/i] — When Caladon Mounted Police enters and whenever you cast a spell with mana value 4 or greater, untap target creature and it gains indestructible until end of turn. => Flash
+[i]Skill Activation[/i] — When Caladon Mounted Police enters and whenever you cast a spell with mana value 4 or greater, you may return target creature you control to its owner's hand.
+pt: 1/1 => 1/2
+
+Stable Esthesia
+rules_text: [i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, choose one — 
+• Untap target creature, it gains lifelink and vigilance until end of turn.
+• Tap and put a stun counter on target creature. => [i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, choose one — 
+• Untap target creature, it gains vigilance until end of turn.
+• Tap and put a stun counter on target creature.
+
+Skyranger's Jetpack
+rules_text: [i]Recruitment[/i] — When Skyranger's Jetpack enters, create a 2/2 white Ally creature token and attach this equipment to it.
+Equip {3}
+Equipped creature has flying and first strike. => [i]Recruitment[/i] — When Skyranger's Jetpack enters, create a 2/2 white Ally creature token and attach this equipment to it.
+Equip {2}
+Whenever equipped creature attacks it gains first strike and flying until end of turn.
+
+Training Room
+cost: {2}{G}{U} => {G}{U}
+
+RIIC Factory Line
+rules_text: [i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, create an Originium token. [i](It's a colorless artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i]
+{3}{U}{R}, {T}, Sacrifice an artifact: Search your library for an artifact card, reveal it, then put it into your hand. => [i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, create an Originium token. [i](It's a colorless artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i]
+{T}, Sacrifice an artifact: Draw a card.
+
+Originium Altar
+cost: {3}{B} => {1}{B}
+rules_text: {T}, Sacrifice a creature you control: Surveil 1. [i](Look at the top card of your library. You may put it into your graveyard.)[/i]
+Whenever a creature you control deals combat damage to a player, create an Originium token. [i](It's a colorless artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i] => {T}, Sacrifice a creature you control: Surveil 1. [i](Look at the top card of your library. You may put it into your graveyard.)[/i]
+Whenever one or more creatures you control deals combat damage to a player, create an Originium token. [i](It's a colorless artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i]
+
+Scrapyard Temple
+rules_text: Creatures you control with power 4 or greater have reach and trample.
+{2}{R}{G}, {T}: Draw a card if you control a creature with 4 or grater power. => [i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, target creature you control gets +1/+1 and gains trample until end of turn.
+{2}{R}{G}, {T}: Draw a card if you control a creature with 4 or grater power.
+
+Mahuizzotia Festival
+rules_text: At the beginning of your upkeep, put a +1/+1 counter on a creature you control.
+Whenever you cast a spell with mana value 4 or greater, target creature you control with power 4 or greater fights target creature you don't control. => At the beginning of your upkeep, put a +1/+1 counter on a creature you control.
+{3}{G}{G}: Target creature you control fights target creature you don't control. You may only activate this ability once each turn.
+
+Wander the Tundra
+rules_text: Reveal the top card of your library. If it's a land card you may put it onto the battlefield tapped. Otherwise, put it into your hand.
+[i]Revolt[/i] — If a permanent left the battlefield under your control this turn, create a 1/1 red Rebel creature token with “When this creature dies, it deals 1 damage to any target.” => Look at the top four cards of your library, you may reveal a creature or land card and put that card into your hand.
+[i]Revolt[/i] — If a permanent left the battlefield under your control this turn, you may look at the top eight cards instead.
+
+Chernobog City-Plate
+rules_text: Chernobog City-Plate enters tapped
+{T}: Add {B}
+As long as you control six or more lands, Wolumonde City has Crew 2 and lifelink. => Chernobog City-Plate enters tapped
+{T}: Add {B}
+As long as you control six or more lands, Wolumonde City has Crew 5 and menace.
+pt: 3/4 => 8/8
+
+Elite Operator Squad
+rules_text: Vigilance
+You may cast ally spells as though they had flash.
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, put two +1/+1 counters on Elite Operator Squad. => Flash
+You may cast ally spells as though they had flash.
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, put a +1/+1 counter on Elite Operator Squad.
+
+Pompeii, Heart of Surging Flame
+cost: {R}{R}{R} => {2}{R}{R}
+rules_text: At the beginning of your upkeep, put a lava counter on Pompeii, Heart of Surging Flame, then deal 1 damage to each creature for each lava counter on this creature. => [i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, deal 1 damage to up to four creatures you don't control.
+pt: 4/3 => 3/3
+
+Spirited Messenger
+rules_text: Vigilance
+Other ally creatures you control have vigilance.
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, you gain life equal to the number of ally creatures you control. => Vigilance
+Other ally creatures you control have vigilance.
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, create a Food token.
+
+Trial of Strength
+
+Raging Iron Fists
+rules_text: [i]Recruitment[/i] — When Raging Iron Fists enters, create a 2/2 white Ally creature token and attach this equipment to it.
+Equip {1}{W}{U}
+Equipped creature gets +2/+2.
+Whenever equipped creature attacks, tap target creature you don't control and put a stun counter on it. => [i]Recruitment[/i] — When Raging Iron Fists enters, create a 2/2 white Ally creature token and attach this equipment to it.
+Equip {1}{W}{U}
+Equipped creature gets +2/+2.
+Whenever equipped creature attacks, put a stun counter on target tapped creature you don't control.
+
+Student of Kal'tsit
+rules_text: Lifelink
+At the beginning of your end step, if you gained life this turn, draw a card. If you gained 5 or more life this turn, put a +1/+1 counter on each creature you control. => Lifelink
+At the beginning of your end step, if you gained life this turn, put a +1/+1 counter on target creature you control. If you gained 5 or more life this turn, draw a card.
+pt: 2/3 => 2/2
+
+
+VERSION 11 CHANGELOG
 ====================
 
 Chernobog Catastrophe added.
