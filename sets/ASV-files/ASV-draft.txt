@@ -1784,7 +1784,7 @@
 			"name": "Training Room",
 			"rarity": "uncommon",
 			"mana_cost": "{G}{U}",
-			"type": "Enchantment",
+			"type": "Artifact",
 			"collector_number": "250",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/178.jpg"
@@ -2843,8 +2843,8 @@
 		{
 			"name": "Vanguard's Standard",
 			"rarity": "rare",
-			"mana_cost": "{4}",
-			"type": "Artifact",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
 			"collector_number": "278",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/284.jpg"

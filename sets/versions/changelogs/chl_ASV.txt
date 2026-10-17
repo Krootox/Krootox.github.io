@@ -1,4 +1,63 @@
-﻿VERSION 12 CHANGELOG
+﻿VERSION 13 CHANGELOG
+====================
+
+
+
+Duke Kashchey
+
+Reunion Rally
+
+Arts of the Wilds
+
+Laser Mining Assistance
+
+Unified Charge
+
+Overgrown City-Plate
+
+Medic's Staff
+
+Spear of Ruination
+
+Caster's Wand
+
+Training Room
+type: Enchantment => Artifact
+
+Stinging Shock
+
+Ignis Hammer
+
+Thermite Blade
+
+Water Cannon
+
+Instructor's Whip
+
+Avenger's Katana
+rules_text: Equip {2}
+Equipped creature has first strike.
+If you have less than half your starting life total, equipped creature gets +3/+0 and double strike. => Equip {2}
+Equipped creature has first strike.
+If you have less than or equal to half your starting life total, equipped creature gets +3/+0 and double strike.
+
+Cruel Arts
+
+Flexible Camouflage
+
+Water of Life
+
+Vanguard's Standard
+type: Artifact => Artifact — Equipment
+cost: {4} => {2}
+rules_text: When Vanguard's Standard enters, choose a creature type.
+Creatures you control of the chosen type get +1/+1 and have haste.
+Creature spells you cast of the chosen type cost {1} less to cast. => Equip {1}
+Equipped creature gains haste and “{T}: The next creature spell you cast this turn costs {1} less to cast”
+Other creatures you control that share a creature type with equipped creature get +1/+1.
+
+
+VERSION 12 CHANGELOG
 ====================
 
 Overgrown City-Plate added.

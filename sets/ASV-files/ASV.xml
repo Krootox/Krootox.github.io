@@ -5,7 +5,7 @@
 			<name>ASV</name>
 			<longname>Arknights: Shatter of a Vision</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-10-13</releasedate>
+			<releasedate>2026-10-17</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -3139,8 +3139,8 @@ Skill Activation — Whenever you cast a spell with mana value 4 or greater, dou
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Enchantment</type>
-				<maintype>Enchantment</maintype>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
 				<manacost>GU</manacost>
 				<cmc>2</cmc>
 				<colors>UG</colors>
@@ -3952,7 +3952,7 @@ Equipped creature gets +1/+1 and gains &quot;Whenever this creature attacks, cre
 			<name>Avenger&apos;s Katana</name>
 			<text>Equip {2}
 Equipped creature has first strike.
-If you have less than half your starting life total, equipped creature gets +3/+0 and double strike.</text>
+If you have less than or equal to half your starting life total, equipped creature gets +3/+0 and double strike.</text>
 			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/225.jpg" num="122">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -4982,17 +4982,17 @@ Whenever an artifact enters under your control, put a +1/+1 counter on equipped 
 		</card>
 		<card>
 			<name>Vanguard&apos;s Standard</name>
-			<text>When Vanguard&apos;s Standard enters, choose a creature type.
-Creatures you control of the chosen type get +1/+1 and have haste.
-Creature spells you cast of the chosen type cost {1} less to cast.</text>
+			<text>Equip {1}
+Equipped creature gains haste and &quot;{T}: The next creature spell you cast this turn costs {1} less to cast&quot;
+Other creatures you control that share a creature type with equipped creature get +1/+1.</text>
 			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/284.jpg" num="278">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Artifact</type>
+				<type>Artifact — Equipment</type>
 				<maintype>Artifact</maintype>
-				<manacost>4</manacost>
-				<cmc>4</cmc>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
 			</prop>
 			<tablerow>1</tablerow>
 		</card>
