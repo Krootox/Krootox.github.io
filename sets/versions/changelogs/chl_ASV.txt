@@ -1,4 +1,99 @@
-﻿VERSION 13 CHANGELOG
+﻿VERSION 14 CHANGELOG
+====================
+
+Contingency Contract added.
+Annihilation Operation added.
+Supply Operation added.
+Paradox Simulation added.
+Vector Breakthrough added.
+
+
+Frostnova, Winter's Scar
+rules_text: Menace
+Whenever a creature you control deals combat damage to a player, you may tap target creature that player controls and put a stun counter on it.
+{U}{B}, Pay 3 life: Destroy target creature with a stun counter on it. => Deathtouch
+Whenever one or more creatures you control deals combat damage to a player, you may tap target creature that player controls and put a stun counter on it.
+{U}{B}, {T}, Pay 3 life: Destroy target creature with a stun counter on it.
+
+Duke Kashchey
+cost: {1}{B}{B} => {1}{B}
+rules_text: Bestow {4}{B}{B}
+Deathtouch
+You control enchanted creature.
+Enchanted creature gets +1/+1 and has deathtouch
+You may play Duke Kashchey from your graveyard by exiling three other cards from your graveyard in addition to its other costs. => Bestow {8}{B}{B}
+Deathtouch
+You control enchanted creature.
+Enchanted creature gets +1/+1 and has deathtouch
+You may Bestow Duke Kashchey from your graveyard by exiling three other cards from your graveyard in addition to its other costs.
+
+Lungmen Guardsmen
+
+Become Anew
+
+Grind for Parts
+rules_text: Destroy target artifact.
+Create an Originium token. [i](It's a colorless artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i] => Destroy up to one target artifact.
+Create an Originium token. [i](It's a colorless artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i]
+
+Rebellious Awakening
+
+Overgrown City-Plate
+rules_text: Overgrown City-Plate enters tapped.
+{T}: Add {G}
+As long as you control six or more lands, Wolumonde City has Crew 5. => Overgrown City-Plate enters tapped.
+{T}: Add {G}
+As long as you control six or more lands, Overgrown City-Plate has Crew 4.
+At the beginning of combat, if Overgrown City-Plate is a creature, then create two Food tokens.
+pt: 10/10 => 6/6
+
+Wolumonde City
+rules_text: Wolumonde City enters tapped.
+{T}: Add {W}
+As long as you control six or more lands, Wolumonde City has Crew 5 and first strike. => Wolumonde City enters tapped.
+{T}: Add {W}
+As long as you control six or more lands, Wolumonde City has Crew 5.
+At the beginning of combat, if Wolumonde City is a creature, then create a black 1/1 Mercenary creature token.
+
+Rogue City-Plate
+
+Lungmen City-Plate
+rules_text: Lungmen City-Plate enters tapped.
+{T}: Add {U}
+As long as you control six or more lands, Lungmen City-Plate has Crew 5 and vigilance. => Lungmen City-Plate enters tapped.
+{T}: Add {U}
+As long as you control six or more lands, Lungmen City-Plate has Crew 5.
+At the beginning of combat, if Lungmen City-Plate is a creature, then Scry 2.
+
+Martial Arts Star
+cost: {1}{R}{W} => {2}{R}
+
+For Each Who Falls
+
+Ignis Hammer
+cost: {1}{R} => {R}{W}
+rules_text: Equip {2}
+Equipped creature gets +1/+1 for each artifact you control. => Equip {R}{W}
+Equipped creature gets +1/+1 for each artifact you control.
+
+Chernobog City-Plate
+rules_text: Chernobog City-Plate enters tapped
+{T}: Add {B}
+As long as you control six or more lands, Wolumonde City has Crew 5 and menace. => Chernobog City-Plate enters tapped
+{T}: Add {B}
+As long as you control six or more lands, Wolumonde City has Crew 5.
+At the beginning of combat, if Chernobog City-Plate is a creature, then create an Originium token.
+
+Separated Hearts
+rules_text: Enchant creature you don't control.
+When Separated Hearts enters, choose a Rebel creature you control. When the chosen creature dies, gain control of enchanted creature. => Enchant creature.
+When enchanted creature dies, you may return target creature card from your graveyard to the battlefield.
+
+Ceobe's Fungimist
+cost: {G}{U}{R} => {2}{G}{U}{R}
+
+
+VERSION 13 CHANGELOG
 ====================
 
 
