@@ -138,7 +138,7 @@
     {
         "card_name": "Contingency Contract",
         "number": 88,
-        "shape": "saga",
+        "shape": "normal",
         "set": "ASV",
         "rotated": false,
         "position": "316"

@@ -1,4 +1,139 @@
-﻿VERSION 14 CHANGELOG
+﻿VERSION 15 CHANGELOG
+====================
+
+
+
+Zumama, Chief of the Eunectes
+pt: 3/3 => 4/4
+
+Flint Tribe Fanatic
+type: Creature — Bird Warrior => Creature — Bird Mercenary Warrior
+
+Elite Operator Blaze
+rules_text: First strike, prowess
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater and Elite Operator Blaze is untapped, you may tap and put a stun counter on Elite Operator Blaze. If you do then deal damage equal to its power to each creature you don't control. => First strike, prowess
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater and Elite Operator Blaze is untapped, you may tap Elite Operator Blaze. If you do then deal damage equal to its power to target creature you don't control.
+
+Yeti Squad Caster
+pt: 3/1 => 2/1
+
+Chernobog Delinquent
+rules_text: {T}: Add one mana of any color.
+Whenever a creature with power 4 or greater enters, creatures you control get +1/+1 and have haste until end of turn. => {T}: Add one mana of any color.
+Whenever a creature with power 4 or greater enters under your control, that creature gains +1/+1 and haste until end of turn.
+
+Guardian Ninja
+rules_text: Sneak {B} [i](You may cast this spell for {B} if you also return an unblocked attacker you control to hand during the declare blockers step. This creature enters tapped and attacking.)[/i]
+When Guardian Ninja deals combat damage to a player, you may tap and put a stun counter on target creature that player controls. => Sneak {B} [i](You may cast this spell for {B} if you also return an unblocked attacker you control to hand during the declare blockers step. It enters tapped and attacking.)[/i]
+When Guardian Ninja deals combat damage to a player, you may tap and put a stun counter on target creature that player controls.
+
+Surtr, Twilight Blade
+type: Legendary Creature — Devil Warrior => Legendary Creature — Devil Mercenary
+
+Rhine Labs Roboticist
+type: Creature — Otter Artificer => Creature — Otter Mercenary Artificer
+
+Reunion Breaker
+pt: 3/3 => 4/2
+
+Caladon Mounted Police
+type: Creature — Horse Knight Ally => Creature — Horse Mercenary Knight
+rules_text: Flash
+[i]Skill Activation[/i] — When Caladon Mounted Police enters and whenever you cast a spell with mana value 4 or greater, you may return target creature you control to its owner's hand. => Flash
+[i]Skill Activation[/i] — When Caladon Mounted Police enters and whenever you cast a spell with mana value 4 or greater, you may return target creature you control with mana value 3 or less to its owner's hand.
+
+Medical Experimenter
+type: Creature — Cat Scientist => Creature — Cat Mercenary Scientist
+
+Abyssal Patient
+type: Creature — Shark Cleric Ally => Creature — Shark Mercenary Cleric
+
+Warcaster Agent
+pt: 3/3 => 4/2
+
+Bionics Engineer
+rules_text: When Bionics Engineer enters, create a 1/1 colorless drone artifact creature token.
+{2}{W}{U}, {T}, Tap an artifact you control: Tap and put a stun counter on target creature. => When Bionics Engineer enters, create a 1/1 colorless drone artifact creature token.
+{2}{W}{U}, {T}, Tap an artifact creature you control: Tap and put a stun counter on target creature.
+
+Delivery Buggy
+rules_text: Crew 2
+Whenever Delivery Buggy attacks or deals combat damage to a player, create an Originium token.
+Whenever Delivery Buggy becomes blocked you may reveal a mercenary creature card from your hand and pay X where X is that creature's mana value. If you do, return Delivery Buggy to your hand, and put the revealed creature into play tapped and attacking, and it is blocked by all creatures which were blocking Delivery Buggy. => Crew 2
+Whenever Delivery Buggy attacks or deals combat damage to a player, create an Originium token.
+Whenever Delivery Buggy becomes blocked you may reveal a creature card from your hand and pay X where X is that creature's mana value. If you do, return Delivery Buggy to your hand, and put the revealed creature into play tapped and attacking, and it is blocked by all creatures which were blocking Delivery Buggy.
+
+Convolution
+type: Instant => Sorcery
+
+Pompeii, Heart of Surging Flame
+pt: 3/3 => 4/3
+
+Search for Safety
+cost: {X}{G} => {G}
+rules_text: Look at the top X cards of your library, you may reveal a creature or land card from among them and put it into your hand. Put the rest on the bottom of your library in any order.
+[i]Revolt[/i] — You may put that card into play instead if a permanent left the battlefield under your control this turn. => Search your library for a basic land card, reveal it, put it into your hand, then shuffle.
+[i]Revolt[/i] — If a permanent left the battlefield under your control this turn, instead search your library for a creature or land card, reveal it, put it into your hand, then shuffle.
+
+Angelina Ajimu
+rules_text: Haste, flying
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, you may return target nonland permanent to its owner's hand.
+You may play an additional land on each of your turns. => Haste, flying
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, you may return another target nonland permanent to its owner's hand. This may only activate once each turn.
+You may play an additional land on each of your turns.
+
+Rescue from Stasis
+cost: {2}{W} => {2}{W}{W}
+rules_text: Return target creature card with power 2 or less from your graveyard or exile to the battlefield tapped. => Return target creature card from your graveyard or exile to the battlefield tapped.
+
+Nian, Sui Fragment
+rules_text: Nian, Sui Fragment enters with three shield counters on it.
+Whenever you cast an artifact spell, you may reveal a number of cards from the top of your library equal to the mana value of that spell. You may put any number of revealed artifact cards into play and put the rest on the bottom of your library in any order.
+{R}{W}, Sacrifice an artifact you control: Put a shield counter on target creature you control. Activate only as a sorcery. => Nian, Sui Fragment enters with three shield counters on it.
+Creatures you control get +1/+0 for each shield counter on it.
+{R}{W}, Sacrifice an artifact you control: Put a shield counter on target creature you control. Activate only as a sorcery.
+pt: 2/6 => 2/7
+
+Contingency Contract
+type: Enchantment — Saga => Enchantment — Aura Curse
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Contingency Contract gains “Spells you control cost {1} more to cast.
+II — Contingency Contract gains “Creatures you control have -1/-0.”
+III — Contingency Contract gains “Spells your opponents cast cost {1} less to cast.”
+IV — You get an Emblem with “Spells you cast cost {1} less to cast” and “Creatures you control get +1/+1 and have menace” => Enchant player
+At the beginning of enchanted player's upkeep, choose one that hasn't been chosen — 
+• Spells enchanted player casts cost {1} more to cast.
+• Creatures enchanted player controls get -1/-1
+• Enchanted player discards a card
+• Sacrifice Contingency Contract
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Contingency Contract gains “Spells you control cost {1} more to cast.
+II — Contingency Contract gains “Creatures you control have -1/-0.”
+III — Contingency Contract gains “Spells your opponents cast cost {1} less to cast.”
+IV — You get an Emblem with “Spells you cast cost {1} less to cast” and “Creatures you control get +1/+1 and have menace” => 
+
+Annihilation Operation
+type: Enchantment => Enchantment — Aura Curse
+rules_text: At the beginning of your upkeep, each opponent creates a black 1/1 Mercenary creature token then if you have 10 or more charge counters on Annihilation Operation, sacrifice it and create that many Originium tokens.
+Whenever a creature an opponent control dies, put a charge counter on Annihilation Operation. => Enchant player
+At the beginning of enchanted player's upkeep, each other player creates a black 1/1 Mercenary creature token then put a time counter on Annihilation Operation.
+At the beginning of enchanted player's end step, if Annihilation Operation has 5 or more time counters then sacrifice Annihilation Operation.
+
+Supply Operation
+
+Paradox Simulation
+rules_text: Enchant creature.
+Whenever enchanted creature deals combat damage to a player, draw a card, make an Originium token, put a +1/+1 counter on enchanted creature then return this enchantment to your hand. => Enchant creature.
+Whenever enchanted creature deals combat damage to a player, draw a card, put a +1/+1 counter on enchanted creature then return this enchantment to your hand.
+
+Vector Breakthrough
+cost: {3}{W} => {2}{W}
+rules_text: When Vector Breakthrough enters, you may exile up to three creatures you control until Vector Breakthrough leaves the battlefield.
+Creatures you control get +1/+1 for each creature card exiled by Vector Breakthrough. => When Vector Breakthrough enters, exile target creature until Vector Breakthrough leaves the battlefield.
+If a creature you control was exiled with Vector Breakthrough, then creatures you control have +1/+1.
+
+
+VERSION 14 CHANGELOG
 ====================
 
 Contingency Contract added.

@@ -5,7 +5,7 @@
 			<name>ASV</name>
 			<longname>Arknights: Shatter of a Vision</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-10-19</releasedate>
+			<releasedate>2026-10-21</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -57,7 +57,7 @@ Skill Activation — Whenever you cast a spell with mana value 4 or greater, tar
 				<cmc>5</cmc>
 				<colors>RG</colors>
 				<coloridentity>RG</coloridentity>
-				<pt>3/3</pt>
+				<pt>4/4</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -90,7 +90,7 @@ Flint Tribe Fanatic cannot block.</text>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Creature — Bird Warrior</type>
+				<type>Creature — Bird Mercenary Warrior</type>
 				<maintype>Creature</maintype>
 				<manacost>1R</manacost>
 				<cmc>2</cmc>
@@ -886,7 +886,7 @@ At the beginning of your end step, you may tap and remove a counter from a creat
 		<card>
 			<name>Elite Operator Blaze</name>
 			<text>First strike, prowess
-Skill Activation — Whenever you cast a spell with mana value 4 or greater and Elite Operator Blaze is untapped, you may tap and put a stun counter on Elite Operator Blaze. If you do then deal damage equal to its power to each creature you don&apos;t control.</text>
+Skill Activation — Whenever you cast a spell with mana value 4 or greater and Elite Operator Blaze is untapped, you may tap Elite Operator Blaze. If you do then deal damage equal to its power to target creature you don&apos;t control.</text>
 			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/48.jpg" num="135">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -1038,7 +1038,7 @@ When Yeti Squad Caster enters, tap up to one target creature you don&apos;t cont
 				<cmc>3</cmc>
 				<colors>U</colors>
 				<coloridentity>U</coloridentity>
-				<pt>3/1</pt>
+				<pt>2/1</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -1063,7 +1063,7 @@ Whenever Sarkaz Grudgebearer takes damage it deals 3 damage on up to two target 
 		<card>
 			<name>Chernobog Delinquent</name>
 			<text>{T}: Add one mana of any color.
-Whenever a creature with power 4 or greater enters, creatures you control get +1/+1 and have haste until end of turn.</text>
+Whenever a creature with power 4 or greater enters under your control, that creature gains +1/+1 and haste until end of turn.</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/58.jpg" num="221">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -1345,7 +1345,7 @@ Skill Activation — Whenever you cast a spell with mana value 4 or greater, you
 		</card>
 		<card>
 			<name>Guardian Ninja</name>
-			<text>Sneak {B} (You may cast this spell for {B} if you also return an unblocked attacker you control to hand during the declare blockers step. This creature enters tapped and attacking.)
+			<text>Sneak {B} (You may cast this spell for {B} if you also return an unblocked attacker you control to hand during the declare blockers step. It enters tapped and attacking.)
 When Guardian Ninja deals combat damage to a player, you may tap and put a stun counter on target creature that player controls.</text>
 			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/74.jpg" num="99">ASV</set>
 			<prop>
@@ -1424,7 +1424,7 @@ At the beginning of your upkeep, remove a counter from Surtr, Twilight Blade. If
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Legendary Creature — Devil Warrior</type>
+				<type>Legendary Creature — Devil Mercenary</type>
 				<maintype>Creature</maintype>
 				<manacost>RRRR</manacost>
 				<cmc>4</cmc>
@@ -1985,7 +1985,7 @@ When Phantom Crossbowman enters, if a permanent you controlled left the battlefi
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Creature — Otter Artificer</type>
+				<type>Creature — Otter Mercenary Artificer</type>
 				<maintype>Creature</maintype>
 				<manacost>2R</manacost>
 				<cmc>3</cmc>
@@ -2078,7 +2078,7 @@ When Reunion Breaker enters, create a 1/1 red Rebel creature token with &quot;Wh
 				<cmc>5</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
-				<pt>3/3</pt>
+				<pt>4/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -2924,12 +2924,12 @@ Whenever Hired Crossbow deals combat damage to a player, you may destroy target 
 		<card>
 			<name>Caladon Mounted Police</name>
 			<text>Flash
-Skill Activation — When Caladon Mounted Police enters and whenever you cast a spell with mana value 4 or greater, you may return target creature you control to its owner&apos;s hand.</text>
+Skill Activation — When Caladon Mounted Police enters and whenever you cast a spell with mana value 4 or greater, you may return target creature you control with mana value 3 or less to its owner&apos;s hand.</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/166.jpg" num="4">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Creature — Horse Knight Ally</type>
+				<type>Creature — Horse Mercenary Knight</type>
 				<maintype>Creature</maintype>
 				<manacost>1W</manacost>
 				<cmc>2</cmc>
@@ -3227,7 +3227,7 @@ Skill Activation — Whenever you cast a spell with mana value 4 or greater, ano
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Creature — Cat Scientist</type>
+				<type>Creature — Cat Mercenary Scientist</type>
 				<maintype>Creature</maintype>
 				<manacost>2B</manacost>
 				<cmc>3</cmc>
@@ -3282,7 +3282,7 @@ Skill Activation — Whenever you cast a spell with mana value 4 or greater, Aby
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Creature — Shark Cleric Ally</type>
+				<type>Creature — Shark Mercenary Cleric</type>
 				<maintype>Creature</maintype>
 				<manacost>5B</manacost>
 				<cmc>6</cmc>
@@ -3498,7 +3498,7 @@ Whenever you cast a spell with mana value 4 or greater, target creature you don&
 				<cmc>5</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
-				<pt>3/3</pt>
+				<pt>4/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -3799,7 +3799,7 @@ Revolt — If a permanent left the battlefield under your control this turn, you
 		<card>
 			<name>Bionics Engineer</name>
 			<text>When Bionics Engineer enters, create a 1/1 colorless drone artifact creature token.
-{2}{W}{U}, {T}, Tap an artifact you control: Tap and put a stun counter on target creature.</text>
+{2}{W}{U}, {T}, Tap an artifact creature you control: Tap and put a stun counter on target creature.</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/216.jpg" num="206">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -3992,7 +3992,7 @@ At the beginning of combat, if Chernobog City-Plate is a creature, then create a
 			<name>Delivery Buggy</name>
 			<text>Crew 2
 Whenever Delivery Buggy attacks or deals combat damage to a player, create an Originium token.
-Whenever Delivery Buggy becomes blocked you may reveal a mercenary creature card from your hand and pay X where X is that creature&apos;s mana value. If you do, return Delivery Buggy to your hand, and put the revealed creature into play tapped and attacking, and it is blocked by all creatures which were blocking Delivery Buggy.</text>
+Whenever Delivery Buggy becomes blocked you may reveal a creature card from your hand and pay X where X is that creature&apos;s mana value. If you do, return Delivery Buggy to your hand, and put the revealed creature into play tapped and attacking, and it is blocked by all creatures which were blocking Delivery Buggy.</text>
 			<set rarity="mythic" picurl="https://krootox.github.io/sets/ASV-files/img/227.jpg" num="272">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -4347,8 +4347,8 @@ Draw a card.</text>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Instant</type>
-				<maintype>Instant</maintype>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
 				<manacost>2UU</manacost>
 				<cmc>4</cmc>
 				<colors>U</colors>
@@ -4533,7 +4533,7 @@ Revolt — If another permanent left the battlefield under your control this tur
 				<cmc>4</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
-				<pt>3/3</pt>
+				<pt>4/3</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -4666,15 +4666,15 @@ Skill Activation — Whenever you cast a spell with mana value 4 or greater, cre
 		</card>
 		<card>
 			<name>Search for Safety</name>
-			<text>Look at the top X cards of your library, you may reveal a creature or land card from among them and put it into your hand. Put the rest on the bottom of your library in any order.
-Revolt — You may put that card into play instead if a permanent left the battlefield under your control this turn.</text>
+			<text>Search your library for a basic land card, reveal it, put it into your hand, then shuffle.
+Revolt — If a permanent left the battlefield under your control this turn, instead search your library for a creature or land card, reveal it, put it into your hand, then shuffle.</text>
 			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/266.jpg" num="188">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Sorcery</type>
 				<maintype>Sorcery</maintype>
-				<manacost>XG</manacost>
+				<manacost>G</manacost>
 				<cmc>1</cmc>
 				<colors>G</colors>
 				<coloridentity>G</coloridentity>
@@ -4898,7 +4898,7 @@ Sacrifice a creature: Lappland, Rogue Mafioso gains lifelink, deathtouch, and tr
 		<card>
 			<name>Angelina Ajimu</name>
 			<text>Haste, flying
-Skill Activation — Whenever you cast a spell with mana value 4 or greater, you may return target nonland permanent to its owner&apos;s hand.
+Skill Activation — Whenever you cast a spell with mana value 4 or greater, you may return another target nonland permanent to its owner&apos;s hand. This may only activate once each turn.
 You may play an additional land on each of your turns.</text>
 			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/279.jpg" num="258">ASV</set>
 			<prop>
@@ -5038,15 +5038,15 @@ Creatures you control gain hexproof, vigilance and indestructible until end of t
 		</card>
 		<card>
 			<name>Rescue from Stasis</name>
-			<text>Return target creature card with power 2 or less from your graveyard or exile to the battlefield tapped.</text>
+			<text>Return target creature card from your graveyard or exile to the battlefield tapped.</text>
 			<set rarity="mythic" picurl="https://krootox.github.io/sets/ASV-files/img/287.jpg" num="26">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Instant</type>
 				<maintype>Instant</maintype>
-				<manacost>2W</manacost>
-				<cmc>3</cmc>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
 				<colors>W</colors>
 				<coloridentity>W</coloridentity>
 			</prop>
@@ -5166,7 +5166,7 @@ At the beginning of each opponent&apos;s attack step, that player may only attac
 		<card>
 			<name>Nian, Sui Fragment</name>
 			<text>Nian, Sui Fragment enters with three shield counters on it.
-Whenever you cast an artifact spell, you may reveal a number of cards from the top of your library equal to the mana value of that spell. You may put any number of revealed artifact cards into play and put the rest on the bottom of your library in any order.
+Creatures you control get +1/+0 for each shield counter on it.
 {R}{W}, Sacrifice an artifact you control: Put a shield counter on target creature you control. Activate only as a sorcery.</text>
 			<set rarity="mythic" picurl="https://krootox.github.io/sets/ASV-files/img/294.jpg" num="249">ASV</set>
 			<prop>
@@ -5178,7 +5178,7 @@ Whenever you cast an artifact spell, you may reveal a number of cards from the t
 				<cmc>6</cmc>
 				<colors>WR</colors>
 				<coloridentity>WR</coloridentity>
-				<pt>2/6</pt>
+				<pt>2/7</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -5514,16 +5514,17 @@ At the beginning of your end step, if you gain 5 or more life this turn, put a +
 		</card>
 		<card>
 			<name>Contingency Contract</name>
-			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
-I — Contingency Contract gains &quot;Spells you control cost {1} more to cast.
-II — Contingency Contract gains &quot;Creatures you control have -1/-0.&quot;
-III — Contingency Contract gains &quot;Spells your opponents cast cost {1} less to cast.&quot;
-IV — You get an Emblem with &quot;Spells you cast cost {1} less to cast&quot; and &quot;Creatures you control get +1/+1 and have menace&quot;</text>
+			<text>Enchant player
+At the beginning of enchanted player&apos;s upkeep, choose one that hasn&apos;t been chosen — 
+• Spells enchanted player casts cost {1} more to cast.
+• Creatures enchanted player controls get -1/-1
+• Enchanted player discards a card
+• Sacrifice Contingency Contract</text>
 			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/316.jpg" num="88">ASV</set>
 			<prop>
-				<layout>saga</layout>
+				<layout>normal</layout>
 				<side>front</side>
-				<type>Enchantment — Saga</type>
+				<type>Enchantment — Aura Curse</type>
 				<maintype>Enchantment</maintype>
 				<manacost>2B</manacost>
 				<cmc>3</cmc>
@@ -5534,13 +5535,14 @@ IV — You get an Emblem with &quot;Spells you cast cost {1} less to cast&quot; 
 		</card>
 		<card>
 			<name>Annihilation Operation</name>
-			<text>At the beginning of your upkeep, each opponent creates a black 1/1 Mercenary creature token then if you have 10 or more charge counters on Annihilation Operation, sacrifice it and create that many Originium tokens.
-Whenever a creature an opponent control dies, put a charge counter on Annihilation Operation.</text>
+			<text>Enchant player
+At the beginning of enchanted player&apos;s upkeep, each other player creates a black 1/1 Mercenary creature token then put a time counter on Annihilation Operation.
+At the beginning of enchanted player&apos;s end step, if Annihilation Operation has 5 or more time counters then sacrifice Annihilation Operation.</text>
 			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/317.jpg" num="124">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Enchantment</type>
+				<type>Enchantment — Aura Curse</type>
 				<maintype>Enchantment</maintype>
 				<manacost>2R</manacost>
 				<cmc>3</cmc>
@@ -5569,7 +5571,7 @@ Whenever a creature an opponent control dies, put a charge counter on Annihilati
 		<card>
 			<name>Paradox Simulation</name>
 			<text>Enchant creature.
-Whenever enchanted creature deals combat damage to a player, draw a card, make an Originium token, put a +1/+1 counter on enchanted creature then return this enchantment to your hand.</text>
+Whenever enchanted creature deals combat damage to a player, draw a card, put a +1/+1 counter on enchanted creature then return this enchantment to your hand.</text>
 			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/319.jpg" num="66">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -5585,16 +5587,16 @@ Whenever enchanted creature deals combat damage to a player, draw a card, make a
 		</card>
 		<card>
 			<name>Vector Breakthrough</name>
-			<text>When Vector Breakthrough enters, you may exile up to three creatures you control until Vector Breakthrough leaves the battlefield.
-Creatures you control get +1/+1 for each creature card exiled by Vector Breakthrough.</text>
+			<text>When Vector Breakthrough enters, exile target creature until Vector Breakthrough leaves the battlefield.
+If a creature you control was exiled with Vector Breakthrough, then creatures you control have +1/+1.</text>
 			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/320.jpg" num="40">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Enchantment</type>
 				<maintype>Enchantment</maintype>
-				<manacost>3W</manacost>
-				<cmc>4</cmc>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
 				<colors>W</colors>
 				<coloridentity>W</coloridentity>
 			</prop>
