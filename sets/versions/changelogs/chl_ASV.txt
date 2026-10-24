@@ -1,4 +1,89 @@
-﻿VERSION 15 CHANGELOG
+﻿VERSION 16 CHANGELOG
+====================
+
+Ursus Raider added.
+Campfire Festival added.
+Way of the Tiacauh added.
+Ursus Imperial Striker added.
+
+Scrapyard Temple removed.
+Mahuizzotia Festival removed.
+Trial of Strength removed.
+Combat-Ready Chainsaw removed.
+
+Garden Perfumer
+pt: 2/2 => 1/3
+
+Crownslayer, Reunion Infiltrator
+rules_text: Crownslayer, Reunion Infiltrator cannot block.
+{2}: Target creature you control with power 2 or less cannot be blocked this turn.
+Whenever Crownslayer, Reunion Infiltrator deals combat damage to a player, create a 1/1 red Rebel creature token with “When this creature dies, it deals 1 damage to any target.” => Crownslayer, Reunion Infiltrator cannot block.
+{2}: Target creature you control with power 2 or less cannot be blocked this turn.
+Whenever Crownslayer, Reunion Infiltrator deals combat damage to a player, if you do not control a Rebel token*s, create a 1/1 red Rebel creature token with “When this creature dies, it deals 1 damage to any target.”
+
+Big Bob
+cost: {5}{G}{G}{G} => {4}{G}{G}{G}
+rules_text: Trample
+Other creatures you control get +1/+1 and trample.
+Whenever Big Bob attacks, create a red 1/1 Rebel creature token with “When this creature dies, it deals 1 damage to any target.” tapped and attacking. => When Big Bob enters create a number of red 1/1 Rebel creature tokens with “When this creature dies, deal 1 damage to any target” equal to the number of creature cards in all graveyards.
+Whenever Big Bob or another nontoken creature you control leaves the battlefield create a Food token.
+pt: 9/9 => 7/7
+
+Guardian Ninja
+rules_text: Sneak {B} [i](You may cast this spell for {B} if you also return an unblocked attacker you control to hand during the declare blockers step. It enters tapped and attacking.)[/i]
+When Guardian Ninja deals combat damage to a player, you may tap and put a stun counter on target creature that player controls. => Sneak {B} [i](You may cast this spell for {B} if you also return an unblocked attacker you control to hand during the declare blockers step. This creature enters tapped and attacking.)[/i]
+When Guardian Ninja deals combat damage to a player, you may tap and put a stun counter on target creature that player controls.
+
+Medic's Staff
+rules_text: [i]Recruitment[/i] — When Medic's Staff enters, create a 2/2 white Ally creature token and attach this equipment to it. Then you gain 3 life.
+Equip {1}
+Whenever equipped creature attacks, you gain 1 life. => [i]Recruitment[/i] — When Medic's Staff enters, create a 2/2 white Ally creature token and attach this equipment to it.
+Equip {1}
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, you gain life equal to equipped creature's power.
+
+Warehouse Ambush
+rules_text: Choose target creature you control. Return that creature to your hand and reveal a mercenary creature of equal or lesser mana value than the chosen creature. Put the revealed creature into play and attach up to one equipment you control to it. => Choose target creature you control. Return that creature to your hand and reveal a creature of equal or lesser mana value than the chosen creature. Put the revealed creature into play and attach up to one equipment you control to it.
+
+Cruel Arts
+rules_text: Whenever a creature dies, create an Originium token.
+Sacrifice an Originium token: Target creature gets +2/-2 until end of turn. You may only use this ability once each turn. => Whenever a creature dies, create an Originium token.
+{1}{B}, Sacrifice an Originium token: Target creature gets +2/-2 until end of turn. You may only use this ability once each turn.
+
+Cover the Damages
+cost: {1}{B}{B} => {1}{B}
+
+Student of Kal'tsit
+cost: {2}{G}{W} => {3}{G}{W}
+rules_text: Lifelink
+At the beginning of your end step, if you gained life this turn, put a +1/+1 counter on target creature you control. If you gained 5 or more life this turn, draw a card. => Lifelink
+At the beginning of each end step, if you gained life this turn, put a +1/+1 counter on target creature you control. If you gained 5 or more life this turn, draw a card.
+pt: 2/2 => 3/4
+
+Roadblock
+cost: {5} => {3}
+
+Nian, Sui Fragment
+rules_text: Nian, Sui Fragment enters with three shield counters on it.
+Creatures you control get +1/+0 for each shield counter on it.
+{R}{W}, Sacrifice an artifact you control: Put a shield counter on target creature you control. Activate only as a sorcery. => Nian, Sui Fragment enters with three shield counters on it.
+Creatures you control get +1/+0 for each shield counter on Nian, Sui Fragment.
+{R}{W}, Sacrifice an artifact you control: Put a shield counter on target creature you control. Activate only as a sorcery.
+
+Assembled Movement
+rules_text: Reveal the top seven cards of your library, you may put up to three revealed creature cards onto the battlefield. Put the rest on the bottom of your library in any order. => Reveal the top seven cards of your library, choose three of those cards and put the rest on the bottom of your library in a random order. If any of the chosen cards were creature cards, put them onto the battlefield. Otherwise put them into your hand.
+
+Memories of Better Days
+cost: {2}{G}{G} => {2}{G}
+rules_text: When a land enters under your control you gain 1 life.
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, you may search your library for a basic land card and put it into your hand, then shuffle. => You may play an additional land on each of your turns.
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, you may search your library for a basic land card and put it into your hand, then shuffle.
+
+Nightingale of the Followers
+cost: {3}{G}{W} => {2}{G}{W}
+pt: 2/2 => 1/3
+
+
+VERSION 15 CHANGELOG
 ====================
 
 

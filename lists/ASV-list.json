@@ -153,7 +153,7 @@
     },
     {
         "card_name": "Faust, Phantom Sniper",
-        "number": 176,
+        "number": 177,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -193,7 +193,7 @@
     },
     {
         "card_name": "Gavial's Might",
-        "number": 177,
+        "number": 178,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -233,7 +233,7 @@
     },
     {
         "card_name": "Inspiring Call",
-        "number": 179,
+        "number": 180,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -392,8 +392,8 @@
         "position": "78"
     },
     {
-        "card_name": "Trial of Strength",
-        "number": 196,
+        "card_name": "Way of the Tiacauh",
+        "number": 203,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -472,12 +472,12 @@
         "position": "203"
     },
     {
-        "card_name": "Committee Salvage",
-        "number": 172,
+        "card_name": "Campfire Festival",
+        "number": 171,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
-        "position": "139"
+        "position": "212"
     },
     {
         "card_name": "Durin Flagbearer",
@@ -512,12 +512,12 @@
         "position": "194"
     },
     {
-        "card_name": "Communications Team",
+        "card_name": "Committee Salvage",
         "number": 173,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
-        "position": "50"
+        "position": "139"
     },
     {
         "card_name": "Hired Crossbow",
@@ -552,12 +552,12 @@
         "position": "228"
     },
     {
-        "card_name": "Mahuizzotia Festival",
-        "number": 180,
+        "card_name": "Communications Team",
+        "number": 174,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
-        "position": "212"
+        "position": "50"
     },
     {
         "card_name": "Infection Monitor Band",
@@ -673,7 +673,7 @@
     },
     {
         "card_name": "Unshakable Solidarity",
-        "number": 198,
+        "number": 197,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -713,7 +713,7 @@
     },
     {
         "card_name": "Ursus Scion",
-        "number": 201,
+        "number": 200,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -753,7 +753,7 @@
     },
     {
         "card_name": "Wander the Tundra",
-        "number": 202,
+        "number": 201,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -793,7 +793,7 @@
     },
     {
         "card_name": "Water of Life",
-        "number": 203,
+        "number": 202,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -993,7 +993,7 @@
     },
     {
         "card_name": "Catastrophe Messenger",
-        "number": 171,
+        "number": 172,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1033,7 +1033,7 @@
     },
     {
         "card_name": "Deadeye Operator",
-        "number": 174,
+        "number": 175,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1073,7 +1073,7 @@
     },
     {
         "card_name": "Display of Might",
-        "number": 175,
+        "number": 176,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1113,7 +1113,7 @@
     },
     {
         "card_name": "Guerrilla Herald",
-        "number": 178,
+        "number": 179,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1513,7 +1513,7 @@
     },
     {
         "card_name": "Unified Charge",
-        "number": 197,
+        "number": 196,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1553,7 +1553,7 @@
     },
     {
         "card_name": "Ursine Gourmand",
-        "number": 199,
+        "number": 198,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1593,7 +1593,7 @@
     },
     {
         "card_name": "Ursus Mangler",
-        "number": 200,
+        "number": 199,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1677,12 +1677,12 @@
         "position": "14"
     },
     {
-        "card_name": "Combat-Ready Chainsaw",
+        "card_name": "The Obsidian Festival",
         "number": 222,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
-        "position": "269"
+        "position": "261"
     },
     {
         "card_name": "Nightingale of the Followers",
@@ -1717,12 +1717,12 @@
         "position": "282"
     },
     {
-        "card_name": "The Obsidian Festival",
+        "card_name": "Ursus Imperial Striker",
         "number": 223,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
-        "position": "261"
+        "position": "269"
     },
     {
         "card_name": "Student of Kal'tsit",
@@ -1832,7 +1832,7 @@
         "position": "218"
     },
     {
-        "card_name": "Scrapyard Temple",
+        "card_name": "Ursus Raider",
         "number": 224,
         "shape": "normal",
         "set": "ASV",
