@@ -163,7 +163,7 @@
 		{
 			"name": "Sarkaz Bladeweaver",
 			"rarity": "uncommon",
-			"mana_cost": "{3}{B}{B}",
+			"mana_cost": "{2}{B}{B}",
 			"type": "Creature — Demon Rebel Mercenary",
 			"collector_number": "117",
 			"image_uris": {
@@ -173,7 +173,7 @@
 		{
 			"name": "Sarkaz Centurion",
 			"rarity": "rare",
-			"mana_cost": "{4}{B}{B}{B}",
+			"mana_cost": "{2}{B}{B}{B}",
 			"type": "Creature — Demon Mercenary",
 			"collector_number": "118",
 			"image_uris": {
@@ -221,7 +221,7 @@
 			}
 		},
 		{
-			"name": "Penguin Logisitcs Idol",
+			"name": "Penguin Logistics Idol",
 			"rarity": "uncommon",
 			"mana_cost": "{W}{W}",
 			"type": "Creature — Cat Bard Mercenary",
@@ -2543,7 +2543,7 @@
 		{
 			"name": "Cruel Arts",
 			"rarity": "rare",
-			"mana_cost": "{3}{B}",
+			"mana_cost": "{2}{B}",
 			"type": "Enchantment",
 			"collector_number": "90",
 			"image_uris": {
@@ -2673,7 +2673,7 @@
 		{
 			"name": "Way of the Tiacauh",
 			"rarity": "rare",
-			"mana_cost": "{1}{G}",
+			"mana_cost": "{1}{G}{G}",
 			"type": "Enchantment",
 			"collector_number": "203",
 			"image_uris": {
@@ -3318,7 +3318,7 @@
 	4 Durin Flagbearer
 	4 Sarkaz Bladeweaver
 	4 Defender Duo
-	4 Penguin Logisitcs Idol
+	4 Penguin Logistics Idol
 	4 Blacksteel Duo
 	4 Garden Perfumer
 	4 Ice Nova
@@ -3657,7 +3657,7 @@
 	2 Exusiai, Cheerful Courier
 	2 Texas, Taciturn Messenger
 	6 Defender Duo
-	6 Penguin Logisitcs Idol
+	6 Penguin Logistics Idol
 	12 Street Punk Rocker
 	2 Gavial's Might
 	12 Ursine Gourmand
@@ -3963,7 +3963,7 @@
 	7 Exusiai, Cheerful Courier
 	7 Texas, Taciturn Messenger
 	15 Defender Duo
-	15 Penguin Logisitcs Idol
+	15 Penguin Logistics Idol
 	6 Street Punk Rocker
 	7 Gavial's Might
 	6 Ursine Gourmand

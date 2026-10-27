@@ -1,4 +1,212 @@
-﻿VERSION 16 CHANGELOG
+﻿VERSION 17 CHANGELOG
+====================
+
+Penguin Logistics Idol added.
+
+Penguin Logisitcs Idol removed.
+
+Sarkaz Swordsman
+rules_text: When Sarkaz Swordsman enters, create an Originium token. [i](It's a colorless artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i] => When Sarkaz Swordsman enters, create an Originium token. [i](It's a colorless artifact with “{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.”)[/i]
+
+Sarkaz Bladeweaver
+cost: {3}{B}{B} => {2}{B}{B}
+rules_text: Menace
+When Sarkaz Bladeweaver enters, create two Originium tokens. [i](It's an artifact with “{T}, sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i] => Menace
+When Sarkaz Bladeweaver enters, create two Originium tokens. [i](It's an artifact with “{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.”)[/i]
+pt: 4/4 => 3/3
+
+Sarkaz Centurion
+cost: {4}{B}{B}{B} => {2}{B}{B}{B}
+rules_text: Menace, deathtouch
+When Sarkaz Centurion enters, destroy target creature then create a number of Originium tokens equal to that creature's power. => Menace, deathtouch
+When Sarkaz Centurion enters, create three Originium tokens, then up to two target creatures get -X/-X until end of turn where X is the number of Originium tokens you control.
+pt: 6/6 => 4/4
+
+Street Punk Rocker
+rules_text: When Street Punk Rocker enters, create an Originium token. [i](It's a colorless artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i] => When Street Punk Rocker enters, create an Originium token. [i](It's a colorless artifact with “{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.”)[/i]
+
+Mudrock, Reunion Captain
+
+Ch'en Hui-chieh
+
+Agency Bodyguard
+rules_text: Flash
+When Agency Bodyguard enters, return a creature you control to its owner's hand. => Flash
+When Agency Bodyguard enters, return another creature you control to its owner's hand.
+
+Caster Operator
+rules_text: When Caster Operator dies, create an Originium token. [i](It's a colorless artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i] => First strike
+
+S.W.E.E.P. Scavenger
+rules_text: Deathtouch
+When S.W.E.E.P. Scavenger leaves the battlefield, create an Originium Token. [i](It's a colorless artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i] => Deathtouch
+When S.W.E.E.P. Scavenger leaves the battlefield, create an Originium token. [i](It's a colorless artifact with “{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.”)[/i]
+
+Material Recombination
+rules_text: Destroy target artifact or enchantment.
+Create an Originium token. [i](It's a colorless artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i] => Destroy target artifact or enchantment.
+Create an Originium token. [i](It's a colorless artifact with “{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.”)[/i]
+
+Scout Operator
+rules_text: When Scout Operator enters, untap or remove a stun counter from each creature you control. => When Scout Operator enters, untap each creature you control.
+
+Counter EMP
+rules_text: Counter target spell
+Create an Originium token. [i](It's a colorless artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i] => Counter target spell
+Create an Originium token. [i](It's a colorless artifact with “{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.”)[/i]
+
+Partial Necrosis
+rules_text: Tap target creature and put two stun counters on it.
+Create an Originium token. [i](It's a colorless artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i] => Tap target creature and put two stun counters on it.
+Create an Originium token. [i](It's a colorless artifact with “{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.”)[/i]
+
+Precious Money Bank
+rules_text: {1}, {T}, sacrifice this artifact: Create two originium tokens. [i](It's an artifact with “{T}, sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i] => {1}, {T}, sacrifice this artifact: Create two originium tokens. [i](It's an artifact with “{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.”)[/i]
+
+Grim Discovery
+rules_text: Draw two cards, create a tapped Originium token, then you lose two life. [i](It's a colorless artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i] => Draw two cards, create a tapped Originium token, then you lose two life. [i](It's a colorless artifact with “{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.”)[/i]
+
+Acute Oripathy Infection
+rules_text: Enchant creature
+Enchanted creature gets +3/-3
+When enchanted creature dies, create an Originium token. [i](It's a colorless artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i] => Enchant creature
+Enchanted creature gets +3/-3
+When enchanted creature dies, create an Originium token. [i](It's a colorless artifact with “{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.”)[/i]
+
+Grind for Parts
+rules_text: Destroy up to one target artifact.
+Create an Originium token. [i](It's a colorless artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i] => Destroy up to one target artifact.
+Create an Originium token. [i](It's a colorless artifact with “{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.”)[/i]
+
+Reckless Plunder
+rules_text: As an additional cost to play this spell, sacrifice a creature you control, or discard a card.
+Draw two cards and make two Originium tokens. [i](It's an artifact with “{T}, sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i] => As an additional cost to play this spell, sacrifice a creature you control, or discard a card.
+Draw two cards and make two Originium tokens. [i](It's an artifact with “{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.”)[/i]
+
+Laser Mining Assistance
+rules_text: Create two Originium tokens. [i](It's an artifact with “{T}, sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i]
+Target creature you control gets +X/+0 until end of turn, where X is the number of artifacts you control. => Create two Originium tokens. [i](It's an artifact with “{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.”)[/i]
+Target creature you control gets +X/+0 until end of turn, where X is the number of artifacts you control.
+
+Originium Slug
+rules_text: When Originium Slug dies, create an Originium token. [i](It's a colorless artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i] => When Originium Slug dies, create an Originium token. [i](It's a colorless artifact with “{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.”)[/i]
+
+Acidic Originium Slug
+rules_text: Deathtouch.
+When Acidic Originium Slug dies, create an Originium token. [i](It's a colorless artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i] => Deathtouch.
+When Acidic Originium Slug dies, create an Originium token. [i](It's a colorless artifact with “{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.”)[/i]
+
+Rusty Hammer
+rules_text: When Rusty Hammer enters, create an Originium token. [i](It's a colorless artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i]
+Equip {1}
+Equipped creature gets +2/+0 and has trample. => When Rusty Hammer enters, create an Originium token. [i](It's a colorless artifact with “{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.”)[/i]
+Equip {1}
+Equipped creature gets +2/+0 and has trample.
+
+Hired Crossbow
+rules_text: Flying
+Whenever another mercenary you control enters, you may attach an equipment you control to Hired Crossbow.
+Whenever Hired Crossbow deals combat damage to a player, you may destroy target creature with two more stun counters on it. => Flying
+Whenever Hired Crossbow or another mercenary enters under your control, if an opponent controls more lands then you, create an Originium token. [i](It's a colorless artifact with “{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.”)[/i]
+
+Generous Refusal
+rules_text: Counter target noncreature spell. Its controller creates two Originium tokens. [i](It's an artifact with “{T}, sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i] => Counter target noncreature spell. Its controller creates two Originium tokens. [i](It's an artifact with “{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.”)[/i]
+
+RIIC Factory Line
+rules_text: [i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, create an Originium token. [i](It's a colorless artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i]
+{T}, Sacrifice an artifact: Draw a card. => [i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, create an Originium token. [i](It's a colorless artifact with “{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.”)[/i]
+{T}, Sacrifice an artifact: Draw a card.
+
+Devastating Loss
+rules_text: Create an Originium token. [i](It's a colorless artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i]
+Each player discards a card, then you make an Originium token for each land card discarded this way. => Create an Originium token. [i](It's a colorless artifact with “{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.”)[/i]
+Each player discards a card, then you make an Originium token for each land card discarded this way.
+
+Scrounge for Scraps
+rules_text: At the beginning of your end step, if a creature you control dealt damage to a player then create an Originium token. [i](It's a colorless artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i]
+Sacrifice an artifact: Target creature you control gets +1/-1 and deathtouch until end of turn. => At the beginning of your end step, if a creature you control dealt damage to a player then create an Originium token. [i](It's a colorless artifact with “{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.”)[/i]
+Sacrifice an artifact: Target creature you control gets +1/-1 and deathtouch until end of turn.
+
+Originium Altar
+rules_text: {T}, Sacrifice a creature you control: Surveil 1. [i](Look at the top card of your library. You may put it into your graveyard.)[/i]
+Whenever one or more creatures you control deals combat damage to a player, create an Originium token. [i](It's a colorless artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i] => {T}, Sacrifice a creature you control: Surveil 1. [i](Look at the top card of your library. You may put it into your graveyard.)[/i]
+Whenever one or more creatures you control deals combat damage to a player, create an Originium token. [i](It's a colorless artifact with “{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.”)[/i]
+
+Bombtail Drone
+rules_text: Flying
+When Bombtail Drone dies, it deals damage equal to its power to any target then create an Originium token. [i](It's a colorless artifact with “{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i] => Flying
+When Bombtail Drone dies, it deals damage equal to its power to any target then create an Originium token. [i](It's a colorless artifact with “{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.”)[/i]
+
+Diligent Tinkering
+rules_text: Exile the top three cards of your library. Until the end of your next turn, you may play those cards.
+Create four Originium tokens. [i](It's an artifact with “{T}, sacrifice this artifact: Add one mana of any color, then you lose one life.”)[/i] => Exile the top three cards of your library. Until the end of your next turn, you may play those cards.
+Create four Originium tokens. [i](It's an artifact with “{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.”)[/i]
+
+Tiacauh Champion
+rules_text: Trample
+Whenever Tiacauh Champion attacks, if you control creatures with 10 or greater total power, draw a card. => Whenever Tiacauh Champion attack or blocks it gets +2/+2 and hexproof until end of turn.
+{G}, Discard Tiacauh Champion: Target creature attacking or blocking creature gets +2/+2 and hexproof until end of turn.
+
+Mobile Tactical Hangar
+rules_text: When Mobile Tactical Hangar enters, create two 1/1 colorless drone artifact creature tokens.
+Drone creatures you control have flying.
+{1}{U}, {T}, Sacrifice an artifact: Create a 1/1 colorless drone artifact creature token. => When Mobile Tactical Hangar enters, create two 1/1 colorless drone artifact creature tokens.
+Drone creatures you control have flying.
+{1}{U}, {T}, Sacrifice another nontoken artifact: Create a 1/1 colorless drone artifact creature token.
+
+Shining, Confessor Exile
+rules_text: Lifelink
+Other ally creatures you control have lifelink.
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, target creature you control gains indestructible until end of turn. => Lifelink
+Other ally creatures you control have lifelink.
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, put a shield counter on target creature you control.
+
+Hannya, Trusted Shield
+rules_text: Equip {2}
+Equipped creature get +0/+3 and has “Whenever the equipped creature becomes blocked, It deals 1 damage to each creature blocking it.” and “Whenever the equipped creature blocks, It deals 1 damage to each creature that attacked it this turn.” => Equip {2}
+Equipped creature get +0/+3
+All damage that would be dealt to you is dealt to equipped creature instead.
+
+Cruel Arts
+cost: {3}{B} => {2}{B}
+
+Mudrock Colossus
+rules_text: Trample
+Mudrock Colossus enters tapped with a stun counter and a shield counter.
+[i]Revolt[/i] — If another permanent left the battlefield under your control this turn, you may cast Mudrock Colossus from your graveyard until end of turn. => Mudrock Colossus enters tapped with a stun counter and a shield counter.
+[i]Revolt[/i] — If another permanent left the battlefield under your control this turn, you may cast Mudrock Colossus from your graveyard until end of turn. If you do then it enters with a finality counter.
+
+Faust, Phantom Sniper
+rules_text: Deathtouch, reach, ward {2}
+{2}{G}{G}, {T}: Destroy target artifact or enchantment with mana value 4 or less. => Ward {2}
+Deathtouch, reach
+{2}{G}{G}, {T}: Destroy target artifact or enchantment with mana value 4 or less.
+
+Way of the Tiacauh
+cost: {1}{G} => {1}{G}{G}
+
+Nightingale of the Followers
+rules_text: When Nightingale of the Followers enters, create two colorless 0/3 Wall artifact creature tokens with defender.
+Whenever a creature enters under your control, you gain 1 life.
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, creatures you control gain hexproof until end of turn. => When Nightingale of the Followers enters, create two colorless 0/3 Wall artifact creature tokens with defender.
+Whenever a creature enters under your control, you gain 1 life.
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, creatures you control gain hexproof until the beginning of your next turn.
+
+Contingency Contract
+rules_text: Enchant player
+At the beginning of enchanted player's upkeep, choose one that hasn't been chosen — 
+• Spells enchanted player casts cost {1} more to cast.
+• Creatures enchanted player controls get -1/-1
+• Enchanted player discards a card
+• Sacrifice Contingency Contract => Enchant player
+At the beginning of enchanted player's upkeep, choose one that hasn't been chosen — 
+• Spells enchanted player casts cost {1} more to cast until end of turn.
+• Creatures enchanted player controls get -1/-1 until end of turn.
+• Enchanted player discards a card.
+• Sacrifice Contingency Contract.
+
+
+VERSION 16 CHANGELOG
 ====================
 
 Ursus Raider added.

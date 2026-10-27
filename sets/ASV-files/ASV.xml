@@ -5,7 +5,7 @@
 			<name>ASV</name>
 			<longname>Arknights: Shatter of a Vision</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-10-24</releasedate>
+			<releasedate>2026-10-26</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -285,7 +285,7 @@ If W, the Renegade would die, instead sacrifice all artifact tokens you control.
 		</card>
 		<card>
 			<name>Sarkaz Swordsman</name>
-			<text>When Sarkaz Swordsman enters, create an Originium token. (It&apos;s a colorless artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.&quot;)</text>
+			<text>When Sarkaz Swordsman enters, create an Originium token. (It&apos;s a colorless artifact with &quot;{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
 			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/15.jpg" num="119">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -303,36 +303,36 @@ If W, the Renegade would die, instead sacrifice all artifact tokens you control.
 		<card>
 			<name>Sarkaz Bladeweaver</name>
 			<text>Menace
-When Sarkaz Bladeweaver enters, create two Originium tokens. (It&apos;s an artifact with &quot;{T}, sacrifice this artifact: Add one mana of any color, then you lose one life.&quot;)</text>
+When Sarkaz Bladeweaver enters, create two Originium tokens. (It&apos;s an artifact with &quot;{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/16.jpg" num="117">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Creature — Demon Rebel Mercenary</type>
 				<maintype>Creature</maintype>
-				<manacost>3BB</manacost>
-				<cmc>5</cmc>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
-				<pt>4/4</pt>
+				<pt>3/3</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
 			<name>Sarkaz Centurion</name>
 			<text>Menace, deathtouch
-When Sarkaz Centurion enters, destroy target creature then create a number of Originium tokens equal to that creature&apos;s power.</text>
+When Sarkaz Centurion enters, create three Originium tokens, then up to two target creatures get -X/-X until end of turn where X is the number of Originium tokens you control.</text>
 			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/17.jpg" num="118">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Creature — Demon Mercenary</type>
 				<maintype>Creature</maintype>
-				<manacost>4BBB</manacost>
-				<cmc>7</cmc>
+				<manacost>2BBB</manacost>
+				<cmc>5</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
-				<pt>6/6</pt>
+				<pt>4/4</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -412,7 +412,7 @@ Whenever another mercenary creature enters under your control, put a shield coun
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>Penguin Logisitcs Idol</name>
+			<name>Penguin Logistics Idol</name>
 			<text>Whenever another creature enters under your control, you gain 1 life.
 Whenever you gain life, other creatures you control get +1/+1 until end of turn.</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/22.jpg" num="25">ASV</set>
@@ -431,7 +431,7 @@ Whenever you gain life, other creatures you control get +1/+1 until end of turn.
 		</card>
 		<card>
 			<name>Street Punk Rocker</name>
-			<text>When Street Punk Rocker enters, create an Originium token. (It&apos;s a colorless artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.&quot;)</text>
+			<text>When Street Punk Rocker enters, create an Originium token. (It&apos;s a colorless artifact with &quot;{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
 			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/23.jpg" num="161">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -1152,7 +1152,7 @@ Skill Activation — Whenever you cast a spell with mana value 4 or greater, put
 		<card>
 			<name>Agency Bodyguard</name>
 			<text>Flash
-When Agency Bodyguard enters, return a creature you control to its owner&apos;s hand.</text>
+When Agency Bodyguard enters, return another creature you control to its owner&apos;s hand.</text>
 			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/63.jpg" num="1">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -1238,7 +1238,7 @@ Blacksteel Trainee gets +1/+1 and gains first strike so long as it&apos;s equipp
 		</card>
 		<card>
 			<name>Caster Operator</name>
-			<text>When Caster Operator dies, create an Originium token. (It&apos;s a colorless artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.&quot;)</text>
+			<text>First strike</text>
 			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/68.jpg" num="5">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -1398,7 +1398,7 @@ Revolt — Whenever another permanent leaves the battlefield under your control,
 		<card>
 			<name>S.W.E.E.P. Scavenger</name>
 			<text>Deathtouch
-When S.W.E.E.P. Scavenger leaves the battlefield, create an Originium Token. (It&apos;s a colorless artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.&quot;)</text>
+When S.W.E.E.P. Scavenger leaves the battlefield, create an Originium token. (It&apos;s a colorless artifact with &quot;{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
 			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/77.jpg" num="116">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -1488,7 +1488,7 @@ Equipped creature gains &quot;{3}{W}{W}, {T}: Tap target creature and put a stun
 		<card>
 			<name>Material Recombination</name>
 			<text>Destroy target artifact or enchantment.
-Create an Originium token. (It&apos;s a colorless artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.&quot;)</text>
+Create an Originium token. (It&apos;s a colorless artifact with &quot;{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
 			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/82.jpg" num="22">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -1587,7 +1587,7 @@ Draw a card.</text>
 		</card>
 		<card>
 			<name>Scout Operator</name>
-			<text>When Scout Operator enters, untap or remove a stun counter from each creature you control.</text>
+			<text>When Scout Operator enters, untap each creature you control.</text>
 			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/88.jpg" num="29">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -1656,7 +1656,7 @@ Islandcycling {2} ({2}, Discard this card: Search your library for an Island car
 		<card>
 			<name>Counter EMP</name>
 			<text>Counter target spell
-Create an Originium token. (It&apos;s a colorless artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.&quot;)</text>
+Create an Originium token. (It&apos;s a colorless artifact with &quot;{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
 			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/92.jpg" num="46">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -1724,7 +1724,7 @@ Draw a card</text>
 		<card>
 			<name>Partial Necrosis</name>
 			<text>Tap target creature and put two stun counters on it.
-Create an Originium token. (It&apos;s a colorless artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.&quot;)</text>
+Create an Originium token. (It&apos;s a colorless artifact with &quot;{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
 			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/96.jpg" num="67">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -1758,7 +1758,7 @@ At the beginning of your upkeep put a stun counter on enchanted creature.</text>
 		</card>
 		<card>
 			<name>Precious Money Bank</name>
-			<text>{1}, {T}, sacrifice this artifact: Create two originium tokens. (It&apos;s an artifact with &quot;{T}, sacrifice this artifact: Add one mana of any color, then you lose one life.&quot;)</text>
+			<text>{1}, {T}, sacrifice this artifact: Create two originium tokens. (It&apos;s an artifact with &quot;{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
 			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/98.jpg" num="69">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -1842,7 +1842,7 @@ At the beginning of your upkeep put a stun counter on enchanted creature.</text>
 		</card>
 		<card>
 			<name>Grim Discovery</name>
-			<text>Draw two cards, create a tapped Originium token, then you lose two life. (It&apos;s a colorless artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.&quot;)</text>
+			<text>Draw two cards, create a tapped Originium token, then you lose two life. (It&apos;s a colorless artifact with &quot;{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
 			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/103.jpg" num="98">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -1926,7 +1926,7 @@ When that creature dies this turn, return it to the battlefield tapped.</text>
 			<name>Acute Oripathy Infection</name>
 			<text>Enchant creature
 Enchanted creature gets +3/-3
-When enchanted creature dies, create an Originium token. (It&apos;s a colorless artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.&quot;)</text>
+When enchanted creature dies, create an Originium token. (It&apos;s a colorless artifact with &quot;{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
 			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/108.jpg" num="84">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -2118,7 +2118,7 @@ When Reunion Breaker enters, create a 1/1 red Rebel creature token with &quot;Wh
 		<card>
 			<name>Grind for Parts</name>
 			<text>Destroy up to one target artifact.
-Create an Originium token. (It&apos;s a colorless artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.&quot;)</text>
+Create an Originium token. (It&apos;s a colorless artifact with &quot;{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
 			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/119.jpg" num="139">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -2153,7 +2153,7 @@ Draw a card.</text>
 		<card>
 			<name>Reckless Plunder</name>
 			<text>As an additional cost to play this spell, sacrifice a creature you control, or discard a card.
-Draw two cards and make two Originium tokens. (It&apos;s an artifact with &quot;{T}, sacrifice this artifact: Add one mana of any color, then you lose one life.&quot;)</text>
+Draw two cards and make two Originium tokens. (It&apos;s an artifact with &quot;{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
 			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/121.jpg" num="150">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -2202,7 +2202,7 @@ Revolt — If a permanent you controlled left the battlefield this turn, you may
 		</card>
 		<card>
 			<name>Laser Mining Assistance</name>
-			<text>Create two Originium tokens. (It&apos;s an artifact with &quot;{T}, sacrifice this artifact: Add one mana of any color, then you lose one life.&quot;)
+			<text>Create two Originium tokens. (It&apos;s an artifact with &quot;{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.&quot;)
 Target creature you control gets +X/+0 until end of turn, where X is the number of artifacts you control.</text>
 			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/124.jpg" num="144">ASV</set>
 			<prop>
@@ -2254,7 +2254,7 @@ Equipped creature gets +2/+2, haste, and can&apos;t block.</text>
 		</card>
 		<card>
 			<name>Originium Slug</name>
-			<text>When Originium Slug dies, create an Originium token. (It&apos;s a colorless artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.&quot;)</text>
+			<text>When Originium Slug dies, create an Originium token. (It&apos;s a colorless artifact with &quot;{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
 			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/127.jpg" num="183">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -2272,7 +2272,7 @@ Equipped creature gets +2/+2, haste, and can&apos;t block.</text>
 		<card>
 			<name>Acidic Originium Slug</name>
 			<text>Deathtouch.
-When Acidic Originium Slug dies, create an Originium token. (It&apos;s a colorless artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.&quot;)</text>
+When Acidic Originium Slug dies, create an Originium token. (It&apos;s a colorless artifact with &quot;{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
 			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/128.jpg" num="166">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -2649,7 +2649,7 @@ Skill Activation — Whenever you cast a spell with mana value 4 or greater, you
 		</card>
 		<card>
 			<name>Rusty Hammer</name>
-			<text>When Rusty Hammer enters, create an Originium token. (It&apos;s a colorless artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.&quot;)
+			<text>When Rusty Hammer enters, create an Originium token. (It&apos;s a colorless artifact with &quot;{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.&quot;)
 Equip {1}
 Equipped creature gets +2/+0 and has trample.</text>
 			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/150.jpg" num="279">ASV</set>
@@ -2904,8 +2904,7 @@ When Hulking Ruin enters, you gain 1 life.
 		<card>
 			<name>Hired Crossbow</name>
 			<text>Flying
-Whenever another mercenary you control enters, you may attach an equipment you control to Hired Crossbow.
-Whenever Hired Crossbow deals combat damage to a player, you may destroy target creature with two more stun counters on it.</text>
+Whenever Hired Crossbow or another mercenary enters under your control, if an opponent controls more lands then you, create an Originium token. (It&apos;s a colorless artifact with &quot;{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/165.jpg" num="14">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -3119,7 +3118,7 @@ Whenever Lungmen Greytail deals combat damage to a player, you may draw a card.<
 		</card>
 		<card>
 			<name>Generous Refusal</name>
-			<text>Counter target noncreature spell. Its controller creates two Originium tokens. (It&apos;s an artifact with &quot;{T}, sacrifice this artifact: Add one mana of any color, then you lose one life.&quot;)</text>
+			<text>Counter target noncreature spell. Its controller creates two Originium tokens. (It&apos;s an artifact with &quot;{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/177.jpg" num="54">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -3169,7 +3168,7 @@ Search your library for an artifact card, put that card onto the battlefield, th
 		</card>
 		<card>
 			<name>RIIC Factory Line</name>
-			<text>Skill Activation — Whenever you cast a spell with mana value 4 or greater, create an Originium token. (It&apos;s a colorless artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.&quot;)
+			<text>Skill Activation — Whenever you cast a spell with mana value 4 or greater, create an Originium token. (It&apos;s a colorless artifact with &quot;{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.&quot;)
 {T}, Sacrifice an artifact: Draw a card.</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/180.jpg" num="239">ASV</set>
 			<prop>
@@ -3327,7 +3326,7 @@ Revolt — Destroy that creature if it has mana value 4 or less instead if a per
 		</card>
 		<card>
 			<name>Devastating Loss</name>
-			<text>Create an Originium token. (It&apos;s a colorless artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.&quot;)
+			<text>Create an Originium token. (It&apos;s a colorless artifact with &quot;{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.&quot;)
 Each player discards a card, then you make an Originium token for each land card discarded this way.</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/189.jpg" num="91">ASV</set>
 			<prop>
@@ -3378,7 +3377,7 @@ Draw a card.</text>
 		</card>
 		<card>
 			<name>Scrounge for Scraps</name>
-			<text>At the beginning of your end step, if a creature you control dealt damage to a player then create an Originium token. (It&apos;s a colorless artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.&quot;)
+			<text>At the beginning of your end step, if a creature you control dealt damage to a player then create an Originium token. (It&apos;s a colorless artifact with &quot;{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.&quot;)
 Sacrifice an artifact: Target creature you control gets +1/-1 and deathtouch until end of turn.</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/192.jpg" num="214">ASV</set>
 			<prop>
@@ -3396,7 +3395,7 @@ Sacrifice an artifact: Target creature you control gets +1/-1 and deathtouch unt
 		<card>
 			<name>Originium Altar</name>
 			<text>{T}, Sacrifice a creature you control: Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
-Whenever one or more creatures you control deals combat damage to a player, create an Originium token. (It&apos;s a colorless artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.&quot;)</text>
+Whenever one or more creatures you control deals combat damage to a player, create an Originium token. (It&apos;s a colorless artifact with &quot;{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/193.jpg" num="104">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -3449,7 +3448,7 @@ Skill Activation — Whenever you cast a spell with mana value 4 or greater, tar
 		<card>
 			<name>Bombtail Drone</name>
 			<text>Flying
-When Bombtail Drone dies, it deals damage equal to its power to any target then create an Originium token. (It&apos;s a colorless artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color, then you lose one life.&quot;)</text>
+When Bombtail Drone dies, it deals damage equal to its power to any target then create an Originium token. (It&apos;s a colorless artifact with &quot;{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/196.jpg" num="127">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -3573,7 +3572,7 @@ Pyrrhic Blast deals damage equal to the sacrificed creature&apos;s power to any 
 		<card>
 			<name>Diligent Tinkering</name>
 			<text>Exile the top three cards of your library. Until the end of your next turn, you may play those cards.
-Create four Originium tokens. (It&apos;s an artifact with &quot;{T}, sacrifice this artifact: Add one mana of any color, then you lose one life.&quot;)</text>
+Create four Originium tokens. (It&apos;s an artifact with &quot;{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/203.jpg" num="134">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -3659,8 +3658,8 @@ Skill Activation — Whenever you cast a spell with mana value 4 or greater, put
 		</card>
 		<card>
 			<name>Tiacauh Champion</name>
-			<text>Trample
-Whenever Tiacauh Champion attacks, if you control creatures with 10 or greater total power, draw a card.</text>
+			<text>Whenever Tiacauh Champion attack or blocks it gets +2/+2 and hexproof until end of turn.
+{G}, Discard Tiacauh Champion: Target creature attacking or blocking creature gets +2/+2 and hexproof until end of turn.</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/208.jpg" num="193">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -4058,7 +4057,7 @@ Equipped creature gets +1/+1 gains &quot;at the beginning of your upkeep, gain 1
 			<name>Mobile Tactical Hangar</name>
 			<text>When Mobile Tactical Hangar enters, create two 1/1 colorless drone artifact creature tokens.
 Drone creatures you control have flying.
-{1}{U}, {T}, Sacrifice an artifact: Create a 1/1 colorless drone artifact creature token.</text>
+{1}{U}, {T}, Sacrifice another nontoken artifact: Create a 1/1 colorless drone artifact creature token.</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/231.jpg" num="64">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -4169,7 +4168,7 @@ Remove an indestructible counter from Elite Operator Ace: Other creatures you co
 			<name>Shining, Confessor Exile</name>
 			<text>Lifelink
 Other ally creatures you control have lifelink.
-Skill Activation — Whenever you cast a spell with mana value 4 or greater, target creature you control gains indestructible until end of turn.</text>
+Skill Activation — Whenever you cast a spell with mana value 4 or greater, put a shield counter on target creature you control.</text>
 			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/238.jpg" num="32">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -4238,7 +4237,8 @@ Skill Activation — Whenever you cast a spell with mana value 4 or greater, tar
 		<card>
 			<name>Hannya, Trusted Shield</name>
 			<text>Equip {2}
-Equipped creature get +0/+3 and has &quot;Whenever the equipped creature becomes blocked, It deals 1 damage to each creature blocking it.&quot; and &quot;Whenever the equipped creature blocks, It deals 1 damage to each creature that attacked it this turn.&quot;</text>
+Equipped creature get +0/+3
+All damage that would be dealt to you is dealt to equipped creature instead.</text>
 			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/242.jpg" num="13">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -4460,8 +4460,8 @@ Whenever you cast a spell of mana value 4 or greater, you may return target crea
 				<side>front</side>
 				<type>Enchantment</type>
 				<maintype>Enchantment</maintype>
-				<manacost>3B</manacost>
-				<cmc>4</cmc>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
 			</prop>
@@ -4502,9 +4502,8 @@ When enchanted creature dies, you may return target creature card from your grav
 		</card>
 		<card>
 			<name>Mudrock Colossus</name>
-			<text>Trample
-Mudrock Colossus enters tapped with a stun counter and a shield counter.
-Revolt — If another permanent left the battlefield under your control this turn, you may cast Mudrock Colossus from your graveyard until end of turn.</text>
+			<text>Mudrock Colossus enters tapped with a stun counter and a shield counter.
+Revolt — If another permanent left the battlefield under your control this turn, you may cast Mudrock Colossus from your graveyard until end of turn. If you do then it enters with a finality counter.</text>
 			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/257.jpg" num="242">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -4628,7 +4627,8 @@ At the beginning of each player&apos;s end step and whenever they play a card fr
 		</card>
 		<card>
 			<name>Faust, Phantom Sniper</name>
-			<text>Deathtouch, reach, ward {2}
+			<text>Ward {2}
+Deathtouch, reach
 {2}{G}{G}, {T}: Destroy target artifact or enchantment with mana value 4 or less.</text>
 			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/264.jpg" num="177">ASV</set>
 			<prop>
@@ -4689,8 +4689,8 @@ Revolt — If a permanent left the battlefield under your control this turn, ins
 				<side>front</side>
 				<type>Enchantment</type>
 				<maintype>Enchantment</maintype>
-				<manacost>1G</manacost>
-				<cmc>2</cmc>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
 				<colors>G</colors>
 				<coloridentity>G</coloridentity>
 			</prop>
@@ -5253,7 +5253,7 @@ At the beginning of each end step, if there are three or more tide counters on T
 			<name>Nightingale of the Followers</name>
 			<text>When Nightingale of the Followers enters, create two colorless 0/3 Wall artifact creature tokens with defender.
 Whenever a creature enters under your control, you gain 1 life.
-Skill Activation — Whenever you cast a spell with mana value 4 or greater, creatures you control gain hexproof until end of turn.</text>
+Skill Activation — Whenever you cast a spell with mana value 4 or greater, creatures you control gain hexproof until the beginning of your next turn.</text>
 			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/299.jpg" num="228">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -5516,10 +5516,10 @@ At the beginning of your end step, if you gain 5 or more life this turn, put a +
 			<name>Contingency Contract</name>
 			<text>Enchant player
 At the beginning of enchanted player&apos;s upkeep, choose one that hasn&apos;t been chosen — 
-• Spells enchanted player casts cost {1} more to cast.
-• Creatures enchanted player controls get -1/-1
-• Enchanted player discards a card
-• Sacrifice Contingency Contract</text>
+• Spells enchanted player casts cost {1} more to cast until end of turn.
+• Creatures enchanted player controls get -1/-1 until end of turn.
+• Enchanted player discards a card.
+• Sacrifice Contingency Contract.</text>
 			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/316.jpg" num="88">ASV</set>
 			<prop>
 				<layout>normal</layout>
