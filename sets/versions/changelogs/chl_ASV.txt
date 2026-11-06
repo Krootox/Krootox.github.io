@@ -1,4 +1,155 @@
-﻿VERSION 18 CHANGELOG
+﻿VERSION 19 CHANGELOG
+====================
+
+Reunion Sabotage added.
+Lavender's Fragrance added.
+Lungmen Shadow Guard added.
+Sarkaz Caster Leader added.
+
+Rebellious Awakening removed.
+Alive Until Sunset removed.
+Isidro, Eccentric Alchemist removed.
+City on Fire removed.
+
+Ceobe, Perplexed Traveller
+cost: {1}{G}{U}{R} => {2}{G}{U}{R}
+rules_text: Haste
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, choose one — 
+• Tap target creature you don't control and put a stun counter on it.
+• Deal 1 damage to up to three target creatures.
+• Deal damage to target creature equal to this creature's power. => Haste
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, choose one — 
+• Create a Food token.
+• Put a +1/+1 counter on Ceobe, Perplexed Traveller.
+• Sacrifice an artifact: Deal damage to target creature equal to Ceobe, Perplexed Traveller's power.
+pt: 4/3 => 4/4
+
+The High Priest of Achualla
+rules_text: Flying
+When The High Priest of Achualla enters, draw a card, then discard a card.
+{1}{U}, {T}: Until end of turn, target noncreature artifact you control becomes an artifact creature. If it's not a Vehicle, it has base power and toughness 1/1 until end of turn. => Flying
+When The High Priest of Achualla enters, draw a card, then discard a card.
+{1}{U}, {T}: Until end of turn, target noncreature artifact you control becomes an artifact creature with base power and toughness equal to the mana value of that artifact.
+
+Emperor, Logistics Kingpin
+type: Legendary Creature — Bird Bard Mercenary => Legendary Creature — Bird Mercenary Bard
+
+Mostima, Key of Chronology
+cost: {3}{W}{U} => {2}{W}{U}{B}
+rules_text: Flying
+Whenever you would put one or more stun counters on a creature, you may instead exile that creature with 1 plus that many time counters on it. If it doesn't have suspend, it gains suspend. => Flying, deathtouch
+Nonland permanents your opponents control enter tapped.
+{W}{U}{B}: Exile target nonland permanent with a time counter, if it doesn't have suspend it gains suspend.
+pt: 3/5 => 3/4
+
+Chernobog Delinquent
+rules_text: {T}: Add one mana of any color.
+Whenever a creature with power 4 or greater enters under your control, that creature gains +1/+1 and haste until end of turn. => {T}: Add one mana of any color.
+{T}: Target creature you control with power 4 or greater gains haste until end of turn.
+
+Out of Options
+cost: {1}{B} => {2}{B}
+rules_text: Target player discards a card.
+[i]Revolt[/i] — If a permanent you controlled left the battlefield this turn, that player discards two cards instead. => Target player discards two cards.
+[i]Revolt[/i] — If a permanent you controlled left the battlefield this turn, that player loses two life.
+
+Whispers of the Night
+type: Instant => Enchantment — Aura
+rules_text: Tap target creature you control, then put a stun counter, a lifelink counter, and a menace counter on that creature. => Enchant creature
+Enchanted creature gets +1/+1 and has lifelink.
+
+Reunion Standard
+cost: {1}{B} => {1}{R}
+rules_text: When Reunion Standard enters, create a 1/1 red Rebel creature token with “When this creature dies, it deals 1 damage to any target.”
+{B}, {T}, sacrifice this artifact: Target creature gains menace and lifelink until end of turn. => [i]Recruitment[/i] — When Medic's Staff enters, create a 1/1 red Rebel creature token with “When this creature dies, it deals 1 damage to any target.” and attach this equipment to it.
+Equipped creature has menace.
+Equip {3}
+
+Gavial Tribe Ritualist
+rules_text: When Gavial Tribe Ritualist enters, you may sacrifice an artifact or a creature. If you do, then destroy target artifact or creature with flying. => When Gavial Tribe Ritualist enters, you may destroy target artifact.
+
+Return to the Wilds
+rules_text: Search your library for a basic land card, put that card onto the battlefield tapped then shuffle. If a permanent left the battlefield under your control this turn, search for two basic land cards instead. => Search your library for a basic land card, put that card onto the battlefield tapped then shuffle. Create a tapped Originium token. [i](It's a colorless artifact with “{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.”)[/i]
+
+Shieldguard's Protection
+rules_text: Put a +1/+1 counter on target creature you control. It gains hexproof until end of turn. You gain 2 life. => Target creature you control gains hexproof until end of turn.
+[i]Revolt[/i] — If a permanent left the battlefield under your control this turn, then also put a +1/+1 counter on that creature and you gain two life.
+
+Display of Might
+rules_text: [i]Revolt[/i] — If a permanent left the battlefield under your control this turn, put two +1/+1 counters on target creature you control then that creature fights target creature you don't control.
+Otherwise, target creature you control fights target creature you don't control. => [i]Revolt[/i] — If a permanent left the battlefield under your control this turn, target creature you control gets +2/+2 until end of turn, then that creature fights target creature you don't control.
+Otherwise, target creature you control fights target creature you don't control.
+
+Rogue City-Plate
+rules_text: Rogue City-Plate enters tapped.
+{T}: Add {R}
+As long as you control six or more lands, Rogue City-Plate has Crew 5 and trample. => Rogue City-Plate enters tapped.
+{T}: Add {R}
+As long as you control six or more lands, Rogue City-Plate has Crew 5.
+At the beginning of combat, if Rogue City-Plate is a creature, target creature you control gains haste until end of turn.
+pt: 10/6 => 8/4
+
+Lungmen City-Plate
+pt: 6/10 => 6/8
+
+Reunion Senior Caster
+rules_text: At the beginning of your end step, if a creature you control dealt damage to a player then you may pay {2}{B}. If you do then create a 1/1 red Rebel creature token with “When this creature dies, it deals 1 damage to any target.” => At the beginning of your end step, if a creature you control dealt combat damage to a player then you may pay {2}{B}. If you do then create a 1/1 red Rebel creature token with “When this creature dies, it deals 1 damage to any target.”
+
+Scrounge for Scraps
+
+Tiacauh Champion
+rules_text: Whenever Tiacauh Champion attack or blocks it gets +2/+2 and hexproof until end of turn.
+{G}, Discard Tiacauh Champion: Target attacking or blocking creature gets +2/+2 and hexproof until end of turn. => Whenever Tiacauh Champion attack or blocks it gets +2/+2 and hexproof until end of turn.
+{1}{G}, Discard Tiacauh Champion: Target attacking or blocking creature gets +2/+2 and hexproof until end of turn.
+
+Abyssal Strike
+type: Instant => Sorcery
+
+Skill Aura
+type: Enchantment => Enchantment — Aura
+cost: {3}{U} => {1}{U}
+rules_text: If a spell with mana value 4 or greater being cast causes a triggered ability of a creature you control to trigger, that ability triggers an additional time. => Enchant creature
+If a triggered ability of enchanted creature triggers, that ability triggers an additional time.
+Whenever enchanted creature attacks, scry 1.
+
+Angelina Ajimu
+rules_text: Haste, flying
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, you may return another target nonland permanent to its owner's hand. This may only activate once each turn.
+You may play an additional land on each of your turns. => Flying
+[i]Skill Activation[/i] — Angelina Ajimu cannot attack or block unless you have cast a spell with mana value 4 or greater this turn.
+At the beginning of your second main phase, if you haven't attacked with Angelina Ajimu this turn, exile the top card of your library, you may play that card. If you don't, then put a +1/+1 counter on Angelina Ajimu.
+pt: 2/2 => 3/3
+
+Sword of the Present
+cost: {R}{W} => {1}{R}
+rules_text: Attach target equipment you control to a creature you control. Create a non-legendary token copy of that equipment and attach it to a different creature you control. => Search your library for an equipment card, then put that card onto the battlefield equipped to target creature you control. Sacrifice that equipment at the beginning of your next end step.
+
+Chi Xiao, Dragon-Slayer
+rules_text: Equip {R}{R}
+You may only attach this equipment to creatures with power 4 or greater.
+Equipped creature gets +4/+0 and has trample and protection from Dragons.
+When equipped creature deals combat damage to a player, it may deal 4 damage to target creature. => Whenever equipped creature attacks, add {R} equal to the power of equipped creature. Until end of turn, you don't lose mana as steps and phases end.
+{10}: Equipped creature deals 5 damage to any target.
+Equip legendary creature {R}
+Equip {R}{R}
+
+Amiya, Idealistic Leader
+
+Nightingale of the Followers
+rules_text: Whenever another permanent enters under your control, you gain 1 life.
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, create a colorless 0/3 wall artifact creature token with defender. Target creature you control gains hexproof until the beginning of your next turn. => Whenever another permanent enters under your control, you gain 1 life.
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, another target creature you control gains hexproof until the beginning of your next turn. Create a 0/3 wall artifact creature token with defender.
+
+Mr. Hellagur
+cost: {4}{W}{B} => {3}{W}{B}
+rules_text: First strike, lifelink
+Whenever another creature enters or leaves under your control, you gain 1 life.
+At the beginning of your end step, if you gain 5 or more life this turn, put a +1/+1 counter on Mr. Hellagur. => First strike, lifelink
+Whenever another creature enters or leaves under your control, you gain 1 life and target opponent loses 1 life.
+pt: 4/4 => 3/4
+
+
+VERSION 18 CHANGELOG
 ====================
 
 
