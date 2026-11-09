@@ -801,11 +801,11 @@
 			}
 		},
 		{
-			"name": "Grappling Hook",
+			"name": "Hookmaster's Tools",
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"type": "Artifact — Equipment",
-			"collector_number": "12",
+			"collector_number": "14",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/80.jpg"
 			}
@@ -1094,7 +1094,7 @@
 			"name": "Reunion Standard",
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
-			"type": "Artifact",
+			"type": "Artifact — Equipment",
 			"collector_number": "153",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/109.jpg"
@@ -1655,7 +1655,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{W}{W}",
 			"type": "Creature — Bird Mercenary Archer",
-			"collector_number": "14",
+			"collector_number": "13",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/165.jpg"
 			}
@@ -2425,7 +2425,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{W}{W}",
 			"type": "Legendary Artifact — Equipment",
-			"collector_number": "13",
+			"collector_number": "12",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/242.jpg"
 			}
@@ -2721,7 +2721,7 @@
 			}
 		},
 		{
-			"name": "Lin Grey, the Rat King",
+			"name": "Lin Grey, Rat King",
 			"rarity": "rare",
 			"mana_cost": "{2}{U}{B}",
 			"type": "Legendary Creature — Rat Rogue",
@@ -3282,7 +3282,7 @@
 	2 Ursus Imperial Striker
 	2 Raging Iron Fists
 	2 Enciodes Silverash
-	2 Lin Grey, the Rat King
+	2 Lin Grey, Rat King
 	2 Student of Kal'tsit
 	2 Skadi, Abyssal Hunter
 	2 Adele Naumann, Volcanologist
@@ -3438,7 +3438,7 @@
 	8 Guardian Ninja
 	8 Lungmen Pickpocket
 	8 S.W.E.E.P. Scavenger
-	8 Grappling Hook
+	8 Hookmaster's Tools
 	8 Swift Response
 	8 Material Recombination
 	8 Swift Strike
@@ -3555,7 +3555,7 @@
 	8 Guardian Ninja
 	8 Lungmen Pickpocket
 	8 S.W.E.E.P. Scavenger
-	8 Grappling Hook
+	8 Hookmaster's Tools
 	8 Swift Response
 	8 Material Recombination
 	8 Swift Strike
@@ -3715,7 +3715,7 @@
 	12 S.W.E.E.P. Scavenger
 	2 Surtr, Twilight Blade
 	2 Elite Operator Rosmontis
-	12 Grappling Hook
+	12 Hookmaster's Tools
 	12 Swift Response
 	12 Material Recombination
 	12 Swift Strike
@@ -3907,7 +3907,7 @@
 	2 Ursus Imperial Striker
 	2 Raging Iron Fists
 	2 Enciodes Silverash
-	2 Lin Grey, the Rat King
+	2 Lin Grey, Rat King
 	2 Student of Kal'tsit
 	2 Skadi, Abyssal Hunter
 	2 Adele Naumann, Volcanologist
@@ -4021,7 +4021,7 @@
 	6 S.W.E.E.P. Scavenger
 	7 Surtr, Twilight Blade
 	7 Elite Operator Rosmontis
-	6 Grappling Hook
+	6 Hookmaster's Tools
 	6 Swift Response
 	6 Material Recombination
 	6 Swift Strike
@@ -4213,7 +4213,7 @@
 	7 Ursus Imperial Striker
 	7 Raging Iron Fists
 	7 Enciodes Silverash
-	7 Lin Grey, the Rat King
+	7 Lin Grey, Rat King
 	7 Student of Kal'tsit
 	7 Skadi, Abyssal Hunter
 	7 Adele Naumann, Volcanologist

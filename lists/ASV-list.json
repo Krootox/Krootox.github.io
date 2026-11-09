@@ -121,7 +121,7 @@
     },
     {
         "card_name": "Hannya, Trusted Shield",
-        "number": 13,
+        "number": 12,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -521,7 +521,7 @@
     },
     {
         "card_name": "Hired Crossbow",
-        "number": 14,
+        "number": 13,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1080,8 +1080,8 @@
         "position": "142"
     },
     {
-        "card_name": "Grappling Hook",
-        "number": 12,
+        "card_name": "Hookmaster's Tools",
+        "number": 14,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1701,7 +1701,7 @@
         "position": "271"
     },
     {
-        "card_name": "Lin Grey, the Rat King",
+        "card_name": "Lin Grey, Rat King",
         "number": 212,
         "shape": "normal",
         "set": "ASV",
