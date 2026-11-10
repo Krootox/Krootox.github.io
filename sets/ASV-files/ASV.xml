@@ -5,7 +5,7 @@
 			<name>ASV</name>
 			<longname>Arknights: Shatter of a Vision</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-11-09</releasedate>
+			<releasedate>2026-11-10</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -84,8 +84,7 @@ Skill Activation — Whenever you cast a spell with mana value 4 or greater, cho
 		</card>
 		<card>
 			<name>Flint Tribe Fanatic</name>
-			<text>Double strike.
-Flint Tribe Fanatic cannot block.</text>
+			<text>Double strike.</text>
 			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/4.jpg" num="136">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -96,7 +95,7 @@ Flint Tribe Fanatic cannot block.</text>
 				<cmc>2</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
-				<pt>1/2</pt>
+				<pt>1/1</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -1998,18 +1997,18 @@ When Phantom Crossbowman enters, if a permanent you controlled left the battlefi
 		</card>
 		<card>
 			<name>Reunion Rioter</name>
-			<text>Whenever this creature attacks, it may deal 1 damage to target creature. If this creature is equipped then deal 2 damage instead.</text>
+			<text>Whenever another artifact you control enters, Reunion Rioter gets +1/+0 until end of turn.</text>
 			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/112.jpg" num="152">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Creature — Cat Rebel Shaman</type>
 				<maintype>Creature</maintype>
-				<manacost>2R</manacost>
-				<cmc>3</cmc>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
-				<pt>1/2</pt>
+				<pt>2/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -2032,7 +2031,7 @@ When Phantom Crossbowman enters, if a permanent you controlled left the battlefi
 		</card>
 		<card>
 			<name>Columbian Cutter</name>
-			<text>Skill Activation — Whenever you cast a spell with mana value 4 or greater, deal 1 damage to each opponent. If Columbian Cutter is equipped, then deal 2 damage instead.</text>
+			<text>Skill Activation — Whenever you cast a spell with mana value 4 or greater, deal 1 damage to any target. If Columbian Cutter is equipped, then deal 2 damage instead.</text>
 			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/114.jpg" num="131">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -2043,25 +2042,24 @@ When Phantom Crossbowman enters, if a permanent you controlled left the battlefi
 				<cmc>3</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
-				<pt>2/2</pt>
+				<pt>3/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
 			<name>Higashi Defector</name>
-			<text>Prowess
-Skill Activation — Whenever you cast a spell with mana value 4 or greater, Higashi Defector gets +1/+1 and menace until end of turn.</text>
+			<text>Skill Activation — Whenever you cast a spell with mana value 4 or greater, Higashi Defector gets +1/+1 and has menace until end of turn.</text>
 			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/115.jpg" num="139">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Creature — Cat Warrior Ally</type>
 				<maintype>Creature</maintype>
-				<manacost>3RR</manacost>
-				<cmc>5</cmc>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
-				<pt>3/3</pt>
+				<pt>3/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -2171,7 +2169,7 @@ Draw two cards and make two Originium tokens. (It&apos;s an artifact with &quot;
 		</card>
 		<card>
 			<name>Arts of the Wilds</name>
-			<text>Until end of turn, double target creature&apos;s power and it gains first strike.</text>
+			<text>Until end of turn, target creature gets +3/+0 and has first strike until end of turn.</text>
 			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/122.jpg" num="125">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -2636,17 +2634,18 @@ At the beginning of combat, if Wolumonde City is a creature, then create a black
 		</card>
 		<card>
 			<name>Caster&apos;s Wand</name>
-			<text>Equip {2}
+			<text>Recruitment — When Medic&apos;s Staff enters, create a black 1/1 Mercenary creature token and attach this equipment to it.
 Equipped creature gets +1/+0
-Skill Activation — Whenever you cast a spell with mana value 4 or greater, you may have equipped creature deal 1 damage to any target.</text>
+Skill Activation — Whenever you cast a spell with mana value 4 or greater, you may have equipped creature deal 1 damage to target player.
+Equip {2}</text>
 			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/149.jpg" num="271">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Artifact — Equipment</type>
 				<maintype>Artifact</maintype>
-				<manacost>1</manacost>
-				<cmc>1</cmc>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
 			</prop>
 			<tablerow>1</tablerow>
 		</card>
@@ -3030,8 +3029,8 @@ When Rhodes Island Custody enters, exile target non-land permanent until Rhodes 
 		<card>
 			<name>Skyranger&apos;s Jetpack</name>
 			<text>Recruitment — When Skyranger&apos;s Jetpack enters, create a 2/2 white Ally creature token and attach this equipment to it.
-Equip {2}
-Whenever equipped creature attacks it gains first strike and flying until end of turn.</text>
+Whenever equipped creature attacks it gains first strike and flying until end of turn.
+Equip {2}</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/172.jpg" num="33">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -3173,7 +3172,7 @@ Search your library for an artifact card, put that card onto the battlefield, th
 		<card>
 			<name>RIIC Factory Line</name>
 			<text>Skill Activation — Whenever you cast a spell with mana value 4 or greater, create an Originium token. (It&apos;s a colorless artifact with &quot;{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.&quot;)
-{T}, Sacrifice an artifact: Draw a card.</text>
+{2}, {T}, Sacrifice an artifact: Draw a card.</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/180.jpg" num="240">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -3416,7 +3415,7 @@ Whenever one or more creatures you control deals combat damage to a player, crea
 		<card>
 			<name>Impatient Tianshi</name>
 			<text>Prowess
-As long as Impatient Tianshi&apos;s power is 4 or greater, it has flying.</text>
+Whenever Impatient Tianshi attacks it gains flying until end of turn.</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/194.jpg" num="140">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -3470,19 +3469,19 @@ When Bombtail Drone dies, it deals damage equal to its power to any target then 
 		<card>
 			<name>Sarkaz Battlechaser</name>
 			<text>First strike
-Sarkaz Battlechaser cannot block.
-If this creature would die while equipped, instead remove all equipment from Sarkaz Battlechaser.</text>
+Sarkaz Battlechaser doesn&apos;t untap during your untap step.
+At the beginning of your upkeep, if an opponent controls a creature with power 4 or greater, untap this creature.</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/197.jpg" num="158">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Creature — Devil Mercenary Ally</type>
 				<maintype>Creature</maintype>
-				<manacost>2R</manacost>
-				<cmc>3</cmc>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
-				<pt>3/2</pt>
+				<pt>4/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -3496,8 +3495,8 @@ Whenever you cast a spell with mana value 4 or greater, target creature you don&
 				<side>front</side>
 				<type>Creature — Lizard Mercenary Wizard</type>
 				<maintype>Creature</maintype>
-				<manacost>4R</manacost>
-				<cmc>5</cmc>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
 				<pt>4/2</pt>
@@ -4011,7 +4010,7 @@ Whenever Delivery Buggy becomes blocked you may reveal a creature card from your
 		<card>
 			<name>Imperial Artillery Targeter</name>
 			<text>Flying
-{2}{R}{R}, {T}, Put a stun counter on Imperial Artillery Targeter: Deal 6 damage to target creature.</text>
+{4}{R}{R}, {T}, Put a stun counter on Imperial Artillery Targeter: Deal 6 damage to target creature.</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/228.jpg" num="141">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -4654,7 +4653,7 @@ Deathtouch, reach
 			<name>Spirited Messenger</name>
 			<text>Vigilance
 Other ally creatures you control have vigilance.
-Skill Activation — Whenever you cast a spell with mana value 4 or greater, create a Food token.</text>
+Skill Activation — Whenever you cast a spell with mana value 4 or greater, put a +1/+1 counter on target creature you control.</text>
 			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/265.jpg" num="191">ASV</set>
 			<prop>
 				<layout>normal</layout>

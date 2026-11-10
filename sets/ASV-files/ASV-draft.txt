@@ -1123,7 +1123,7 @@
 		{
 			"name": "Reunion Rioter",
 			"rarity": "common",
-			"mana_cost": "{2}{R}",
+			"mana_cost": "{1}{R}",
 			"type": "Creature — Cat Rebel Shaman",
 			"collector_number": "152",
 			"image_uris": {
@@ -1153,7 +1153,7 @@
 		{
 			"name": "Higashi Defector",
 			"rarity": "common",
-			"mana_cost": "{3}{R}{R}",
+			"mana_cost": "{2}{R}",
 			"type": "Creature — Cat Warrior Ally",
 			"collector_number": "139",
 			"image_uris": {
@@ -1493,7 +1493,7 @@
 		{
 			"name": "Caster's Wand",
 			"rarity": "common",
-			"mana_cost": "{1}",
+			"mana_cost": "{2}",
 			"type": "Artifact — Equipment",
 			"collector_number": "271",
 			"image_uris": {
@@ -1973,7 +1973,7 @@
 		{
 			"name": "Sarkaz Battlechaser",
 			"rarity": "uncommon",
-			"mana_cost": "{2}{R}",
+			"mana_cost": "{1}{R}",
 			"type": "Creature — Devil Mercenary Ally",
 			"collector_number": "158",
 			"image_uris": {
@@ -1983,7 +1983,7 @@
 		{
 			"name": "Warcaster Agent",
 			"rarity": "uncommon",
-			"mana_cost": "{4}{R}",
+			"mana_cost": "{3}{R}",
 			"type": "Creature — Lizard Mercenary Wizard",
 			"collector_number": "164",
 			"image_uris": {

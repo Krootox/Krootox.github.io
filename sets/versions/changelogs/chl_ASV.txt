@@ -1,4 +1,83 @@
-﻿VERSION 22 CHANGELOG
+﻿VERSION 23 CHANGELOG
+====================
+
+
+
+Flint Tribe Fanatic
+rules_text: Double strike.
+Flint Tribe Fanatic cannot block. => Double strike.
+pt: 1/2 => 1/1
+
+Reunion Rioter
+cost: {2}{R} => {1}{R}
+rules_text: Whenever this creature attacks, it may deal 1 damage to target creature. If this creature is equipped then deal 2 damage instead. => Whenever another artifact you control enters, Reunion Rioter gets +1/+0 until end of turn.
+pt: 1/2 => 2/2
+
+Columbian Cutter
+rules_text: [i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, deal 1 damage to each opponent. If Columbian Cutter is equipped, then deal 2 damage instead. => [i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, deal 1 damage to any target. If Columbian Cutter is equipped, then deal 2 damage instead.
+pt: 2/2 => 3/2
+
+Higashi Defector
+cost: {3}{R}{R} => {2}{R}
+rules_text: Prowess
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, Higashi Defector gets +1/+1 and menace until end of turn. => [i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, Higashi Defector gets +1/+1 and has menace until end of turn.
+pt: 3/3 => 3/2
+
+Arts of the Wilds
+rules_text: Until end of turn, double target creature's power and it gains first strike. => Until end of turn, target creature gets +3/+0 and has first strike until end of turn.
+
+Caster's Wand
+cost: {1} => {2}
+rules_text: Equip {2}
+Equipped creature gets +1/+0
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, you may have equipped creature deal 1 damage to any target. => [i]Recruitment[/i] — When Medic's Staff enters, create a black 1/1 Mercenary creature token and attach this equipment to it.
+Equipped creature gets +1/+0
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, you may have equipped creature deal 1 damage to target player.
+Equip {2}
+
+Skyranger's Jetpack
+rules_text: [i]Recruitment[/i] — When Skyranger's Jetpack enters, create a 2/2 white Ally creature token and attach this equipment to it.
+Equip {2}
+Whenever equipped creature attacks it gains first strike and flying until end of turn. => [i]Recruitment[/i] — When Skyranger's Jetpack enters, create a 2/2 white Ally creature token and attach this equipment to it.
+Whenever equipped creature attacks it gains first strike and flying until end of turn.
+Equip {2}
+
+RIIC Factory Line
+rules_text: [i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, create an Originium token. [i](It's a colorless artifact with “{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.”)[/i]
+{T}, Sacrifice an artifact: Draw a card. => [i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, create an Originium token. [i](It's a colorless artifact with “{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.”)[/i]
+{2}, {T}, Sacrifice an artifact: Draw a card.
+
+Impatient Tianshi
+rules_text: Prowess
+As long as Impatient Tianshi's power is 4 or greater, it has flying. => Prowess
+Whenever Impatient Tianshi attacks it gains flying until end of turn.
+
+Sarkaz Battlechaser
+cost: {2}{R} => {1}{R}
+rules_text: First strike
+Sarkaz Battlechaser cannot block.
+If this creature would die while equipped, instead remove all equipment from Sarkaz Battlechaser. => First strike
+Sarkaz Battlechaser doesn't untap during your untap step.
+At the beginning of your upkeep, if an opponent controls a creature with power 4 or greater, untap this creature.
+pt: 3/2 => 4/2
+
+Warcaster Agent
+cost: {4}{R} => {3}{R}
+
+Imperial Artillery Targeter
+rules_text: Flying
+{2}{R}{R}, {T}, Put a stun counter on Imperial Artillery Targeter: Deal 6 damage to target creature. => Flying
+{4}{R}{R}, {T}, Put a stun counter on Imperial Artillery Targeter: Deal 6 damage to target creature.
+
+Spirited Messenger
+rules_text: Vigilance
+Other ally creatures you control have vigilance.
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, create a Food token. => Vigilance
+Other ally creatures you control have vigilance.
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, put a +1/+1 counter on target creature you control.
+
+
+VERSION 22 CHANGELOG
 ====================
 
 Sarkaz Sentinel added.
