@@ -5,7 +5,7 @@
 			<name>ASV</name>
 			<longname>Arknights: Shatter of a Vision</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-11-08</releasedate>
+			<releasedate>2026-11-09</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -831,7 +831,7 @@ Nonland permanents your opponents control enter tapped.
 		</card>
 		<card>
 			<name>Blacksteel Slugkeeper</name>
-			<text>{T}: Add one mana of any color to your mana pool</text>
+			<text>{T}: Add {G}, {W}, or {U}.</text>
 			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/45.jpg" num="169">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -841,7 +841,7 @@ Nonland permanents your opponents control enter tapped.
 				<manacost>1G</manacost>
 				<cmc>2</cmc>
 				<colors>G</colors>
-				<coloridentity>G</coloridentity>
+				<coloridentity>WUG</coloridentity>
 				<pt>1/3</pt>
 			</prop>
 			<tablerow>2</tablerow>
@@ -885,25 +885,25 @@ At the beginning of your end step, you may tap and remove a counter from a creat
 		</card>
 		<card>
 			<name>Elite Operator Blaze</name>
-			<text>First strike, prowess
-Skill Activation — Whenever you cast a spell with mana value 4 or greater and Elite Operator Blaze is untapped, you may tap Elite Operator Blaze. If you do then deal damage equal to its power to target creature you don&apos;t control.</text>
+			<text>First strike, trample
+Skill Activation — Whenever you cast a spell with mana value 4 or greater, double Elite Operator Blaze&apos;s power until end of turn.</text>
 			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/48.jpg" num="134">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Legendary Creature — Cat Soldier Ally</type>
 				<maintype>Creature</maintype>
-				<manacost>2RR</manacost>
-				<cmc>4</cmc>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
-				<pt>3/3</pt>
+				<pt>4/4</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
 			<name>Rhodes Island Landship</name>
-			<text>Station (Tap another creature you control: Put charge counters equal to its power on this permanent. Station only as a sorcery. It&apos;s an artifact creature at 8+.)
+			<text>Station (Tap another creature you control: Put charge counters equal to its power on this permanent. Station only as a sorcery.)
 [level 4+] Tap a creature you control: Remove a counter from a creature you control or put a +1/+1 counter on a creature you control. Then you gain 1 life.
 [level 8+] Vigilance [10/10]</text>
 			<set rarity="mythic" picurl="https://krootox.github.io/sets/ASV-files/img/49.jpg" num="277">ASV</set>
@@ -1623,15 +1623,15 @@ Islandcycling {2} ({2}, Discard this card: Search your library for an Island car
 		</card>
 		<card>
 			<name>Fishmarket Barter</name>
-			<text>Draw four cards. If you control no artifacts, discard two cards.</text>
+			<text>Draw three cards. If you control no artifacts, discard a card.</text>
 			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/90.jpg" num="52">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Sorcery</type>
 				<maintype>Sorcery</maintype>
-				<manacost>3UU</manacost>
-				<cmc>5</cmc>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
 				<colors>U</colors>
 				<coloridentity>U</coloridentity>
 			</prop>
@@ -2449,7 +2449,7 @@ Forestcycling {2} ({2}, Discard this card: Search your library for a Forest card
 		<card>
 			<name>Shieldguard&apos;s Protection</name>
 			<text>Target creature you control gains hexproof until end of turn.
-Revolt — If a permanent left the battlefield under your control this turn, then also put a +1/+1 counter on that creature and you gain two life.</text>
+Revolt — If a permanent left the battlefield under your control this turn, then also put a +1/+1 counter on that creature and you gain 2 life.</text>
 			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/138.jpg" num="189">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -2534,7 +2534,7 @@ Otherwise, target creature you control fights target creature you don&apos;t con
 			<name>Reunion Camp</name>
 			<text>Enchant land
 When Reunion Camp enters, create a 1/1 red Rebel creature token with &quot;When this creature dies, it deals 1 damage to any target.&quot;
-Whenever enchanted land is tapped for mana, its controller adds an additional one mana of any color.</text>
+Whenever enchanted land is tapped for mana, add {B}, {R}, or {G}.</text>
 			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/143.jpg" num="185">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -2544,7 +2544,7 @@ Whenever enchanted land is tapped for mana, its controller adds an additional on
 				<manacost>2G</manacost>
 				<cmc>3</cmc>
 				<colors>G</colors>
-				<coloridentity>G</coloridentity>
+				<coloridentity>BRG</coloridentity>
 			</prop>
 			<tablerow>1</tablerow>
 		</card>
@@ -3075,8 +3075,8 @@ Whenever Lungmen Greytail deals combat damage to a player, you may draw a card.<
 				<side>front</side>
 				<type>Creature — Rat Rogue</type>
 				<maintype>Creature</maintype>
-				<manacost>1U</manacost>
-				<cmc>2</cmc>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
 				<colors>U</colors>
 				<coloridentity>U</coloridentity>
 				<pt>2/1</pt>
@@ -3347,7 +3347,7 @@ Each player discards a card, then you make an Originium token for each land card
 		</card>
 		<card>
 			<name>Woven Shadow</name>
-			<text>This spell costs {1}{B} less to cast if you control a mercenary.
+			<text>This spell costs {2} less to cast if you control a mercenary.
 Destroy target creature.
 Draw a card.</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/190.jpg" num="123">ASV</set>
@@ -3382,15 +3382,15 @@ Draw a card.</text>
 		<card>
 			<name>Scrounge for Scraps</name>
 			<text>At the beginning of your end step, if a creature you control dealt damage to a player then create an Originium token. (It&apos;s a colorless artifact with &quot;{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.&quot;)
-Sacrifice an artifact: Target creature you control gets +1/-1 and deathtouch until end of turn.</text>
+Sacrifice an artifact: Target creature you control gets +1/-1 and menace until end of turn.</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/192.jpg" num="214">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Enchantment</type>
 				<maintype>Enchantment</maintype>
-				<manacost>1UB</manacost>
-				<cmc>3</cmc>
+				<manacost>UB</manacost>
+				<cmc>2</cmc>
 				<colors>UB</colors>
 				<coloridentity>UB</coloridentity>
 			</prop>
@@ -3591,21 +3591,22 @@ Create four Originium tokens. (It&apos;s an artifact with &quot;{T}, Pay 1 life,
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>For Each Who Falls</name>
-			<text>Whenever a nontoken creature you control dies, create a 1/1 red Rebel creature token with &quot;When this creature dies, it deals 1 damage to any target&quot;. This ability only triggers once each turn.
-{B}{R}, Sacrifice a creature: Deal 1 damage to any target. You may only use this ability once each turn.</text>
-			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/204.jpg" num="217">ASV</set>
+			<name>Sarkaz Sentinel</name>
+			<text>Whenever you attack with one or more creatures, create an Originium token. (It&apos;s a colorless artifact with &quot;{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.&quot;)
+Whenever you sacrifice a permanent, creatures you control get +1/+0 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/204.jpg" num="218">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Enchantment</type>
-				<maintype>Enchantment</maintype>
-				<manacost>2BR</manacost>
-				<cmc>4</cmc>
+				<type>Creature — Demon Rebel Mercenary</type>
+				<maintype>Creature</maintype>
+				<manacost>1BR</manacost>
+				<cmc>3</cmc>
 				<colors>BR</colors>
 				<coloridentity>BR</coloridentity>
+				<pt>1/1</pt>
 			</prop>
-			<tablerow>1</tablerow>
+			<tablerow>2</tablerow>
 		</card>
 		<card>
 			<name>Ignis Hammer</name>
@@ -3838,17 +3839,17 @@ Whenever Yeti Icecleaver deals combat damage to a player, destroy target creatur
 			<name>Hateful Avenger</name>
 			<text>Revolt — The first time a permanent leaves the battlefield under your control each turn, put a +1/+1 counter on Hateful Avenger.
 Whenever you attack with Hateful Avenger, if it has three or more +1/+1 counters on it then it gains double strike until end of turn.</text>
-			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/218.jpg" num="218">ASV</set>
+			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/218.jpg" num="217">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Creature — Bear Rebel Warrior</type>
 				<maintype>Creature</maintype>
-				<manacost>2BR</manacost>
-				<cmc>4</cmc>
+				<manacost>1BR</manacost>
+				<cmc>3</cmc>
 				<colors>BR</colors>
 				<coloridentity>BR</coloridentity>
-				<pt>3/2</pt>
+				<pt>2/1</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -4540,16 +4541,16 @@ Revolt — If another permanent left the battlefield under your control this tur
 		</card>
 		<card>
 			<name>Explosive Entrance</name>
-			<text>Exile the top four cards of your library. You may put up to one creature card or one equipment card from among them onto the battlefield.
-Until the end of your next turn, you may play the remaining exiled cards.</text>
+			<text>Target creature you control gains flying until end of turn, when that creature deals combat damage to a player this turn you may exile cards equal to that creature&apos;s power.
+Until the end of your next turn, you may play those cards.</text>
 			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/259.jpg" num="135">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Instant</type>
 				<maintype>Instant</maintype>
-				<manacost>4RR</manacost>
-				<cmc>6</cmc>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
 			</prop>

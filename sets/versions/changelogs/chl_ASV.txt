@@ -1,4 +1,76 @@
-﻿VERSION 21 CHANGELOG
+﻿VERSION 22 CHANGELOG
+====================
+
+Sarkaz Sentinel added.
+
+For Each Who Falls removed.
+
+Blacksteel Slugkeeper
+rules_text: {T}: Add one mana of any color to your mana pool => {T}: Add {G}, {W}, or {U}.
+
+Elite Operator Blaze
+cost: {2}{R}{R} => {3}{R}{R}
+rules_text: First strike, prowess
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater and Elite Operator Blaze is untapped, you may tap Elite Operator Blaze. If you do then deal damage equal to its power to target creature you don't control. => First strike, trample
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, double Elite Operator Blaze's power until end of turn.
+pt: 3/3 => 4/4
+
+Rhodes Island Landship
+rules_text: Station [i](Tap another creature you control: Put charge counters equal to its power on this permanent. Station only as a sorcery. It's an artifact creature at 8+.)[/i]
+[level 4+] Tap a creature you control: Remove a counter from a creature you control or put a +1/+1 counter on a creature you control. Then you gain 1 life.
+[level 8+] Vigilance [10/10] => Station [i](Tap another creature you control: Put charge counters equal to its power on this permanent. Station only as a sorcery.)[/i]
+[level 4+] Tap a creature you control: Remove a counter from a creature you control or put a +1/+1 counter on a creature you control. Then you gain 1 life.
+[level 8+] Vigilance [10/10]
+special_text: Station [i](Tap another creature you control: Put charge counters equal to its power on this permanent. Station only as a sorcery. It's an artifact creature at 8+.)[/i]
+[level 4+] Tap a creature you control: Remove a counter from a creature you control or put a +1/+1 counter on a creature you control. Then you gain 1 life.
+[level 8+] Vigilance [10/10] => Station [i](Tap another creature you control: Put charge counters equal to its power on this permanent. Station only as a sorcery.)[/i]
+[level 4+] Tap a creature you control: Remove a counter from a creature you control or put a +1/+1 counter on a creature you control. Then you gain 1 life.
+[level 8+] Vigilance [10/10]
+
+Fishmarket Barter
+cost: {3}{U}{U} => {2}{U}{U}
+rules_text: Draw four cards. If you control no artifacts, discard two cards. => Draw three cards. If you control no artifacts, discard a card.
+
+Shieldguard's Protection
+rules_text: Target creature you control gains hexproof until end of turn.
+[i]Revolt[/i] — If a permanent left the battlefield under your control this turn, then also put a +1/+1 counter on that creature and you gain two life. => Target creature you control gains hexproof until end of turn.
+[i]Revolt[/i] — If a permanent left the battlefield under your control this turn, then also put a +1/+1 counter on that creature and you gain 2 life.
+
+Reunion Camp
+rules_text: Enchant land
+When Reunion Camp enters, create a 1/1 red Rebel creature token with “When this creature dies, it deals 1 damage to any target.”
+Whenever enchanted land is tapped for mana, its controller adds an additional one mana of any color. => Enchant land
+When Reunion Camp enters, create a 1/1 red Rebel creature token with “When this creature dies, it deals 1 damage to any target.”
+Whenever enchanted land is tapped for mana, add {B}, {R}, or {G}.
+
+Lungmen Greytail
+cost: {1}{U} => {2}{U}
+
+Woven Shadow
+rules_text: This spell costs {1}{B} less to cast if you control a mercenary.
+Destroy target creature.
+Draw a card. => This spell costs {2} less to cast if you control a mercenary.
+Destroy target creature.
+Draw a card.
+
+Scrounge for Scraps
+cost: {1}{U}{B} => {U}{B}
+rules_text: At the beginning of your end step, if a creature you control dealt damage to a player then create an Originium token. [i](It's a colorless artifact with “{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.”)[/i]
+Sacrifice an artifact: Target creature you control gets +1/-1 and deathtouch until end of turn. => At the beginning of your end step, if a creature you control dealt damage to a player then create an Originium token. [i](It's a colorless artifact with “{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.”)[/i]
+Sacrifice an artifact: Target creature you control gets +1/-1 and menace until end of turn.
+
+Hateful Avenger
+cost: {2}{B}{R} => {1}{B}{R}
+pt: 3/2 => 2/1
+
+Explosive Entrance
+cost: {4}{R}{R} => {2}{R}{R}
+rules_text: Exile the top four cards of your library. You may put up to one creature card or one equipment card from among them onto the battlefield.
+Until the end of your next turn, you may play the remaining exiled cards. => Target creature you control gains flying until end of turn, when that creature deals combat damage to a player this turn you may exile cards equal to that creature's power.
+Until the end of your next turn, you may play those cards.
+
+
+VERSION 21 CHANGELOG
 ====================
 
 No changes.

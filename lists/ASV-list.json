@@ -1789,12 +1789,12 @@
         "position": "192"
     },
     {
-        "card_name": "For Each Who Falls",
+        "card_name": "Hateful Avenger",
         "number": 217,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
-        "position": "204"
+        "position": "218"
     },
     {
         "card_name": "Chernobog Delinquent",
@@ -1829,12 +1829,12 @@
         "position": "217"
     },
     {
-        "card_name": "Hateful Avenger",
+        "card_name": "Sarkaz Sentinel",
         "number": 218,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
-        "position": "218"
+        "position": "204"
     },
     {
         "card_name": "Ursus Raider",

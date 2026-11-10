@@ -483,7 +483,7 @@
 		{
 			"name": "Elite Operator Blaze",
 			"rarity": "rare",
-			"mana_cost": "{2}{R}{R}",
+			"mana_cost": "{3}{R}{R}",
 			"type": "Legendary Creature — Cat Soldier Ally",
 			"collector_number": "134",
 			"image_uris": {
@@ -903,7 +903,7 @@
 		{
 			"name": "Fishmarket Barter",
 			"rarity": "common",
-			"mana_cost": "{3}{U}{U}",
+			"mana_cost": "{2}{U}{U}",
 			"type": "Sorcery",
 			"collector_number": "52",
 			"image_uris": {
@@ -1743,7 +1743,7 @@
 		{
 			"name": "Lungmen Greytail",
 			"rarity": "uncommon",
-			"mana_cost": "{1}{U}",
+			"mana_cost": "{2}{U}",
 			"type": "Creature — Rat Rogue",
 			"collector_number": "63",
 			"image_uris": {
@@ -1923,7 +1923,7 @@
 		{
 			"name": "Scrounge for Scraps",
 			"rarity": "uncommon",
-			"mana_cost": "{1}{U}{B}",
+			"mana_cost": "{U}{B}",
 			"type": "Enchantment",
 			"collector_number": "214",
 			"image_uris": {
@@ -2041,11 +2041,11 @@
 			}
 		},
 		{
-			"name": "For Each Who Falls",
+			"name": "Sarkaz Sentinel",
 			"rarity": "uncommon",
-			"mana_cost": "{2}{B}{R}",
-			"type": "Enchantment",
-			"collector_number": "217",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Creature — Demon Rebel Mercenary",
+			"collector_number": "218",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/204.jpg"
 			}
@@ -2183,9 +2183,9 @@
 		{
 			"name": "Hateful Avenger",
 			"rarity": "uncommon",
-			"mana_cost": "{2}{B}{R}",
+			"mana_cost": "{1}{B}{R}",
 			"type": "Creature — Bear Rebel Warrior",
-			"collector_number": "218",
+			"collector_number": "217",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/218.jpg"
 			}
@@ -2593,7 +2593,7 @@
 		{
 			"name": "Explosive Entrance",
 			"rarity": "rare",
-			"mana_cost": "{4}{R}{R}",
+			"mana_cost": "{2}{R}{R}",
 			"type": "Instant",
 			"collector_number": "135",
 			"image_uris": {
@@ -3369,7 +3369,7 @@
 	4 Ursus Raider
 	4 Pyrrhic Blast
 	4 Diligent Tinkering
-	4 For Each Who Falls
+	4 Sarkaz Sentinel
 	4 Ignis Hammer
 	4 Mudrock's Zealot
 	4 Ursus Scion
@@ -3839,7 +3839,7 @@
 	6 Ursus Raider
 	6 Pyrrhic Blast
 	6 Diligent Tinkering
-	6 For Each Who Falls
+	6 Sarkaz Sentinel
 	6 Ignis Hammer
 	6 Mudrock's Zealot
 	6 Ursus Scion
@@ -4145,7 +4145,7 @@
 	15 Ursus Raider
 	15 Pyrrhic Blast
 	15 Diligent Tinkering
-	15 For Each Who Falls
+	15 Sarkaz Sentinel
 	15 Ignis Hammer
 	15 Mudrock's Zealot
 	15 Ursus Scion
