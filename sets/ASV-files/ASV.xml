@@ -5,7 +5,7 @@
 			<name>ASV</name>
 			<longname>Arknights: Shatter of a Vision</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-11-10</releasedate>
+			<releasedate>2026-11-15</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -500,7 +500,7 @@ Equip abilities you activate cost {1} less to activate.</text>
 		<card>
 			<name>Garden Perfumer</name>
 			<text>At the beginning of your upkeep, you gain 1 life.
-{1}{G}{W}, {T}: Create a white 2/2 Ally creature token. You may only use this ability if you have gained life this turn.</text>
+{G}{W}, {T}: Create a white 2/2 Ally creature token. You may only use this ability if you have gained 2 or more life this turn.</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/27.jpg" num="226">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -835,7 +835,7 @@ Nonland permanents your opponents control enter tapped.
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Creature — Drake Mercenary</type>
+				<type>Creature — Drake Mercenary Ally</type>
 				<maintype>Creature</maintype>
 				<manacost>1G</manacost>
 				<cmc>2</cmc>
@@ -848,7 +848,7 @@ Nonland permanents your opponents control enter tapped.
 		<card>
 			<name>Doctor, Strategic Mastermind</name>
 			<text>Hexproof
-At the beginning of your end step, goad target creature you don&apos;t control then tap and put a stun counter on all other creatures its controller controls. At the beginning of your next upkeep, if a creature that player controls deals at least three damage to you, then you lose the game.</text>
+At the beginning of your end step, target creature you don&apos;t control must attack next turn if able. Tap and put a stun counter on all other creatures its controller controls. At the beginning of your next upkeep, if a creature that player controls deals at least three damage to you, then you lose the game.</text>
 			<set rarity="mythic" picurl="https://krootox.github.io/sets/ASV-files/img/46.jpg" num="48">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -867,7 +867,7 @@ At the beginning of your end step, goad target creature you don&apos;t control t
 			<name>Doctor Kal&apos;tsit</name>
 			<text>When Doctor Kal&apos;tsit enters, create a colorless 1/1 Drone artifact creature token and put X +1/+1 counters on it.
 Skill Activation — Whenever you cast a spell with mana value 4 or greater, gain 1 life and put a +1/+1 counter on a creature you control.
-At the beginning of your end step, you may tap and remove a counter from a creature you control, if you do then draw a card.</text>
+At the beginning of your end step, you may tap and remove a counter from an untapped creature you control, if you do then draw a card.</text>
 			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/47.jpg" num="251">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -1060,7 +1060,7 @@ Whenever Sarkaz Grudgebearer takes damage it deals 3 damage on up to two target 
 		</card>
 		<card>
 			<name>Chernobog Delinquent</name>
-			<text>{T}: Add one mana of any color.
+			<text>{T}: Add {R} or {G}.
 {T}: Target creature you control with power 4 or greater gains haste until end of turn.</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/58.jpg" num="221">ASV</set>
 			<prop>
@@ -1343,7 +1343,7 @@ Skill Activation — Whenever you cast a spell with mana value 4 or greater, you
 		</card>
 		<card>
 			<name>Guardian Ninja</name>
-			<text>Sneak {B} (You may cast this spell for {B} if you also return an unblocked attacker you control to hand during the declare blockers step. If this is a creature it enters tapped and attacking.)
+			<text>Sneak {B} (You may cast this spell for {B} if you also return an unblocked attacker you control to hand during the declare blockers step. It enters tapped and attacking.)
 When Guardian Ninja deals combat damage to a player, you may tap and put a stun counter on target creature that player controls.</text>
 			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/74.jpg" num="99">ASV</set>
 			<prop>
@@ -1741,6 +1741,7 @@ Create an Originium token. (It&apos;s a colorless artifact with &quot;{T}, Pay 1
 			<name>Entwined</name>
 			<text>Enchant creature
 When Entwined enters, tap and put a stun counter on enchanted creature.
+Enchanted creature loses all abilities.
 At the beginning of your upkeep put a stun counter on enchanted creature.</text>
 			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/97.jpg" num="50">ASV</set>
 			<prop>
@@ -2002,7 +2003,7 @@ When Phantom Crossbowman enters, if a permanent you controlled left the battlefi
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Creature — Cat Rebel Shaman</type>
+				<type>Creature — Cat Rebel</type>
 				<maintype>Creature</maintype>
 				<manacost>1R</manacost>
 				<cmc>2</cmc>
@@ -2219,7 +2220,7 @@ Target creature you control gets +X/+0 until end of turn, where X is the number 
 		</card>
 		<card>
 			<name>Reunion Sabotage</name>
-			<text>Sneak {B} (You may cast this spell for {B} if you also return an unblocked attacker you control to hand during the declare blockers step. If this is a creature it enters tapped and attacking.)
+			<text>Sneak {B} (You may cast this spell for {B} if you also return an unblocked attacker you control to hand during the declare blockers step.)
 Target opponent reveals their hand. You choose a card from it. That player discards that card.</text>
 			<set rarity="common" picurl="https://krootox.github.io/sets/ASV-files/img/125.jpg" num="113">ASV</set>
 			<prop>
@@ -3415,7 +3416,7 @@ Whenever one or more creatures you control deals combat damage to a player, crea
 		<card>
 			<name>Impatient Tianshi</name>
 			<text>Prowess
-Whenever Impatient Tianshi attacks it gains flying until end of turn.</text>
+Skill Activation — Whenever you cast a spell with mana value 4 or greater, Impatient Tianshi gains flying until end of turn.</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/194.jpg" num="140">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -3468,9 +3469,8 @@ When Bombtail Drone dies, it deals damage equal to its power to any target then 
 		</card>
 		<card>
 			<name>Sarkaz Battlechaser</name>
-			<text>First strike
-Sarkaz Battlechaser doesn&apos;t untap during your untap step.
-At the beginning of your upkeep, if an opponent controls a creature with power 4 or greater, untap this creature.</text>
+			<text>Sarkaz Battlechaser doesn&apos;t untap during your untap step.
+At the beginning of each end step, if an opponent controls a creature with power 4 or greater, untap this creature.</text>
 			<set rarity="uncommon" picurl="https://krootox.github.io/sets/ASV-files/img/197.jpg" num="158">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -4208,7 +4208,7 @@ Skill Activation — Whenever you cast a spell with mana value 4 or greater, put
 		</card>
 		<card>
 			<name>Warehouse Ambush</name>
-			<text>Choose target creature you control. Return that creature to your hand and reveal a creature of equal or lesser mana value than the chosen creature. Put the revealed creature into play and attach up to one equipment you control to it.</text>
+			<text>Choose target creature you control. Return that creature to your hand and reveal a creature of mana value up to the mana value of the chosen creature plus 1. Put the revealed creature into play and attach up to one equipment you control to it.</text>
 			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/240.jpg" num="41">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -4295,7 +4295,8 @@ Skill Activation — Whenever you cast a spell with mana value 4 or greater, put
 		</card>
 		<card>
 			<name>Trust your Eyes</name>
-			<text>Redistribute the counters on all creatures on the battlefield.</text>
+			<text>Tap and put two stun counters on target creature.
+Redistribute all counters on each creature on the battlefield.</text>
 			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/245.jpg" num="80">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -4311,8 +4312,8 @@ Skill Activation — Whenever you cast a spell with mana value 4 or greater, put
 		</card>
 		<card>
 			<name>Chernobog Sarcophagus</name>
-			<text>Whenever a non-Elder creature you control enters from exile, put two +1/+1 counters on it and it becomes a beast in addition to its other creature types.
-{T}, Put a stun counter on Chernobog Sarcophagus: Exile target creature you control with two time counters. If it doesn&apos;t have suspend, it gains suspend.</text>
+			<text>Whenever a non-Elder creature you control enters from exile, put a +1/+1 counter on it and it becomes a beast in addition to its other creature types.
+{T}, Put a stun counter on Chernobog Sarcophagus: Exile target creature you control with a time counter. If it doesn&apos;t have suspend, it gains suspend.</text>
 			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/246.jpg" num="44">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -4523,7 +4524,7 @@ Revolt — If another permanent left the battlefield under your control this tur
 		</card>
 		<card>
 			<name>Pompeii, Heart of Surging Flame</name>
-			<text>Skill Activation — Whenever you cast a spell with mana value 4 or greater, deal 1 damage to up to four creatures you don&apos;t control.</text>
+			<text>Skill Activation — Whenever you cast a spell with mana value 4 or greater, deal 1 damage to up to three creatures you don&apos;t control. Those creatures cannot block until end of turn.</text>
 			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/258.jpg" num="145">ASV</set>
 			<prop>
 				<layout>normal</layout>
@@ -4540,16 +4541,15 @@ Revolt — If another permanent left the battlefield under your control this tur
 		</card>
 		<card>
 			<name>Explosive Entrance</name>
-			<text>Target creature you control gains flying until end of turn, when that creature deals combat damage to a player this turn you may exile cards equal to that creature&apos;s power.
-Until the end of your next turn, you may play those cards.</text>
+			<text>Reveal the top four cards of your library. Put each creature card and each equipment card revealed this way onto the battlefield. They gain haste. Shuffle your library.</text>
 			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/259.jpg" num="135">ASV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Instant</type>
-				<maintype>Instant</maintype>
-				<manacost>2RR</manacost>
-				<cmc>4</cmc>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4RR</manacost>
+				<cmc>6</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
 			</prop>
@@ -4756,7 +4756,8 @@ Whenever equipped creature attacks, put a stun counter on target tapped creature
 		</card>
 		<card>
 			<name>Enciodes Silverash</name>
-			<text>First strike, vigilance, flash
+			<text>Flash
+First strike, vigilance
 When Enciodes Silverash enters, destroy all tapped creatures you don&apos;t control.</text>
 			<set rarity="rare" picurl="https://krootox.github.io/sets/ASV-files/img/271.jpg" num="208">ASV</set>
 			<prop>
@@ -5170,7 +5171,7 @@ At the beginning of each opponent&apos;s attack step, that player may only attac
 		</card>
 		<card>
 			<name>Nian, Sui Fragment</name>
-			<text>Nian, Sui Fragment enters with three shield counters on it.
+			<text>Nian, Sui Fragment enters with two shield counters on it.
 Creatures you control get +1/+0 for each shield counter on Nian, Sui Fragment.
 {R}{W}, Sacrifice an artifact you control: Put a shield counter on target creature you control. Activate only as a sorcery.</text>
 			<set rarity="mythic" picurl="https://krootox.github.io/sets/ASV-files/img/294.jpg" num="250">ASV</set>
@@ -5183,7 +5184,7 @@ Creatures you control get +1/+0 for each shield counter on Nian, Sui Fragment.
 				<cmc>6</cmc>
 				<colors>WR</colors>
 				<coloridentity>WR</coloridentity>
-				<pt>2/7</pt>
+				<pt>3/7</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>

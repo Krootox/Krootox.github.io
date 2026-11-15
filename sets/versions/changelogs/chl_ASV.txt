@@ -1,4 +1,112 @@
-﻿VERSION 23 CHANGELOG
+﻿VERSION 24 CHANGELOG
+====================
+
+
+
+Garden Perfumer
+rules_text: At the beginning of your upkeep, you gain 1 life.
+{1}{G}{W}, {T}: Create a white 2/2 Ally creature token. You may only use this ability if you have gained life this turn. => At the beginning of your upkeep, you gain 1 life.
+{G}{W}, {T}: Create a white 2/2 Ally creature token. You may only use this ability if you have gained 2 or more life this turn.
+
+Blacksteel Slugkeeper
+type: Creature — Drake Mercenary => Creature — Drake Mercenary Ally
+
+Doctor, Strategic Mastermind
+rules_text: Hexproof
+At the beginning of your end step, goad target creature you don't control then tap and put a stun counter on all other creatures its controller controls. At the beginning of your next upkeep, if a creature that player controls deals at least three damage to you, then you lose the game. => Hexproof
+At the beginning of your end step, target creature you don't control must attack next turn if able. Tap and put a stun counter on all other creatures its controller controls. At the beginning of your next upkeep, if a creature that player controls deals at least three damage to you, then you lose the game.
+
+Doctor Kal'tsit
+rules_text: When Doctor Kal'tsit enters, create a colorless 1/1 Drone artifact creature token and put X +1/+1 counters on it.
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, gain 1 life and put a +1/+1 counter on a creature you control.
+At the beginning of your end step, you may tap and remove a counter from a creature you control, if you do then draw a card. => When Doctor Kal'tsit enters, create a colorless 1/1 Drone artifact creature token and put X +1/+1 counters on it.
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, gain 1 life and put a +1/+1 counter on a creature you control.
+At the beginning of your end step, you may tap and remove a counter from an untapped creature you control, if you do then draw a card.
+
+Chernobog Delinquent
+rules_text: {T}: Add one mana of any color.
+{T}: Target creature you control with power 4 or greater gains haste until end of turn. => {T}: Add {R} or {G}.
+{T}: Target creature you control with power 4 or greater gains haste until end of turn.
+
+Guardian Ninja
+rules_text: Sneak {B} [i](You may cast this spell for {B} if you also return an unblocked attacker you control to hand during the declare blockers step. If this is a creature it enters tapped and attacking.)[/i]
+When Guardian Ninja deals combat damage to a player, you may tap and put a stun counter on target creature that player controls. => Sneak {B} [i](You may cast this spell for {B} if you also return an unblocked attacker you control to hand during the declare blockers step. It enters tapped and attacking.)[/i]
+When Guardian Ninja deals combat damage to a player, you may tap and put a stun counter on target creature that player controls.
+
+Rat King's Guile
+
+Entwined
+rules_text: Enchant creature
+When Entwined enters, tap and put a stun counter on enchanted creature.
+At the beginning of your upkeep put a stun counter on enchanted creature. => Enchant creature
+When Entwined enters, tap and put a stun counter on enchanted creature.
+Enchanted creature loses all abilities.
+At the beginning of your upkeep put a stun counter on enchanted creature.
+
+Reunion Rioter
+type: Creature — Cat Rebel Shaman => Creature — Cat Rebel
+
+Reunion Sabotage
+rules_text: Sneak {B} [i](You may cast this spell for {B} if you also return an unblocked attacker you control to hand during the declare blockers step. If this is a creature it enters tapped and attacking.)[/i]
+Target opponent reveals their hand. You choose a card from it. That player discards that card. => Sneak {B} [i](You may cast this spell for {B} if you also return an unblocked attacker you control to hand during the declare blockers step.)[/i]
+Target opponent reveals their hand. You choose a card from it. That player discards that card.
+
+Butcher's Waraxe
+
+Impatient Tianshi
+rules_text: Prowess
+Whenever Impatient Tianshi attacks it gains flying until end of turn. => Prowess
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, Impatient Tianshi gains flying until end of turn.
+
+Sarkaz Battlechaser
+rules_text: First strike
+Sarkaz Battlechaser doesn't untap during your untap step.
+At the beginning of your upkeep, if an opponent controls a creature with power 4 or greater, untap this creature. => Sarkaz Battlechaser doesn't untap during your untap step.
+At the beginning of each end step, if an opponent controls a creature with power 4 or greater, untap this creature.
+
+Warehouse Ambush
+rules_text: Choose target creature you control. Return that creature to your hand and reveal a creature of equal or lesser mana value than the chosen creature. Put the revealed creature into play and attach up to one equipment you control to it. => Choose target creature you control. Return that creature to your hand and reveal a creature of mana value up to the mana value of the chosen creature plus 1. Put the revealed creature into play and attach up to one equipment you control to it.
+
+Trust your Eyes
+rules_text: Redistribute the counters on all creatures on the battlefield. => Tap and put two stun counters on target creature.
+Redistribute all counters on each creature on the battlefield.
+
+Chernobog Sarcophagus
+rules_text: Whenever a non-Elder creature you control enters from exile, put two +1/+1 counters on it and it becomes a beast in addition to its other creature types.
+{T}, Put a stun counter on Chernobog Sarcophagus: Exile target creature you control with two time counters. If it doesn't have suspend, it gains suspend. => Whenever a non-Elder creature you control enters from exile, put a +1/+1 counter on it and it becomes a beast in addition to its other creature types.
+{T}, Put a stun counter on Chernobog Sarcophagus: Exile target creature you control with a time counter. If it doesn't have suspend, it gains suspend.
+
+Lavender's Fragrance
+
+Pompeii, Heart of Surging Flame
+rules_text: [i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, deal 1 damage to up to four creatures you don't control. => [i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, deal 1 damage to up to three creatures you don't control. Those creatures cannot block until end of turn.
+
+Explosive Entrance
+type: Instant => Sorcery
+cost: {2}{R}{R} => {4}{R}{R}
+rules_text: Target creature you control gains flying until end of turn, when that creature deals combat damage to a player this turn you may exile cards equal to that creature's power.
+Until the end of your next turn, you may play those cards. => Reveal the top four cards of your library. Put each creature card and each equipment card revealed this way onto the battlefield. They gain haste. Shuffle your library.
+
+Sarkaz Caster Leader
+
+Enciodes Silverash
+rules_text: First strike, vigilance, flash
+When Enciodes Silverash enters, destroy all tapped creatures you don't control. => Flash
+First strike, vigilance
+When Enciodes Silverash enters, destroy all tapped creatures you don't control.
+
+Angelina Ajimu
+
+Nian, Sui Fragment
+rules_text: Nian, Sui Fragment enters with three shield counters on it.
+Creatures you control get +1/+0 for each shield counter on Nian, Sui Fragment.
+{R}{W}, Sacrifice an artifact you control: Put a shield counter on target creature you control. Activate only as a sorcery. => Nian, Sui Fragment enters with two shield counters on it.
+Creatures you control get +1/+0 for each shield counter on Nian, Sui Fragment.
+{R}{W}, Sacrifice an artifact you control: Put a shield counter on target creature you control. Activate only as a sorcery.
+pt: 2/7 => 3/7
+
+
+VERSION 23 CHANGELOG
 ====================
 
 
