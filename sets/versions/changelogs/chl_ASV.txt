@@ -1,4 +1,424 @@
-﻿VERSION 24 CHANGELOG
+﻿VERSION 25 CHANGELOG
+====================
+
+Penguin Protector added.
+Communications Operator added.
+Karlan Guardian added.
+Medic Operator added.
+
+Defender Duo removed.
+Communications Team removed.
+Karlan Guardians removed.
+Medical Field Team removed.
+
+Tiacauh Healer
+
+Durin Flagbearer
+
+Zumama, Chief of the Eunectes
+
+Ceobe, Perplexed Traveller
+
+Flint Tribe Fanatic
+
+The High Priest of Achualla
+
+Transport Hovercraft
+
+Talulah, Tyrant of Reunion
+rules_text: Ward—Discard a card
+{B}{R}{G}: Creatures you control gain +1/+1, First strike, Menace, and Trample until end of turn
+When Talulah, Tyrant of Reunion attacks you may sacrifice a nontoken creature you control, if you do then create number of red 1/1 Rebel creature tokens with “When this creature dies, it deals 1 damage to any target.” equal to the sacrificed creature's power. => Ward—Discard a card
+{B}{R}{G}: Creatures you control gain +1/+1, first strike, menace, and trample until end of turn
+When Talulah, Tyrant of Reunion attacks you may sacrifice a nontoken creature you control, if you do then create number of red 1/1 Rebel creature tokens with “When this creature dies, it deals 1 damage to any target.” equal to the sacrificed creature's power.
+
+W, the Renegade
+
+Emperor, Logistics Kingpin
+
+Exusiai, Cheerful Courier
+
+Texas, Taciturn Messenger
+
+Penguin Logistics Idol
+
+Street Punk Rocker
+
+Ursine Gourmand
+
+Blacksteel Duo
+rules_text: Vigilance, Prowess
+Equipment spells you cast cost {1} less to cast.
+Equip abilities you activate cost {1} less to activate. => Vigilance
+Prowess [i](Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)[/i]
+Equipment spells you cast cost {1} less to cast.
+Equip abilities you activate cost {1} less to activate.
+
+Garden Perfumer
+
+Mudrock, Reunion Captain
+
+Frostnova, Winter's Scar
+
+Reclusive Bookworm
+
+Wei Yenwu
+rules_text: Vigilance, Deathtouch
+At the beginning of your end step, tap target creature you don't control and put a stun counter on it. Then create an originium token.
+Other creatures you control get +1/+1 for each tapped creature each opponent controls. => Deathtouch, vigilance
+At the beginning of your end step, tap target creature you don't control and put a stun counter on it. Then create an originium token.
+Other creatures you control get +1/+1 for each tapped creature each opponent controls.
+
+Ch'en Hui-chieh
+
+Beatrix Schwire
+
+Serviceman Hoshiguma
+
+Patriot, The Last Wendigo
+
+Skullshatterer
+
+Ice Nova
+
+Operational Intelligence
+
+Crownslayer, Reunion Infiltrator
+
+Lungmen Firefighter
+
+Final Vengeance
+
+Mostima, Key of Chronology
+
+Blacksteel Slugkeeper
+
+Doctor, Strategic Mastermind
+
+Doctor Kal'tsit
+
+Elite Operator Blaze
+
+Knight of the Followers
+
+Big Bob
+
+Strict Instructor
+
+Yeti Squad Caster
+
+Chernobog Delinquent
+
+Siestan Therapist
+
+Reserve Operator Squad
+
+Agency Bodyguard
+
+Surly Finchef
+
+Lungmen Guardsmen
+
+Blacksteel Trainee
+
+Caster Operator
+
+Studied Martial Artist
+
+Unlucky Inventor
+
+Streetwise Trickster
+
+Junior Army Veteran
+
+Guardian Ninja
+rules_text: Sneak {B} [i](You may cast this spell for {B} if you also return an unblocked attacker you control to hand during the declare blockers step. It enters tapped and attacking.)[/i]
+When Guardian Ninja deals combat damage to a player, you may tap and put a stun counter on target creature that player controls. => Sneak {B} [i](You may cast this spell for {B} if you also return an unblocked attacker you control to hand during the declare blockers step. If this is a creature it enters tapped and attacking.)[/i]
+When Guardian Ninja deals combat damage to a player, you may tap and put a stun counter on target creature that player controls.
+
+S.W.E.E.P. Scavenger
+
+Surtr, Twilight Blade
+
+Elite Operator Rosmontis
+rules_text: Flying, First strike
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, deal 3 damage to target tapped creature you don't control, then create a colorless 0/3 wall artifact creature token with defender. => Flying, first strike
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, deal 3 damage to target tapped creature you don't control, then create a colorless 0/3 wall artifact creature token with defender.
+
+Hookmaster's Tools
+
+Swift Response
+
+Material Recombination
+
+Expedited Delivery
+
+Binding Circle
+
+Command: Meltdown
+
+Preparedness Averts Peril
+
+Scout Operator
+
+Fishmarket Barter
+
+Disdainful Stroke
+
+Counter EMP
+
+Literature Storm
+
+Become Anew
+
+Partial Necrosis
+
+Entwined
+
+Chernobog Survivor
+
+Out of Options
+
+Dodge Death
+
+Reunion Standard
+
+Phantom Crossbowman
+
+Rhine Labs Roboticist
+
+Reunion Rioter
+
+Gavial Tribe Ritualist
+
+Columbian Cutter
+
+Higashi Defector
+
+Reunion Rally
+
+Arts of the Wilds
+
+Reunion Sabotage
+rules_text: Sneak {B} [i](You may cast this spell for {B} if you also return an unblocked attacker you control to hand during the declare blockers step.)[/i]
+Target opponent reveals their hand. You choose a card from it. That player discards that card. => Sneak {B} [i](You may cast this spell for {B} if you also return an unblocked attacker you control to hand during the declare blockers step. If this is a creature it enters tapped and attacking.)[/i]
+Target opponent reveals their hand. You choose a card from it. That player discards that card.
+
+Acidic Originium Slug
+rules_text: Deathtouch.
+When Acidic Originium Slug dies, create an Originium token. [i](It's a colorless artifact with “{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.”)[/i] => Deathtouch
+When Acidic Originium Slug dies, create an Originium token. [i](It's a colorless artifact with “{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.”)[/i]
+
+Wayward Archausauria
+
+Catastrophe Messenger
+
+Deadeye Operator
+
+Shoot Down
+
+Return to the Wilds
+
+Bone Fracture
+
+Display of Might
+
+Overgrown City-Plate
+
+Medic's Staff
+
+Spear of Ruination
+
+Surveyor Drone
+
+Steel City Escort
+
+Hired Crossbow
+
+Caladon Mounted Police
+
+Martial Arts Star
+
+LGD Rally
+
+Stable Esthesia
+
+Skyranger's Jetpack
+
+Scientific Investigator
+
+Karlan Climber
+
+Inam Committee Chief
+
+Generous Refusal
+
+Training Room
+
+Tinker
+
+Perfect Operation
+
+Medical Experimenter
+
+S.W.E.E.P. Assassin
+
+Vacationing Mercenary
+
+Abyssal Patient
+
+Fatal Push
+
+Woven Shadow
+
+Oripathy Outbreak
+
+Scrounge for Scraps
+
+Impatient Tianshi
+
+Rhodes Island Forgemaster
+
+Sarkaz Battlechaser
+
+Stinging Shock
+
+Pyrrhic Blast
+
+Diligent Tinkering
+
+Ignis Hammer
+
+Ursus Scion
+
+Woodland Hunter
+
+Rewinding Breeze
+
+Unshakable Solidarity
+
+Abyssal Strike
+
+Wander the Tundra
+
+Bionics Engineer
+
+Yeti Icecleaver
+
+Hateful Avenger
+
+Rim Billiton Messengers
+
+Travelling Scholar
+
+Thermite Blade
+
+Water Cannon
+
+Instructor's Whip
+
+Avenger's Katana
+
+Delivery Buggy
+
+Hot Water Kettle
+
+Elite Operator Ace
+
+Shining, Confessor Exile
+
+Snowfield Rescue
+
+Shadowless
+
+Elite Operator Squad
+
+Trust your Eyes
+
+Skill Aura
+
+Expanded Cognition
+rules_text: Choose 2 — 
+• Counter target noncreature spell
+• Draw a card.
+• Proliferate [i](To proliferate, choose any number of permanents and/or players, then give each another counter of each kind already there.)[/i]
+• Tap target creature and put a stun counter on it. => Choose two — 
+• Counter target noncreature spell
+• Draw a card.
+• Proliferate [i](To proliferate, choose any number of permanents and/or players, then give each another counter of each kind already there.)[/i]
+• Tap target creature and put a stun counter on it.
+
+Lavender's Fragrance
+
+Warfarin, Hematologist
+
+Cover the Damages
+
+Mudrock Colossus
+
+The Obsidian Festival
+
+Ceobe's Fungimist
+
+Faust, Phantom Sniper
+rules_text: Ward {2}
+Deathtouch, reach
+{2}{G}{G}, {T}: Destroy target artifact or enchantment with mana value 4 or less. => Ward {2}
+Reach, deathtouch
+{2}{G}{G}, {T}: Destroy target artifact or enchantment with mana value 4 or less.
+
+Spirited Messenger
+
+Search for Safety
+
+Way of the Tiacauh
+
+Raging Iron Fists
+
+Enciodes Silverash
+
+Lin Grey, Rat King
+
+Skadi, Abyssal Hunter
+rules_text: Trample, flash
+Whenever Skadi, Abyssal Hunter attacks, put a +1/+1 counter on it then proliferate. [i](Choose any number of permanents and/or players, then give each another counter of each kind already there.)[/i] => Flash
+Trample
+Whenever Skadi, Abyssal Hunter attacks, put a +1/+1 counter on it then proliferate.
+
+Adele Naumann, Volcanologist
+
+Suzuran, Foxfire Child
+
+Mr. Lee, Lungmen Detective
+
+Lappland, Rogue Mafioso
+
+Angelina Ajimu
+
+Modified Starflail
+
+Water of Life
+
+Chi Xiao, Dragon-Slayer
+
+Rescue from Stasis
+
+Mephisto, the Singer
+
+Amiya, Idealistic Leader
+
+Nian, Sui Fragment
+
+Tidal Elegy
+
+Nightingale of the Followers
+
+Mr. Hellagur
+
+Paradox Simulation
+
+
+VERSION 24 CHANGELOG
 ====================
 
 

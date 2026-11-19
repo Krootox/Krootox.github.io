@@ -15,7 +15,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{W}",
 			"type": "Creature — Dwarf Scout Ally",
-			"collector_number": "9",
+			"collector_number": "8",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/1.jpg"
 			}
@@ -211,11 +211,11 @@
 			}
 		},
 		{
-			"name": "Defender Duo",
+			"name": "Penguin Protector",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}{W}",
 			"type": "Creature — Ox Mercenary",
-			"collector_number": "8",
+			"collector_number": "25",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/21.jpg"
 			}
@@ -225,7 +225,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{W}{W}",
 			"type": "Creature — Cat Bard Mercenary",
-			"collector_number": "25",
+			"collector_number": "24",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/22.jpg"
 			}
@@ -501,7 +501,7 @@
 			}
 		},
 		{
-			"name": "Communications Team",
+			"name": "Communications Operator",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}",
 			"type": "Creature — Bird Snake Ally",
@@ -525,7 +525,7 @@
 			"rarity": "common",
 			"mana_cost": "{3}{W}{W}",
 			"type": "Creature — Horse Knight Ally",
-			"collector_number": "18",
+			"collector_number": "17",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/52.jpg"
 			}
@@ -611,11 +611,11 @@
 			}
 		},
 		{
-			"name": "Karlan Guardians",
+			"name": "Karlan Guardian",
 			"rarity": "common",
 			"mana_cost": "{2}{W}",
 			"type": "Creature — Elk Ox Mercenary",
-			"collector_number": "17",
+			"collector_number": "16",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/61.jpg"
 			}
@@ -625,7 +625,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"type": "Creature — Elk Soldier",
-			"collector_number": "19",
+			"collector_number": "18",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/62.jpg"
 			}
@@ -655,7 +655,7 @@
 			"rarity": "common",
 			"mana_cost": "{3}{W}",
 			"type": "Creature — Dragon Soldier",
-			"collector_number": "21",
+			"collector_number": "20",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/65.jpg"
 			}
@@ -665,7 +665,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{W}",
 			"type": "Creature — Bear Soldier",
-			"collector_number": "15",
+			"collector_number": "14",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/66.jpg"
 			}
@@ -691,11 +691,11 @@
 			}
 		},
 		{
-			"name": "Medical Field Team",
+			"name": "Medic Operator",
 			"rarity": "common",
 			"mana_cost": "{2}{W}",
 			"type": "Creature — Fox Cleric Ally",
-			"collector_number": "23",
+			"collector_number": "22",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/69.jpg"
 			}
@@ -805,7 +805,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"type": "Artifact — Equipment",
-			"collector_number": "14",
+			"collector_number": "13",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/80.jpg"
 			}
@@ -825,7 +825,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"type": "Sorcery",
-			"collector_number": "22",
+			"collector_number": "21",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/82.jpg"
 			}
@@ -845,7 +845,7 @@
 			"rarity": "common",
 			"mana_cost": "{W}",
 			"type": "Instant",
-			"collector_number": "11",
+			"collector_number": "10",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/84.jpg"
 			}
@@ -1655,7 +1655,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{W}{W}",
 			"type": "Creature — Bird Mercenary Archer",
-			"collector_number": "13",
+			"collector_number": "12",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/165.jpg"
 			}
@@ -1685,7 +1685,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}",
 			"type": "Instant",
-			"collector_number": "24",
+			"collector_number": "23",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/168.jpg"
 			}
@@ -1695,7 +1695,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{W}{W}",
 			"type": "Sorcery",
-			"collector_number": "20",
+			"collector_number": "19",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/169.jpg"
 			}
@@ -2305,7 +2305,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}",
 			"type": "Artifact — Equipment",
-			"collector_number": "16",
+			"collector_number": "15",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/230.jpg"
 			}
@@ -2375,7 +2375,7 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{W}",
 			"type": "Legendary Creature — Snake Soldier Ally",
-			"collector_number": "10",
+			"collector_number": "9",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/237.jpg"
 			}
@@ -2425,7 +2425,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{W}{W}",
 			"type": "Legendary Artifact — Equipment",
-			"collector_number": "12",
+			"collector_number": "11",
 			"image_uris": {
 				"en": "https://krootox.github.io/sets/ASV-files/img/242.jpg"
 			}
@@ -3317,12 +3317,12 @@
 [uncommon(3)]
 	4 Durin Flagbearer
 	4 Sarkaz Bladeweaver
-	4 Defender Duo
+	4 Penguin Protector
 	4 Penguin Logistics Idol
 	4 Blacksteel Duo
 	4 Garden Perfumer
 	4 Ice Nova
-	4 Communications Team
+	4 Communications Operator
 	4 Strict Instructor
 	4 Chernobog Delinquent
 	4 Siestan Therapist
@@ -3422,7 +3422,7 @@
 	8 Knight of the Followers
 	8 Yeti Squad Caster
 	8 Reserve Operator Squad
-	8 Karlan Guardians
+	8 Karlan Guardian
 	8 Leithanian Officer
 	8 Agency Bodyguard
 	8 Surly Finchef
@@ -3430,7 +3430,7 @@
 	8 Infected Patrolman
 	8 Blacksteel Trainee
 	8 Caster Operator
-	8 Medical Field Team
+	8 Medic Operator
 	8 Studied Martial Artist
 	8 Unlucky Inventor
 	8 Streetwise Trickster
@@ -3539,7 +3539,7 @@
 	8 Knight of the Followers
 	8 Yeti Squad Caster
 	8 Reserve Operator Squad
-	8 Karlan Guardians
+	8 Karlan Guardian
 	8 Leithanian Officer
 	8 Agency Bodyguard
 	8 Surly Finchef
@@ -3547,7 +3547,7 @@
 	8 Infected Patrolman
 	8 Blacksteel Trainee
 	8 Caster Operator
-	8 Medical Field Team
+	8 Medic Operator
 	8 Studied Martial Artist
 	8 Unlucky Inventor
 	8 Streetwise Trickster
@@ -3656,7 +3656,7 @@
 	1 Emperor, Logistics Kingpin
 	2 Exusiai, Cheerful Courier
 	2 Texas, Taciturn Messenger
-	6 Defender Duo
+	6 Penguin Protector
 	6 Penguin Logistics Idol
 	12 Street Punk Rocker
 	2 Gavial's Might
@@ -3685,7 +3685,7 @@
 	2 Doctor Kal'tsit
 	2 Elite Operator Blaze
 	1 Rhodes Island Landship
-	6 Communications Team
+	6 Communications Operator
 	12 Emergency Inhibitor
 	12 Knight of the Followers
 	2 Chernobog Catastrophe
@@ -3696,7 +3696,7 @@
 	6 Chernobog Delinquent
 	6 Siestan Therapist
 	12 Reserve Operator Squad
-	12 Karlan Guardians
+	12 Karlan Guardian
 	12 Leithanian Officer
 	12 Agency Bodyguard
 	12 Surly Finchef
@@ -3704,7 +3704,7 @@
 	12 Infected Patrolman
 	12 Blacksteel Trainee
 	12 Caster Operator
-	12 Medical Field Team
+	12 Medic Operator
 	12 Studied Martial Artist
 	12 Unlucky Inventor
 	12 Streetwise Trickster
@@ -3962,7 +3962,7 @@
 	4 Emperor, Logistics Kingpin
 	7 Exusiai, Cheerful Courier
 	7 Texas, Taciturn Messenger
-	15 Defender Duo
+	15 Penguin Protector
 	15 Penguin Logistics Idol
 	6 Street Punk Rocker
 	7 Gavial's Might
@@ -3991,7 +3991,7 @@
 	7 Doctor Kal'tsit
 	7 Elite Operator Blaze
 	4 Rhodes Island Landship
-	15 Communications Team
+	15 Communications Operator
 	6 Emergency Inhibitor
 	6 Knight of the Followers
 	7 Chernobog Catastrophe
@@ -4002,7 +4002,7 @@
 	15 Chernobog Delinquent
 	15 Siestan Therapist
 	6 Reserve Operator Squad
-	6 Karlan Guardians
+	6 Karlan Guardian
 	6 Leithanian Officer
 	6 Agency Bodyguard
 	6 Surly Finchef
@@ -4010,7 +4010,7 @@
 	6 Infected Patrolman
 	6 Blacksteel Trainee
 	6 Caster Operator
-	6 Medical Field Team
+	6 Medic Operator
 	6 Studied Martial Artist
 	6 Unlucky Inventor
 	6 Streetwise Trickster

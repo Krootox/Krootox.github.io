@@ -22,18 +22,18 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u76f4\u7acb\u884c\u8d70 (Pixiv ID: 10930789)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "0",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/91607514\n\u76f4\u7acb\u884c\u8d70 (Pixiv ID: 10930789)"
         },
         {
             "card_name": "Durin Flagbearer",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Dwarf Scout Ally",
-            "number": 9,
+            "number": 8,
             "color_identity": "W",
             "cost": "{W}",
             "rules_text": "The first creature spell you cast each turn costs {W} less to cast.",
@@ -47,7 +47,7 @@
             "alias": "",
             "position": "1",
             "rotated": false,
-            "notes": ""
+            "notes": "Unauthorized reproduction is prohibited. I do not permit the use of illustrations as icons or headers, except for those I have directly provided.\nhttps://www.pixiv.net/en/artworks/91585947"
         },
         {
             "card_name": "Zumama, Chief of the Eunectes",
@@ -64,11 +64,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "Ksmtk79 (@ksmtk79.bsky.sociall)",
+            "artist": "Hyperrgryph",
             "alias": "",
             "position": "2",
             "rotated": false,
-            "notes": ""
+            "notes": "https://x.com/Ksmtk79/status/1910696967581385033/photo/1\nKsmtk79 (@ksmtk79.bsky.sociall)"
         },
         {
             "card_name": "Ceobe, Perplexed Traveller",
@@ -85,11 +85,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "Mido (Pixiv ID: 6451335)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "3",
             "rotated": false,
-            "notes": ""
+            "notes": "https://x.com/Mido_Chen/status/1551495335976964097/photo/1\nMido (Pixiv ID: 6451335)"
         },
         {
             "card_name": "Flint Tribe Fanatic",
@@ -106,11 +106,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u6e05\u98ce\u6b8b\u5f71Sid (Pixiv ID: 35245483)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "4",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/83909578\n\u6e05\u98ce\u6b8b\u5f71Sid (Pixiv ID: 35245483)"
         },
         {
             "card_name": "The High Priest of Achualla",
@@ -131,7 +131,7 @@
             "alias": "",
             "position": "5",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/90363006"
         },
         {
             "card_name": "Rabid Hound",
@@ -236,7 +236,7 @@
             "alias": "",
             "position": "10",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/106807462\nThere has to be something better, right?"
         },
         {
             "card_name": "Reunion Wraith",
@@ -288,7 +288,7 @@
             "number": 268,
             "color_identity": "BRG",
             "cost": "{3}{B}{R}{G}",
-            "rules_text": "Ward\u2014Discard a card\n{B}{R}{G}: Creatures you control gain +1/+1, First strike, Menace, and Trample until end of turn\nWhen Talulah, Tyrant of Reunion attacks you may sacrifice a nontoken creature you control, if you do then create number of red 1/1 Rebel creature tokens with \u201cWhen this creature dies, it deals 1 damage to any target.\u201d equal to the sacrificed creature's power.",
+            "rules_text": "Ward\u2014Discard a card\n{B}{R}{G}: Creatures you control gain +1/+1, first strike, menace, and trample until end of turn\nWhen Talulah, Tyrant of Reunion attacks you may sacrifice a nontoken creature you control, if you do then create number of red 1/1 Rebel creature tokens with \u201cWhen this creature dies, it deals 1 damage to any target.\u201d equal to the sacrificed creature's power.",
             "flavor_text": "[i][/i]",
             "pt": "5/5",
             "special_text": "",
@@ -299,7 +299,7 @@
             "alias": "",
             "position": "13",
             "rotated": false,
-            "notes": ""
+            "notes": "Official Comissioned Artwork\nhttps://www.pixiv.net/en/artworks/99057209"
         },
         {
             "card_name": "W, the Renegade",
@@ -316,11 +316,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "Hypergryph",
+            "artist": "knifedragon (@telsonknife)",
             "alias": "",
             "position": "14",
             "rotated": false,
-            "notes": ""
+            "notes": "Official Art\nhttps://x.com/telsonknife/status/1358733726650310656/photo/1"
         },
         {
             "card_name": "Sarkaz Swordsman",
@@ -400,11 +400,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "s11puha (https://x.com/s11puha)",
+            "artist": "",
             "alias": "",
             "position": "18",
             "rotated": false,
-            "notes": ""
+            "notes": "https://x.com/s11puha/status/1907093158812643341/photo/1\ns11puha (https://x.com/s11puha)"
         },
         {
             "card_name": "Exusiai, Cheerful Courier",
@@ -421,7 +421,7 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "Cangxxx (https://cangxxx.lofter.com)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "19",
             "rotated": false,
@@ -442,39 +442,39 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "Lococo:p (Pixiv ID: 12342223)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "20",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/84741695\nLococo:p (Pixiv ID: 12342223)"
         },
         {
-            "card_name": "Defender Duo",
+            "card_name": "Penguin Protector",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Ox Mercenary",
-            "number": 8,
+            "number": 25,
             "color_identity": "W",
             "cost": "{2}{W}{W}",
-            "rules_text": "Vigilance\nDefender Duo enters with a shield counter on it. [i](If it would be dealt damage or destroyed, remove a shield counter from it instead.)[/i]\nWhenever another mercenary creature enters under your control, put a shield counter on Defender Duo.",
+            "rules_text": "Vigilance\nDefender Duo enters with a shield counter on it. [i](If it would be dealt damage or destroyed, remove a shield counter from it instead.)[/i]\nWhenever another mercenary creature enters under your control, put a shield counter on Penguin Protector.",
             "flavor_text": "[i]\u201cAw shucks, gotta tighten my belt again this month...\u201d\n-Croissant, Penguin Logistics Employee[/i]",
             "pt": "3/4",
             "special_text": "",
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "BreadGunn (Pixiv ID: 2197001)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "21",
             "rotated": false,
-            "notes": ""
+            "notes": "https://x.com/faviliash/status/1869375815583945157/photo/4\nBreadGunn (Pixiv ID: 2197001)"
         },
         {
             "card_name": "Penguin Logistics Idol",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Cat Bard Mercenary",
-            "number": 25,
+            "number": 24,
             "color_identity": "W",
             "cost": "{W}{W}",
             "rules_text": "Whenever another creature enters under your control, you gain 1 life.\nWhenever you gain life, other creatures you control get +1/+1 until end of turn.",
@@ -484,11 +484,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u5feb\u4e50\u7684\u601d\u541b (Pixiv ID: 12556379)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "22",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/76117499"
         },
         {
             "card_name": "Street Punk Rocker",
@@ -509,7 +509,7 @@
             "alias": "",
             "position": "23",
             "rotated": false,
-            "notes": ""
+            "notes": "Official Art\nhttps://www.pixiv.net/en/artworks/85887237"
         },
         {
             "card_name": "Gavial's Might",
@@ -547,7 +547,7 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "fixro2n\uff20\u6848\u4ef6\u52df\u96c6\u4e2d (Pixiv ID: 14709334)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "25",
             "rotated": false,
@@ -561,18 +561,18 @@
             "number": 246,
             "color_identity": "WR",
             "cost": "{1}{R}{W}",
-            "rules_text": "Vigilance, Prowess\nEquipment spells you cast cost {1} less to cast.\nEquip abilities you activate cost {1} less to activate.",
-            "flavor_text": "[i]Blacksteel is a transnational security company that provides all kinds of security services from bodyguard to military force.[/i]",
+            "rules_text": "Vigilance\nProwess [i](Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)[/i]\nEquipment spells you cast cost {1} less to cast.\nEquip abilities you activate cost {1} less to activate.",
+            "flavor_text": "[i]Blacksteel is a transnational security company that provides all kinds of security services.[/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "Cri4s/12 (Pixiv ID: 45847876)",
+            "artist": "\u5c3e\u5d0e\u30c9\u30df\u30ce",
             "alias": "",
             "position": "26",
             "rotated": false,
-            "notes": ""
+            "notes": "https://webusstatic.yo-star.com/ark_us_web/assets/159169283729714662/d8c29cad010447a75b0eaae4513f3780.jpg\nhttps://www.pixiv.net/en/artworks/104475570\nCri4s/12 (Pixiv ID: 45847876)"
         },
         {
             "card_name": "Garden Perfumer",
@@ -589,11 +589,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "dididadi (Pixiv ID: 10685158)",
+            "artist": "\u7dcb\u539f\u30e8\u30a6",
             "alias": "",
             "position": "27",
             "rotated": false,
-            "notes": ""
+            "notes": "https://webusstatic.yo-star.com/ark_us_web/assets/159427884037010739/47f22ffd2faeba55b1e7791db114d5d4.jpg\nhttps://www.pixiv.net/en/artworks/144682975\ndididadi (Pixiv ID: 10685158)"
         },
         {
             "card_name": "Mudrock, Reunion Captain",
@@ -610,11 +610,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "Kurodra (Pixiv ID: 62321)",
+            "artist": "",
             "alias": "",
             "position": "28",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/89684850\nKurodra (Pixiv ID: 62321)"
         },
         {
             "card_name": "Frostnova, Winter's Scar",
@@ -631,7 +631,7 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u7070\u5eca@\u304a\u4ed5\u4e8b\u52df\u96c6\u4e2d (Pixiv ID: 12661901)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "29",
             "rotated": false,
@@ -652,11 +652,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "Mido (Pixiv ID: 6451335)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "30",
             "rotated": false,
-            "notes": ""
+            "notes": "https://x.com/Mido_Chen/status/1565622553372008448/photo/1"
         },
         {
             "card_name": "Wei Yenwu",
@@ -666,7 +666,7 @@
             "number": 269,
             "color_identity": "WUB",
             "cost": "{4}{W}{U}{B}",
-            "rules_text": "Vigilance, Deathtouch\nAt the beginning of your end step, tap target creature you don't control and put a stun counter on it. Then create an originium token.\nOther creatures you control get +1/+1 for each tapped creature each opponent controls.",
+            "rules_text": "Deathtouch, vigilance\nAt the beginning of your end step, tap target creature you don't control and put a stun counter on it. Then create an originium token.\nOther creatures you control get +1/+1 for each tapped creature each opponent controls.",
             "flavor_text": "[i][/i]",
             "pt": "2/6",
             "special_text": "",
@@ -694,11 +694,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "Yumuto (Pixiv ID: 7662128)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "32",
             "rotated": false,
-            "notes": "Need to make this splashier"
+            "notes": "Unauthorized reproduction and secondary processing are prohibited.\nhttps://www.pixiv.net/en/artworks/75626185\nYumuto (Pixiv ID: 7662128)"
         },
         {
             "card_name": "Beatrix Schwire",
@@ -715,11 +715,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u6850\u91ce (Pixiv ID: 3297691)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "33",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/97880995\n\u6850\u91ce (Pixiv ID: 3297691)"
         },
         {
             "card_name": "Serviceman Hoshiguma",
@@ -736,11 +736,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u6850\u91ce (Pixiv ID: 3297691)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "34",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/95175762\n\u6850\u91ce (Pixiv ID: 3297691)"
         },
         {
             "card_name": "Duke Kashchey",
@@ -778,11 +778,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u3081\u308d\u3093\uff12\uff12 (Pixiv ID: 2963688)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "36",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/128156485\n\u3081\u308d\u3093\uff12\uff12 (Pixiv ID: 2963688)"
         },
         {
             "card_name": "Skullshatterer",
@@ -799,7 +799,7 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "Ksmtk79 (@ksmtk79.bsky.sociall)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "37",
             "rotated": false,
@@ -824,7 +824,7 @@
             "alias": "",
             "position": "38",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/128156485"
         },
         {
             "card_name": "Operational Intelligence",
@@ -845,7 +845,7 @@
             "alias": "",
             "position": "39",
             "rotated": false,
-            "notes": "Need different art very badly"
+            "notes": ""
         },
         {
             "card_name": "Crownslayer, Reunion Infiltrator",
@@ -862,7 +862,7 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "Doppel (Pixiv ID: 10906889)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "40",
             "rotated": false,
@@ -883,11 +883,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "fixro2n\uff20\u6848\u4ef6\u52df\u96c6\u4e2d (Pixiv ID: 14709334)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "41",
             "rotated": false,
-            "notes": ""
+            "notes": "Reproduction prohibited. AI learning prohibited.\nhttps://www.pixiv.net/en/artworks/80705764"
         },
         {
             "card_name": "Possess the Fallen",
@@ -925,11 +925,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u56bc\u4e0d\u70c2\u7684\u7206\u7c73\u82b1",
+            "artist": "",
             "alias": "",
             "position": "43",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/85177868\n\u56bc\u4e0d\u70c2\u7684\u7206\u7c73\u82b1 Pixiv ID: 4853287)"
         },
         {
             "card_name": "Mostima, Key of Chronology",
@@ -946,11 +946,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "Lococo:p (Pixiv ID: 12342223)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "44",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/84719928\nLococo:p (Pixiv ID: 12342223)"
         },
         {
             "card_name": "Blacksteel Slugkeeper",
@@ -967,7 +967,7 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u5411\u665a\u672a\u665a (Pixiv ID: 13391571)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "45",
             "rotated": false,
@@ -988,7 +988,7 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "https://jiugechengzi668.lofter.com/",
+            "artist": "",
             "alias": "",
             "position": "46",
             "rotated": false,
@@ -1009,11 +1009,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u5931\u7720\u6811\u61d2p (Pixiv ID: 18912354)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "47",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/124976465\n\u5931\u7720\u6811\u61d2p (Pixiv ID: 18912354)"
         },
         {
             "card_name": "Elite Operator Blaze",
@@ -1030,7 +1030,7 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u795e\u697d\u30c8\u30fc\u30eb (Pixiv ID: 18114581)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "48",
             "rotated": false,
@@ -1058,25 +1058,25 @@
             "notes": ""
         },
         {
-            "card_name": "Communications Team",
+            "card_name": "Communications Operator",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Bird Snake Ally",
             "number": 174,
             "color_identity": "G",
             "cost": "{2}{G}",
-            "rules_text": "{T}, Add one mana of any color.\n{T}, put a stun counter on Communications Team: Add two mana in any combination of colors.\n[i]Skill Activation[/i] \u2014 Whenever you cast a spell with mana value 4 or greater, target creature you control gains reach until end of turn.",
+            "rules_text": "{T}, Add one mana of any color.\n{T}, put a stun counter on Communications Operator: Add two mana in any combination of colors.\n[i]Skill Activation[/i] \u2014 Whenever you cast a spell with mana value 4 or greater, target creature you control gains reach until end of turn.",
             "flavor_text": "[i][/i]",
             "pt": "1/3",
             "special_text": "",
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "Skolly (https://x.com/skolly17)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "50",
             "rotated": false,
-            "notes": ""
+            "notes": "https://x.com/skolly17/status/1778865974080590263/photo/1\nARTIST: DO NOT REPOST"
         },
         {
             "card_name": "Emergency Inhibitor",
@@ -1104,7 +1104,7 @@
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Horse Knight Ally",
-            "number": 18,
+            "number": 17,
             "color_identity": "W",
             "cost": "{3}{W}{W}",
             "rules_text": "Vigilance\nWhenever Knight of the Followers attacks, you gain 1 life.",
@@ -1114,7 +1114,7 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "Molyb (Pixiv ID: 6148103)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "52",
             "rotated": false,
@@ -1156,11 +1156,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "Ksmtk79 (@ksmtk79.bsky.sociall)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "54",
             "rotated": false,
-            "notes": ""
+            "notes": "https://x.com/Ksmtk79/status/1713186736770269215/photo/1"
         },
         {
             "card_name": "Strict Instructor",
@@ -1177,7 +1177,7 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "fixro2n\uff20\u6848\u4ef6\u52df\u96c6\u4e2d (Pixiv ID: 14709334)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "55",
             "rotated": false,
@@ -1198,11 +1198,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "Catatonic_II (Pixiv ID: 54777697)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "56",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/113101501\nCatatonic_II (Pixiv ID: 54777697)"
         },
         {
             "card_name": "Sarkaz Grudgebearer",
@@ -1240,11 +1240,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "PMMG\u70e4\u70b8\u4e86\u9e3d (Pixiv ID: 15294475)",
+            "artist": "Hyperrgryph",
             "alias": "",
             "position": "58",
             "rotated": false,
-            "notes": ""
+            "notes": "\ud83d\udeabAI/Unauthorized reproduction/Commercial use, unauthorized content.\nhttps://www.pixiv.net/en/artworks/79648507\nPMMG\u70e4\u70b8\u4e86\u9e3d (Pixiv ID: 15294475)"
         },
         {
             "card_name": "Siestan Therapist",
@@ -1261,11 +1261,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u3086\u3093\u306a\u3059 (Pixiv ID: 5270716)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "59",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/111089982\n\u3086\u3093\u306a\u3059 (Pixiv ID: 5270716)"
         },
         {
             "card_name": "Reserve Operator Squad",
@@ -1286,35 +1286,35 @@
             "alias": "",
             "position": "60",
             "rotated": false,
-            "notes": "Need to check Gelbooru for art credits\nThat said, may need new art entirely"
+            "notes": ""
         },
         {
-            "card_name": "Karlan Guardians",
+            "card_name": "Karlan Guardian",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Elk Ox Mercenary",
-            "number": 17,
+            "number": 16,
             "color_identity": "W",
             "cost": "{2}{W}",
-            "rules_text": "Whenever another creature enters under your control, Karlan Guardians gains flying until end of turn.",
+            "rules_text": "Whenever another creature enters under your control, Karlan Guardian gains flying until end of turn.",
             "flavor_text": "[i]Karlan Trade Co., LTD. is a state-owned enterprise engaged in foreign trade. It is located in the religious country of Kjerag, also known as the \u2018Snow Realm.' [/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "EcsRin (Pixiv ID: 4341900)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "61",
             "rotated": false,
-            "notes": "Watch for this one"
+            "notes": ""
         },
         {
             "card_name": "Leithanian Officer",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Elk Soldier",
-            "number": 19,
+            "number": 18,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "First strike",
@@ -1345,7 +1345,7 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "ConnR07 (BSKY @connr07.bsky.social)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "63",
             "rotated": false,
@@ -1366,7 +1366,7 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u3079 (Pixiv ID: 2368230)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "64",
             "rotated": false,
@@ -1377,7 +1377,7 @@
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Dragon Soldier",
-            "number": 21,
+            "number": 20,
             "color_identity": "W",
             "cost": "{3}{W}",
             "rules_text": "When Lungmen Guardsmen enters, creatures you control gain +1/+1 and first strike until end of turn.",
@@ -1387,18 +1387,18 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "??????",
+            "artist": "",
             "alias": "",
             "position": "65",
             "rotated": false,
-            "notes": ""
+            "notes": "https://x.com/Ksmtk79/status/1586018559871709184/photo/1\nKsmtk79 (@ksmtk79.bsky.sociall)"
         },
         {
             "card_name": "Infected Patrolman",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Bear Soldier",
-            "number": 15,
+            "number": 14,
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "This creature has vigilance as long as it is equipped.",
@@ -1429,11 +1429,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u5c0f\u9ec4\u9e21\u53fd\u53fd\u53fd\u53fd\u53fd\u53fd (Pixiv ID: 38956712)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "67",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/91234334"
         },
         {
             "card_name": "Caster Operator",
@@ -1450,28 +1450,28 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "Catatonic_II (Pixiv ID: 54777697)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "68",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/138405873\nCatatonic_II (Pixiv ID: 54777697)"
         },
         {
-            "card_name": "Medical Field Team",
+            "card_name": "Medic Operator",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Fox Cleric Ally",
-            "number": 23,
+            "number": 22,
             "color_identity": "W",
             "cost": "{2}{W}",
-            "rules_text": "Whenever an creature enters under your control, you gain 1 life. If that creature is an ally, then gain 2 life instead.",
+            "rules_text": "Whenever another creature enters under your control, you gain 1 life. If that creature is an ally, then you gain 2 life instead.",
             "flavor_text": "[i]\u201cBut I do remember that before I discovered Originium crystals on my body, I had a fever, headaches, and other symptoms.\u201d \n\u2014Dr. Sussurro's diary entry following Oripathy diagnosis[/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "auuuie (Pixiv ID: 66992041)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "69",
             "rotated": false,
@@ -1492,7 +1492,7 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u795e\u697d\u30c8\u30fc\u30eb (Pixiv ID: 18114581)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "70",
             "rotated": false,
@@ -1513,11 +1513,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u4e09\u76ee\u689fourto2 (Pixiv ID: 15588304)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "71",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/93006830\n\u4e09\u76ee\u689fourto2 (Pixiv ID: 15588304)"
         },
         {
             "card_name": "Streetwise Trickster",
@@ -1534,11 +1534,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u7c73\u8cc0\u30b7\u30b2\u30a2\u30ad/NQ\u3053\u3081 (Pixiv ID: 27044916)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "72",
             "rotated": false,
-            "notes": "Stun counters"
+            "notes": ""
         },
         {
             "card_name": "Junior Army Veteran",
@@ -1555,11 +1555,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u30e2\u30cd (Pixiv ID: 49171224)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "73",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/82330780"
         },
         {
             "card_name": "Guardian Ninja",
@@ -1569,18 +1569,18 @@
             "number": 99,
             "color_identity": "B",
             "cost": "{1}{B}",
-            "rules_text": "Sneak {B} [i](You may cast this spell for {B} if you also return an unblocked attacker you control to hand during the declare blockers step. It enters tapped and attacking.)[/i]\nWhen Guardian Ninja deals combat damage to a player, you may tap and put a stun counter on target creature that player controls.",
+            "rules_text": "Sneak {B} [i](You may cast this spell for {B} if you also return an unblocked attacker you control to hand during the declare blockers step. If this is a creature it enters tapped and attacking.)[/i]\nWhen Guardian Ninja deals combat damage to a player, you may tap and put a stun counter on target creature that player controls.",
             "flavor_text": "[i][/i]",
             "pt": "2/1",
             "special_text": "",
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u307e\u307b\u3057\u307e (Pixiv ID: 41083168)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "74",
             "rotated": false,
-            "notes": "wants for a synergistic mechanic"
+            "notes": "https://www.pixiv.net/en/artworks/117059146\n\u307e\u307b\u3057\u307e (Pixiv ID: 41083168)"
         },
         {
             "card_name": "Lungmen Pickpocket",
@@ -1639,11 +1639,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "Ruzi\u304b\u306d\u3064\u30ab\u30fc\u307a\u30c3\u30c8",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "77",
             "rotated": false,
-            "notes": ""
+            "notes": "https://x.com/Ruri73364885/status/1519634971668877312/photo/2\nRuzi\u304b\u306d\u3064\u30ab\u30fc\u307a\u30c3\u30c8"
         },
         {
             "card_name": "Surtr, Twilight Blade",
@@ -1660,11 +1660,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u4e94\u62fe\u4e8c (Pixiv ID: 19708198)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "78",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/92710044\n\u4e94\u62fe\u4e8c (Pixiv ID: 19708198)"
         },
         {
             "card_name": "Elite Operator Rosmontis",
@@ -1674,14 +1674,14 @@
             "number": 207,
             "color_identity": "WU",
             "cost": "{3}{W}{U}",
-            "rules_text": "Flying, First strike\n[i]Skill Activation[/i] \u2014 Whenever you cast a spell with mana value 4 or greater, deal 3 damage to target tapped creature you don't control, then create a colorless 0/3 wall artifact creature token with defender.",
+            "rules_text": "Flying, first strike\n[i]Skill Activation[/i] \u2014 Whenever you cast a spell with mana value 4 or greater, deal 3 damage to target tapped creature you don't control, then create a colorless 0/3 wall artifact creature token with defender.",
             "flavor_text": "[i][/i]",
             "pt": "3/3",
             "special_text": "",
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "https://eta-klein.lofter.com",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "79",
             "rotated": false,
@@ -1692,7 +1692,7 @@
             "color": "W",
             "rarity": "common",
             "type": "Artifact \u2014 Equipment",
-            "number": 14,
+            "number": 13,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Equip {2}\nEquipped creature has flying.\nEquipped creature gains \u201c{3}{W}{W}, {T}: Tap target creature and put a stun counter on it.\u201d",
@@ -1702,11 +1702,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u539f\u7ae0\u592a\u6717 (Pixiv ID: 22528152)",
+            "artist": "",
             "alias": "",
             "position": "80",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/81132242\n\u539f\u7ae0\u592a\u6717 (Pixiv ID: 22528152)"
         },
         {
             "card_name": "Swift Response",
@@ -1727,14 +1727,14 @@
             "alias": "",
             "position": "81",
             "rotated": false,
-            "notes": "very basic effect"
+            "notes": "https://x.com/kupikuuu/status/1264376563279097857"
         },
         {
             "card_name": "Material Recombination",
             "color": "W",
             "rarity": "common",
             "type": "Sorcery",
-            "number": 22,
+            "number": 21,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Destroy target artifact or enchantment.\nCreate an Originium token. [i](It's a colorless artifact with \u201c{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.\u201d)[/i]",
@@ -1748,7 +1748,7 @@
             "alias": "",
             "position": "82",
             "rotated": false,
-            "notes": "Factory production?"
+            "notes": "Official Art\nhttps://www.weibo.com/1919017185/KdqeEs6Hu"
         },
         {
             "card_name": "Swift Strike",
@@ -1776,7 +1776,7 @@
             "color": "W",
             "rarity": "common",
             "type": "Instant",
-            "number": 11,
+            "number": 10,
             "color_identity": "W",
             "cost": "{W}",
             "rules_text": "Exile target creature you control, then return that card to the battlefield under your control at the beginning of the next end step.\n[i]Skill Activation[/i] \u2014 If you cast a spell with mana value 4 or greater this turn, you may exile and return two target creatures instead.",
@@ -1786,7 +1786,7 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "https://kuilaogouhuabudongle.lofter.com",
+            "artist": "",
             "alias": "",
             "position": "84",
             "rotated": false,
@@ -1811,7 +1811,7 @@
             "alias": "",
             "position": "85",
             "rotated": false,
-            "notes": ""
+            "notes": "https://x.com/mochimewsu/status/1456713372007817218/photo/1"
         },
         {
             "card_name": "Command: Meltdown",
@@ -1828,11 +1828,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u672a\u6563\uff5c\u307f\u3061\u308b (Pixiv ID: 3948487)",
+            "artist": "",
             "alias": "",
             "position": "86",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/93162725"
         },
         {
             "card_name": "Preparedness Averts Peril",
@@ -1849,11 +1849,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "https://x.com/yoshi_kaoru",
+            "artist": "",
             "alias": "",
             "position": "87",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.weibo.com/2269973667/QDW9Ro159\nhttps://x.com/yoshi_kaoru"
         },
         {
             "card_name": "Scout Operator",
@@ -1870,11 +1870,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u3081\u308d\u3093\uff12\uff12 (Pixiv ID: 2963688)",
+            "artist": "",
             "alias": "",
             "position": "88",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/128156485"
         },
         {
             "card_name": "Frost Drone",
@@ -1916,7 +1916,7 @@
             "alias": "",
             "position": "90",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/124349444"
         },
         {
             "card_name": "Disdainful Stroke",
@@ -1933,7 +1933,7 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u56bc\u4e0d\u70c2\u7684\u7206\u7c73\u82b1",
+            "artist": "",
             "alias": "",
             "position": "91",
             "rotated": false,
@@ -1954,11 +1954,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u30e2\u30cd (Pixiv ID: 49171224)",
+            "artist": "",
             "alias": "",
             "position": "92",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/81314057"
         },
         {
             "card_name": "Rat King's Guile",
@@ -1996,7 +1996,7 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "https://x.com/PIBI_Bullet",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "94",
             "rotated": false,
@@ -2017,11 +2017,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "Huyukono\uff08\u3075\u3086\u3053\u306e\uff09 (Pixiv ID: 40648582)",
+            "artist": "",
             "alias": "",
             "position": "95",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/89703231"
         },
         {
             "card_name": "Partial Necrosis",
@@ -2038,11 +2038,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u4e03\u702c (Pixiv ID: 75794775)",
+            "artist": "",
             "alias": "",
             "position": "96",
             "rotated": false,
-            "notes": ""
+            "notes": "Do not modify or repost my work\nhttps://www.pixiv.net/en/artworks/128279503"
         },
         {
             "card_name": "Entwined",
@@ -2063,7 +2063,7 @@
             "alias": "",
             "position": "97",
             "rotated": false,
-            "notes": ""
+            "notes": "Repost is prohibited.\nUnauthorized posting and sharing from other sites is forbidden.\nhttps://www.pixiv.net/en/artworks/92485318"
         },
         {
             "card_name": "Precious Money Bank",
@@ -2143,11 +2143,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u6f6e\u6c50 (Pixiv ID: 6874684)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "101",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/82727909\n\u6f6e\u6c50 (Pixiv ID: 6874684)"
         },
         {
             "card_name": "Reunion Mortar Gunner",
@@ -2227,7 +2227,7 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "https://x.com/shabi96522",
+            "artist": "",
             "alias": "",
             "position": "105",
             "rotated": false,
@@ -2269,11 +2269,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "https://www.pixiv.net/artworks/81348163",
+            "artist": "",
             "alias": "",
             "position": "107",
             "rotated": false,
-            "notes": ""
+            "notes": "Repost with source : OK\nhttps://www.pixiv.net/artworks/81348163\nMiaach (Pixiv ID: 21441802)"
         },
         {
             "card_name": "Acute Oripathy Infection",
@@ -2311,7 +2311,7 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "hypergryph",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "109",
             "rotated": false,
@@ -2332,11 +2332,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "alk_(4lk_uq) (Pixiv ID: 43801073)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "110",
             "rotated": false,
-            "notes": ""
+            "notes": "https://x.com/4LK_UQ/status/1664012878410665985\nalk_(4lk_uq) (Pixiv ID: 43801073)"
         },
         {
             "card_name": "Rhine Labs Roboticist",
@@ -2353,11 +2353,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u4f9d\u672bYimo (Pixiv)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "111",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/77316808\n\u4f9d\u672bYimo (Pixiv)"
         },
         {
             "card_name": "Reunion Rioter",
@@ -2374,11 +2374,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "Catatonic_II (Pixiv)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "112",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/113067257\nCatatonic_II (Pixiv)"
         },
         {
             "card_name": "Gavial Tribe Ritualist",
@@ -2395,11 +2395,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "Rosele (Pixiv)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "113",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.weibo.com/2562662027/JgQn5w4jj\nRosele (Pixiv)"
         },
         {
             "card_name": "Columbian Cutter",
@@ -2416,7 +2416,7 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u795e\u697d\u30c8\u30fc\u30eb (Pixiv)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "114",
             "rotated": false,
@@ -2437,7 +2437,7 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u795e\u697d\u30c8\u30fc\u30eb (Pixiv ID: 18114581)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "115",
             "rotated": false,
@@ -2479,11 +2479,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "Ksmtk79 (@ksmtk79.bsky.sociall)",
+            "artist": "",
             "alias": "",
             "position": "117",
             "rotated": false,
-            "notes": ""
+            "notes": "https://x.com/Ksmtk79/status/1629403775403438080/photo/1\nKsmtk79 (@ksmtk79.bsky.sociall)"
         },
         {
             "card_name": "Talulah's Immolation",
@@ -2584,11 +2584,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "https://www.pixiv.net/en/users/113668615",
+            "artist": "",
             "alias": "",
             "position": "122",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/148957180\nhttps://www.pixiv.net/en/users/113668615"
         },
         {
             "card_name": "Certainty in Cinders",
@@ -2640,7 +2640,7 @@
             "number": 113,
             "color_identity": "B",
             "cost": "{2}{B}",
-            "rules_text": "Sneak {B} [i](You may cast this spell for {B} if you also return an unblocked attacker you control to hand during the declare blockers step.)[/i]\nTarget opponent reveals their hand. You choose a card from it. That player discards that card.",
+            "rules_text": "Sneak {B} [i](You may cast this spell for {B} if you also return an unblocked attacker you control to hand during the declare blockers step. If this is a creature it enters tapped and attacking.)[/i]\nTarget opponent reveals their hand. You choose a card from it. That player discards that card.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -2703,7 +2703,7 @@
             "number": 166,
             "color_identity": "G",
             "cost": "{1}{G}",
-            "rules_text": "Deathtouch.\nWhen Acidic Originium Slug dies, create an Originium token. [i](It's a colorless artifact with \u201c{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.\u201d)[/i]",
+            "rules_text": "Deathtouch\nWhen Acidic Originium Slug dies, create an Originium token. [i](It's a colorless artifact with \u201c{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.\u201d)[/i]",
             "flavor_text": "[i]An infected wild creature that can secrete corrosive fluids strong enough to dissolve armor.[/i]",
             "pt": "1/2",
             "special_text": "",
@@ -2773,11 +2773,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "ALS_\u6816\u5ddd\u3055\u304b\u308a (Pixiv)",
+            "artist": "",
             "alias": "",
             "position": "131",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/101453005\nALS_\u6816\u5ddd\u3055\u304b\u308a (Pixiv)"
         },
         {
             "card_name": "Catastrophe Messenger",
@@ -2794,11 +2794,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "Barbariank (Pixiv)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "132",
             "rotated": false,
-            "notes": ""
+            "notes": "https://x.com/Barbariank/status/1370482845353975810\nBarbariank (Pixiv)"
         },
         {
             "card_name": "Deadeye Operator",
@@ -2815,11 +2815,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "Kuroblood (Pixiv ID: 3209119)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "133",
             "rotated": false,
-            "notes": ""
+            "notes": "https://x.com/KuroBlood/status/1352538874904342532\nKuroblood (Pixiv ID: 3209119)"
         },
         {
             "card_name": "Ursus Mangler",
@@ -2878,11 +2878,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "Ksmtk79 (@ksmtk79.bsky.sociall)",
+            "artist": "",
             "alias": "",
             "position": "136",
             "rotated": false,
-            "notes": ""
+            "notes": "https://x.com/Ksmtk79/status/1606608352905428992/photo/1\nKsmtk79 (@ksmtk79.bsky.sociall)"
         },
         {
             "card_name": "Return to the Wilds",
@@ -2899,11 +2899,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "Fran (Pixiv Id: 18604150)",
+            "artist": "",
             "alias": "",
             "position": "137",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/99480997\nFran (Pixiv Id: 18604150)"
         },
         {
             "card_name": "Shieldguard's Protection",
@@ -2962,7 +2962,7 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "https://afuling.lofter.com",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "140",
             "rotated": false,
@@ -3004,11 +3004,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u6de1\u84dd (Pixiv ID: 16233751)",
+            "artist": "",
             "alias": "",
             "position": "142",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/101734094\n\u6de1\u84dd (Pixiv ID: 16233751)"
         },
         {
             "card_name": "Reunion Camp",
@@ -3046,11 +3046,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "LWJ (Pixiv ID: 64009988)",
+            "artist": "",
             "alias": "",
             "position": "144",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.bilibili.com/opus/668981121065680914\nLWJ (Pixiv ID: 64009988)"
         },
         {
             "card_name": "Medic's Staff",
@@ -3067,11 +3067,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "Fy (Pixiv: 4364773)",
+            "artist": "",
             "alias": "",
             "position": "145",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/83002538\nFy (Pixiv: 4364773)"
         },
         {
             "card_name": "Spear of Ruination",
@@ -3088,11 +3088,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u85cf\u82b3\u6ca1\u6709\u7528 (Pixiv ID: 9775573)",
+            "artist": "",
             "alias": "",
             "position": "146",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/87185834\n\u85cf\u82b3\u6ca1\u6709\u7528 (Pixiv ID: 9775573)"
         },
         {
             "card_name": "Surveyor Drone",
@@ -3109,11 +3109,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u3080\u3089\u304d (Pixiv ID: 10395965)",
+            "artist": "",
             "alias": "",
             "position": "147",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/80384112\n\u3080\u3089\u304d (Pixiv ID: 10395965)"
         },
         {
             "card_name": "Wolumonde City",
@@ -3466,18 +3466,18 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "Cri4s/12 (Pixiv ID: 45847876)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "164",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/104475570"
         },
         {
             "card_name": "Hired Crossbow",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Bird Mercenary Archer",
-            "number": 13,
+            "number": 12,
             "color_identity": "W",
             "cost": "{W}{W}",
             "rules_text": "Flying\nWhenever Hired Crossbow or another mercenary enters under your control, if an opponent controls more lands then you, create an Originium token. [i](It's a colorless artifact with \u201c{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.\u201d)[/i]",
@@ -3487,11 +3487,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u80d6\u5927 (Pixiv ID: 1348925)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "165",
             "rotated": false,
-            "notes": ""
+            "notes": "If you repost this, please clearly indicate the source.\nhttps://www.pixiv.net/en/artworks/82234639\n\u80d6\u5927 (Pixiv ID: 1348925)"
         },
         {
             "card_name": "Caladon Mounted Police",
@@ -3508,11 +3508,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "AT-Kitsune (Pixiv ID: 49527852)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "166",
             "rotated": false,
-            "notes": ""
+            "notes": "Unauthorized reproduction of illustrations is prohibited. For inquiries regarding usage, please contact me via Pixiv message.\nhttps://www.pixiv.net/en/artworks/85351383"
         },
         {
             "card_name": "Martial Arts Star",
@@ -3529,18 +3529,18 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u67d0\u6c0f\u5c4b (Pixiv ID: 9762981)",
+            "artist": "\u58fa\u4e5f",
             "alias": "",
             "position": "167",
             "rotated": false,
-            "notes": ""
+            "notes": "https://webusstatic.yo-star.com/ark_us_web/assets/159237770852515119/829aaf655c2602627aedd8fbb02630e7.jpg\nhttps://www.pixiv.net/en/artworks/96329259\n\u67d0\u6c0f\u5c4b (Pixiv ID: 9762981)"
         },
         {
             "card_name": "Patriot's End",
             "color": "W",
             "rarity": "uncommon",
             "type": "Instant",
-            "number": 24,
+            "number": 23,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Destroy target creature with power 4 or greater, you gain 2 life.",
@@ -3561,7 +3561,7 @@
             "color": "W",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 20,
+            "number": 19,
             "color_identity": "W",
             "cost": "{3}{W}{W}",
             "rules_text": "Tap up to two target creatures and put a stun counter on each.\nCreatures you control gain vigilance and get +1/+1 until end of turn.",
@@ -3575,7 +3575,7 @@
             "alias": "",
             "position": "169",
             "rotated": false,
-            "notes": ""
+            "notes": "Official Art (Wallpaper)\nhttps://x.com/ukaisaki/status/1233216636586299392"
         },
         {
             "card_name": "Rhodes Island Custody",
@@ -3613,11 +3613,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "hydro (Pixiv ID: 42613831)",
+            "artist": "",
             "alias": "",
             "position": "171",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/90737501\nhydro (Pixiv ID: 42613831)"
         },
         {
             "card_name": "Skyranger's Jetpack",
@@ -3638,7 +3638,7 @@
             "alias": "",
             "position": "172",
             "rotated": false,
-            "notes": "Needs better art"
+            "notes": ""
         },
         {
             "card_name": "Scientific Investigator",
@@ -3655,11 +3655,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u30af\u30b8\u30e9\u541b (Pixiv ID: 29928806)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "173",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/99784616\n\u30af\u30b8\u30e9\u541b (Pixiv ID: 29928806)"
         },
         {
             "card_name": "Lungmen Greytail",
@@ -3697,11 +3697,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "Sheya (Pixiv ID: 11764388)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "175",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/79815781"
         },
         {
             "card_name": "Inam Committee Chief",
@@ -3722,7 +3722,7 @@
             "alias": "",
             "position": "176",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/104661190"
         },
         {
             "card_name": "Generous Refusal",
@@ -3743,7 +3743,7 @@
             "alias": "",
             "position": "177",
             "rotated": false,
-            "notes": ""
+            "notes": "https://x.com/KuroBlood/status/1156102209970425856/photo/1"
         },
         {
             "card_name": "Training Room",
@@ -3760,11 +3760,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u7c73\u8cc0\u30b7\u30b2\u30a2\u30ad/NQ\u3053\u3081 (Pixiv ID: 27044916)",
+            "artist": "",
             "alias": "",
             "position": "178",
             "rotated": false,
-            "notes": ""
+            "notes": "No reproduction or republication without written permission.\nhttps://x.com/FrischeNq/status/1433205342045835268/photo/1\n\u7c73\u8cc0\u30b7\u30b2\u30a2\u30ad/NQ\u3053\u3081 (Pixiv ID: 27044916)"
         },
         {
             "card_name": "Tinker",
@@ -3785,7 +3785,7 @@
             "alias": "",
             "position": "179",
             "rotated": false,
-            "notes": "Flavor Text: Oriented around Rhodes Island generally"
+            "notes": "Official Art (From Artbook)\nhttps://www.pixiv.net/en/artworks/107543325"
         },
         {
             "card_name": "RIIC Factory Line",
@@ -3844,11 +3844,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "GuMiao (Pixiv ID: 8183853)",
+            "artist": "",
             "alias": "",
             "position": "182",
             "rotated": false,
-            "notes": ""
+            "notes": "https://x.com/GumiaoAndPeace/status/2063224820746342722/photo/1"
         },
         {
             "card_name": "Medical Experimenter",
@@ -3869,7 +3869,7 @@
             "alias": "",
             "position": "183",
             "rotated": false,
-            "notes": ""
+            "notes": "Official Art (EP Cover)\nhttps://x.com/KuroBlood/status/1358714605061607426/photo/1"
         },
         {
             "card_name": "S.W.E.E.P. Assassin",
@@ -3886,7 +3886,7 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "Min (Pixiv ID: 4701688)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "184",
             "rotated": false,
@@ -3907,11 +3907,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u3086\u3093\u306a\u3059 (Pixiv ID: 5270716)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "185",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/111459731\n\u3086\u3093\u306a\u3059 (Pixiv ID: 5270716)"
         },
         {
             "card_name": "Abyssal Patient",
@@ -3928,11 +3928,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u51b7\u51cd\u6c34\u66e6\u87f2 (Pixiv ID: 28500087)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "186",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/127781057\n\u51b7\u51cd\u6c34\u66e6\u87f2 (Pixiv ID: 28500087)"
         },
         {
             "card_name": "Reunion Senior Caster",
@@ -3964,13 +3964,13 @@
             "color_identity": "B",
             "cost": "{B}",
             "rules_text": "Destroy target creature if it has mana value 2 or less.\n[i]Revolt[/i] \u2014 Destroy that creature if it has mana value 4 or less instead if a permanent left the battlefield under your control this turn.",
-            "flavor_text": "[i]\u201cNow... I think, it's about time I also blow this joint.\u201d[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "Ouko (Pixiv ID: 42052596)",
+            "artist": "",
             "alias": "",
             "position": "188",
             "rotated": false,
@@ -4012,7 +4012,7 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "tmt (Pixiv ID: 17112)",
+            "artist": "",
             "alias": "",
             "position": "190",
             "rotated": false,
@@ -4033,11 +4033,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "Ksmtk79 (@ksmtk79.bsky.sociall)",
+            "artist": "",
             "alias": "",
             "position": "191",
             "rotated": false,
-            "notes": ""
+            "notes": "https://x.com/Ksmtk79/status/1633797101825179650/photo/1\nKsmtk79 (@ksmtk79.bsky.sociall)"
         },
         {
             "card_name": "Scrounge for Scraps",
@@ -4054,11 +4054,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u827e\u5c14\u56db\u6708 (Pixiv ID: 13600134)",
+            "artist": "",
             "alias": "",
             "position": "192",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/93560505\n\u827e\u5c14\u56db\u6708 (Pixiv ID: 13600134)"
         },
         {
             "card_name": "Originium Altar",
@@ -4096,11 +4096,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "a-bo\u6851 (Pixiv ID: 9525019)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "194",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/87501326\na-bo\u6851 (Pixiv ID: 9525019)"
         },
         {
             "card_name": "Rhodes Island Forgemaster",
@@ -4117,11 +4117,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u3051\u3093\u305b\u3044/Kensei (Pixiv ID: 18767313)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "195",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/83256438\n\u3051\u3093\u305b\u3044/Kensei (Pixiv ID: 18767313)"
         },
         {
             "card_name": "Bombtail Drone",
@@ -4159,7 +4159,7 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u3068\u308a\u3088\u3057/Toriyoshi (Pixiv ID: 3207772)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "197",
             "rotated": false,
@@ -4201,7 +4201,7 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "fixro2n\uff20\u6848\u4ef6\u52df\u96c6\u4e2d (Pixiv ID: 14709334)",
+            "artist": "",
             "alias": "",
             "position": "199",
             "rotated": false,
@@ -4264,11 +4264,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "https://www.pixiv.net/en/users/13771442",
+            "artist": "",
             "alias": "",
             "position": "202",
             "rotated": false,
-            "notes": ""
+            "notes": "https://x.com/kurii89800727/status/1400452483890094092/photo/1\nhttps://www.pixiv.net/en/users/13771442"
         },
         {
             "card_name": "Diligent Tinkering",
@@ -4285,11 +4285,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "https://x.com/CQQQQDAZE",
+            "artist": "",
             "alias": "",
             "position": "203",
             "rotated": false,
-            "notes": ""
+            "notes": "https://x.com/CQQQQDAZE/status/1418925078058840077/photo/1"
         },
         {
             "card_name": "Sarkaz Sentinel",
@@ -4327,11 +4327,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "3\u30b5\u30af (Pixiv ID: 49940940)",
+            "artist": "",
             "alias": "",
             "position": "205",
             "rotated": false,
-            "notes": ""
+            "notes": "https://x.com/3saku_39/status/1652327349445337089/photo/1\n3\u30b5\u30af (Pixiv ID: 49940940)\nMaybe don't use this art and try to find something else"
         },
         {
             "card_name": "Mudrock's Zealot",
@@ -4369,7 +4369,7 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "applemartini (https://applemartiniandu.lofter.com)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "207",
             "rotated": false,
@@ -4411,11 +4411,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "shijie jianfa (Pixiv ID: 3856364)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "209",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/81515267\nshijie jianfa (Pixiv ID: 3856364)"
         },
         {
             "card_name": "Mossback Beast",
@@ -4453,11 +4453,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "shijie jianfa (Pixiv ID: 3856364)",
+            "artist": "",
             "alias": "",
             "position": "211",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/107711166\nshijie jianfa (Pixiv ID: 3856364)"
         },
         {
             "card_name": "Campfire Festival",
@@ -4495,11 +4495,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "Ksmtk79 (@ksmtk79.bsky.sociall)",
+            "artist": "",
             "alias": "",
             "position": "213",
             "rotated": false,
-            "notes": ""
+            "notes": "https://x.com/Ksmtk79/status/1545034772443201536/photo/1\nKsmtk79 (@ksmtk79.bsky.sociall)"
         },
         {
             "card_name": "Abyssal Strike",
@@ -4516,11 +4516,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "Kurodra (Pixiv ID: 62321)",
+            "artist": "",
             "alias": "",
             "position": "214",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/90249008\nKurodra (Pixiv ID: 62321)"
         },
         {
             "card_name": "Wander the Tundra",
@@ -4541,7 +4541,7 @@
             "alias": "",
             "position": "215",
             "rotated": false,
-            "notes": ""
+            "notes": "Do not modify or repost my work\nhttps://www.pixiv.net/en/artworks/123576382"
         },
         {
             "card_name": "Bionics Engineer",
@@ -4558,11 +4558,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "Ruzi\u304b\u306d\u3064\u30ab\u30fc\u307a\u30c3\u30c8",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "216",
             "rotated": false,
-            "notes": ""
+            "notes": "https://x.com/Ruri73364885/status/2010242593310028046\nRuzi\u304b\u306d\u3064\u30ab\u30fc\u307a\u30c3\u30c8"
         },
         {
             "card_name": "Yeti Icecleaver",
@@ -4579,11 +4579,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "Hypergryph",
+            "artist": "Jell (@Jell_Y_Fish)",
             "alias": "",
             "position": "217",
             "rotated": false,
-            "notes": ""
+            "notes": "Official Art\nhttps://www.pixiv.net/en/artworks/113678153"
         },
         {
             "card_name": "Hateful Avenger",
@@ -4600,11 +4600,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "Yuugurin (Pixiv ID: 96039385)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "218",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/112603152\nYuugurin (Pixiv ID: 96039385)"
         },
         {
             "card_name": "Rim Billiton Messengers",
@@ -4621,11 +4621,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "https://mingzishenmedoushifuyun34108.lofter.com",
+            "artist": "\u5c3e\u5d0e\u30c9\u30df\u30ce",
             "alias": "",
             "position": "219",
             "rotated": false,
-            "notes": ""
+            "notes": "Official Art (Wallpaper)\nhttps://webusstatic.yo-star.com/ark_us_web/assets/162683965925015571/888d750587b0926c98251390ca2e13f8.jpg"
         },
         {
             "card_name": "Travelling Scholar",
@@ -4642,11 +4642,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "Calder_\u6d38 (Pixiv ID: 20764416)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "220",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/78381110\nCalder_\u6d38 (Pixiv ID: 20764416)"
         },
         {
             "card_name": "Mudrock Matterllurgist",
@@ -4684,11 +4684,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u4e09\u6bdb\u5f8b (Pixiv ID: 4978606)",
+            "artist": "",
             "alias": "",
             "position": "222",
             "rotated": false,
-            "notes": ""
+            "notes": "Unauthorized reproduction is prohibited. I do not permit the use of illustrations as icons or headers, except for those I have directly provided.\nhttps://www.pixiv.net/en/artworks/96095284\n\u4e09\u6bdb\u5f8b (Pixiv ID: 4978606)"
         },
         {
             "card_name": "Water Cannon",
@@ -4705,7 +4705,7 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "observerZ (Pixiv: 19932)",
+            "artist": "",
             "alias": "",
             "position": "223",
             "rotated": false,
@@ -4726,11 +4726,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u308d\u3051 (Pixiv ID: 946783)",
+            "artist": "",
             "alias": "",
             "position": "224",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/79093026\n\u308d\u3051 (Pixiv ID: 946783)"
         },
         {
             "card_name": "Avenger's Katana",
@@ -4747,11 +4747,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u56bc\u4e0d\u70c2\u7684\u7206\u7c73\u82b1",
+            "artist": "",
             "alias": "",
             "position": "225",
             "rotated": false,
-            "notes": "Something flashy at low life"
+            "notes": "https://www.pixiv.net/en/artworks/82068681\n\u56bc\u4e0d\u70c2\u7684\u7206\u7c73\u82b1 Pixiv ID: 4853287)"
         },
         {
             "card_name": "Chernobog City-Plate",
@@ -4789,11 +4789,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u304d\u308a\u3085\u3046 (Pixiv ID: 57867752)",
+            "artist": "",
             "alias": "",
             "position": "227",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/83652893\n\u304d\u308a\u3085\u3046 (Pixiv ID: 57867752)"
         },
         {
             "card_name": "Imperial Artillery Targeter",
@@ -4831,18 +4831,18 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "Uyo (Pixiv ID: 45005148)",
+            "artist": "",
             "alias": "",
             "position": "229",
             "rotated": false,
-            "notes": ""
+            "notes": "Get a better kettle\nhttps://x.com/uyouu19/status/2064286402284843205/photo/1\nUyo (Pixiv ID: 45005148)"
         },
         {
             "card_name": "Infection Monitor Band",
             "color": "W",
             "rarity": "uncommon",
             "type": "Artifact \u2014 Equipment",
-            "number": 16,
+            "number": 15,
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "[i]Recruitment[/i] \u2014 When Infection Monitor Band enters, create a 2/2 white Ally creature token and attach this equipment to it.\nEquip {2}\nEquipped creature gets +1/+1 and has \u201cat the beginning of your upkeep, gain 1 life.\u201d",
@@ -4989,7 +4989,7 @@
             "color": "W",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Snake Soldier Ally",
-            "number": 10,
+            "number": 9,
             "color_identity": "W",
             "cost": "{3}{W}",
             "rules_text": "Elite Operator Ace enters with an indestructible counter.\nRemove an indestructible counter from Elite Operator Ace: Other creatures you control gain indestructible until end of turn.",
@@ -4999,7 +4999,7 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u3081\u308d\u3093\uff12\uff12 (Pixiv ID: 2963688)",
+            "artist": "",
             "alias": "",
             "position": "237",
             "rotated": false,
@@ -5020,11 +5020,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "fixro2n\uff20\u6848\u4ef6\u52df\u96c6\u4e2d (Pixiv ID: 14709334)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "238",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/83664329"
         },
         {
             "card_name": "Snowfield Rescue",
@@ -5041,7 +5041,7 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "JDHL Fire (Pixiv ID: 52013156)",
+            "artist": "",
             "alias": "",
             "position": "239",
             "rotated": false,
@@ -5083,18 +5083,18 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u9752\u9f8d\u80cc\u4e0a\u7684\u4f0d\u9b5a (Pixiv ID: 17824262)",
+            "artist": "",
             "alias": "",
             "position": "241",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/79866346"
         },
         {
             "card_name": "Hannya, Trusted Shield",
             "color": "W",
             "rarity": "rare",
             "type": "Legendary Artifact \u2014 Equipment",
-            "number": 12,
+            "number": 11,
             "color_identity": "W",
             "cost": "{1}{W}{W}",
             "rules_text": "Equip {2}\nEquipped creature get +0/+3\nAll damage that would be dealt to you is dealt to equipped creature instead.",
@@ -5146,11 +5146,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u7709\u7a14 (BSKY: @aaapair.bsky.social)",
+            "artist": "",
             "alias": "",
             "position": "244",
             "rotated": false,
-            "notes": ""
+            "notes": "Official Art\nWorks are prohibited from being reposted/prohibited from AI use/prohibited from private printing, controversial comments will be deleted\nhttps://x.com/aaapair/status/2059881052299309109/photo/1"
         },
         {
             "card_name": "Trust your Eyes",
@@ -5167,11 +5167,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "Kuroblood (Pixiv ID: 3209119)",
+            "artist": "",
             "alias": "",
             "position": "245",
             "rotated": false,
-            "notes": ""
+            "notes": "https://x.com/KuroBlood/status/1521445020255277056/photo/1\nKuroblood (Pixiv ID: 3209119)"
         },
         {
             "card_name": "Chernobog Sarcophagus",
@@ -5209,11 +5209,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "CAKEMOGO (Pixiv ID: 9884432)",
+            "artist": "",
             "alias": "",
             "position": "247",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/82018753\nCAKEMOGO (Pixiv ID: 9884432)"
         },
         {
             "card_name": "Convolution",
@@ -5244,7 +5244,7 @@
             "number": 51,
             "color_identity": "U",
             "cost": "{2}{U}{U}",
-            "rules_text": "Choose 2 \u2014 \n\u2022 Counter target noncreature spell\n\u2022 Draw a card.\n\u2022 Proliferate [i](To proliferate, choose any number of permanents and/or players, then give each another counter of each kind already there.)[/i]\n\u2022 Tap target creature and put a stun counter on it.",
+            "rules_text": "Choose two \u2014 \n\u2022 Counter target noncreature spell\n\u2022 Draw a card.\n\u2022 Proliferate [i](To proliferate, choose any number of permanents and/or players, then give each another counter of each kind already there.)[/i]\n\u2022 Tap target creature and put a stun counter on it.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -5272,11 +5272,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u6de1\u84dd (Pixiv ID: 16233751)",
+            "artist": "",
             "alias": "",
             "position": "250",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/85996427\n\u6de1\u84dd (Pixiv ID: 16233751)"
         },
         {
             "card_name": "Lungmen Shadow Guard",
@@ -5314,11 +5314,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "newflame (Pixiv ID: 44911359)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "252",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/94570083\nnewflame (Pixiv ID: 44911359)"
         },
         {
             "card_name": "Mephisto, Reunion Captain",
@@ -5377,11 +5377,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u7121\u7cd6 (Pixiv ID: 45211134)",
+            "artist": "",
             "alias": "",
             "position": "255",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/120262341"
         },
         {
             "card_name": "Separated Hearts",
@@ -5419,11 +5419,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u9ed2\u30c9\u30e9\uff20\u304a\u4ed5\u4e8b\u52df\u96c6\u4e2d (Pixiv ID: 62321)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "257",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/91696130\n\u9ed2\u30c9\u30e9\uff20\u304a\u4ed5\u4e8b\u52df\u96c6\u4e2d (Pixiv ID: 62321)"
         },
         {
             "card_name": "Pompeii, Heart of Surging Flame",
@@ -5507,7 +5507,7 @@
             "alias": "",
             "position": "261",
             "rotated": false,
-            "notes": ""
+            "notes": "Official Art\nhttps://x.com/wooperfuri/status/1258947903130710016"
         },
         {
             "card_name": "Flexible Camouflage",
@@ -5545,11 +5545,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u78c1\u77f3 (PIxiv ID: 66127697)",
+            "artist": "",
             "alias": "",
             "position": "263",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/88278245\n\u78c1\u77f3 (PIxiv ID: 66127697)"
         },
         {
             "card_name": "Faust, Phantom Sniper",
@@ -5559,18 +5559,18 @@
             "number": 177,
             "color_identity": "G",
             "cost": "{3}{G}",
-            "rules_text": "Ward {2}\nDeathtouch, reach\n{2}{G}{G}, {T}: Destroy target artifact or enchantment with mana value 4 or less.",
+            "rules_text": "Ward {2}\nReach, deathtouch\n{2}{G}{G}, {T}: Destroy target artifact or enchantment with mana value 4 or less.",
             "flavor_text": "[i]A Sniper who is one of Reunion's squad leaders, often working in tandem with Mephisto.[/i]",
             "pt": "2/5",
             "special_text": "",
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u795e\u697d\u30c8\u30fc\u30eb (Pixiv ID: 18114581)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "264",
             "rotated": false,
-            "notes": "This art needs to change"
+            "notes": "https://x.com/DDJJ1996/status/1267988773842780161/photo/4\n\u795e\u697d\u30c8\u30fc\u30eb (Pixiv ID: 18114581)"
         },
         {
             "card_name": "Spirited Messenger",
@@ -5591,7 +5591,7 @@
             "alias": "",
             "position": "265",
             "rotated": false,
-            "notes": ""
+            "notes": "Official Art\nhttps://www.weibo.com/7499841383/L1qafasfI"
         },
         {
             "card_name": "Search for Safety",
@@ -5608,11 +5608,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "YUEC (Pixiv ID: 6947654)",
+            "artist": "",
             "alias": "",
             "position": "266",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/110560009\nYUEC (Pixiv ID: 6947654)"
         },
         {
             "card_name": "Way of the Tiacauh",
@@ -5629,11 +5629,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u6653\u98a8 (Pixiv ID: 6799681)",
+            "artist": "",
             "alias": "",
             "position": "267",
             "rotated": false,
-            "notes": ""
+            "notes": "Chinese Language Note \u2192 All works posted on Pixiv are free to be reposted, as long as the author is credited. Image theft is not allowed.\nhttps://www.pixiv.net/en/artworks/103393589\n\u6653\u98a8 (Pixiv ID: 6799681)"
         },
         {
             "card_name": "Inspiring Call",
@@ -5696,7 +5696,7 @@
             "alias": "",
             "position": "270",
             "rotated": false,
-            "notes": "Double check for the artist\nPush Stroker's Fists"
+            "notes": "Official Art\nhttps://www.pixiv.net/en/artworks/102773067"
         },
         {
             "card_name": "Enciodes Silverash",
@@ -5713,11 +5713,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u305f\u3063\u305f\u3093\u3076 Twitter (@ttnb5age)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "271",
             "rotated": false,
-            "notes": ""
+            "notes": "\u305f\u3063\u305f\u3093\u3076 Twitter (@ttnb5age) (first image source)"
         },
         {
             "card_name": "Lin Grey, Rat King",
@@ -5734,11 +5734,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "Akai 999 (https://x.com/akai_999)",
+            "artist": "akai",
             "alias": "",
             "position": "272",
             "rotated": false,
-            "notes": ""
+            "notes": "Official Art\nhttps://x.com/akai_999/status/1759135134295671187/photo/1"
         },
         {
             "card_name": "Student of Kal'tsit",
@@ -5769,18 +5769,18 @@
             "number": 253,
             "color_identity": "UG",
             "cost": "{5}{G}{U}",
-            "rules_text": "Trample, flash\nWhenever Skadi, Abyssal Hunter attacks, put a +1/+1 counter on it then proliferate. [i](Choose any number of permanents and/or players, then give each another counter of each kind already there.)[/i]",
+            "rules_text": "Flash\nTrample\nWhenever Skadi, Abyssal Hunter attacks, put a +1/+1 counter on it then proliferate.",
             "flavor_text": "[i][/i]",
             "pt": "5/5",
             "special_text": "",
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u827eEly (Pixiv ID: 56944587)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "274",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/129446498\n\u827eEly (Pixiv ID: 56944587)"
         },
         {
             "card_name": "Adele Naumann, Volcanologist",
@@ -5801,7 +5801,7 @@
             "alias": "",
             "position": "275",
             "rotated": false,
-            "notes": ""
+            "notes": "Reposting is OK, please credit your ID.\nPersonal use is free to take without authorization.\nhttps://www.pixiv.net/en/artworks/80697081"
         },
         {
             "card_name": "Suzuran, Foxfire Child",
@@ -5818,11 +5818,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u8f5f (Pixiv ID: 30551748)",
+            "artist": "\u6df5\u309b",
             "alias": "",
             "position": "276",
             "rotated": false,
-            "notes": ""
+            "notes": "https://webusstatic.yo-star.com/ark_us_web/assets/160448431355914828/54b990fe05125457d94b319976f2c346.jpg\nOfficial Art\nBoth sources were removed, though the original art was the artwork for Suzuran's theme on billibilli\n\u8f5f (Pixiv ID: 30551748)"
         },
         {
             "card_name": "Mr. Lee, Lungmen Detective",
@@ -5839,11 +5839,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u6301\u7530 (Pixiv ID: 942897)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "277",
             "rotated": false,
-            "notes": "Artist has DO NOT REUPLOAD"
+            "notes": "I wholly forbid the reproduction and manufacturing of my work without permission\n\u6301\u7530 (Pixiv ID: 942897)"
         },
         {
             "card_name": "Lappland, Rogue Mafioso",
@@ -5860,11 +5860,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u5e7b\u50cf\u9ed2\u514e (Pixiv ID: 4462245)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "278",
             "rotated": false,
-            "notes": ""
+            "notes": "https://x.com/coneyrivard/status/1150002555725860865\n\u5e7b\u50cf\u9ed2\u514e (Pixiv ID: 4462245)"
         },
         {
             "card_name": "Angelina Ajimu",
@@ -5881,11 +5881,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u6de1\u84dd (Pixiv ID: 16233751)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "279",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/112359319\n\u6de1\u84dd (Pixiv ID: 16233751)"
         },
         {
             "card_name": "Modified Starflail",
@@ -5902,11 +5902,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "mitti (Pixiv ID: 5279221)",
+            "artist": "",
             "alias": "",
             "position": "280",
             "rotated": false,
-            "notes": "Alt Name: Bladed Chain Mace"
+            "notes": "https://www.pixiv.net/en/artworks/83313679\nmitti (Pixiv ID: 5279221)\nI should get better art, asking the artist just for the flail would feel mean."
         },
         {
             "card_name": "Water of Life",
@@ -5923,11 +5923,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u65b0Fei (Pixiv ID: 14719871)",
+            "artist": "",
             "alias": "",
             "position": "281",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/87656667\n\u65b0Fei (Pixiv ID: 14719871)\nI can do better than this"
         },
         {
             "card_name": "Foiled Fury",
@@ -6011,7 +6011,7 @@
             "alias": "",
             "position": "285",
             "rotated": false,
-            "notes": "Need to make this splashier"
+            "notes": ""
         },
         {
             "card_name": "Cheers of Celebration",
@@ -6053,7 +6053,7 @@
             "alias": "",
             "position": "287",
             "rotated": false,
-            "notes": "This might be too much"
+            "notes": ""
         },
         {
             "card_name": "Mephisto, the Singer",
@@ -6070,11 +6070,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u3081\u308d\u3093\uff12\uff12 (Pixiv ID: 2963688)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "288",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/128156485\n\u3081\u308d\u3093\uff12\uff12 (Pixiv ID: 2963688)"
         },
         {
             "card_name": "Anterior Vigilo",
@@ -6145,11 +6145,11 @@
             "pt2": "5/3",
             "special_text2": "",
             "loyalty2": "",
-            "artist2": "\u585e\u622e\u5c14 (Pixiv ID: 15074723)",
+            "artist2": "Hypergryph",
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": "\n"
+            "notes": "Official Art\nhttps://x.com/HypergryphArtOS/status/1849335753198932314/photo/1\nhttps://www.pixiv.net/en/artworks/85306846\n\u585e\u622e\u5c14 (Pixiv ID: 15074723)"
         },
         {
             "card_name": "Roadblock",
@@ -6187,11 +6187,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u7b39\u304f\u308b\u307f (Pixiv ID: 23337522)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "294",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/83609494\n\u7b39\u304f\u308b\u307f (Pixiv ID: 23337522)"
         },
         {
             "card_name": "Roaring Flare",
@@ -6271,11 +6271,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u84ee\u5fc3\u6708\u997c (Pixiv ID: 12576561)",
+            "artist": "",
             "alias": "",
             "position": "298",
             "rotated": false,
-            "notes": "Need to make this splashier"
+            "notes": "https://www.pixiv.net/en/artworks/78442555\n\u84ee\u5fc3\u6708\u997c (Pixiv ID: 12576561)"
         },
         {
             "card_name": "Nightingale of the Followers",
@@ -6292,7 +6292,7 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u7339Ccc (Pixiv ID: 16836322)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "299",
             "rotated": false,
@@ -6313,11 +6313,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "\u82e5\u82e5\u79cb (Pixiv ID: 656259)",
+            "artist": "Hypergryph",
             "alias": "",
             "position": "300",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/78218062\n\u82e5\u82e5\u79cb (Pixiv ID: 656259)"
         },
         {
             "card_name": "Plains",
@@ -6712,11 +6712,11 @@
             "shape": "normal",
             "set": "ASV",
             "loyalty": "",
-            "artist": "MAaaaaaackia (Pixiv ID: 14161677)",
+            "artist": "",
             "alias": "",
             "position": "319",
             "rotated": false,
-            "notes": ""
+            "notes": "https://www.pixiv.net/en/artworks/124554304"
         },
         {
             "card_name": "Vector Breakthrough",
