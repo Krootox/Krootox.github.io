@@ -1,4 +1,175 @@
-﻿VERSION 25 CHANGELOG
+﻿VERSION 26 CHANGELOG
+====================
+
+Turn To Originium added.
+
+Counter EMP removed.
+
+Durin Flagbearer
+
+The High Priest of Achualla
+
+Transport Hovercraft
+
+Emperor, Logistics Kingpin
+
+Ice Nova
+
+Final Vengeance
+
+Doctor, Strategic Mastermind
+
+Reserve Operator Squad
+
+Lungmen Guardsmen
+
+Guardian Ninja
+rules_text: Sneak {B} [i](You may cast this spell for {B} if you also return an unblocked attacker you control to hand during the declare blockers step. If this is a creature it enters tapped and attacking.)[/i]
+When Guardian Ninja deals combat damage to a player, you may tap and put a stun counter on target creature that player controls. => Sneak {B} [i](You may cast this spell for {B} if you also return an unblocked attacker you control to hand during the declare blockers step. It enters tapped and attacking.)[/i]
+When Guardian Ninja deals combat damage to a player, you may tap and put a stun counter on target creature that player controls.
+
+Hookmaster's Tools
+
+Swift Response
+
+Expedited Delivery
+
+Binding Circle
+
+Command: Meltdown
+
+Preparedness Averts Peril
+
+Scout Operator
+
+Fishmarket Barter
+
+Disdainful Stroke
+
+Rat King's Guile
+
+Become Anew
+
+Partial Necrosis
+
+Entwined
+
+Out of Options
+
+Dodge Death
+
+Reunion Rally
+
+Arts of the Wilds
+
+Reunion Sabotage
+rules_text: Sneak {B} [i](You may cast this spell for {B} if you also return an unblocked attacker you control to hand during the declare blockers step. If this is a creature it enters tapped and attacking.)[/i]
+Target opponent reveals their hand. You choose a card from it. That player discards that card. => Sneak {B} [i](You may cast this spell for {B} if you also return an unblocked attacker you control to hand during the declare blockers step.)[/i]
+Target opponent reveals their hand. You choose a card from it. That player discards that card.
+
+Wayward Archausauria
+
+Shoot Down
+
+Return to the Wilds
+
+Bone Fracture
+
+Display of Might
+
+Overgrown City-Plate
+
+Medic's Staff
+
+Spear of Ruination
+
+Surveyor Drone
+
+Stable Esthesia
+
+Inam Committee Chief
+
+Generous Refusal
+
+Training Room
+
+Perfect Operation
+
+Fatal Push
+
+Devastating Loss
+
+Woven Shadow
+
+Oripathy Outbreak
+
+Scrounge for Scraps
+
+Stinging Shock
+
+Pyrrhic Blast
+
+Diligent Tinkering
+
+Ignis Hammer
+
+Rewinding Breeze
+
+Unshakable Solidarity
+
+Abyssal Strike
+
+Wander the Tundra
+
+Thermite Blade
+
+Water Cannon
+
+Instructor's Whip
+
+Avenger's Katana
+
+Delivery Buggy
+
+Hot Water Kettle
+
+Elite Operator Ace
+
+Snowfield Rescue
+
+Shadowless
+
+Elite Operator Squad
+
+Trust your Eyes
+rules_text: Tap and put two stun counters on target creature.
+Redistribute all counters on each creature on the battlefield. => Tap and put two stun counters on up to one target creature.
+Redistribute all counters on each creature on the battlefield.
+
+Skill Aura
+
+Lavender's Fragrance
+
+Cover the Damages
+
+Ceobe's Fungimist
+
+Search for Safety
+
+Way of the Tiacauh
+
+Inspiring Call
+
+Modified Starflail
+
+Water of Life
+
+Tidal Elegy
+
+Paradox Simulation
+
+
+VERSION 25 CHANGELOG
 ====================
 
 Penguin Protector added.

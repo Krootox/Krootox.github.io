@@ -49,7 +49,7 @@
     },
     {
         "card_name": "Doctor, Strategic Mastermind",
-        "number": 48,
+        "number": 47,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -169,7 +169,7 @@
     },
     {
         "card_name": "Elite Operator Squad",
-        "number": 49,
+        "number": 48,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -209,7 +209,7 @@
     },
     {
         "card_name": "Expanded Cognition",
-        "number": 51,
+        "number": 50,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -249,7 +249,7 @@
     },
     {
         "card_name": "The High Priest of Achualla",
-        "number": 56,
+        "number": 55,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -289,7 +289,7 @@
     },
     {
         "card_name": "Paradox Simulation",
-        "number": 66,
+        "number": 65,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -329,7 +329,7 @@
     },
     {
         "card_name": "Skill Aura",
-        "number": 75,
+        "number": 74,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -369,7 +369,7 @@
     },
     {
         "card_name": "Trust your Eyes",
-        "number": 80,
+        "number": 79,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -409,7 +409,7 @@
     },
     {
         "card_name": "Generous Refusal",
-        "number": 54,
+        "number": 53,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -449,7 +449,7 @@
     },
     {
         "card_name": "Hide the Evidence",
-        "number": 55,
+        "number": 54,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -489,7 +489,7 @@
     },
     {
         "card_name": "Ice Nova",
-        "number": 57,
+        "number": 56,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -529,7 +529,7 @@
     },
     {
         "card_name": "Inam Committee Chief",
-        "number": 58,
+        "number": 57,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -569,7 +569,7 @@
     },
     {
         "card_name": "Karlan Climber",
-        "number": 60,
+        "number": 59,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -609,7 +609,7 @@
     },
     {
         "card_name": "Lungmen Greytail",
-        "number": 63,
+        "number": 62,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -649,7 +649,7 @@
     },
     {
         "card_name": "Mobile Tactical Hangar",
-        "number": 64,
+        "number": 63,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -689,7 +689,7 @@
     },
     {
         "card_name": "Perfect Operation",
-        "number": 68,
+        "number": 67,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -729,7 +729,7 @@
     },
     {
         "card_name": "Scientific Investigator",
-        "number": 74,
+        "number": 73,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -769,7 +769,7 @@
     },
     {
         "card_name": "Strict Instructor",
-        "number": 77,
+        "number": 76,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -809,7 +809,7 @@
     },
     {
         "card_name": "Tinker",
-        "number": 79,
+        "number": 78,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -888,12 +888,12 @@
         "position": "85"
     },
     {
-        "card_name": "Counter EMP",
+        "card_name": "Disdainful Stroke",
         "number": 46,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
-        "position": "92"
+        "position": "91"
     },
     {
         "card_name": "Chernobog Survivor",
@@ -928,12 +928,12 @@
         "position": "67"
     },
     {
-        "card_name": "Disdainful Stroke",
-        "number": 47,
+        "card_name": "Entwined",
+        "number": 49,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
-        "position": "91"
+        "position": "97"
     },
     {
         "card_name": "Dodge Death",
@@ -968,12 +968,12 @@
         "position": "68"
     },
     {
-        "card_name": "Entwined",
-        "number": 50,
+        "card_name": "Fishmarket Barter",
+        "number": 51,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
-        "position": "97"
+        "position": "90"
     },
     {
         "card_name": "Famiglia Mafioso",
@@ -1008,12 +1008,12 @@
         "position": "86"
     },
     {
-        "card_name": "Fishmarket Barter",
+        "card_name": "Frost Drone",
         "number": 52,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
-        "position": "90"
+        "position": "89"
     },
     {
         "card_name": "Final Vengeance",
@@ -1048,12 +1048,12 @@
         "position": "84"
     },
     {
-        "card_name": "Frost Drone",
-        "number": 53,
+        "card_name": "Junior Army Veteran",
+        "number": 58,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
-        "position": "89"
+        "position": "73"
     },
     {
         "card_name": "Grim Discovery",
@@ -1088,12 +1088,12 @@
         "position": "80"
     },
     {
-        "card_name": "Junior Army Veteran",
-        "number": 59,
+        "card_name": "Literature Storm",
+        "number": 60,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
-        "position": "73"
+        "position": "94"
     },
     {
         "card_name": "Guardian Ninja",
@@ -1128,12 +1128,12 @@
         "position": "66"
     },
     {
-        "card_name": "Literature Storm",
+        "card_name": "Lungmen Firefighter",
         "number": 61,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
-        "position": "94"
+        "position": "41"
     },
     {
         "card_name": "Kazdelian Artilleryman",
@@ -1168,12 +1168,12 @@
         "position": "61"
     },
     {
-        "card_name": "Lungmen Firefighter",
-        "number": 62,
+        "card_name": "Operational Intelligence",
+        "number": 64,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
-        "position": "41"
+        "position": "39"
     },
     {
         "card_name": "Lungmen Pickpocket",
@@ -1208,12 +1208,12 @@
         "position": "52"
     },
     {
-        "card_name": "Operational Intelligence",
-        "number": 65,
+        "card_name": "Partial Necrosis",
+        "number": 66,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
-        "position": "39"
+        "position": "96"
     },
     {
         "card_name": "Out of Options",
@@ -1248,12 +1248,12 @@
         "position": "62"
     },
     {
-        "card_name": "Partial Necrosis",
-        "number": 67,
+        "card_name": "Precious Money Bank",
+        "number": 68,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
-        "position": "96"
+        "position": "98"
     },
     {
         "card_name": "Phantom Crossbowman",
@@ -1288,12 +1288,12 @@
         "position": "65"
     },
     {
-        "card_name": "Precious Money Bank",
+        "card_name": "Preparedness Averts Peril",
         "number": 69,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
-        "position": "98"
+        "position": "87"
     },
     {
         "card_name": "Plunge",
@@ -1328,12 +1328,12 @@
         "position": "82"
     },
     {
-        "card_name": "Preparedness Averts Peril",
+        "card_name": "Rat King's Guile",
         "number": 70,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
-        "position": "87"
+        "position": "93"
     },
     {
         "card_name": "Possess the Fallen",
@@ -1368,12 +1368,12 @@
         "position": "69"
     },
     {
-        "card_name": "Rat King's Guile",
+        "card_name": "Reclusive Bookworm",
         "number": 71,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
-        "position": "93"
+        "position": "30"
     },
     {
         "card_name": "Reunion Airborne Soldier",
@@ -1408,12 +1408,12 @@
         "position": "60"
     },
     {
-        "card_name": "Reclusive Bookworm",
+        "card_name": "Reunion Wraith",
         "number": 72,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
-        "position": "30"
+        "position": "11"
     },
     {
         "card_name": "Reunion Junkman",
@@ -1448,12 +1448,12 @@
         "position": "88"
     },
     {
-        "card_name": "Reunion Wraith",
-        "number": 73,
+        "card_name": "Streetwise Trickster",
+        "number": 75,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
-        "position": "11"
+        "position": "72"
     },
     {
         "card_name": "Reunion Mortar Gunner",
@@ -1488,12 +1488,12 @@
         "position": "64"
     },
     {
-        "card_name": "Streetwise Trickster",
-        "number": 76,
+        "card_name": "Studied Martial Artist",
+        "number": 77,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
-        "position": "72"
+        "position": "70"
     },
     {
         "card_name": "Reunion Sabotage",
@@ -1528,12 +1528,12 @@
         "position": "81"
     },
     {
-        "card_name": "Studied Martial Artist",
-        "number": 78,
+        "card_name": "Turn To Originium",
+        "number": 80,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
-        "position": "70"
+        "position": "92"
     },
     {
         "card_name": "S.W.E.E.P. Scavenger",
