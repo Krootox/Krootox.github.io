@@ -17,7 +17,7 @@
     },
     {
         "card_name": "The Birth of Tragedy",
-        "number": 85,
+        "number": 86,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -25,7 +25,7 @@
     },
     {
         "card_name": "Chi Xiao, Dragon-Slayer",
-        "number": 130,
+        "number": 133,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -33,7 +33,7 @@
     },
     {
         "card_name": "Assembled Movement",
-        "number": 167,
+        "number": 171,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -57,7 +57,7 @@
     },
     {
         "card_name": "Duke Kashchey",
-        "number": 93,
+        "number": 94,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -65,7 +65,7 @@
     },
     {
         "card_name": "Roaring Flare",
-        "number": 157,
+        "number": 161,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -73,7 +73,7 @@
     },
     {
         "card_name": "Memories of Better Days",
-        "number": 181,
+        "number": 186,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -97,7 +97,7 @@
     },
     {
         "card_name": "Chernobog Catastrophe",
-        "number": 86,
+        "number": 87,
         "shape": "saga",
         "set": "ASV",
         "rotated": false,
@@ -105,7 +105,7 @@
     },
     {
         "card_name": "Annihilation Operation",
-        "number": 124,
+        "number": 127,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -113,7 +113,7 @@
     },
     {
         "card_name": "Big Bob",
-        "number": 168,
+        "number": 172,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -137,7 +137,7 @@
     },
     {
         "card_name": "Contingency Contract",
-        "number": 88,
+        "number": 89,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -145,7 +145,7 @@
     },
     {
         "card_name": "Avenger's Katana",
-        "number": 126,
+        "number": 129,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -153,7 +153,7 @@
     },
     {
         "card_name": "Faust, Phantom Sniper",
-        "number": 177,
+        "number": 181,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -177,7 +177,7 @@
     },
     {
         "card_name": "Cover the Damages",
-        "number": 89,
+        "number": 90,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -185,7 +185,7 @@
     },
     {
         "card_name": "Crownslayer, Reunion Infiltrator",
-        "number": 132,
+        "number": 135,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -193,7 +193,7 @@
     },
     {
         "card_name": "Gavial's Might",
-        "number": 178,
+        "number": 182,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -217,7 +217,7 @@
     },
     {
         "card_name": "Cruel Arts",
-        "number": 90,
+        "number": 91,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -225,7 +225,7 @@
     },
     {
         "card_name": "Elite Operator Blaze",
-        "number": 134,
+        "number": 137,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -233,11 +233,11 @@
     },
     {
         "card_name": "Inspiring Call",
-        "number": 180,
+        "number": 185,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
-        "position": "268"
+        "position": "324"
     },
     {
         "card_name": "Shining, Confessor Exile",
@@ -257,7 +257,7 @@
     },
     {
         "card_name": "Mephisto, Reunion Captain",
-        "number": 103,
+        "number": 104,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -265,7 +265,7 @@
     },
     {
         "card_name": "Explosive Entrance",
-        "number": 135,
+        "number": 138,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -273,7 +273,7 @@
     },
     {
         "card_name": "Search for Safety",
-        "number": 188,
+        "number": 193,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -289,7 +289,7 @@
     },
     {
         "card_name": "Paradox Simulation",
-        "number": 65,
+        "number": 66,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -297,7 +297,7 @@
     },
     {
         "card_name": "Sarkaz Centurion",
-        "number": 118,
+        "number": 121,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -305,7 +305,7 @@
     },
     {
         "card_name": "Pompeii, Heart of Surging Flame",
-        "number": 145,
+        "number": 148,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -313,7 +313,7 @@
     },
     {
         "card_name": "Spirited Messenger",
-        "number": 191,
+        "number": 196,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -329,7 +329,7 @@
     },
     {
         "card_name": "Skill Aura",
-        "number": 74,
+        "number": 75,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -337,7 +337,7 @@
     },
     {
         "card_name": "Separated Hearts",
-        "number": 120,
+        "number": 123,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -345,7 +345,7 @@
     },
     {
         "card_name": "Surtr, Twilight Blade",
-        "number": 161,
+        "number": 165,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -353,7 +353,7 @@
     },
     {
         "card_name": "Supply Operation",
-        "number": 192,
+        "number": 197,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -369,7 +369,7 @@
     },
     {
         "card_name": "Trust your Eyes",
-        "number": 79,
+        "number": 80,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -377,7 +377,7 @@
     },
     {
         "card_name": "Warfarin, Hematologist",
-        "number": 121,
+        "number": 124,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -385,7 +385,7 @@
     },
     {
         "card_name": "Sword of the Present",
-        "number": 162,
+        "number": 166,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -393,7 +393,7 @@
     },
     {
         "card_name": "Way of the Tiacauh",
-        "number": 203,
+        "number": 208,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -417,7 +417,7 @@
     },
     {
         "card_name": "Abyssal Patient",
-        "number": 83,
+        "number": 84,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -425,7 +425,7 @@
     },
     {
         "card_name": "Bombtail Drone",
-        "number": 127,
+        "number": 130,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -433,7 +433,7 @@
     },
     {
         "card_name": "Abyssal Strike",
-        "number": 165,
+        "number": 169,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -457,7 +457,7 @@
     },
     {
         "card_name": "Devastating Loss",
-        "number": 91,
+        "number": 92,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -465,7 +465,7 @@
     },
     {
         "card_name": "Diligent Tinkering",
-        "number": 133,
+        "number": 136,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -473,7 +473,7 @@
     },
     {
         "card_name": "Campfire Festival",
-        "number": 171,
+        "number": 175,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -493,11 +493,11 @@
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
-        "position": "38"
+        "position": "325"
     },
     {
         "card_name": "Fatal Push",
-        "number": 95,
+        "number": 96,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -505,7 +505,7 @@
     },
     {
         "card_name": "Impatient Tianshi",
-        "number": 140,
+        "number": 143,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -513,7 +513,7 @@
     },
     {
         "card_name": "Committee Salvage",
-        "number": 173,
+        "number": 177,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -529,7 +529,7 @@
     },
     {
         "card_name": "Inam Committee Chief",
-        "number": 57,
+        "number": 58,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -537,7 +537,7 @@
     },
     {
         "card_name": "Flexible Camouflage",
-        "number": 97,
+        "number": 98,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -545,7 +545,7 @@
     },
     {
         "card_name": "Imperial Artillery Targeter",
-        "number": 141,
+        "number": 144,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -553,7 +553,7 @@
     },
     {
         "card_name": "Communications Operator",
-        "number": 174,
+        "number": 178,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -569,7 +569,7 @@
     },
     {
         "card_name": "Karlan Climber",
-        "number": 59,
+        "number": 60,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -577,7 +577,7 @@
     },
     {
         "card_name": "Medical Experimenter",
-        "number": 102,
+        "number": 103,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -585,7 +585,7 @@
     },
     {
         "card_name": "Martial Arts Star",
-        "number": 144,
+        "number": 147,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -593,7 +593,7 @@
     },
     {
         "card_name": "Mudrock's Zealot",
-        "number": 182,
+        "number": 187,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -609,7 +609,7 @@
     },
     {
         "card_name": "Lungmen Greytail",
-        "number": 62,
+        "number": 63,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -617,7 +617,7 @@
     },
     {
         "card_name": "Originium Altar",
-        "number": 104,
+        "number": 105,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -625,7 +625,7 @@
     },
     {
         "card_name": "Pyrrhic Blast",
-        "number": 146,
+        "number": 149,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -633,7 +633,7 @@
     },
     {
         "card_name": "Tiacauh Champion",
-        "number": 193,
+        "number": 198,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -649,7 +649,7 @@
     },
     {
         "card_name": "Mobile Tactical Hangar",
-        "number": 63,
+        "number": 64,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -657,15 +657,15 @@
     },
     {
         "card_name": "Oripathy Outbreak",
-        "number": 105,
+        "number": 106,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
-        "position": "191"
+        "position": "323"
     },
     {
         "card_name": "Revealing Accusation",
-        "number": 154,
+        "number": 158,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -673,7 +673,7 @@
     },
     {
         "card_name": "Unshakable Solidarity",
-        "number": 197,
+        "number": 202,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -689,7 +689,7 @@
     },
     {
         "card_name": "Perfect Operation",
-        "number": 67,
+        "number": 68,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -697,7 +697,7 @@
     },
     {
         "card_name": "Reunion Senior Caster",
-        "number": 114,
+        "number": 117,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -705,7 +705,7 @@
     },
     {
         "card_name": "Rhodes Island Forgemaster",
-        "number": 156,
+        "number": 160,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -713,7 +713,7 @@
     },
     {
         "card_name": "Ursus Scion",
-        "number": 200,
+        "number": 205,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -729,7 +729,7 @@
     },
     {
         "card_name": "Scientific Investigator",
-        "number": 73,
+        "number": 74,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -737,7 +737,7 @@
     },
     {
         "card_name": "S.W.E.E.P. Assassin",
-        "number": 115,
+        "number": 118,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -745,7 +745,7 @@
     },
     {
         "card_name": "Sarkaz Battlechaser",
-        "number": 158,
+        "number": 162,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -753,7 +753,7 @@
     },
     {
         "card_name": "Wander the Tundra",
-        "number": 201,
+        "number": 206,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -769,7 +769,7 @@
     },
     {
         "card_name": "Strict Instructor",
-        "number": 76,
+        "number": 77,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -777,7 +777,7 @@
     },
     {
         "card_name": "Sarkaz Bladeweaver",
-        "number": 117,
+        "number": 120,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -785,7 +785,7 @@
     },
     {
         "card_name": "Stinging Shock",
-        "number": 159,
+        "number": 163,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -793,7 +793,7 @@
     },
     {
         "card_name": "Water of Life",
-        "number": 202,
+        "number": 207,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -809,7 +809,7 @@
     },
     {
         "card_name": "Tinker",
-        "number": 78,
+        "number": 79,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -817,7 +817,7 @@
     },
     {
         "card_name": "Woven Shadow",
-        "number": 123,
+        "number": 126,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -825,7 +825,7 @@
     },
     {
         "card_name": "Warcaster Agent",
-        "number": 164,
+        "number": 168,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -833,7 +833,7 @@
     },
     {
         "card_name": "Woodland Hunter",
-        "number": 205,
+        "number": 210,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -857,7 +857,7 @@
     },
     {
         "card_name": "Acute Oripathy Infection",
-        "number": 84,
+        "number": 85,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -865,7 +865,7 @@
     },
     {
         "card_name": "Arts of the Wilds",
-        "number": 125,
+        "number": 128,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -873,7 +873,7 @@
     },
     {
         "card_name": "Acidic Originium Slug",
-        "number": 166,
+        "number": 170,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -897,7 +897,7 @@
     },
     {
         "card_name": "Chernobog Survivor",
-        "number": 87,
+        "number": 88,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -905,7 +905,7 @@
     },
     {
         "card_name": "Butcher's Waraxe",
-        "number": 128,
+        "number": 131,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -913,7 +913,7 @@
     },
     {
         "card_name": "Blacksteel Slugkeeper",
-        "number": 169,
+        "number": 173,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -937,7 +937,7 @@
     },
     {
         "card_name": "Dodge Death",
-        "number": 92,
+        "number": 93,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -945,7 +945,7 @@
     },
     {
         "card_name": "Certainty in Cinders",
-        "number": 129,
+        "number": 132,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -953,7 +953,7 @@
     },
     {
         "card_name": "Bone Fracture",
-        "number": 170,
+        "number": 174,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -977,7 +977,7 @@
     },
     {
         "card_name": "Famiglia Mafioso",
-        "number": 94,
+        "number": 95,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -985,7 +985,7 @@
     },
     {
         "card_name": "Columbian Cutter",
-        "number": 131,
+        "number": 134,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -993,7 +993,7 @@
     },
     {
         "card_name": "Catastrophe Messenger",
-        "number": 172,
+        "number": 176,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1017,7 +1017,7 @@
     },
     {
         "card_name": "Final Vengeance",
-        "number": 96,
+        "number": 97,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1025,7 +1025,7 @@
     },
     {
         "card_name": "Flint Tribe Fanatic",
-        "number": 136,
+        "number": 139,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1033,7 +1033,7 @@
     },
     {
         "card_name": "Deadeye Operator",
-        "number": 175,
+        "number": 179,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1049,7 +1049,7 @@
     },
     {
         "card_name": "Junior Army Veteran",
-        "number": 58,
+        "number": 59,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1057,7 +1057,7 @@
     },
     {
         "card_name": "Grim Discovery",
-        "number": 98,
+        "number": 99,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1065,7 +1065,7 @@
     },
     {
         "card_name": "Gavial Tribe Ritualist",
-        "number": 137,
+        "number": 140,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1073,7 +1073,7 @@
     },
     {
         "card_name": "Display of Might",
-        "number": 176,
+        "number": 180,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1089,7 +1089,7 @@
     },
     {
         "card_name": "Literature Storm",
-        "number": 60,
+        "number": 61,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1097,7 +1097,7 @@
     },
     {
         "card_name": "Guardian Ninja",
-        "number": 99,
+        "number": 100,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1105,7 +1105,7 @@
     },
     {
         "card_name": "Grind for Parts",
-        "number": 138,
+        "number": 141,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1113,7 +1113,7 @@
     },
     {
         "card_name": "Guerrilla Herald",
-        "number": 179,
+        "number": 183,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1129,7 +1129,7 @@
     },
     {
         "card_name": "Lungmen Firefighter",
-        "number": 61,
+        "number": 62,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1137,7 +1137,7 @@
     },
     {
         "card_name": "Kazdelian Artilleryman",
-        "number": 100,
+        "number": 101,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1145,7 +1145,7 @@
     },
     {
         "card_name": "Higashi Defector",
-        "number": 139,
+        "number": 142,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1153,7 +1153,7 @@
     },
     {
         "card_name": "Originium Slug",
-        "number": 183,
+        "number": 188,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1169,7 +1169,7 @@
     },
     {
         "card_name": "Operational Intelligence",
-        "number": 64,
+        "number": 65,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1177,7 +1177,7 @@
     },
     {
         "card_name": "Lungmen Pickpocket",
-        "number": 101,
+        "number": 102,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1185,7 +1185,7 @@
     },
     {
         "card_name": "Instigate the Masses",
-        "number": 142,
+        "number": 145,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1193,7 +1193,7 @@
     },
     {
         "card_name": "Return to the Wilds",
-        "number": 184,
+        "number": 189,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1209,7 +1209,7 @@
     },
     {
         "card_name": "Partial Necrosis",
-        "number": 66,
+        "number": 67,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1217,15 +1217,15 @@
     },
     {
         "card_name": "Out of Options",
-        "number": 106,
+        "number": 109,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
-        "position": "105"
+        "position": "322"
     },
     {
         "card_name": "Laser Mining Assistance",
-        "number": 143,
+        "number": 146,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1233,7 +1233,7 @@
     },
     {
         "card_name": "Reunion Camp",
-        "number": 185,
+        "number": 190,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1249,7 +1249,7 @@
     },
     {
         "card_name": "Precious Money Bank",
-        "number": 68,
+        "number": 69,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1257,7 +1257,7 @@
     },
     {
         "card_name": "Phantom Crossbowman",
-        "number": 107,
+        "number": 110,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1265,7 +1265,7 @@
     },
     {
         "card_name": "Rabid Hound",
-        "number": 147,
+        "number": 150,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1273,7 +1273,7 @@
     },
     {
         "card_name": "Reunion Lurker",
-        "number": 186,
+        "number": 191,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1289,7 +1289,7 @@
     },
     {
         "card_name": "Preparedness Averts Peril",
-        "number": 69,
+        "number": 70,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1297,7 +1297,7 @@
     },
     {
         "card_name": "Plunge",
-        "number": 108,
+        "number": 111,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1305,7 +1305,7 @@
     },
     {
         "card_name": "Reckless Plunder",
-        "number": 148,
+        "number": 151,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1313,7 +1313,7 @@
     },
     {
         "card_name": "Rewinding Breeze",
-        "number": 187,
+        "number": 192,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1329,7 +1329,7 @@
     },
     {
         "card_name": "Rat King's Guile",
-        "number": 70,
+        "number": 71,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1337,7 +1337,7 @@
     },
     {
         "card_name": "Possess the Fallen",
-        "number": 109,
+        "number": 112,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1345,7 +1345,7 @@
     },
     {
         "card_name": "Reunion Breaker",
-        "number": 149,
+        "number": 152,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1353,7 +1353,7 @@
     },
     {
         "card_name": "Shieldguard's Protection",
-        "number": 189,
+        "number": 194,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1369,7 +1369,7 @@
     },
     {
         "card_name": "Reclusive Bookworm",
-        "number": 71,
+        "number": 72,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1377,7 +1377,7 @@
     },
     {
         "card_name": "Reunion Airborne Soldier",
-        "number": 110,
+        "number": 113,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1385,7 +1385,7 @@
     },
     {
         "card_name": "Reunion Butcher",
-        "number": 150,
+        "number": 153,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1393,7 +1393,7 @@
     },
     {
         "card_name": "Shoot Down",
-        "number": 190,
+        "number": 195,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1409,7 +1409,7 @@
     },
     {
         "card_name": "Reunion Wraith",
-        "number": 72,
+        "number": 73,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1417,7 +1417,7 @@
     },
     {
         "card_name": "Reunion Junkman",
-        "number": 111,
+        "number": 114,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1425,15 +1425,15 @@
     },
     {
         "card_name": "Reunion Rally",
-        "number": 151,
+        "number": 154,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
-        "position": "117"
+        "position": "321"
     },
     {
         "card_name": "Tiacauh Healer",
-        "number": 194,
+        "number": 199,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1449,7 +1449,7 @@
     },
     {
         "card_name": "Streetwise Trickster",
-        "number": 75,
+        "number": 76,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1457,15 +1457,15 @@
     },
     {
         "card_name": "Reunion Mortar Gunner",
-        "number": 112,
+        "number": 115,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
         "position": "102"
     },
     {
-        "card_name": "Reunion Rioter",
-        "number": 152,
+        "card_name": "Reunion Soldier",
+        "number": 156,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1473,7 +1473,7 @@
     },
     {
         "card_name": "Tiacauh Shredder",
-        "number": 195,
+        "number": 200,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1489,7 +1489,7 @@
     },
     {
         "card_name": "Studied Martial Artist",
-        "number": 77,
+        "number": 78,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1497,7 +1497,7 @@
     },
     {
         "card_name": "Reunion Sabotage",
-        "number": 113,
+        "number": 116,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1505,7 +1505,7 @@
     },
     {
         "card_name": "Reunion Standard",
-        "number": 153,
+        "number": 157,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1513,7 +1513,7 @@
     },
     {
         "card_name": "Unified Charge",
-        "number": 196,
+        "number": 201,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1529,7 +1529,7 @@
     },
     {
         "card_name": "Turn To Originium",
-        "number": 80,
+        "number": 81,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1537,7 +1537,7 @@
     },
     {
         "card_name": "S.W.E.E.P. Scavenger",
-        "number": 116,
+        "number": 119,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1545,7 +1545,7 @@
     },
     {
         "card_name": "Rhine Labs Roboticist",
-        "number": 155,
+        "number": 159,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1553,7 +1553,7 @@
     },
     {
         "card_name": "Ursine Gourmand",
-        "number": 198,
+        "number": 203,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1569,7 +1569,7 @@
     },
     {
         "card_name": "Unlucky Inventor",
-        "number": 81,
+        "number": 82,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1577,7 +1577,7 @@
     },
     {
         "card_name": "Sarkaz Swordsman",
-        "number": 119,
+        "number": 122,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1585,7 +1585,7 @@
     },
     {
         "card_name": "Street Punk Rocker",
-        "number": 160,
+        "number": 164,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1593,7 +1593,7 @@
     },
     {
         "card_name": "Ursus Mangler",
-        "number": 199,
+        "number": 204,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1609,7 +1609,7 @@
     },
     {
         "card_name": "Yeti Squad Caster",
-        "number": 82,
+        "number": 83,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1617,7 +1617,7 @@
     },
     {
         "card_name": "Whispers of the Night",
-        "number": 122,
+        "number": 125,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1625,7 +1625,7 @@
     },
     {
         "card_name": "Talulah's Immolation",
-        "number": 163,
+        "number": 167,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1633,7 +1633,7 @@
     },
     {
         "card_name": "Wayward Archausauria",
-        "number": 204,
+        "number": 209,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1654,7 +1654,7 @@
     "a->gold",
     {
         "card_name": "Elite Operator Rosmontis",
-        "number": 207,
+        "number": 212,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1662,7 +1662,7 @@
     },
     {
         "card_name": "Frostnova, Winter's Scar",
-        "number": 211,
+        "number": 216,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1670,7 +1670,7 @@
     },
     {
         "card_name": "W, the Renegade",
-        "number": 220,
+        "number": 225,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1678,7 +1678,7 @@
     },
     {
         "card_name": "The Obsidian Festival",
-        "number": 222,
+        "number": 227,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1686,7 +1686,7 @@
     },
     {
         "card_name": "Lavender's Fragrance",
-        "number": 227,
+        "number": 232,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1694,7 +1694,7 @@
     },
     {
         "card_name": "Enciodes Silverash",
-        "number": 208,
+        "number": 213,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1702,7 +1702,7 @@
     },
     {
         "card_name": "Lin Grey, Rat King",
-        "number": 212,
+        "number": 217,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1710,7 +1710,7 @@
     },
     {
         "card_name": "Foiled Fury",
-        "number": 216,
+        "number": 221,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1718,7 +1718,7 @@
     },
     {
         "card_name": "Ursus Imperial Striker",
-        "number": 223,
+        "number": 228,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1726,7 +1726,7 @@
     },
     {
         "card_name": "Nightingale of the Followers",
-        "number": 229,
+        "number": 234,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1734,7 +1734,7 @@
     },
     {
         "card_name": "Raging Iron Fists",
-        "number": 209,
+        "number": 214,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1742,7 +1742,7 @@
     },
     {
         "card_name": "Lungmen Shadow Guard",
-        "number": 213,
+        "number": 218,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1750,7 +1750,7 @@
     },
     {
         "card_name": "Skullshatterer",
-        "number": 219,
+        "number": 224,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1758,7 +1758,7 @@
     },
     {
         "card_name": "Zumama, Chief of the Eunectes",
-        "number": 225,
+        "number": 230,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1766,7 +1766,7 @@
     },
     {
         "card_name": "Student of Kal'tsit",
-        "number": 230,
+        "number": 235,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1774,7 +1774,7 @@
     },
     {
         "card_name": "Bionics Engineer",
-        "number": 206,
+        "number": 211,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1782,7 +1782,7 @@
     },
     {
         "card_name": "Scrounge for Scraps",
-        "number": 214,
+        "number": 219,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1790,7 +1790,7 @@
     },
     {
         "card_name": "Hateful Avenger",
-        "number": 217,
+        "number": 222,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1798,7 +1798,7 @@
     },
     {
         "card_name": "Chernobog Delinquent",
-        "number": 221,
+        "number": 226,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1806,7 +1806,7 @@
     },
     {
         "card_name": "Garden Perfumer",
-        "number": 226,
+        "number": 231,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1814,7 +1814,7 @@
     },
     {
         "card_name": "Stable Esthesia",
-        "number": 210,
+        "number": 215,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1822,7 +1822,7 @@
     },
     {
         "card_name": "Yeti Icecleaver",
-        "number": 215,
+        "number": 220,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1830,7 +1830,7 @@
     },
     {
         "card_name": "Sarkaz Sentinel",
-        "number": 218,
+        "number": 223,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1838,7 +1838,7 @@
     },
     {
         "card_name": "Ursus Raider",
-        "number": 224,
+        "number": 229,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1846,7 +1846,7 @@
     },
     {
         "card_name": "Mossback Beast",
-        "number": 228,
+        "number": 233,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1869,7 +1869,7 @@
     },
     {
         "card_name": "Mephisto, the Singer",
-        "number": 231,
+        "number": 236,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1877,7 +1877,7 @@
     },
     {
         "card_name": "Adele Naumann, Volcanologist",
-        "number": 237,
+        "number": 242,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1885,7 +1885,7 @@
     },
     {
         "card_name": "Mudrock Colossus",
-        "number": 243,
+        "number": 248,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1893,7 +1893,7 @@
     },
     {
         "card_name": "Nian, Sui Fragment",
-        "number": 250,
+        "number": 255,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1901,7 +1901,7 @@
     },
     {
         "card_name": "Doctor Kal'tsit",
-        "number": 251,
+        "number": 256,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1909,7 +1909,7 @@
     },
     {
         "card_name": "Mr. Hellagur",
-        "number": 232,
+        "number": 237,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1917,7 +1917,7 @@
     },
     {
         "card_name": "Beatrix Schwire",
-        "number": 238,
+        "number": 243,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1925,7 +1925,7 @@
     },
     {
         "card_name": "Mudrock, Reunion Captain",
-        "number": 245,
+        "number": 250,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1933,7 +1933,7 @@
     },
     {
         "card_name": "Ch'en Hui-chieh",
-        "number": 247,
+        "number": 252,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1941,7 +1941,7 @@
     },
     {
         "card_name": "Skadi, Abyssal Hunter",
-        "number": 253,
+        "number": 258,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1949,7 +1949,7 @@
     },
     {
         "card_name": "Necessary Solutions",
-        "number": 233,
+        "number": 238,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1957,7 +1957,7 @@
     },
     {
         "card_name": "Modified Starflail",
-        "number": 239,
+        "number": 244,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1965,7 +1965,7 @@
     },
     {
         "card_name": "Guerilla Shieldguard",
-        "number": 242,
+        "number": 247,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1973,7 +1973,7 @@
     },
     {
         "card_name": "Exusiai, Cheerful Courier",
-        "number": 248,
+        "number": 253,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1981,7 +1981,7 @@
     },
     {
         "card_name": "Tidal Elegy",
-        "number": 254,
+        "number": 259,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1989,7 +1989,7 @@
     },
     {
         "card_name": "Texas, Taciturn Messenger",
-        "number": 235,
+        "number": 240,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -1997,7 +1997,7 @@
     },
     {
         "card_name": "RIIC Factory Line",
-        "number": 240,
+        "number": 245,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2005,7 +2005,7 @@
     },
     {
         "card_name": "Mudrock Matterllurgist",
-        "number": 244,
+        "number": 249,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2013,7 +2013,7 @@
     },
     {
         "card_name": "Blacksteel Duo",
-        "number": 246,
+        "number": 251,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2021,7 +2021,7 @@
     },
     {
         "card_name": "Siestan Therapist",
-        "number": 252,
+        "number": 257,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2029,7 +2029,7 @@
     },
     {
         "card_name": "Rim Billiton Messengers",
-        "number": 234,
+        "number": 239,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2037,7 +2037,7 @@
     },
     {
         "card_name": "Travelling Scholar",
-        "number": 241,
+        "number": 246,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2048,7 +2048,7 @@
     },
     {
         "card_name": "Ignis Hammer",
-        "number": 249,
+        "number": 254,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2056,7 +2056,7 @@
     },
     {
         "card_name": "Training Room",
-        "number": 255,
+        "number": 260,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2064,7 +2064,7 @@
     },
     {
         "card_name": "Vacationing Mercenary",
-        "number": 236,
+        "number": 241,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2099,7 +2099,7 @@
     },
     {
         "card_name": "Mostima, Key of Chronology",
-        "number": 262,
+        "number": 267,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2110,7 +2110,7 @@
     },
     {
         "card_name": "Talulah, Tyrant of Reunion",
-        "number": 268,
+        "number": 273,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2121,7 +2121,7 @@
     },
     {
         "card_name": "Suzuran, Foxfire Child",
-        "number": 267,
+        "number": 272,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2129,7 +2129,7 @@
     },
     {
         "card_name": "Wei Yenwu",
-        "number": 269,
+        "number": 274,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2140,7 +2140,7 @@
     },
     {
         "card_name": "Patriot, The Last Wendigo",
-        "number": 264,
+        "number": 269,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2154,7 +2154,7 @@
     },
     {
         "card_name": "Mr. Lee, Lungmen Detective",
-        "number": 263,
+        "number": 268,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2165,7 +2165,7 @@
     },
     {
         "card_name": "Sarkaz Grudgebearer",
-        "number": 266,
+        "number": 271,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2194,7 +2194,7 @@
     },
     {
         "card_name": "Emperor, Logistics Kingpin",
-        "number": 260,
+        "number": 265,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2202,7 +2202,7 @@
     },
     {
         "card_name": "Ceobe, Perplexed Traveller",
-        "number": 258,
+        "number": 263,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2219,7 +2219,7 @@
     },
     {
         "card_name": "Lappland, Rogue Mafioso",
-        "number": 261,
+        "number": 266,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2227,7 +2227,7 @@
     },
     {
         "card_name": "Angelina Ajimu",
-        "number": 257,
+        "number": 262,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2244,7 +2244,7 @@
     },
     {
         "card_name": "Sarkaz Caster Leader",
-        "number": 265,
+        "number": 270,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2252,7 +2252,7 @@
     },
     {
         "card_name": "Ceobe's Fungimist",
-        "number": 259,
+        "number": 264,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2284,7 +2284,7 @@
     },
     {
         "card_name": "Amiya, Idealistic Leader",
-        "number": 256,
+        "number": 261,
         "shape": "transform double faced",
         "set": "ASV",
         "rotated": false,
@@ -2317,7 +2317,7 @@
     "a->colorless",
     {
         "card_name": "The Big Ugly Thing",
-        "number": 270,
+        "number": 275,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2325,7 +2325,7 @@
     },
     {
         "card_name": "Delivery Buggy",
-        "number": 272,
+        "number": 277,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2333,7 +2333,7 @@
     },
     {
         "card_name": "Roadblock",
-        "number": 278,
+        "number": 283,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2341,7 +2341,7 @@
     },
     {
         "card_name": "Vanguard's Standard",
-        "number": 283,
+        "number": 288,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2349,7 +2349,7 @@
     },
     {
         "card_name": "Hot Water Kettle",
-        "number": 274,
+        "number": 279,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2357,7 +2357,7 @@
     },
     {
         "card_name": "Instructor's Whip",
-        "number": 275,
+        "number": 280,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2365,7 +2365,7 @@
     },
     {
         "card_name": "Spear of Ruination",
-        "number": 280,
+        "number": 285,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2373,7 +2373,7 @@
     },
     {
         "card_name": "Thermite Blade",
-        "number": 282,
+        "number": 287,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2381,7 +2381,7 @@
     },
     {
         "card_name": "Water Cannon",
-        "number": 284,
+        "number": 289,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2389,7 +2389,7 @@
     },
     {
         "card_name": "Caster's Wand",
-        "number": 271,
+        "number": 276,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2397,7 +2397,7 @@
     },
     {
         "card_name": "Emergency Inhibitor",
-        "number": 273,
+        "number": 278,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2405,7 +2405,7 @@
     },
     {
         "card_name": "Medic's Staff",
-        "number": 276,
+        "number": 281,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2413,7 +2413,7 @@
     },
     {
         "card_name": "Rusty Hammer",
-        "number": 279,
+        "number": 284,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2421,7 +2421,7 @@
     },
     {
         "card_name": "Surveyor Drone",
-        "number": 281,
+        "number": 286,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2445,7 +2445,7 @@
     "a->land",
     {
         "card_name": "Wolumonde City",
-        "number": 305,
+        "number": 310,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2453,7 +2453,7 @@
     },
     {
         "card_name": "Lungmen City-Plate",
-        "number": 296,
+        "number": 301,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2461,7 +2461,7 @@
     },
     {
         "card_name": "Chernobog City-Plate",
-        "number": 288,
+        "number": 293,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2469,7 +2469,7 @@
     },
     {
         "card_name": "Rogue City-Plate",
-        "number": 301,
+        "number": 306,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2477,7 +2477,7 @@
     },
     {
         "card_name": "Overgrown City-Plate",
-        "number": 299,
+        "number": 304,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2500,7 +2500,7 @@
     },
     {
         "card_name": "Central Plate Skyline",
-        "number": 287,
+        "number": 292,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2508,7 +2508,7 @@
     },
     {
         "card_name": "Sublayer Slum",
-        "number": 304,
+        "number": 309,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2516,7 +2516,7 @@
     },
     {
         "card_name": "Shattered Streets",
-        "number": 302,
+        "number": 307,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2524,7 +2524,7 @@
     },
     {
         "card_name": "Jungle Scrapyard",
-        "number": 295,
+        "number": 300,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2532,7 +2532,7 @@
     },
     {
         "card_name": "Gladed Village",
-        "number": 292,
+        "number": 297,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2555,7 +2555,7 @@
     },
     {
         "card_name": "Hushed Settlement",
-        "number": 294,
+        "number": 299,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2563,7 +2563,7 @@
     },
     {
         "card_name": "Festive Shoreline",
-        "number": 291,
+        "number": 296,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2571,7 +2571,7 @@
     },
     {
         "card_name": "Mossy Outpost",
-        "number": 297,
+        "number": 302,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2579,7 +2579,7 @@
     },
     {
         "card_name": "Hulking Ruin",
-        "number": 293,
+        "number": 298,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2587,7 +2587,7 @@
     },
     {
         "card_name": "Alpine Stream",
-        "number": 285,
+        "number": 290,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2610,7 +2610,7 @@
     },
     {
         "card_name": "Rhodes Island Landship",
-        "number": 277,
+        "number": 282,
         "shape": "leveler",
         "set": "ASV",
         "rotated": false,
@@ -2618,7 +2618,7 @@
     },
     {
         "card_name": "Burning Barrenland",
-        "number": 286,
+        "number": 291,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2626,7 +2626,7 @@
     },
     {
         "card_name": "Crumbling Barrenland",
-        "number": 289,
+        "number": 294,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2634,7 +2634,7 @@
     },
     {
         "card_name": "Outback Barrenland",
-        "number": 298,
+        "number": 303,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2642,7 +2642,7 @@
     },
     {
         "card_name": "Primeval Barrenland",
-        "number": 300,
+        "number": 305,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2650,7 +2650,7 @@
     },
     {
         "card_name": "Sprouting Barrenland",
-        "number": 303,
+        "number": 308,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2658,7 +2658,7 @@
     },
     {
         "card_name": "Evolving Wilds",
-        "number": 290,
+        "number": 295,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2690,7 +2690,7 @@
     },
     {
         "card_name": "Plains",
-        "number": 306,
+        "number": 312,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2698,7 +2698,7 @@
     },
     {
         "card_name": "Island",
-        "number": 309,
+        "number": 316,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2706,7 +2706,7 @@
     },
     {
         "card_name": "Swamp",
-        "number": 312,
+        "number": 319,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2714,7 +2714,7 @@
     },
     {
         "card_name": "Mountain",
-        "number": 315,
+        "number": 322,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2722,7 +2722,7 @@
     },
     {
         "card_name": "Forest",
-        "number": 318,
+        "number": 325,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2730,7 +2730,7 @@
     },
     {
         "card_name": "Plains",
-        "number": 307,
+        "number": 313,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2738,7 +2738,7 @@
     },
     {
         "card_name": "Island",
-        "number": 310,
+        "number": 314,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2746,7 +2746,7 @@
     },
     {
         "card_name": "Swamp",
-        "number": 313,
+        "number": 317,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2754,7 +2754,7 @@
     },
     {
         "card_name": "Mountain",
-        "number": 317,
+        "number": 320,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2762,7 +2762,7 @@
     },
     {
         "card_name": "Forest",
-        "number": 319,
+        "number": 323,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2770,7 +2770,7 @@
     },
     {
         "card_name": "Plains",
-        "number": 308,
+        "number": 311,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2778,7 +2778,7 @@
     },
     {
         "card_name": "Island",
-        "number": 311,
+        "number": 315,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2786,7 +2786,7 @@
     },
     {
         "card_name": "Swamp",
-        "number": 314,
+        "number": 318,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2794,7 +2794,7 @@
     },
     {
         "card_name": "Mountain",
-        "number": 316,
+        "number": 321,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,
@@ -2802,7 +2802,7 @@
     },
     {
         "card_name": "Forest",
-        "number": 320,
+        "number": 324,
         "shape": "normal",
         "set": "ASV",
         "rotated": false,

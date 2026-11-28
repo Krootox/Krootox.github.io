@@ -1,4 +1,198 @@
-﻿VERSION 26 CHANGELOG
+﻿VERSION 27 CHANGELOG
+====================
+
+Reunion Soldier added.
+Reunion Rally added.
+Out of Options added.
+Oripathy Outbreak added.
+Inspiring Call added.
+Ice Nova added.
+
+Reunion Rioter removed.
+
+Durin Flagbearer
+
+Talulah, Tyrant of Reunion
+rules_text: Ward—Discard a card
+{B}{R}{G}: Creatures you control gain +1/+1, first strike, menace, and trample until end of turn
+When Talulah, Tyrant of Reunion attacks you may sacrifice a nontoken creature you control, if you do then create number of red 1/1 Rebel creature tokens with “When this creature dies, it deals 1 damage to any target.” equal to the sacrificed creature's power. => Ward—Discard a card
+{B}{R}{G}: Creatures you control gain +1/+1, first strike, menace, and trample until end of turn
+When Talulah, Tyrant of Reunion attacks you may sacrifice a nontoken creature you control, if you do then create a number of red 1/1 Rebel creature tokens with “When this creature dies, it deals 1 damage to any target.” equal to the sacrificed creature's power.
+
+Penguin Protector
+rules_text: Vigilance
+Defender Duo enters with a shield counter on it. [i](If it would be dealt damage or destroyed, remove a shield counter from it instead.)[/i]
+Whenever another mercenary creature enters under your control, put a shield counter on Penguin Protector. => Vigilance
+Penguin Protector enters with a shield counter on it. [i](If it would be dealt damage or destroyed, remove a shield counter from it instead.)[/i]
+Whenever another mercenary creature enters under your control, put a shield counter on Penguin Protector.
+
+Penguin Logistics Idol
+
+Reclusive Bookworm
+pt: 1/2 => 1/3
+
+Beatrix Schwire
+rules_text: Whenever an Originium token enters under your control, you may destroy it then create a Treasure token.
+Whenever an artifact enters under your control, you may Scry 1. => Whenever an Originium token enters under your control, destroy it. If you do, then create a Treasure token.
+Whenever an artifact enters under your control, you may Scry 1.
+
+Serviceman Hoshiguma
+
+Ice Nova
+
+Operational Intelligence
+
+Knight of the Followers
+
+Reserve Operator Squad
+pt: 2/2 => 2/3
+
+Karlan Guardian
+
+Agency Bodyguard
+rules_text: Flash
+When Agency Bodyguard enters, return another creature you control to its owner's hand. => Flash
+When Agency Bodyguard enters, return a creature you control to its owner's hand.
+
+Surly Finchef
+
+Lungmen Guardsmen
+rules_text: When Lungmen Guardsmen enters, creatures you control gain +1/+1 and first strike until end of turn. => When Lungmen Guardsmen enters, choose one — 
+• Creatures you control get +1/+0 until end of turn.
+• Creatures you control have first strike until end of turn.
+pt: 2/2 => 2/3
+
+Infected Patrolman
+rules_text: This creature has vigilance as long as it is equipped. => Vigilance
+As long as Infected Patrolman is equipped, it gets +1/+0.
+
+Blacksteel Trainee
+rules_text: Ward {2}
+Blacksteel Trainee gets +1/+1 and gains first strike so long as it's equipped. => Ward {1}
+Blacksteel Trainee gets +1/+1 and gains first strike so long as it's equipped.
+
+Caster Operator
+rules_text: First strike => During your turn, Caster Operator has frist strike.
+
+Medic Operator
+
+Unlucky Inventor
+rules_text: Flying
+When Unlucky Inventor enters, return target creature or artifact to its owner's hand. => Flying
+When Unlucky Inventor enters, return up to one target creature or artifact to its owner's hand.
+
+Junior Army Veteran
+rules_text:  => Vigilance
+pt: 1/5 => 1/4
+
+Guardian Ninja
+rules_text: Sneak {B} [i](You may cast this spell for {B} if you also return an unblocked attacker you control to hand during the declare blockers step. It enters tapped and attacking.)[/i]
+When Guardian Ninja deals combat damage to a player, you may tap and put a stun counter on target creature that player controls. => Sneak {B} [i](You may cast this spell for {B} if you also return an unblocked attacker you control to hand during the declare blockers step. If this is a creature it enters tapped and attacking.)[/i]
+When Guardian Ninja deals combat damage to a player, you may tap and put a stun counter on target creature that player controls.
+
+Swift Response
+
+Material Recombination
+rules_text: Destroy target artifact or enchantment.
+Create an Originium token. [i](It's a colorless artifact with “{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.”)[/i] => Destroy target artifact or enchantment. It's controller creates a tapped Originium token. [i](It's a colorless artifact with “{T}, Pay 1 life, Sacrifice this artifact: Add one mana of any color.”)[/i]
+
+Swift Strike
+
+Expedited Delivery
+rules_text: Exile target creature you control, then return that card to the battlefield under your control at the beginning of the next end step.
+[i]Skill Activation[/i] — If you cast a spell with mana value 4 or greater this turn, you may exile and return two target creatures instead. => Exile target creature you control, then return that card to the battlefield under your control at the beginning of the next end step.
+[i]Skill Activation[/i] — If you cast a spell with mana value 4 or greater this turn, you may exile and return two target creatures you control instead.
+
+Binding Circle
+rules_text: Tap up to two target creatures and put a stun counter on each. => Tap up to two target creatures and put a stun counter on each of those creatures.
+
+Command: Meltdown
+
+Scout Operator
+rules_text: When Scout Operator enters, untap each creature you control. => {1}{W}: Untap target creature. Activate only as a sorcery and only once each turn.
+
+Frost Drone
+pt: 4/4 => 3/3
+
+Partial Necrosis
+
+Entwined
+rules_text: Enchant creature
+When Entwined enters, tap and put a stun counter on enchanted creature.
+Enchanted creature loses all abilities.
+At the beginning of your upkeep put a stun counter on enchanted creature. => Enchant creature
+When Entwined enters, tap and put four stun counters on enchanted creature.
+Enchanted creature loses all abilities.
+
+Reunion Rally
+
+Reunion Sabotage
+rules_text: Sneak {B} [i](You may cast this spell for {B} if you also return an unblocked attacker you control to hand during the declare blockers step.)[/i]
+Target opponent reveals their hand. You choose a card from it. That player discards that card. => Sneak {B} [i](You may cast this spell for {B} if you also return an unblocked attacker you control to hand during the declare blockers step. If this is a creature it enters tapped and attacking.)[/i]
+Target opponent reveals their hand. You choose a card from it. That player discards that card.
+
+Caster's Wand
+rules_text: [i]Recruitment[/i] — When Medic's Staff enters, create a black 1/1 Mercenary creature token and attach this equipment to it.
+Equipped creature gets +1/+0
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, you may have equipped creature deal 1 damage to target player.
+Equip {2} => [i]Recruitment[/i] — When Caster's Wand enters, create a black 1/1 Mercenary creature token and attach this equipment to it.
+Equipped creature gets +1/+0
+[i]Skill Activation[/i] — Whenever you cast a spell with mana value 4 or greater, you may have equipped creature deal 1 damage to target player.
+Equip {2}
+
+Steel City Escort
+
+Hired Crossbow
+
+Caladon Mounted Police
+
+Patriot's End
+
+LGD Rally
+
+Rhodes Island Custody
+
+Skyranger's Jetpack
+
+Hide the Evidence
+rules_text: Improvise [i](Your artifacts can help cast this spell. Each artifact you tap after you're done activating mana abilities pays for {1}.)[/i]
+Put target creature or artifact on the top or bottom of its owner's library. => Improvise [i](Your artifacts can help cast this spell. Each artifact you tap after you're done activating mana abilities pays for {1}.)[/i]
+Target creature or artifact's owner puts it on their choice of the top or bottom of their library.
+
+Perfect Operation
+
+Oripathy Outbreak
+
+Elite Operator Ace
+
+Shining, Confessor Exile
+
+Snowfield Rescue
+
+Warehouse Ambush
+
+Shadowless
+
+Hannya, Trusted Shield
+
+Ceobe's Fungimist
+cost: {2}{G}{U}{R} => {4}{G}{U}{R}
+rules_text: When Ceobe's Fungimist enters, each player exiles the top two cards of their library. Players may play cards they have exiled with Ceobe's Fungimist for as long as they remain exiled.
+Players cannot draw cards or play cards from their hand.
+At the beginning of each player's end step and whenever they play a card from exile, that player exiles the top card of their library. => When Ceobe's Fungimist enters, each player discards their hand.
+At the beginning of each player's upkeep and whenever they cast a spell with mana value 4 or greater, that player exiles the top two cards of their library.
+Whenever a player would draw a card, that player chooses a card exiled by Ceobe's Fungimist and puts it into their hand instead.
+
+Inspiring Call
+
+Raging Iron Fists
+
+Cheers of Celebration
+
+Rescue from Stasis
+
+
+VERSION 26 CHANGELOG
 ====================
 
 Turn To Originium added.
